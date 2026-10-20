@@ -1,0 +1,22 @@
+{
+  "son_bolum": 1,
+  "haritam_ozellik_sirasi": [
+    "haftalik_program", "konu_ozetleri", "kendini_test_et", "deneme_takibi",
+    "yanlis_defteri", "odak_sayaci", "kurum_paneli", "cortex_cok_yakinda", "ucretsiz_her_cihazda"
+  ],
+  "bolumler": [
+    {
+      "no": 1,
+      "baslik": "Yazılı Sorularını Yapay Zekâ mı Hazırlayacak?",
+      "uretim_tarihi": "2026-10-20",
+      "yayin_tarihi": null,
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "haftalik_program",
+      "haberler": [
+        {"id": "2026-10-16-meb-ortak-yazili", "baslik": "MEB Ortak Yazılı Sınav Sistemi", "kaynaklar": ["MEB", "Onedio"]},
+        {"id": "2026-10-20-jaxa-mmx", "baslik": "JAXA MMX Phobos'a fırlatıldı", "kaynaklar": ["JAXA", "Forbes"]}
+      ],
+      "instagram_link": null
+    }
+  ]
+}

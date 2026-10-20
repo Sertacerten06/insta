@@ -1,0 +1,319 @@
+{
+ "metin": "Bir şey fark ettin mi? Yeni sınav sisteminde 12. sınıflar yok. Çünkü onların karşısında büyük boss duruyor: YKS. Boss'u yenmek için bir haritaya ihtiyacın var. İşte YKS Haritam! Koçunun Excel programını yükle ya da kendin yaz, görevler günlere otomatik yerleşsin. Bitirdikçe işaretle, serini koru, gelişimini gör. Programındaki konular, konu özetleriyle kendiliğinden eşleşir. Üstelik Vertex'in yapay zekâsı Cortex de çok yakında Haritam'a geliyor.",
+ "konusma": "Bir şey fark ettin mi? Yeni sınav sisteminde 12. sınıflar yok. Çünkü onların karşısında büyük boss duruyor: ye ka se. Boss'u yenmek için bir haritaya ihtiyacın var. İşte ye ka se Haritam! Koçunun Excel programını yükle ya da kendin yaz, görevler günlere otomatik yerleşsin. Bitirdikçe işaretle, serini koru, gelişimini gör. Programındaki konular, konu özetleriyle kendiliğinden eşleşir. Üstelik Vertex'in yapay zekâsı korteks de çok yakında Haritam'a geliyor.",
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 32.695833,
+ "kelimeler": [
+  {
+   "k": "Bir",
+   "bas": 0.096,
+   "son": 0.235
+  },
+  {
+   "k": "şey",
+   "bas": 0.235,
+   "son": 0.467
+  },
+  {
+   "k": "fark",
+   "bas": 0.467,
+   "son": 0.756
+  },
+  {
+   "k": "ettin",
+   "bas": 0.756,
+   "son": 1.115
+  },
+  {
+   "k": "mi?",
+   "bas": 1.115,
+   "son": 1.3
+  },
+  {
+   "k": "Yeni",
+   "bas": 2.245,
+   "son": 2.488
+  },
+  {
+   "k": "sınav",
+   "bas": 2.488,
+   "son": 2.801
+  },
+  {
+   "k": "sisteminde",
+   "bas": 2.801,
+   "son": 3.414
+  },
+  {
+   "k": "12.",
+   "bas": 3.472,
+   "son": 3.993
+  },
+  {
+   "k": "sınıflar",
+   "bas": 3.993,
+   "son": 4.479
+  },
+  {
+   "k": "yok.",
+   "bas": 4.479,
+   "son": 4.711
+  },
+  {
+   "k": "Çünkü",
+   "bas": 5.775,
+   "son": 6.146
+  },
+  {
+   "k": "onların",
+   "bas": 6.157,
+   "son": 6.562
+  },
+  {
+   "k": "karşısında",
+   "bas": 6.562,
+   "son": 7.199
+  },
+  {
+   "k": "büyük",
+   "bas": 7.199,
+   "son": 7.454
+  },
+  {
+   "k": "boss",
+   "bas": 7.454,
+   "son": 7.662
+  },
+  {
+   "k": "duruyor:",
+   "bas": 7.662,
+   "son": 8.056
+  },
+  {
+   "k": "YKS.",
+   "bas": 8.264,
+   "son": 8.785
+  },
+  {
+   "k": "Boss'u",
+   "bas": 9.768,
+   "son": 10.15
+  },
+  {
+   "k": "yenmek",
+   "bas": 10.15,
+   "son": 10.498
+  },
+  {
+   "k": "için",
+   "bas": 10.498,
+   "son": 10.764
+  },
+  {
+   "k": "bir",
+   "bas": 10.764,
+   "son": 10.938
+  },
+  {
+   "k": "haritaya",
+   "bas": 10.938,
+   "son": 11.366
+  },
+  {
+   "k": "ihtiyacın",
+   "bas": 11.366,
+   "son": 11.875
+  },
+  {
+   "k": "var.",
+   "bas": 11.875,
+   "son": 12.118
+  },
+  {
+   "k": "İşte",
+   "bas": 13.125,
+   "son": 13.461
+  },
+  {
+   "k": "YKS",
+   "bas": 13.461,
+   "son": 13.947
+  },
+  {
+   "k": "Haritam!",
+   "bas": 13.947,
+   "son": 14.433
+  },
+  {
+   "k": "Koçunun",
+   "bas": 15.44,
+   "son": 15.833
+  },
+  {
+   "k": "Excel",
+   "bas": 15.857,
+   "son": 16.215
+  },
+  {
+   "k": "programını",
+   "bas": 16.215,
+   "son": 16.725
+  },
+  {
+   "k": "yükle",
+   "bas": 16.725,
+   "son": 17.049
+  },
+  {
+   "k": "ya",
+   "bas": 17.049,
+   "son": 17.13
+  },
+  {
+   "k": "da",
+   "bas": 17.13,
+   "son": 17.234
+  },
+  {
+   "k": "kendin",
+   "bas": 17.234,
+   "son": 17.616
+  },
+  {
+   "k": "yaz,",
+   "bas": 17.616,
+   "son": 17.905
+  },
+  {
+   "k": "görevler",
+   "bas": 18.032,
+   "son": 18.542
+  },
+  {
+   "k": "günlere",
+   "bas": 18.542,
+   "son": 18.866
+  },
+  {
+   "k": "otomatik",
+   "bas": 18.866,
+   "son": 19.317
+  },
+  {
+   "k": "yerleşsin.",
+   "bas": 19.317,
+   "son": 19.977
+  },
+  {
+   "k": "Bitirdikçe",
+   "bas": 20.938,
+   "son": 21.447
+  },
+  {
+   "k": "işaretle,",
+   "bas": 21.447,
+   "son": 22.083
+  },
+  {
+   "k": "serini",
+   "bas": 22.141,
+   "son": 22.477
+  },
+  {
+   "k": "koru,",
+   "bas": 22.477,
+   "son": 22.789
+  },
+  {
+   "k": "gelişimini",
+   "bas": 22.882,
+   "son": 23.414
+  },
+  {
+   "k": "gör.",
+   "bas": 23.414,
+   "son": 23.669
+  },
+  {
+   "k": "Programındaki",
+   "bas": 24.653,
+   "son": 25.289
+  },
+  {
+   "k": "konular,",
+   "bas": 25.289,
+   "son": 25.718
+  },
+  {
+   "k": "konu",
+   "bas": 25.822,
+   "son": 26.088
+  },
+  {
+   "k": "özetleriyle",
+   "bas": 26.088,
+   "son": 26.701
+  },
+  {
+   "k": "kendiliğinden",
+   "bas": 26.713,
+   "son": 27.326
+  },
+  {
+   "k": "eşleşir.",
+   "bas": 27.326,
+   "son": 27.824
+  },
+  {
+   "k": "Üstelik",
+   "bas": 28.843,
+   "son": 29.213
+  },
+  {
+   "k": "Vertex'in",
+   "bas": 29.213,
+   "son": 29.722
+  },
+  {
+   "k": "yapay",
+   "bas": 29.722,
+   "son": 30.012
+  },
+  {
+   "k": "zekâsı",
+   "bas": 30.012,
+   "son": 30.475
+  },
+  {
+   "k": "Cortex",
+   "bas": 30.486,
+   "son": 30.903
+  },
+  {
+   "k": "de",
+   "bas": 30.903,
+   "son": 31.03
+  },
+  {
+   "k": "çok",
+   "bas": 31.03,
+   "son": 31.227
+  },
+  {
+   "k": "yakında",
+   "bas": 31.238,
+   "son": 31.586
+  },
+  {
+   "k": "Haritam'a",
+   "bas": 31.586,
+   "son": 32.002
+  },
+  {
+   "k": "geliyor.",
+   "bas": 32.002,
+   "son": 32.396
+  }
+ ]
+}

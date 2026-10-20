@@ -1,0 +1,244 @@
+{
+ "metin": "Şimdi rotamızı uzaya çeviriyoruz. Japonya Uzay Ajansı JAXA, 20 Ekim'de MMX aracını H3 roketiyle fırlattı. Hedef, Mars'ın küçük uydusu Phobos. Araç Phobos'a inecek, yüzeyden örnek toplayacak ve bu örnekleri 2031'de Dünya'ya getirecek. Yanında Fransa ve Almanya'nın geliştirdiği, otuz kilodan hafif Idefix adında minik bir gezgin de var.",
+ "konusma": "Şimdi rotamızı uzaya çeviriyoruz. Japonya Uzay Ajansı jaksa, 20 Ekim'de em em iks aracını ha üç roketiyle fırlattı. Hedef, Mars'ın küçük uydusu fobos. Araç fobos'a inecek, yüzeyden örnek toplayacak ve bu örnekleri 2031'de Dünya'ya getirecek. Yanında Fransa ve Almanya'nın geliştirdiği, otuz kilodan hafif idefiks adında minik bir gezgin de var.",
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 24.513,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.096,
+   "son": 0.455
+  },
+  {
+   "k": "rotamızı",
+   "bas": 0.455,
+   "son": 0.93
+  },
+  {
+   "k": "uzaya",
+   "bas": 0.93,
+   "son": 1.277
+  },
+  {
+   "k": "çeviriyoruz.",
+   "bas": 1.277,
+   "son": 1.971
+  },
+  {
+   "k": "Japonya",
+   "bas": 3.044,
+   "son": 3.472
+  },
+  {
+   "k": "Uzay",
+   "bas": 3.484,
+   "son": 3.762
+  },
+  {
+   "k": "Ajansı",
+   "bas": 3.762,
+   "son": 4.143
+  },
+  {
+   "k": "JAXA,",
+   "bas": 4.144,
+   "son": 4.572
+  },
+  {
+   "k": "20",
+   "bas": 4.815,
+   "son": 5.451
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 5.451,
+   "son": 5.451
+  },
+  {
+   "k": "MMX",
+   "bas": 5.451,
+   "son": 5.995
+  },
+  {
+   "k": "aracını",
+   "bas": 5.995,
+   "son": 6.4
+  },
+  {
+   "k": "H3",
+   "bas": 6.4,
+   "son": 6.701
+  },
+  {
+   "k": "roketiyle",
+   "bas": 6.748,
+   "son": 7.222
+  },
+  {
+   "k": "fırlattı.",
+   "bas": 7.222,
+   "son": 7.731
+  },
+  {
+   "k": "Hedef,",
+   "bas": 8.75,
+   "son": 9.143
+  },
+  {
+   "k": "Mars'ın",
+   "bas": 9.225,
+   "son": 9.63
+  },
+  {
+   "k": "küçük",
+   "bas": 9.63,
+   "son": 9.931
+  },
+  {
+   "k": "uydusu",
+   "bas": 9.931,
+   "son": 10.324
+  },
+  {
+   "k": "Phobos.",
+   "bas": 10.324,
+   "son": 10.764
+  },
+  {
+   "k": "Araç",
+   "bas": 11.725,
+   "son": 11.968
+  },
+  {
+   "k": "Phobos'a",
+   "bas": 11.991,
+   "son": 12.35
+  },
+  {
+   "k": "inecek,",
+   "bas": 12.35,
+   "son": 12.755
+  },
+  {
+   "k": "yüzeyden",
+   "bas": 12.94,
+   "son": 13.391
+  },
+  {
+   "k": "örnek",
+   "bas": 13.403,
+   "son": 13.681
+  },
+  {
+   "k": "toplayacak",
+   "bas": 13.692,
+   "son": 14.248
+  },
+  {
+   "k": "ve",
+   "bas": 14.41,
+   "son": 14.56
+  },
+  {
+   "k": "bu",
+   "bas": 14.56,
+   "son": 14.722
+  },
+  {
+   "k": "örnekleri",
+   "bas": 14.722,
+   "son": 15.255
+  },
+  {
+   "k": "2031'de",
+   "bas": 15.266,
+   "son": 16.227
+  },
+  {
+   "k": "Dünya'ya",
+   "bas": 16.227,
+   "son": 16.609
+  },
+  {
+   "k": "getirecek.",
+   "bas": 16.609,
+   "son": 17.141
+  },
+  {
+   "k": "Yanında",
+   "bas": 19.039,
+   "son": 19.433
+  },
+  {
+   "k": "Fransa",
+   "bas": 19.433,
+   "son": 19.884
+  },
+  {
+   "k": "ve",
+   "bas": 19.884,
+   "son": 20.012
+  },
+  {
+   "k": "Almanya'nın",
+   "bas": 20.023,
+   "son": 20.544
+  },
+  {
+   "k": "geliştirdiği,",
+   "bas": 20.556,
+   "son": 21.227
+  },
+  {
+   "k": "otuz",
+   "bas": 21.482,
+   "son": 21.748
+  },
+  {
+   "k": "kilodan",
+   "bas": 21.748,
+   "son": 22.118
+  },
+  {
+   "k": "hafif",
+   "bas": 22.118,
+   "son": 22.407
+  },
+  {
+   "k": "Idefix",
+   "bas": 22.407,
+   "son": 22.766
+  },
+  {
+   "k": "adında",
+   "bas": 22.766,
+   "son": 23.102
+  },
+  {
+   "k": "minik",
+   "bas": 23.102,
+   "son": 23.356
+  },
+  {
+   "k": "bir",
+   "bas": 23.368,
+   "son": 23.472
+  },
+  {
+   "k": "gezgin",
+   "bas": 23.472,
+   "son": 23.866
+  },
+  {
+   "k": "de",
+   "bas": 23.866,
+   "son": 23.981
+  },
+  {
+   "k": "var.",
+   "bas": 23.982,
+   "son": 24.213
+  }
+ ]
+}

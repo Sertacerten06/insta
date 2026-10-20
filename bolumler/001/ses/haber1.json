@@ -1,0 +1,364 @@
+{
+ "metin": "İlk durağımız Türkiye. Millî Eğitim Bakanlığı, 16 Ekim'de yeni Ortak Yazılı Sınav Sistemi'ni tanıttı. Sistem bu dönemin ilk yazılılarından itibaren 5, 6 ve 7 ile 9, 10 ve 11. sınıflarda kullanılacak. Sorular açık uçlu olacak ve her sınav döneminde binlerce yeni soru sisteme eklenecek. Peki yapay zekâ nerede? Bakanlık, soru yazımında ve açık uçlu cevapların puanlanmasında yapay zekâ desteğini ilerleyen aşamada sisteme katmayı planlıyor. Yani şimdilik bir plan, ama yön belli.",
+ "konusma": "İlk durağımız Türkiye. Millî Eğitim Bakanlığı, 16 Ekim'de yeni Ortak Yazılı Sınav Sistemi'ni tanıttı. Sistem bu dönemin ilk yazılılarından itibaren 5, 6 ve 7 ile 9, 10 ve 11. sınıflarda kullanılacak. Sorular açık uçlu olacak ve her sınav döneminde binlerce yeni soru sisteme eklenecek. Peki yapay zekâ nerede? Bakanlık, soru yazımında ve açık uçlu cevapların puanlanmasında yapay zekâ desteğini ilerleyen aşamada sisteme katmayı planlıyor. Yani şimdilik bir plan, ama yön belli.",
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 34.512958,
+ "kelimeler": [
+  {
+   "k": "İlk",
+   "bas": 0.096,
+   "son": 0.27
+  },
+  {
+   "k": "durağımız",
+   "bas": 0.316,
+   "son": 0.814
+  },
+  {
+   "k": "Türkiye.",
+   "bas": 0.814,
+   "son": 1.335
+  },
+  {
+   "k": "Millî",
+   "bas": 2.245,
+   "son": 2.569
+  },
+  {
+   "k": "Eğitim",
+   "bas": 2.581,
+   "son": 2.905
+  },
+  {
+   "k": "Bakanlığı,",
+   "bas": 2.905,
+   "son": 3.414
+  },
+  {
+   "k": "16",
+   "bas": 3.588,
+   "son": 4.387
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 4.387,
+   "son": 4.387
+  },
+  {
+   "k": "yeni",
+   "bas": 4.387,
+   "son": 4.618
+  },
+  {
+   "k": "Ortak",
+   "bas": 4.63,
+   "son": 4.954
+  },
+  {
+   "k": "Yazılı",
+   "bas": 4.965,
+   "son": 5.255
+  },
+  {
+   "k": "Sınav",
+   "bas": 5.255,
+   "son": 5.556
+  },
+  {
+   "k": "Sistemi'ni",
+   "bas": 5.556,
+   "son": 5.984
+  },
+  {
+   "k": "tanıttı.",
+   "bas": 5.984,
+   "son": 6.47
+  },
+  {
+   "k": "Sistem",
+   "bas": 7.477,
+   "son": 7.893
+  },
+  {
+   "k": "bu",
+   "bas": 7.894,
+   "son": 8.009
+  },
+  {
+   "k": "dönemin",
+   "bas": 8.009,
+   "son": 8.403
+  },
+  {
+   "k": "ilk",
+   "bas": 8.414,
+   "son": 8.611
+  },
+  {
+   "k": "yazılılarından",
+   "bas": 8.623,
+   "son": 9.317
+  },
+  {
+   "k": "itibaren",
+   "bas": 9.329,
+   "son": 9.907
+  },
+  {
+   "k": "5,",
+   "bas": 9.907,
+   "son": 10.22
+  },
+  {
+   "k": "6",
+   "bas": 10.37,
+   "son": 10.66
+  },
+  {
+   "k": "ve",
+   "bas": 10.671,
+   "son": 10.787
+  },
+  {
+   "k": "7",
+   "bas": 10.787,
+   "son": 11.018
+  },
+  {
+   "k": "ile",
+   "bas": 11.018,
+   "son": 11.146
+  },
+  {
+   "k": "9,",
+   "bas": 11.146,
+   "son": 11.539
+  },
+  {
+   "k": "10",
+   "bas": 11.84,
+   "son": 11.991
+  },
+  {
+   "k": "ve",
+   "bas": 12.002,
+   "son": 12.13
+  },
+  {
+   "k": "11.",
+   "bas": 12.176,
+   "son": 12.674
+  },
+  {
+   "k": "sınıflarda",
+   "bas": 12.674,
+   "son": 13.183
+  },
+  {
+   "k": "kullanılacak.",
+   "bas": 13.183,
+   "son": 13.843
+  },
+  {
+   "k": "Sorular",
+   "bas": 16.065,
+   "son": 16.447
+  },
+  {
+   "k": "açık",
+   "bas": 16.447,
+   "son": 16.69
+  },
+  {
+   "k": "uçlu",
+   "bas": 16.69,
+   "son": 17.014
+  },
+  {
+   "k": "olacak",
+   "bas": 17.014,
+   "son": 17.396
+  },
+  {
+   "k": "ve",
+   "bas": 17.442,
+   "son": 17.593
+  },
+  {
+   "k": "her",
+   "bas": 17.593,
+   "son": 17.836
+  },
+  {
+   "k": "sınav",
+   "bas": 17.836,
+   "son": 18.125
+  },
+  {
+   "k": "döneminde",
+   "bas": 18.125,
+   "son": 18.576
+  },
+  {
+   "k": "binlerce",
+   "bas": 18.576,
+   "son": 19.109
+  },
+  {
+   "k": "yeni",
+   "bas": 19.109,
+   "son": 19.317
+  },
+  {
+   "k": "soru",
+   "bas": 19.317,
+   "son": 19.514
+  },
+  {
+   "k": "sisteme",
+   "bas": 19.514,
+   "son": 19.884
+  },
+  {
+   "k": "eklenecek.",
+   "bas": 19.884,
+   "son": 20.451
+  },
+  {
+   "k": "Peki",
+   "bas": 21.921,
+   "son": 22.222
+  },
+  {
+   "k": "yapay",
+   "bas": 22.222,
+   "son": 22.546
+  },
+  {
+   "k": "zekâ",
+   "bas": 22.546,
+   "son": 22.859
+  },
+  {
+   "k": "nerede?",
+   "bas": 22.882,
+   "son": 23.299
+  },
+  {
+   "k": "Bakanlık,",
+   "bas": 24.248,
+   "son": 24.734
+  },
+  {
+   "k": "soru",
+   "bas": 24.838,
+   "son": 25.081
+  },
+  {
+   "k": "yazımında",
+   "bas": 25.081,
+   "son": 25.567
+  },
+  {
+   "k": "ve",
+   "bas": 25.567,
+   "son": 25.683
+  },
+  {
+   "k": "açık",
+   "bas": 25.694,
+   "son": 25.949
+  },
+  {
+   "k": "uçlu",
+   "bas": 25.949,
+   "son": 26.238
+  },
+  {
+   "k": "cevapların",
+   "bas": 26.238,
+   "son": 26.759
+  },
+  {
+   "k": "puanlanmasında",
+   "bas": 26.759,
+   "son": 27.569
+  },
+  {
+   "k": "yapay",
+   "bas": 27.604,
+   "son": 27.917
+  },
+  {
+   "k": "zekâ",
+   "bas": 27.917,
+   "son": 28.194
+  },
+  {
+   "k": "desteğini",
+   "bas": 28.218,
+   "son": 28.681
+  },
+  {
+   "k": "ilerleyen",
+   "bas": 28.681,
+   "son": 29.12
+  },
+  {
+   "k": "aşamada",
+   "bas": 29.12,
+   "son": 29.502
+  },
+  {
+   "k": "sisteme",
+   "bas": 29.502,
+   "son": 29.873
+  },
+  {
+   "k": "katmayı",
+   "bas": 29.884,
+   "son": 30.243
+  },
+  {
+   "k": "planlıyor.",
+   "bas": 30.243,
+   "son": 30.81
+  },
+  {
+   "k": "Yani",
+   "bas": 32.06,
+   "son": 32.407
+  },
+  {
+   "k": "şimdilik",
+   "bas": 32.407,
+   "son": 32.847
+  },
+  {
+   "k": "bir",
+   "bas": 32.859,
+   "son": 32.975
+  },
+  {
+   "k": "plan,",
+   "bas": 32.998,
+   "son": 33.333
+  },
+  {
+   "k": "ama",
+   "bas": 33.449,
+   "son": 33.646
+  },
+  {
+   "k": "yön",
+   "bas": 33.646,
+   "son": 33.831
+  },
+  {
+   "k": "belli.",
+   "bas": 33.831,
+   "son": 34.213
+  }
+ ]
+}

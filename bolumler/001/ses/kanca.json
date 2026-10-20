@@ -1,0 +1,59 @@
+{
+ "metin": "Okuldaki yazılı sorularını yakında yapay zekâ mı hazırlayacak? Hazırsan başlıyoruz!",
+ "konusma": "Okuldaki yazılı sorularını yakında yapay zekâ mı hazırlayacak? Hazırsan başlıyoruz!",
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 5.982875,
+ "kelimeler": [
+  {
+   "k": "Okuldaki",
+   "bas": 0.096,
+   "son": 0.559
+  },
+  {
+   "k": "yazılı",
+   "bas": 0.559,
+   "son": 0.872
+  },
+  {
+   "k": "sorularını",
+   "bas": 0.872,
+   "son": 1.346
+  },
+  {
+   "k": "yakında",
+   "bas": 1.346,
+   "son": 1.705
+  },
+  {
+   "k": "yapay",
+   "bas": 1.705,
+   "son": 2.018
+  },
+  {
+   "k": "zekâ",
+   "bas": 2.018,
+   "son": 2.33
+  },
+  {
+   "k": "mı",
+   "bas": 2.353,
+   "son": 2.457
+  },
+  {
+   "k": "hazırlayacak?",
+   "bas": 2.457,
+   "son": 3.106
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 4.456,
+   "son": 5.0
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 5.0,
+   "son": 5.683
+  }
+ ]
+}

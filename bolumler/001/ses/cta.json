@@ -1,0 +1,104 @@
+{
+ "metin": "Haritam tamamen ücretsiz ve telefonuna uygulama olarak eklenir. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "Haritam tamamen ücretsiz ve telefonuna uygulama olarak eklenir. haritam nokta arpama nokta te re adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 11.943541000000002,
+ "kelimeler": [
+  {
+   "k": "Haritam",
+   "bas": 0.096,
+   "son": 0.525
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.536,
+   "son": 0.976
+  },
+  {
+   "k": "ücretsiz",
+   "bas": 0.999,
+   "son": 1.566
+  },
+  {
+   "k": "ve",
+   "bas": 1.578,
+   "son": 1.705
+  },
+  {
+   "k": "telefonuna",
+   "bas": 1.705,
+   "son": 2.203
+  },
+  {
+   "k": "uygulama",
+   "bas": 2.203,
+   "son": 2.619
+  },
+  {
+   "k": "olarak",
+   "bas": 2.619,
+   "son": 2.897
+  },
+  {
+   "k": "eklenir.",
+   "bas": 2.909,
+   "son": 3.406
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 4.525,
+   "son": 6.262
+  },
+  {
+   "k": "adresinden",
+   "bas": 6.262,
+   "son": 6.875
+  },
+  {
+   "k": "hemen",
+   "bas": 6.875,
+   "son": 7.188
+  },
+  {
+   "k": "başla.",
+   "bas": 7.188,
+   "son": 7.593
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 8.623,
+   "son": 9.062
+  },
+  {
+   "k": "takip",
+   "bas": 9.062,
+   "son": 9.433
+  },
+  {
+   "k": "etmeyi",
+   "bas": 9.433,
+   "son": 9.734
+  },
+  {
+   "k": "unutma,",
+   "bas": 9.734,
+   "son": 10.162
+  },
+  {
+   "k": "gelecek",
+   "bas": 10.278,
+   "son": 10.718
+  },
+  {
+   "k": "bölümde",
+   "bas": 10.718,
+   "son": 11.065
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 11.065,
+   "son": 11.644
+  }
+ ]
+}

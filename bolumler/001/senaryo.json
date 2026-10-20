@@ -1,0 +1,69 @@
+{
+  "bolum": 1,
+  "seri": "Arpama Teknoloji Gündemi",
+  "baslik": "Yazılı Sorularını Yapay Zekâ mı Hazırlayacak?",
+  "haritam_ozellik": "haftalik_program",
+  "vurgu_kelimeleri": [
+    "yapay",
+    "zekâ",
+    "YKS",
+    "Haritam",
+    "Haritam'a",
+    "Haritam!",
+    "ücretsiz",
+    "Phobos",
+    "Phobos'a",
+    "Phobos'tan",
+    "2031'de",
+    "boss",
+    "Cortex",
+    "12.",
+    "ilk",
+    "haritam.arpama.tr"
+  ],
+  "bolumler": [
+    {
+      "id": "kanca",
+      "sahne": "kanca",
+      "metin": "Okuldaki yazılı sorularını yakında yapay zekâ mı hazırlayacak? Hazırsan başlıyoruz!"
+    },
+    {
+      "id": "acilis",
+      "sahne": "acilis",
+      "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ilk bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada."
+    },
+    {
+      "id": "haber1",
+      "sahne": "haber_meb",
+      "metin": "İlk durağımız Türkiye. Millî Eğitim Bakanlığı, 16 Ekim'de yeni Ortak Yazılı Sınav Sistemi'ni tanıttı. Sistem bu dönemin ilk yazılılarından itibaren 5, 6 ve 7 ile 9, 10 ve 11. sınıflarda kullanılacak. Sorular açık uçlu olacak ve her sınav döneminde binlerce yeni soru sisteme eklenecek. Peki yapay zekâ nerede? Bakanlık, soru yazımında ve açık uçlu cevapların puanlanmasında yapay zekâ desteğini ilerleyen aşamada sisteme katmayı planlıyor. Yani şimdilik bir plan, ama yön belli."
+    },
+    {
+      "id": "haber2",
+      "sahne": "haber_jaxa",
+      "metin": "Şimdi rotamızı uzaya çeviriyoruz. Japonya Uzay Ajansı JAXA, 20 Ekim'de MMX aracını H3 roketiyle fırlattı. Hedef, Mars'ın küçük uydusu Phobos. Araç Phobos'a inecek, yüzeyden örnek toplayacak ve bu örnekleri 2031'de Dünya'ya getirecek. Yanında Fransa ve Almanya'nın geliştirdiği, otuz kilodan hafif Idefix adında minik bir gezgin de var."
+    },
+    {
+      "id": "haritam",
+      "sahne": "haritam",
+      "metin": "Bir şey fark ettin mi? Yeni sınav sisteminde 12. sınıflar yok. Çünkü onların karşısında büyük boss duruyor: YKS. Boss'u yenmek için bir haritaya ihtiyacın var. İşte YKS Haritam! Koçunun Excel programını yükle ya da kendin yaz, görevler günlere otomatik yerleşsin. Bitirdikçe işaretle, serini koru, gelişimini gör. Programındaki konular, konu özetleriyle kendiliğinden eşleşir. Üstelik Vertex'in yapay zekâsı Cortex de çok yakında Haritam'a geliyor."
+    },
+    {
+      "id": "cta",
+      "sahne": "cta",
+      "metin": "Haritam tamamen ücretsiz ve telefonuna uygulama olarak eklenir. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+    }
+  ],
+  "kaynak_satirlari": {
+    "haber1": "Kaynak: MEB, Onedio",
+    "haber2": "Kaynak: JAXA, Forbes"
+  },
+  "kapak": {
+    "ust": "YAPAY ZEKÂ",
+    "alt_satirlar": [
+      "SORU MU",
+      "HAZIRLAYACAK?"
+    ],
+    "bolum_etiketi": "BÖLÜM 1"
+  },
+  "caption": "Yazılı sorularını yapay zekâ mı hazırlayacak? 🕹️\n\nBu bölümde:\n▸ MEB'in yeni Ortak Yazılı Sınav Sistemi\n▸ Japonya Mars'ın uydusu Phobos'a yola çıktı\n▸ Haritam: haftalık programın tek yerde\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: MEB, Onedio, JAXA, Forbes\n\n#yks #yks2027 #teknoloji #yapayzeka #eğitim #uzay #teknolojihaberleri #arpama #haritam"
+}

@@ -1,0 +1,94 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ilk bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ilk bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 8.077791,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.096,
+   "son": 0.467
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.467,
+   "son": 0.987
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.988,
+   "son": 1.439
+  },
+  {
+   "k": "hoş",
+   "bas": 1.439,
+   "son": 1.693
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.694,
+   "son": 2.156
+  },
+  {
+   "k": "bu",
+   "bas": 2.214,
+   "son": 2.376
+  },
+  {
+   "k": "ilk",
+   "bas": 2.376,
+   "son": 2.562
+  },
+  {
+   "k": "bölümümüz.",
+   "bas": 2.562,
+   "son": 3.117
+  },
+  {
+   "k": "Yazılım",
+   "bas": 4.109,
+   "son": 4.514
+  },
+  {
+   "k": "ve",
+   "bas": 4.525,
+   "son": 4.641
+  },
+  {
+   "k": "teknoloji",
+   "bas": 4.641,
+   "son": 5.162
+  },
+  {
+   "k": "dünyasından",
+   "bas": 5.162,
+   "son": 5.845
+  },
+  {
+   "k": "en",
+   "bas": 5.856,
+   "son": 6.018
+  },
+  {
+   "k": "önemli",
+   "bas": 6.019,
+   "son": 6.285
+  },
+  {
+   "k": "gelişmeler,",
+   "bas": 6.285,
+   "son": 6.887
+  },
+  {
+   "k": "iki",
+   "bas": 7.06,
+   "son": 7.211
+  },
+  {
+   "k": "dakikada.",
+   "bas": 7.211,
+   "son": 7.778
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "guncelleme": "2026-10-20",
+  "haberler": [
+    {
+      "id": "2026-10-16-meb-ortak-yazili", "bolge": "TR", "tarih": "2026-10-16", "puan": 9,
+      "gerekce": "Türkiye +3, eğitim/sınav/yapay zekâ +2, genç kitle +2, 48 saatten eski",
+      "baslik": "MEB Ortak Yazılı Sınav Sistemi'ni tanıttı",
+      "kaynaklar": [{"ad": "MEB", "url": "https://www.meb.gov.tr"}, {"ad": "Onedio", "url": "https://onedio.com"}],
+      "kullanildi": 1
+    },
+    {
+      "id": "2026-10-20-jaxa-mmx", "bolge": "DUNYA", "tarih": "2026-10-20", "puan": 6,
+      "gerekce": "son 48 saat +2, genç kitle +2, uzay görseli 8-bit'e uygun",
+      "baslik": "JAXA MMX aracını H3 ile Phobos'a fırlattı",
+      "kaynaklar": [{"ad": "JAXA", "url": "https://global.jaxa.jp"}, {"ad": "Forbes", "url": "https://www.forbes.com"}],
+      "kullanildi": 1
+    }
+  ]
+}

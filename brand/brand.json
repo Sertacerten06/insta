@@ -1,0 +1,37 @@
+{
+  "palette": {
+    "zemin": "#070A10", "zemin2": "#0E1420", "zemin3": "#111B2B", "cizgi": "#1E2D46",
+    "mavi_koyu": "#2A5AA8", "mavi": "#2F6FE0", "mavi_acik": "#7AA9F3", "mavi_buz": "#CFE0FF",
+    "gumus": "#D9DDE3", "beyaz": "#FFFFFF", "gumus_koyu": "#C9CED6", "soluk": "#9AA0AB",
+    "altin_acik": "#FFE38F", "altin": "#F2C14E", "altin_koyu": "#D4A017", "kirmizi": "#E0705C"
+  },
+  "bantlar": {
+    "altin": ["#FFE38F", "#F2C14E", "#D4A017"],
+    "gumus": ["#FFFFFF", "#D9DDE3", "#C9CED6"],
+    "mavi": ["#7AA9F3", "#2F6FE0", "#2A5AA8"]
+  },
+  "logo_renkleri": {
+    "ar_altin": ["#F7E6A7", "#DFC480", "#B69555", "#9A773B"],
+    "pama_gumus": ["#F2F1E9", "#E1D9C0", "#CAC2AC", "#979185"],
+    "technology": ["#B8B9BA", "#626465"],
+    "zemin": "#23262B"
+  },
+  "fonts": {
+    "piksel": "Pixelify Sans",
+    "piksel_yedek": "VT323",
+    "marka": "Sora",
+    "metin": "Manrope"
+  },
+  "font_dosyalari": {
+    "piksel": "brand/fonts/PixelifySans-700.ttf",
+    "piksel_ince": "brand/fonts/PixelifySans-400.ttf",
+    "piksel_yedek": "brand/fonts/VT323-400.ttf",
+    "marka": "brand/fonts/Sora-700.ttf",
+    "metin": "brand/fonts/Manrope-500.ttf",
+    "ingilizce_etiket": "brand/fonts/PressStart2P-400.ttf"
+  },
+  "logo": "brand/arpama-logo.png",
+  "haritam_logo": "brand/haritam-logo.png",
+  "handle": "@<instagram_kullanici_adi>",
+  "cta_url": "haritam.arpama.tr"
+}

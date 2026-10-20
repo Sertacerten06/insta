@@ -1,0 +1,33 @@
+# Arpama Reels — ana ayarlar (CLAUDE.md §2, §6, §10.1)
+onay_modu: true            # true: video output/onay_bekleyen/ içine konur, yükleme yapılmaz
+
+takvim:
+  saat_dilimi: Europe/Istanbul
+  video_gunleri: [Sali, Cuma]
+  video_saati: "19:00"
+  haber_tarama_araligi_gun: 2
+
+video:
+  genislik: 1080
+  yukseklik: 1920
+  fps: 30
+  sanal_genislik: 270       # sahneler 270x480 ızgarada çizilip nearest-neighbor ile x4 büyütülür
+  sanal_yukseklik: 480
+  sure_min: 110
+  sure_max: 130
+  scanline_opaklik: 0.12
+  guvenli_alan: {ust: 220, alt: 380, sag: 140}
+
+tts:
+  servis: edge              # edge | espeak (çevrimdışı taslak, sadece test için)
+  ses: tr-TR-AhmetNeural    # her videoda aynı ses (marka tutarlılığı). Kullanıcı seçimi 2026-10-20. Sunucu aralıklı boş dönebiliyor: tts.py tekrar çalıştırılınca eksik parçaları tamamlar
+  hiz: "+8%"
+  hedef_lufs: -16
+
+muzik:
+  bpm: 120
+  konusma_alti_db: -22
+  bosluk_db: -14
+
+instagram:
+  handle: "@<instagram_kullanici_adi>"   # §16: kullanıcı dolduracak
