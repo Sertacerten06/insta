@@ -22,6 +22,10 @@ FONT = {k: str(KOK / v) for k, v in MARKA["font_dosyalari"].items()}
 SW, SH, OLCEK = 270, 480, 4
 # Instagram güvenli alanı (sanal piksel): üst 220/4, alt 380/4, sağ 140/4
 GUVENLI_UST, GUVENLI_ALT, GUVENLI_SAG = 55, SH - 95, SW - 35
+# İçerik ekranda ortalı dursun diye solda da sağdaki kadar boşluk bırakılır:
+# sahneler x = SOL..SAG arasında, kendi yerel koordinatlarında (0..GEN) çizilir.
+SOL, SAG = SW - GUVENLI_SAG, GUVENLI_SAG
+GEN = SAG - SOL
 
 # İkon karakter -> palet rengi
 KAR = {
@@ -204,13 +208,44 @@ def yazi_genislik(metin, ad="piksel", boyut=63):
     return e - s
 
 
+class Kaydir:
+    """ImageDraw sarmalayıcı: tüm x koordinatlarını dx kadar kaydırır (sahne yerel koordinatı)."""
+
+    def __init__(self, d, dx):
+        self._d, self._dx = d, dx
+
+    def _xy(self, xy):
+        if xy and isinstance(xy[0], (tuple, list)):
+            return [(x + self._dx, y) for x, y in xy]
+        if isinstance(xy, tuple) and len(xy) == 2:
+            return (xy[0] + self._dx, xy[1])
+        return [v + self._dx if i % 2 == 0 else v for i, v in enumerate(xy)]
+
+    def rectangle(self, xy, **kw):
+        return self._d.rectangle(self._xy(xy), **kw)
+
+    def ellipse(self, xy, **kw):
+        return self._d.ellipse(self._xy(xy), **kw)
+
+    def polygon(self, xy, **kw):
+        return self._d.polygon(self._xy(xy), **kw)
+
+    def point(self, xy, **kw):
+        return self._d.point(self._xy(xy) if not isinstance(xy, tuple) else self._xy(xy), **kw)
+
+    def line(self, xy, **kw):
+        return self._d.line(self._xy(xy), **kw)
+
+
 class YaziKatmani:
     """Bir karede çizilecek yazı sprite'larının listesi (gerçek piksel koordinatı)."""
 
-    def __init__(self):
+    def __init__(self, dx=0):
         self.ops = []
+        self.dx = dx
 
     def ekle(self, sprite, x, y, hiza="sol", maske=None):
+        x += self.dx
         if hiza == "orta":
             x -= sprite.width // 2
         elif hiza == "sag":

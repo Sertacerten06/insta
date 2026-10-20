@@ -5,12 +5,12 @@ Animasyonlar kelime zaman damgalarına bağlanır (kt()), böylece görüntü se
 """
 import math
 
-from cizim import (BANT, GUVENLI_SAG, OLCEK, P, SW, bant_dikdortgen, daire, dither_maske, dugme, ikon,
+from cizim import (BANT, GEN, OLCEK, P, SW, bant_dikdortgen, daire, dither_maske, dugme, ikon,
                    ikon_boyut, panel, ust, xp_bar, yazi, yazi_genislik)
 import ikonlar as I
 from ortak import KOK
 
-CX = GUVENLI_SAG // 2 + 2          # güvenli alanın yatay ortası (sanal)
+CX = GEN // 2                      # içerik alanının yatay ortası (sanal, yerel)
 RCX = CX * OLCEK                   # aynı, gerçek piksel
 
 
@@ -115,11 +115,11 @@ def etiket(d, yk, metin, tarih, ikon_sablon=None, rozet=None):
         ikon(d, ikon_sablon, x, 81, 1)
         x += ikon_boyut(ikon_sablon)[0] + 4
     yk.yaz(metin, R(x), R(80) + 4, ad="piksel", boyut=47, bant="altin")
-    yk.yaz(tarih, R(GUVENLI_SAG - 6), R(80) + 8, "sag", ad="piksel_ince", boyut=39, renk="soluk")
+    yk.yaz(tarih, R(GEN - 6), R(80) + 8, "sag", ad="piksel_ince", boyut=39, renk="soluk")
 
 
 def baslik_kutusu(d, yk, satirlar, y=95, h=37):
-    dugme(d, 8, y, GUVENLI_SAG - 14, h)
+    dugme(d, 8, y, GEN - 14, h)
     for i, s in enumerate(satirlar):
         yk.yaz(s, RCX, R(y) + 14 + i * 66, "orta", ad="piksel", boyut=55, renk="beyaz")
 
@@ -153,11 +153,11 @@ class Kanca(Sahne):
             yk.yaz("?", R(CX), R(y + 14), "orta", ad="piksel", boyut=190, bant="altin", kenar=8)
         # başlık satırları kademeli gelir
         if t >= 0.0:
-            yk.yaz("YAZILI SORULARINI", RCX, R(178), "orta", ad="piksel", boyut=63, renk="beyaz", kenar=6)
+            yk.yaz("YAZILI SORULARINI", RCX, R(180), "orta", ad="piksel", boyut=55, renk="beyaz", kenar=6)
         if t >= 0.4:
-            yk.yaz("YAPAY ZEKÂ", RCX, R(194), "orta", ad="piksel", boyut=110, bant="altin", kenar=6)
+            yk.yaz("YAPAY ZEKÂ", RCX, R(197), "orta", ad="piksel", boyut=95, bant="altin", kenar=6)
         if t >= 0.8:
-            yk.yaz("MI HAZIRLAYACAK?", RCX, R(244), "orta", ad="piksel", boyut=63, renk="beyaz", kenar=6)
+            yk.yaz("MI HAZIRLAYACAK?", RCX, R(240), "orta", ad="piksel", boyut=55, renk="beyaz", kenar=6)
 
 
 # ------------------------------------------------------------------ 1. AÇILIŞ
@@ -178,7 +178,7 @@ class Acilis(Sahne):
                 if oran >= 1 and yanip(t + i * 0.13, 0.6, 0.35):
                     d.point([(sx, sy), (sx - 1, sy), (sx + 1, sy), (sx, sy - 1), (sx, sy + 1)], fill=P["mavi_buz"])
         if t >= self.LOGO_T + 1.2:
-            yk.yaz("TEKNOLOJİ GÜNDEMİ", RCX, R(192), "orta", ad="piksel", boyut=71, bant="gumus", kenar=6)
+            yk.yaz("TEKNOLOJİ GÜNDEMİ", RCX, R(194), "orta", ad="piksel", boyut=55, bant="gumus", kenar=6)
         if t >= self.LOGO_T + 1.6:
             bolum = self.ctx["bolum"]
             yk.yaz(f"BÖLÜM {bolum}", RCX, R(220), "orta", ad="marka", boyut=120, bant="altin")
@@ -201,7 +201,7 @@ class HaberMEB(Sahne):
         etiket(d, yk, "TÜRKİYE", "16 EKİM", rozet="TR")
         baslik_kutusu(d, yk, ["MEB: ORTAK YAZILI", "SINAV SİSTEMİ"])
         acilis = self._acilis()
-        x0, y0, bw, bh, ara = 10, 140, 30, 24, 5
+        x0, y0, bw, bh, ara = 4, 140, 28, 24, 4
         for s, cx_, cy_ in self.SINIFLAR:
             x, y = x0 + cx_ * (bw + ara), y0 + cy_ * (bh + ara)
             self._kutu(d, yk, x, y, bw, bh, s, t >= acilis[s], t - acilis[s])
@@ -211,9 +211,9 @@ class HaberMEB(Sahne):
         # sağ taraf: okul binası -> yapay zekâ robotu
         t_robot = self.kt("Peki")
         if t < t_robot:
-            self._okul(d, 128, 140)
+            self._okul(d, 106, 140)
         else:
-            rx = 160
+            rx = 124
             ikon(d, I.ROBOT, rx, 138, 4)
             if yanip(t - t_robot, 0.5):
                 yk.yaz("?", R(rx + 52), R(130), ad="piksel", boyut=95, bant="altin", kenar=5)
@@ -222,11 +222,11 @@ class HaberMEB(Sahne):
                 if yanip(t, 0.8, 0.75):
                     yk.yaz("PLANLANIYOR", R(rx + 23), R(193) + 6, "orta", ad="piksel", boyut=39, renk="altin")
         if t >= self.kt("açık"):
-            madde(d, yk, 10, 232, "AÇIK UÇLU SORULAR")
+            madde(d, yk, 4, 232, "AÇIK UÇLU SORULAR")
         if t >= self.kt("binlerce"):
-            madde(d, yk, 10, 248, "HER DÖNEM BİNLERCE YENİ SORU")
+            madde(d, yk, 4, 248, "HER DÖNEM BİNLERCE YENİ SORU")
         if t >= self.kt("Peki"):
-            madde(d, yk, 10, 264, "YAPAY ZEKÂ DESTEĞİ: İLERİDE")
+            madde(d, yk, 4, 264, "YAPAY ZEKÂ DESTEĞİ: İLERİDE")
         kaynak(yk, self.ctx["kaynak"])
 
     def _kutu(self, d, yk, x, y, w, h, s, acik, ta):
@@ -241,12 +241,12 @@ class HaberMEB(Sahne):
             yk.yaz(s, R(x + w // 2) - 8, R(y) + 20, "orta", ad="piksel", boyut=55, renk="soluk")
 
     def _okul(self, d, x, y):
-        w, h = 98, 58
+        w, h = 88, 58
         d.polygon([(x - 4, y + 20), (x + w // 2, y), (x + w + 3, y + 20)], fill=P["mavi_koyu"])
         d.rectangle([x, y + 20, x + w - 1, y + h + 20], fill=P["zemin3"], outline=P["cizgi"])
         for r in range(3):
             for c in range(5):
-                wx, wy = x + 6 + c * 18, y + 26 + r * 14
+                wx, wy = x + 5 + c * 16, y + 26 + r * 14
                 d.rectangle([wx, wy, wx + 9, wy + 7], fill=P["mavi_acik"] if (r + c) % 3 else P["cizgi"])
         d.rectangle([x + w // 2 - 6, y + h + 6, x + w // 2 + 5, y + h + 20], fill=P["mavi"])
         d.rectangle([x + w // 2, y - 14, x + w // 2, y], fill=P["soluk"])
@@ -272,8 +272,8 @@ class HaberJAXA(Sahne):
 
     def _kalkis(self, d, yk, t, t_kalk):
         # zemin ve rampa
-        d.rectangle([0, 268, SW, 280], fill=P["zemin3"])
-        d.rectangle([0, 268, SW, 268], fill=P["cizgi"])
+        d.rectangle([-40, 268, SW, 280], fill=P["zemin3"])
+        d.rectangle([-40, 268, SW, 268], fill=P["cizgi"])
         rx = CX - 5
         dt = max(0.0, adim(t - t_kalk, 15))
         yy = 252 - int(40 * dt * dt + 10 * dt)
@@ -296,7 +296,7 @@ class HaberJAXA(Sahne):
             yk.yaz("KALKIŞ!", R(rx + 22), R(216), ad="piksel", boyut=55, bant="altin", kenar=5)
 
     def _mars(self, d, yk, t, t_mars):
-        mx, my, mr = 178, 206, 34
+        mx, my, mr = 142, 206, 34
         # Mars: kırmızı + altın-koyu bantlar, sol kenarda dither gölge
         daire(d, mx, my, mr, P["kirmizi"])
         for (cx_, cy_, r) in [(168, 196, 5), (190, 214, 4), (176, 224, 3), (192, 190, 3)]:
@@ -318,7 +318,7 @@ class HaberJAXA(Sahne):
         # uzay aracı Phobos'a yaklaşır
         t_in = self.kt("inecek")
         oran = min(1.0, max(0.0, adim(t - t_mars, 8) / max(0.5, t_in - t_mars)))
-        ax = int(20 + (px - 30) * oran)
+        ax = int(10 + (px - 20) * oran)
         ay = int(140 + (py - 140) * oran)
         if oran < 1:
             for k in range(1, 6):
@@ -329,14 +329,14 @@ class HaberJAXA(Sahne):
         # 2031 dönüş çubuğu
         t_2031 = self.kt("2031")
         if t >= t_2031:
-            yk.yaz("DÜNYA'YA DÖNÜŞ: 2031", R(10), R(244) - 6, ad="piksel", boyut=39, renk="gumus")
-            xp_bar(d, 10, 256, 120, adim(t - t_2031, 8) / 2.0, "altin")
+            yk.yaz("DÜNYA'YA DÖNÜŞ: 2031", R(4), R(244) - 6, ad="piksel", boyut=39, renk="gumus")
+            xp_bar(d, 4, 256, 110, adim(t - t_2031, 8) / 2.0, "altin")
         # Idefix gezgini
         t_id = self.kt("Idefix")
         if t >= t_id:
-            ikon(d, I.GEZGIN, 14, 152, 3)
-            yk.yaz("IDEFIX", R(14), R(172), ad="piksel", boyut=47, bant="gumus")
-            yk.yaz("30 KG ALTI", R(14), R(185), ad="piksel_ince", boyut=39, renk="soluk")
+            ikon(d, I.GEZGIN, 4, 152, 3)
+            yk.yaz("IDEFIX", R(4), R(172), ad="piksel", boyut=47, bant="gumus")
+            yk.yaz("30 KG ALTI", R(4), R(185), ad="piksel_ince", boyut=39, renk="soluk")
 
 
 # ------------------------------------------------------------------ 4. HARİTAM
@@ -395,7 +395,7 @@ class Haritam(Sahne):
 
     def _boss(self, d, yk, tb, t, z):
         if tb < 0.12:
-            d.rectangle([0, 76, SW, 290], fill=P["kirmizi"])
+            d.rectangle([-40, 76, SW, 290], fill=P["kirmizi"])
             return
         bob = 2 if int(tb * 4) % 2 else 0
         bw, bh = ikon_boyut(I.BOSS, 4)
@@ -411,7 +411,7 @@ class Haritam(Sahne):
             yk.yaz("GEREKEN: HARİTA", RCX, R(232), "orta", ad="piksel", boyut=55, renk="gumus", kenar=5)
 
     def _uygulama(self, d, yk, t, z):
-        x0, y0, w = 6, 80, GUVENLI_SAG - 10
+        x0, y0, w = 0, 80, GEN
         panel(d, x0, y0, w, 206)
         dugme(d, x0 + 2, y0 + 2, w - 4, 20)
         haritam_logo = KOK / "brand" / "haritam-logo.png"
@@ -419,13 +419,13 @@ class Haritam(Sahne):
         yk.yaz("HAFTALIK PROGRAM", R(x0 + 4), R(y0 + 25), ad="piksel", boyut=39, renk="altin")
         # Excel yükle / kendin yaz
         if t >= z["excel"]:
-            dugme(d, x0 + 136, y0 + 23, 42, 12)
-            yk.yaz("EXCEL", R(x0 + 157), R(y0 + 23) + 6, "orta", ad="piksel", boyut=31, renk="beyaz")
+            dugme(d, x0 + 112, y0 + 23, 40, 12)
+            yk.yaz("EXCEL", R(x0 + 132), R(y0 + 23) + 6, "orta", ad="piksel", boyut=31, renk="beyaz")
         if t >= z["kendin"]:
-            d.rectangle([x0 + 182, y0 + 23, x0 + w - 5, y0 + 34], fill=P["zemin3"], outline=P["mavi_acik"])
-            yk.yaz("YAZ", R(x0 + 182 + (w - 187) // 2), R(y0 + 23) + 6, "orta", ad="piksel", boyut=31, renk="mavi_acik")
+            d.rectangle([x0 + 156, y0 + 23, x0 + w - 5, y0 + 34], fill=P["zemin3"], outline=P["mavi_acik"])
+            yk.yaz("YAZ", R(x0 + 156 + (w - 161) // 2), R(y0 + 23) + 6, "orta", ad="piksel", boyut=31, renk="mavi_acik")
         # takvim
-        cw, ara, gx = 29, 3, x0 + 4
+        cw, ara, gx = 26, 2, x0 + 2
         gy = y0 + 38
         for g, ad in enumerate(self.GUNLER):
             x = gx + g * (cw + ara)
@@ -451,8 +451,7 @@ class Haritam(Sahne):
             ikon(d, I.YILDIZ, x0 + 4, sy + 2, 2)
             yk.yaz("SERİ: 12 GÜN", R(x0 + 17), R(sy) + 4, ad="piksel", boyut=47, bant="altin")
         if t >= z["gelisim"]:
-            yk.yaz("GELİŞİM", R(x0 + 124), R(sy) + 8, ad="piksel_ince", boyut=31, renk="soluk")
-            xp_bar(d, x0 + 158, sy + 3, w - 166, adim(t - z["gelisim"], 8) / 1.5 * 0.8)
+            xp_bar(d, x0 + 136, sy + 3, w - 142, adim(t - z["gelisim"], 8) / 1.5 * 0.8)
         # konu özetleri eşleşir
         if t >= z["konu"]:
             ky = y0 + 128
@@ -480,7 +479,7 @@ class Kapanis(Sahne):
 
     def ciz(self, t, d, yk):
         logo(yk, RCX, R(84), 90)
-        yk.yaz("haritam.arpama.tr", RCX, R(128), "orta", ad="marka", boyut=84, renk="beyaz")
+        yk.yaz("haritam.arpama.tr", RCX, R(129), "orta", ad="marka", boyut=74, renk="beyaz")
         d.rectangle([CX - 80, 152, CX + 80, 152], fill=P["cizgi"])
         if t >= self.kt("ücretsiz"):
             basili = int(t * 2) % 2 == 1
@@ -489,9 +488,9 @@ class Kapanis(Sahne):
             yk.yaz("ÜCRETSİZ BAŞLA", R(CX - 8), R(by) + 30, "orta", ad="marka", boyut=48, renk="beyaz")
             ikon(d, I.UCGEN_SAG, CX + 64, by + 8, 2)
         if t >= self.kt("telefonuna"):
-            ikon(d, I.TELEFON, 20, 196, 2)
-            yk.yaz("TELEFONA UYGULAMA OLARAK EKLE", R(40), R(198) + 4, ad="piksel", boyut=31, renk="gumus")
-            yk.yaz("TELEFON + BİLGİSAYAR", R(40), R(207) + 6, ad="piksel_ince", boyut=31, renk="soluk")
+            ikon(d, I.TELEFON, 28, 196, 2)
+            yk.yaz("UYGULAMA OLARAK EKLE", R(48), R(198) + 4, ad="piksel", boyut=31, renk="gumus")
+            yk.yaz("TELEFON + BİLGİSAYAR", R(48), R(207) + 6, ad="piksel_ince", boyut=31, renk="soluk")
         if t >= self.kt("takip"):
             handle = self.ctx.get("handle")
             yazi_ = f"TAKİP ET: {handle}" if handle else "ARPAMA'YI TAKİP ET"

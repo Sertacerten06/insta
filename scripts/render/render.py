@@ -22,10 +22,12 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ortak import ayarlar, bolum_dizini, senaryo  # noqa: E402
-from cizim import (GUVENLI_SAG, OLCEK, P, SH, SW, YaziKatmani, dither_maske, glitch, ikon, xp_bar,  # noqa: E402
+from cizim import (SOL, SAG, Kaydir, OLCEK, P, SH, SW, YaziKatmani, dither_maske, glitch, ikon, xp_bar,  # noqa: E402
                    yeni_kare, yildizlar, yazi, yazi_genislik)
 import ikonlar as I  # noqa: E402
-from sahneler import RCX, SAHNELER, logo, sade  # noqa: E402
+from sahneler import SAHNELER, logo, sade
+
+RCX = SW * OLCEK // 2  # ekranın tam ortası (içerik simetrik boşluklu)  # noqa: E402
 
 FPS = 30
 GIRIS = {"kanca": 0.3, "acilis": 1.6}   # sahne başından sese kadar bekleme
@@ -77,7 +79,7 @@ def olaylar(sahneler, nesneler):
 
 
 # ------------------------------------------------------------------ altyazı (§8)
-SATIR_MAX = 18
+SATIR_MAX = 16
 ALTYAZI_BOYUT = 67   # VT323 100px (font pikseli = 1 sanal piksel)
 
 
@@ -141,28 +143,26 @@ def altyazi_ciz(yk, sayfa, t):
 
 # ------------------------------------------------------------------ HUD ve alt bilgi
 def hud(d, yk, t, toplam, tarih):
-    d.rectangle([4, 56, GUVENLI_SAG - 2, 70], fill=P["zemin2"], outline=P["cizgi"])
+    d.rectangle([SOL, 56, SAG - 1, 70], fill=P["zemin2"], outline=P["cizgi"])
     logo_mini(yk)
-    yk.yaz(tarih, (GUVENLI_SAG - 6) * OLCEK, 56 * OLCEK + 18, "sag", ad="piksel_ince", boyut=35, renk="soluk")
-    yk.yaz("XP", 4 * OLCEK, 72 * OLCEK - 4, ad="piksel_ince", boyut=27, renk="mavi_acik")
-    xp_bar(d, 14, 72, GUVENLI_SAG - 16, t / toplam)
+    yk.yaz(tarih, (SAG - 4) * OLCEK, 56 * OLCEK + 18, "sag", ad="piksel_ince", boyut=35, renk="soluk")
+    yk.yaz("XP", SOL * OLCEK, 72 * OLCEK - 4, ad="piksel_ince", boyut=27, renk="mavi_acik")
+    xp_bar(d, SOL + 10, 72, SAG - SOL - 10, t / toplam)
 
 
 def logo_mini(yk):
     logo_dosya = Path(__file__).resolve().parents[2] / "brand" / "arpama-logo.png"
     if logo_dosya.exists():
-        logo(yk, 8 * OLCEK + 120, 57 * OLCEK, 40)
+        logo(yk, (SOL + 4) * OLCEK + 120, 57 * OLCEK, 40)
         return
-    yk.yaz("AR", 8 * OLCEK, 56 * OLCEK + 14, ad="marka", boyut=34, bant="altin")
-    yk.yaz("PAMA", 8 * OLCEK + yazi("AR", "marka", 34, bant="altin").width + 2, 56 * OLCEK + 14,
+    yk.yaz("AR", (SOL + 4) * OLCEK, 56 * OLCEK + 14, ad="marka", boyut=34, bant="altin")
+    yk.yaz("PAMA", (SOL + 4) * OLCEK + yazi("AR", "marka", 34, bant="altin").width + 2, 56 * OLCEK + 14,
            ad="marka", boyut=34, bant="gumus")
 
 
 def alt_bilgi(d, yk):
-    d.rectangle([4, 372, GUVENLI_SAG - 2, 372], fill=P["cizgi"])
-    yk.yaz("haritam.arpama.tr", 6 * OLCEK, 374 * OLCEK + 4, ad="piksel_ince", boyut=31, renk="mavi_acik")
-    yk.yaz("ARPAMA TEKNOLOJİ GÜNDEMİ", (GUVENLI_SAG - 6) * OLCEK, 374 * OLCEK + 4, "sag",
-           ad="piksel_ince", boyut=31, renk="soluk")
+    d.rectangle([SOL, 372, SAG - 1, 372], fill=P["cizgi"])
+    yk.yaz("haritam.arpama.tr", RCX, 374 * OLCEK + 4, "orta", ad="piksel_ince", boyut=31, renk="mavi_acik")
 
 
 # ------------------------------------------------------------------ kare üretimi
@@ -194,7 +194,10 @@ class Render:
         yildizlar(d, t, hiz=6 if s["sahne"] == "haber_jaxa" else 1.5, tohum=7)
         yk = YaziKatmani()
         hud(d, yk, t, self.toplam, self.tarih)
-        self.nesneler[i].ciz(lt, d, yk)
+        yk_sahne = YaziKatmani(dx=SOL * OLCEK)
+        self.nesneler[i].ciz(lt, Kaydir(d, SOL), yk_sahne)
+        if not (i > 0 and lt < GECIS / 2):  # geçişin ilk yarısında sahne yazıları gizli
+            yk.ops += yk_sahne.ops
         alt_bilgi(d, yk)
         for sy in self.sayfalar:
             if sy["bas"] - 0.05 <= t < sy["son"]:
@@ -206,7 +209,6 @@ class Render:
             arr = glitch(arr, 1 - oran, int(t * FPS))
             m = dither_maske(SW, SH, oran)
             arr = np.where(m[..., None], arr, np.array(P["zemin"], dtype=np.uint8))
-            yk.ops = yk.ops[:4] if oran < 0.5 else yk.ops  # geçişin ilk yarısında sahne yazıları gizli
         buyuk = np.repeat(np.repeat(arr, OLCEK, axis=0), OLCEK, axis=1)
         img = Image.fromarray(np.ascontiguousarray(buyuk), "RGB")
         yk.uygula(img)
