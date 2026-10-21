@@ -1,1 +1,389 @@
-{"metin": "İlk durağımız yine Türkiye. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 20 Ekim'de Ankara Temelli'de yeni bir veri merkezinin temelini attı. İlk aşamada 450 milyon dolarlık yatırımla 22 megavatlık bir tesis kurulacak. Tüm aşamalar bitince toplam yatırım 4,1 milyar dolara ulaşacak. Peki veri merkezi ne işe yarar? Kurumların ve teknoloji şirketlerinin verilerini güvenle saklar ve işler. Bakanlık, 2030'a kadar Türkiye'nin veri merkezi gücünü en az 1 gigavata çıkarmayı hedefliyor. Yapay zekâ çağında bu, oyunun enerjisi demek.", "sure": 36.25000000000001, "kelimeler": [{"k": "İlk", "bas": 0.1, "son": 0.35}, {"k": "durağımız", "bas": 0.4, "son": 0.95}, {"k": "yine", "bas": 1.0, "son": 1.3}, {"k": "Türkiye.", "bas": 1.35, "son": 1.85}, {"k": "Sanayi", "bas": 2.15, "son": 2.55}, {"k": "ve", "bas": 2.6, "son": 2.8}, {"k": "Teknoloji", "bas": 2.85, "son": 3.4}, {"k": "Bakanı", "bas": 3.45, "son": 3.85}, {"k": "Mehmet", "bas": 3.9, "son": 4.3}, {"k": "Fatih", "bas": 4.35, "son": 4.7}, {"k": "Kacır,", "bas": 4.75, "son": 5.15}, {"k": "20", "bas": 5.2, "son": 5.4}, {"k": "Ekim'de", "bas": 5.45, "son": 5.9}, {"k": "Ankara", "bas": 5.95, "son": 6.35}, {"k": "Temelli'de", "bas": 6.4, "son": 7.0}, {"k": "yeni", "bas": 7.05, "son": 7.35}, {"k": "bir", "bas": 7.4, "son": 7.65}, {"k": "veri", "bas": 7.7, "son": 8.0}, {"k": "merkezinin", "bas": 8.05, "son": 8.65}, {"k": "temelini", "bas": 8.7, "son": 9.2}, {"k": "attı.", "bas": 9.25, "son": 9.6}, {"k": "İlk", "bas": 9.9, "son": 10.15}, {"k": "aşamada", "bas": 10.2, "son": 10.65}, {"k": "450", "bas": 10.7, "son": 10.95}, {"k": "milyon", "bas": 11.0, "son": 11.4}, {"k": "dolarlık", "bas": 11.45, "son": 11.95}, {"k": "yatırımla", "bas": 12.0, "son": 12.55}, {"k": "22", "bas": 12.6, "son": 12.8}, {"k": "megavatlık", "bas": 12.85, "son": 13.45}, {"k": "bir", "bas": 13.5, "son": 13.75}, {"k": "tesis", "bas": 13.8, "son": 14.15}, {"k": "kurulacak.", "bas": 14.2, "son": 14.8}, {"k": "Tüm", "bas": 15.1, "son": 15.35}, {"k": "aşamalar", "bas": 15.4, "son": 15.9}, {"k": "bitince", "bas": 15.95, "son": 16.4}, {"k": "toplam", "bas": 16.45, "son": 16.85}, {"k": "yatırım", "bas": 16.9, "son": 17.35}, {"k": "4,1", "bas": 17.4, "son": 17.65}, {"k": "milyar", "bas": 17.7, "son": 18.1}, {"k": "dolara", "bas": 18.15, "son": 18.55}, {"k": "ulaşacak.", "bas": 18.6, "son": 19.15}, {"k": "Peki", "bas": 19.45, "son": 19.75}, {"k": "veri", "bas": 19.8, "son": 20.1}, {"k": "merkezi", "bas": 20.15, "son": 20.6}, {"k": "ne", "bas": 20.65, "son": 20.85}, {"k": "işe", "bas": 20.9, "son": 21.15}, {"k": "yarar?", "bas": 21.2, "son": 21.6}, {"k": "Kurumların", "bas": 21.9, "son": 22.5}, {"k": "ve", "bas": 22.55, "son": 22.75}, {"k": "teknoloji", "bas": 22.8, "son": 23.35}, {"k": "şirketlerinin", "bas": 23.4, "son": 24.15}, {"k": "verilerini", "bas": 24.2, "son": 24.8}, {"k": "güvenle", "bas": 24.85, "son": 25.3}, {"k": "saklar", "bas": 25.35, "son": 25.75}, {"k": "ve", "bas": 25.8, "son": 26.0}, {"k": "işler.", "bas": 26.05, "son": 26.45}, {"k": "Bakanlık,", "bas": 26.75, "son": 27.3}, {"k": "2030'a", "bas": 27.35, "son": 27.75}, {"k": "kadar", "bas": 27.8, "son": 28.15}, {"k": "Türkiye'nin", "bas": 28.2, "son": 28.85}, {"k": "veri", "bas": 28.9, "son": 29.2}, {"k": "merkezi", "bas": 29.25, "son": 29.7}, {"k": "gücünü", "bas": 29.75, "son": 30.15}, {"k": "en", "bas": 30.2, "son": 30.4}, {"k": "az", "bas": 30.45, "son": 30.65}, {"k": "1", "bas": 30.7, "son": 30.85}, {"k": "gigavata", "bas": 30.9, "son": 31.4}, {"k": "çıkarmayı", "bas": 31.45, "son": 32.0}, {"k": "hedefliyor.", "bas": 32.05, "son": 32.7}, {"k": "Yapay", "bas": 33.0, "son": 33.35}, {"k": "zekâ", "bas": 33.4, "son": 33.7}, {"k": "çağında", "bas": 33.75, "son": 34.2}, {"k": "bu,", "bas": 34.25, "son": 34.5}, {"k": "oyunun", "bas": 34.55, "son": 34.95}, {"k": "enerjisi", "bas": 35.0, "son": 35.5}, {"k": "demek.", "bas": 35.55, "son": 35.95}], "ses": "taslak"}
+{
+ "metin": "İlk durağımız yine Türkiye. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 20 Ekim'de Ankara Temelli'de yeni bir veri merkezinin temelini attı. İlk aşamada 450 milyon dolarlık yatırımla 22 megavatlık bir tesis kurulacak. Tüm aşamalar bitince toplam yatırım 4,1 milyar dolara ulaşacak. Peki veri merkezi ne işe yarar? Kurumların ve teknoloji şirketlerinin verilerini güvenle saklar ve işler. Bakanlık, 2030'a kadar Türkiye'nin veri merkezi gücünü en az 1 gigavata çıkarmayı hedefliyor. Yapay zekâ çağında bu, oyunun enerjisi demek.",
+ "konusma": "İlk durağımız yine Türkiye. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 20 Ekim'de Ankara Temelli'de yeni bir veri merkezinin temelini attı. İlk aşamada 450 milyon dolarlık yatırımla 22 megavatlık bir tesis kurulacak. Tüm aşamalar bitince toplam yatırım 4,1 milyar dolara ulaşacak. Peki veri merkezi ne işe yarar? Kurumların ve teknoloji şirketlerinin verilerini güvenle saklar ve işler. Bakanlık, 2030'a kadar Türkiye'nin veri merkezi gücünü en az 1 gigavata çıkarmayı hedefliyor. Yapay zekâ çağında bu, oyunun enerjisi demek.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 32.74702947845805,
+ "kelimeler": [
+  {
+   "k": "İlk",
+   "bas": 0.0,
+   "son": 0.251
+  },
+  {
+   "k": "durağımız",
+   "bas": 0.251,
+   "son": 0.879
+  },
+  {
+   "k": "yine",
+   "bas": 0.879,
+   "son": 1.193
+  },
+  {
+   "k": "Türkiye.",
+   "bas": 1.193,
+   "son": 1.695
+  },
+  {
+   "k": "Sanayi",
+   "bas": 1.915,
+   "son": 2.319
+  },
+  {
+   "k": "ve",
+   "bas": 2.319,
+   "son": 2.491
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 2.491,
+   "son": 3.068
+  },
+  {
+   "k": "Bakanı",
+   "bas": 3.068,
+   "son": 3.471
+  },
+  {
+   "k": "Mehmet",
+   "bas": 3.471,
+   "son": 3.875
+  },
+  {
+   "k": "Fatih",
+   "bas": 3.875,
+   "son": 4.22
+  },
+  {
+   "k": "Kacır,",
+   "bas": 4.22,
+   "son": 4.566
+  },
+  {
+   "k": "20",
+   "bas": 4.566,
+   "son": 4.739
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 4.739,
+   "son": 5.143
+  },
+  {
+   "k": "Ankara",
+   "bas": 5.143,
+   "son": 5.546
+  },
+  {
+   "k": "Temelli'de",
+   "bas": 5.546,
+   "son": 6.122
+  },
+  {
+   "k": "yeni",
+   "bas": 6.122,
+   "son": 6.411
+  },
+  {
+   "k": "bir",
+   "bas": 6.411,
+   "son": 6.641
+  },
+  {
+   "k": "veri",
+   "bas": 6.641,
+   "son": 6.929
+  },
+  {
+   "k": "merkezinin",
+   "bas": 6.929,
+   "son": 7.563
+  },
+  {
+   "k": "temelini",
+   "bas": 7.563,
+   "son": 8.082
+  },
+  {
+   "k": "attı.",
+   "bas": 8.082,
+   "son": 8.37
+  },
+  {
+   "k": "İlk",
+   "bas": 8.59,
+   "son": 8.839
+  },
+  {
+   "k": "aşamada",
+   "bas": 8.839,
+   "son": 9.336
+  },
+  {
+   "k": "450",
+   "bas": 9.336,
+   "son": 9.585
+  },
+  {
+   "k": "milyon",
+   "bas": 9.585,
+   "son": 10.02
+  },
+  {
+   "k": "dolarlık",
+   "bas": 10.02,
+   "son": 10.58
+  },
+  {
+   "k": "yatırımla",
+   "bas": 10.58,
+   "son": 11.202
+  },
+  {
+   "k": "22",
+   "bas": 11.202,
+   "son": 11.388
+  },
+  {
+   "k": "megavatlık",
+   "bas": 11.388,
+   "son": 12.072
+  },
+  {
+   "k": "bir",
+   "bas": 12.072,
+   "son": 12.321
+  },
+  {
+   "k": "tesis",
+   "bas": 12.321,
+   "son": 12.694
+  },
+  {
+   "k": "kurulacak.",
+   "bas": 12.694,
+   "son": 13.315
+  },
+  {
+   "k": "Tüm",
+   "bas": 13.535,
+   "son": 13.78
+  },
+  {
+   "k": "aşamalar",
+   "bas": 13.78,
+   "son": 14.331
+  },
+  {
+   "k": "bitince",
+   "bas": 14.331,
+   "son": 14.821
+  },
+  {
+   "k": "toplam",
+   "bas": 14.821,
+   "son": 15.25
+  },
+  {
+   "k": "yatırım",
+   "bas": 15.25,
+   "son": 15.74
+  },
+  {
+   "k": "4,1",
+   "bas": 15.74,
+   "son": 15.924
+  },
+  {
+   "k": "milyar",
+   "bas": 15.924,
+   "son": 16.352
+  },
+  {
+   "k": "dolara",
+   "bas": 16.352,
+   "son": 16.781
+  },
+  {
+   "k": "ulaşacak.",
+   "bas": 16.781,
+   "son": 17.332
+  },
+  {
+   "k": "Peki",
+   "bas": 17.552,
+   "son": 17.835
+  },
+  {
+   "k": "veri",
+   "bas": 17.835,
+   "son": 18.117
+  },
+  {
+   "k": "merkezi",
+   "bas": 18.117,
+   "son": 18.57
+  },
+  {
+   "k": "ne",
+   "bas": 18.57,
+   "son": 18.74
+  },
+  {
+   "k": "işe",
+   "bas": 18.74,
+   "son": 18.966
+  },
+  {
+   "k": "yarar?",
+   "bas": 18.966,
+   "son": 19.305
+  },
+  {
+   "k": "Kurumların",
+   "bas": 19.525,
+   "son": 20.12
+  },
+  {
+   "k": "ve",
+   "bas": 20.12,
+   "son": 20.282
+  },
+  {
+   "k": "teknoloji",
+   "bas": 20.282,
+   "son": 20.823
+  },
+  {
+   "k": "şirketlerinin",
+   "bas": 20.823,
+   "son": 21.58
+  },
+  {
+   "k": "verilerini",
+   "bas": 21.58,
+   "son": 22.175
+  },
+  {
+   "k": "güvenle",
+   "bas": 22.175,
+   "son": 22.607
+  },
+  {
+   "k": "saklar",
+   "bas": 22.607,
+   "son": 22.986
+  },
+  {
+   "k": "ve",
+   "bas": 22.986,
+   "son": 23.148
+  },
+  {
+   "k": "işler.",
+   "bas": 23.148,
+   "son": 23.472
+  },
+  {
+   "k": "Bakanlık,",
+   "bas": 23.692,
+   "son": 24.264
+  },
+  {
+   "k": "2030'a",
+   "bas": 24.264,
+   "son": 24.644
+  },
+  {
+   "k": "kadar",
+   "bas": 24.644,
+   "son": 25.025
+  },
+  {
+   "k": "Türkiye'nin",
+   "bas": 25.025,
+   "son": 25.723
+  },
+  {
+   "k": "veri",
+   "bas": 25.723,
+   "son": 26.041
+  },
+  {
+   "k": "merkezi",
+   "bas": 26.041,
+   "son": 26.548
+  },
+  {
+   "k": "gücünü",
+   "bas": 26.548,
+   "son": 26.993
+  },
+  {
+   "k": "en",
+   "bas": 26.993,
+   "son": 27.183
+  },
+  {
+   "k": "az",
+   "bas": 27.183,
+   "son": 27.374
+  },
+  {
+   "k": "1",
+   "bas": 27.374,
+   "son": 27.5
+  },
+  {
+   "k": "gigavata",
+   "bas": 27.5,
+   "son": 28.072
+  },
+  {
+   "k": "çıkarmayı",
+   "bas": 28.072,
+   "son": 28.706
+  },
+  {
+   "k": "hedefliyor.",
+   "bas": 28.706,
+   "son": 29.405
+  },
+  {
+   "k": "Yapay",
+   "bas": 29.625,
+   "son": 30.02
+  },
+  {
+   "k": "zekâ",
+   "bas": 30.02,
+   "son": 30.35
+  },
+  {
+   "k": "çağında",
+   "bas": 30.35,
+   "son": 30.878
+  },
+  {
+   "k": "bu,",
+   "bas": 30.878,
+   "son": 31.076
+  },
+  {
+   "k": "oyunun",
+   "bas": 31.076,
+   "son": 31.538
+  },
+  {
+   "k": "enerjisi",
+   "bas": 31.538,
+   "son": 32.131
+  },
+  {
+   "k": "demek.",
+   "bas": 32.131,
+   "son": 32.527
+  }
+ ]
+}

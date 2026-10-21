@@ -6,3 +6,4 @@ logs/*.log
 logs/*.txt
 # Ara dosyalar (yeniden üretilebilir)
 bolumler/*/ara/
+models/

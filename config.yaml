@@ -19,9 +19,10 @@ video:
   guvenli_alan: {ust: 220, alt: 380, sag: 140}
 
 tts:
-  servis: edge              # edge | espeak (çevrimdışı taslak, sadece test için)
-  ses: tr-TR-AhmetNeural    # her videoda aynı ses (marka tutarlılığı). Kullanıcı seçimi 2026-10-20. Sunucu aralıklı boş dönebiliyor: tts.py tekrar çalıştırılınca eksik parçaları tamamlar
-  hiz: "+8%"
+  servis: piper             # piper (bilgisayarda, ücretsiz, kararlı) | edge | espeak
+  ses: tr-TR-AhmetNeural    # sadece servis: edge iken (sunucu çoğu zaman boş dönüyor)
+  piper_ses: tr_TR-fahrettin-medium   # marka sesi (erkek). models/piper/ içine indirilir
+  hiz: "+0%"
   hedef_lufs: -16
 
 muzik:

@@ -247,7 +247,10 @@ class Render:
         yk = YaziKatmani()
         cx = SW * OLCEK // 2
         logo(yk, cx, 330, 150)
-        yk.yaz(k.get("ust", ""), cx, 650, "orta", ad="piksel", boyut=150, bant="altin", kenar=8)
+        ust_boyut = 150
+        while ust_boyut > 60 and yazi_genislik(k.get("ust", ""), "piksel", ust_boyut) > 900:
+            ust_boyut -= 10
+        yk.yaz(k.get("ust", ""), cx, 650, "orta", ad="piksel", boyut=ust_boyut, bant="altin", kenar=8)
         for j, satir in enumerate(k.get("alt_satirlar", [])):
             yk.yaz(satir, cx, 930 + j * 115, "orta", ad="piksel", boyut=71, renk="beyaz", kenar=8)
         yk.yaz(k.get("bolum_etiketi", ""), cx, 1450, "orta", ad="marka", boyut=110, bant="altin")

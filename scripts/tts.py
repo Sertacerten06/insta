@@ -7,6 +7,14 @@ Her senaryo bölümü için ayrı bir ses dosyası ve kelime zaman damgaları ü
 Ekranda görünen kelimeler `metin`den gelir; TTS'e `config/okunus.json` ile düzeltilmiş
 `konusma` gönderilir. Zaman damgaları ekrandaki kelimelere geri eşlenir.
 
+Servisler (config.yaml -> tts.servis):
+  piper : çevrimdışı, ücretsiz, bilgisayarda çalışır (varsayılan, tr_TR-fahrettin-medium erkek sesi).
+          Cümle cümle sentezlenir; kelime zamanları cümle içinde harf sayısına göre dağıtılır.
+          Çıktı <id>.wav. Kurulum: pip install piper-tts ;
+          python -m piper.download_voices tr_TR-fahrettin-medium --data-dir models/piper
+  edge  : Microsoft edge-tts (ücretsiz ama tr-TR-AhmetNeural sunucuda çoğu zaman boş dönüyor).
+  espeak: sadece test için robotik taslak.
+
 Kullanım (PowerShell):
   python scripts/tts.py --bolum 1
 """
@@ -17,6 +25,7 @@ import re
 import subprocess
 import sys
 import time
+import wave
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from ortak import KOK, ayarlar, bolum_dizini, senaryo  # noqa: E402
@@ -114,6 +123,58 @@ def espeak_uret(metin, mp3_yolu):
     return []
 
 
+def piper_uret(ekran, okunan, model, hiz, wav_yolu):
+    """Cümle cümle Piper sentezi. Dönüş: ekran kelimesi başına [bas, son] listesi."""
+    import numpy as np
+    from piper import PiperVoice
+    ses = PiperVoice.load(str(model))
+    oran = ses.config.sample_rate
+    length_scale = 1.0 / (1.0 + float(str(hiz).strip("%+")) / 100.0) if hiz else 1.0
+    # ekran kelimelerini cümlelere böl
+    cumleler, cumle = [], []
+    for i, k in enumerate(ekran):
+        cumle.append(i)
+        if k.rstrip("\"”'")[-1:] in ".!?":
+            cumleler.append(cumle)
+            cumle = []
+    if cumle:
+        cumleler.append(cumle)
+    parcalar, zamanlar, t = [], [None] * len(ekran), 0.0
+    bosluk = np.zeros(int(0.22 * oran), dtype=np.int16)
+    for c in cumleler:
+        metin = " ".join(okunan[i] for i in c)
+        ham = _piper_sentez(ses, metin, length_scale)
+        sure_c = len(ham) / oran
+        agirlik = [len(sade(okunan[i])) + 1 for i in c]
+        toplam = sum(agirlik)
+        a = t
+        for i, w in zip(c, agirlik):
+            b = a + sure_c * w / toplam
+            zamanlar[i] = [round(a, 3), round(b, 3)]
+            a = b
+        parcalar += [ham, bosluk]
+        t += sure_c + len(bosluk) / oran
+    veri = np.concatenate(parcalar)
+    with wave.open(str(wav_yolu), "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(oran)
+        w.writeframes(veri.tobytes())
+    return zamanlar, len(veri) / oran
+
+
+def _piper_sentez(ses, metin, length_scale):
+    """piper-tts 1.3+ (synthesize -> AudioChunk) ve eski sürümler (synthesize_stream_raw) için."""
+    import numpy as np
+    try:
+        from piper import SynthesisConfig
+        cfg = SynthesisConfig(length_scale=length_scale)
+        return np.concatenate([c.audio_int16_array for c in ses.synthesize(metin, syn_config=cfg)])
+    except ImportError:
+        ham = b"".join(ses.synthesize_stream_raw(metin, length_scale=length_scale))
+        return np.frombuffer(ham, dtype=np.int16)
+
+
 def sure(yol, sinirlar=()):
     try:
         out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -127,7 +188,7 @@ def sure(yol, sinirlar=()):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--bolum", type=int, required=True)
-    ap.add_argument("--servis", choices=["edge", "espeak"])
+    ap.add_argument("--servis", choices=["piper", "edge", "espeak"])
     ap.add_argument("--yeniden", action="store_true", help="hazır parçaları da baştan üret")
     args = ap.parse_args()
 
@@ -142,10 +203,12 @@ def main():
         okunan = [kelimeyi_oku(k, sozluk) for k in ekran]
         konusma = " ".join(okunan)
         mp3 = hedef / f"{parca['id']}.mp3"
+        wav = hedef / f"{parca['id']}.wav"
         js = hedef / f"{parca['id']}.json"
-        ses_adi = ayar["ses"] if servis == "edge" else "espeak-ng tr"
+        ses_adi = {"edge": ayar["ses"], "piper": ayar.get("piper_ses", "tr_TR-fahrettin-medium")}.get(servis, "espeak-ng tr")
+        cikti = wav if servis == "piper" else mp3
         # aynı metin ve sesle üretilmiş parça varsa atla
-        if not args.yeniden and mp3.exists() and mp3.stat().st_size > 0 and js.exists():
+        if not args.yeniden and cikti.exists() and cikti.stat().st_size > 0 and js.exists():
             try:
                 eski = json.loads(js.read_text(encoding="utf-8"))
             except ValueError:
@@ -153,6 +216,15 @@ def main():
             if eski.get("konusma") == konusma and eski.get("ses") == ses_adi:
                 print(f"[{parca['id']}] hazır, atlandı")
                 continue
+        if servis == "piper":
+            model = KOK / "models" / "piper" / f"{ses_adi}.onnx"
+            zamanlar, toplam = piper_uret(ekran, okunan, model, ayar.get("hiz", "+0%"), wav)
+            mp3.unlink(missing_ok=True)  # eski edge sesi karışmasın
+            kayit = {"metin": parca["metin"], "konusma": konusma, "servis": servis, "ses": ses_adi,
+                     "sure": toplam, "kelimeler": [{"k": k, "bas": z[0], "son": z[1]} for k, z in zip(ekran, zamanlar)]}
+            js.write_text(json.dumps(kayit, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"[{parca['id']}] {toplam:.1f} sn (piper)")
+            continue
         # önce geçici dosyaya yaz; boş ses iyi bir mp3'ün üzerine yazılmasın
         gecici = hedef / f"{parca['id']}.tmp.mp3"
         for deneme in range(3):  # §15: en fazla 2 yeniden deneme

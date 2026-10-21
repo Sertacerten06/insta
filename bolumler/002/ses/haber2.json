@@ -1,1 +1,259 @@
-{"metin": "Şimdi dünyaya geçelim. OpenAI, ChatGPT'ye Slides adında yeni bir özellik ekledi. Artık bir sohbetten, yüklediğin dosyalardan ya da bir taslaktan sunum hazırlanabiliyor. Ekip arkadaşlarınla aynı sunumu aynı anda düzenleyebiliyor, PowerPoint ya da PDF olarak indirebiliyorsun. Şimdilik sadece Pro, Business ve Enterprise kullanıcılarına açık. Yani sunum ödevi bitmedi, ama yardımcın değişiyor.", "sure": 26.2, "kelimeler": [{"k": "Şimdi", "bas": 0.1, "son": 0.45}, {"k": "dünyaya", "bas": 0.5, "son": 0.95}, {"k": "geçelim.", "bas": 1.0, "son": 1.5}, {"k": "OpenAI,", "bas": 1.8, "son": 2.25}, {"k": "ChatGPT'ye", "bas": 2.3, "son": 2.9}, {"k": "Slides", "bas": 2.95, "son": 3.35}, {"k": "adında", "bas": 3.4, "son": 3.8}, {"k": "yeni", "bas": 3.85, "son": 4.15}, {"k": "bir", "bas": 4.2, "son": 4.45}, {"k": "özellik", "bas": 4.5, "son": 4.95}, {"k": "ekledi.", "bas": 5.0, "son": 5.45}, {"k": "Artık", "bas": 5.75, "son": 6.1}, {"k": "bir", "bas": 6.15, "son": 6.4}, {"k": "sohbetten,", "bas": 6.45, "son": 7.05}, {"k": "yüklediğin", "bas": 7.1, "son": 7.7}, {"k": "dosyalardan", "bas": 7.75, "son": 8.4}, {"k": "ya", "bas": 8.45, "son": 8.65}, {"k": "da", "bas": 8.7, "son": 8.9}, {"k": "bir", "bas": 8.95, "son": 9.2}, {"k": "taslaktan", "bas": 9.25, "son": 9.8}, {"k": "sunum", "bas": 9.85, "son": 10.2}, {"k": "hazırlanabiliyor.", "bas": 10.25, "son": 11.2}, {"k": "Ekip", "bas": 11.5, "son": 11.8}, {"k": "arkadaşlarınla", "bas": 11.85, "son": 12.65}, {"k": "aynı", "bas": 12.7, "son": 13.0}, {"k": "sunumu", "bas": 13.05, "son": 13.45}, {"k": "aynı", "bas": 13.5, "son": 13.8}, {"k": "anda", "bas": 13.85, "son": 14.15}, {"k": "düzenleyebiliyor,", "bas": 14.2, "son": 15.15}, {"k": "PowerPoint", "bas": 15.2, "son": 15.8}, {"k": "ya", "bas": 15.85, "son": 16.05}, {"k": "da", "bas": 16.1, "son": 16.3}, {"k": "PDF", "bas": 16.35, "son": 16.6}, {"k": "olarak", "bas": 16.65, "son": 17.05}, {"k": "indirebiliyorsun.", "bas": 17.1, "son": 18.05}, {"k": "Şimdilik", "bas": 18.35, "son": 18.85}, {"k": "sadece", "bas": 18.9, "son": 19.3}, {"k": "Pro,", "bas": 19.35, "son": 19.65}, {"k": "Business", "bas": 19.7, "son": 20.2}, {"k": "ve", "bas": 20.25, "son": 20.45}, {"k": "Enterprise", "bas": 20.5, "son": 21.1}, {"k": "kullanıcılarına", "bas": 21.15, "son": 22.0}, {"k": "açık.", "bas": 22.05, "son": 22.4}, {"k": "Yani", "bas": 22.7, "son": 23.0}, {"k": "sunum", "bas": 23.05, "son": 23.4}, {"k": "ödevi", "bas": 23.45, "son": 23.8}, {"k": "bitmedi,", "bas": 23.85, "son": 24.35}, {"k": "ama", "bas": 24.4, "son": 24.65}, {"k": "yardımcın", "bas": 24.7, "son": 25.25}, {"k": "değişiyor.", "bas": 25.3, "son": 25.9}], "ses": "taslak"}
+{
+ "metin": "Şimdi dünyaya geçelim. OpenAI, ChatGPT'ye Slides adında yeni bir özellik ekledi. Artık bir sohbetten, yüklediğin dosyalardan ya da bir taslaktan sunum hazırlanabiliyor. Ekip arkadaşlarınla aynı sunumu aynı anda düzenleyebiliyor, PowerPoint ya da PDF olarak indirebiliyorsun. Şimdilik sadece Pro, Business ve Enterprise kullanıcılarına açık. Yani sunum ödevi bitmedi, ama yardımcın değişiyor.",
+ "konusma": "Şimdi dünyaya geçelim. open ey ay, çet ci pi ti'ye slayds adında yeni bir özellik ekledi. Artık bir sohbetten, yüklediğin dosyalardan ya da bir taslaktan sunum hazırlanabiliyor. Ekip arkadaşlarınla aynı sunumu aynı anda düzenleyebiliyor, pavır point ya da pe de fe olarak indirebiliyorsun. Şimdilik sadece Pro, biznıs ve entırprayz kullanıcılarına açık. Yani sunum ödevi bitmedi, ama yardımcın değişiyor.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 24.09877551020408,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.358
+  },
+  {
+   "k": "dünyaya",
+   "bas": 0.358,
+   "son": 0.835
+  },
+  {
+   "k": "geçelim.",
+   "bas": 0.835,
+   "son": 1.312
+  },
+  {
+   "k": "OpenAI,",
+   "bas": 1.532,
+   "son": 2.123
+  },
+  {
+   "k": "ChatGPT'ye",
+   "bas": 2.123,
+   "son": 2.912
+  },
+  {
+   "k": "Slides",
+   "bas": 2.912,
+   "son": 3.372
+  },
+  {
+   "k": "adında",
+   "bas": 3.372,
+   "son": 3.832
+  },
+  {
+   "k": "yeni",
+   "bas": 3.832,
+   "son": 4.161
+  },
+  {
+   "k": "bir",
+   "bas": 4.161,
+   "son": 4.424
+  },
+  {
+   "k": "özellik",
+   "bas": 4.424,
+   "son": 4.95
+  },
+  {
+   "k": "ekledi.",
+   "bas": 4.95,
+   "son": 5.41
+  },
+  {
+   "k": "Artık",
+   "bas": 5.63,
+   "son": 5.954
+  },
+  {
+   "k": "bir",
+   "bas": 5.954,
+   "son": 6.17
+  },
+  {
+   "k": "sohbetten,",
+   "bas": 6.17,
+   "son": 6.71
+  },
+  {
+   "k": "yüklediğin",
+   "bas": 6.71,
+   "son": 7.304
+  },
+  {
+   "k": "dosyalardan",
+   "bas": 7.304,
+   "son": 7.952
+  },
+  {
+   "k": "ya",
+   "bas": 7.952,
+   "son": 8.114
+  },
+  {
+   "k": "da",
+   "bas": 8.114,
+   "son": 8.276
+  },
+  {
+   "k": "bir",
+   "bas": 8.276,
+   "son": 8.492
+  },
+  {
+   "k": "taslaktan",
+   "bas": 8.492,
+   "son": 9.032
+  },
+  {
+   "k": "sunum",
+   "bas": 9.032,
+   "son": 9.356
+  },
+  {
+   "k": "hazırlanabiliyor.",
+   "bas": 9.356,
+   "son": 10.274
+  },
+  {
+   "k": "Ekip",
+   "bas": 10.494,
+   "son": 10.777
+  },
+  {
+   "k": "arkadaşlarınla",
+   "bas": 10.777,
+   "son": 11.626
+  },
+  {
+   "k": "aynı",
+   "bas": 11.626,
+   "son": 11.91
+  },
+  {
+   "k": "sunumu",
+   "bas": 11.91,
+   "son": 12.306
+  },
+  {
+   "k": "aynı",
+   "bas": 12.306,
+   "son": 12.589
+  },
+  {
+   "k": "anda",
+   "bas": 12.589,
+   "son": 12.873
+  },
+  {
+   "k": "düzenleyebiliyor,",
+   "bas": 12.873,
+   "son": 13.835
+  },
+  {
+   "k": "PowerPoint",
+   "bas": 13.835,
+   "son": 14.458
+  },
+  {
+   "k": "ya",
+   "bas": 14.458,
+   "son": 14.628
+  },
+  {
+   "k": "da",
+   "bas": 14.628,
+   "son": 14.798
+  },
+  {
+   "k": "PDF",
+   "bas": 14.798,
+   "son": 15.195
+  },
+  {
+   "k": "olarak",
+   "bas": 15.195,
+   "son": 15.591
+  },
+  {
+   "k": "indirebiliyorsun.",
+   "bas": 15.591,
+   "son": 16.554
+  },
+  {
+   "k": "Şimdilik",
+   "bas": 16.774,
+   "son": 17.334
+  },
+  {
+   "k": "sadece",
+   "bas": 17.334,
+   "son": 17.769
+  },
+  {
+   "k": "Pro,",
+   "bas": 17.769,
+   "son": 18.017
+  },
+  {
+   "k": "Business",
+   "bas": 18.017,
+   "son": 18.453
+  },
+  {
+   "k": "ve",
+   "bas": 18.453,
+   "son": 18.639
+  },
+  {
+   "k": "Enterprise",
+   "bas": 18.639,
+   "son": 19.323
+  },
+  {
+   "k": "kullanıcılarına",
+   "bas": 19.323,
+   "son": 20.318
+  },
+  {
+   "k": "açık.",
+   "bas": 20.318,
+   "son": 20.629
+  },
+  {
+   "k": "Yani",
+   "bas": 20.849,
+   "son": 21.158
+  },
+  {
+   "k": "sunum",
+   "bas": 21.158,
+   "son": 21.529
+  },
+  {
+   "k": "ödevi",
+   "bas": 21.529,
+   "son": 21.9
+  },
+  {
+   "k": "bitmedi,",
+   "bas": 21.9,
+   "son": 22.395
+  },
+  {
+   "k": "ama",
+   "bas": 22.395,
+   "son": 22.642
+  },
+  {
+   "k": "yardımcın",
+   "bas": 22.642,
+   "son": 23.26
+  },
+  {
+   "k": "değişiyor.",
+   "bas": 23.26,
+   "son": 23.879
+  }
+ ]
+}

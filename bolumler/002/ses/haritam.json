@@ -1,1 +1,354 @@
-{"metin": "Peki ya sınav hazırlığı? Bilgi çok, zaman az. YKS'de seni en çok yoran şeylerden biri, hangi konuyu nereden çalışacağını bulmak. İşte burada YKS Haritam'ın konu özetleri devreye giriyor! TYT ve AYT konularının özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında hangi konu varsa, özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Ve Vertex'in yapay zekâsı Cortex, çok yakında konu özetlerine de güç katacak.", "sure": 32.8, "kelimeler": [{"k": "Peki", "bas": 0.1, "son": 0.4}, {"k": "ya", "bas": 0.45, "son": 0.65}, {"k": "sınav", "bas": 0.7, "son": 1.05}, {"k": "hazırlığı?", "bas": 1.1, "son": 1.7}, {"k": "Bilgi", "bas": 2.0, "son": 2.35}, {"k": "çok,", "bas": 2.4, "son": 2.7}, {"k": "zaman", "bas": 2.75, "son": 3.1}, {"k": "az.", "bas": 3.15, "son": 3.4}, {"k": "YKS'de", "bas": 3.7, "son": 4.1}, {"k": "seni", "bas": 4.15, "son": 4.45}, {"k": "en", "bas": 4.5, "son": 4.7}, {"k": "çok", "bas": 4.75, "son": 5.0}, {"k": "yoran", "bas": 5.05, "son": 5.4}, {"k": "şeylerden", "bas": 5.45, "son": 6.0}, {"k": "biri,", "bas": 6.05, "son": 6.4}, {"k": "hangi", "bas": 6.45, "son": 6.8}, {"k": "konuyu", "bas": 6.85, "son": 7.25}, {"k": "nereden", "bas": 7.3, "son": 7.75}, {"k": "çalışacağını", "bas": 7.8, "son": 8.5}, {"k": "bulmak.", "bas": 8.55, "son": 9.0}, {"k": "İşte", "bas": 9.3, "son": 9.6}, {"k": "burada", "bas": 9.65, "son": 10.05}, {"k": "YKS", "bas": 10.1, "son": 10.35}, {"k": "Haritam'ın", "bas": 10.4, "son": 11.0}, {"k": "konu", "bas": 11.05, "son": 11.35}, {"k": "özetleri", "bas": 11.4, "son": 11.9}, {"k": "devreye", "bas": 11.95, "son": 12.4}, {"k": "giriyor!", "bas": 12.45, "son": 12.95}, {"k": "TYT", "bas": 13.25, "son": 13.5}, {"k": "ve", "bas": 13.55, "son": 13.75}, {"k": "AYT", "bas": 13.8, "son": 14.05}, {"k": "konularının", "bas": 14.1, "son": 14.75}, {"k": "özetleri", "bas": 14.8, "son": 15.3}, {"k": "tek", "bas": 15.35, "son": 15.6}, {"k": "yerde.", "bas": 15.65, "son": 16.05}, {"k": "Üstelik", "bas": 16.35, "son": 16.8}, {"k": "haftalık", "bas": 16.85, "son": 17.35}, {"k": "programındaki", "bas": 17.4, "son": 18.15}, {"k": "konularla", "bas": 18.2, "son": 18.75}, {"k": "otomatik", "bas": 18.8, "son": 19.3}, {"k": "eşleşiyor.", "bas": 19.35, "son": 19.95}, {"k": "Bugün", "bas": 20.25, "son": 20.6}, {"k": "programında", "bas": 20.65, "son": 21.3}, {"k": "hangi", "bas": 21.35, "son": 21.7}, {"k": "konu", "bas": 21.75, "son": 22.05}, {"k": "varsa,", "bas": 22.1, "son": 22.5}, {"k": "özeti", "bas": 22.55, "son": 22.9}, {"k": "de", "bas": 22.95, "son": 23.15}, {"k": "hazır.", "bas": 23.2, "son": 23.6}, {"k": "Ekstra", "bas": 23.9, "son": 24.3}, {"k": "kaynak", "bas": 24.35, "son": 24.75}, {"k": "aramak", "bas": 24.8, "son": 25.2}, {"k": "yok,", "bas": 25.25, "son": 25.55}, {"k": "sayfa", "bas": 25.6, "son": 25.95}, {"k": "sayfa", "bas": 26.0, "son": 26.35}, {"k": "gezmek", "bas": 26.4, "son": 26.8}, {"k": "yok.", "bas": 26.85, "son": 27.15}, {"k": "Ve", "bas": 27.45, "son": 27.65}, {"k": "Vertex'in", "bas": 27.7, "son": 28.25}, {"k": "yapay", "bas": 28.3, "son": 28.65}, {"k": "zekâsı", "bas": 28.7, "son": 29.1}, {"k": "Cortex,", "bas": 29.15, "son": 29.6}, {"k": "çok", "bas": 29.65, "son": 29.9}, {"k": "yakında", "bas": 29.95, "son": 30.4}, {"k": "konu", "bas": 30.45, "son": 30.75}, {"k": "özetlerine", "bas": 30.8, "son": 31.4}, {"k": "de", "bas": 31.45, "son": 31.65}, {"k": "güç", "bas": 31.7, "son": 31.95}, {"k": "katacak.", "bas": 32.0, "son": 32.5}], "ses": "taslak"}
+{
+ "metin": "Peki ya sınav hazırlığı? Bilgi çok, zaman az. YKS'de seni en çok yoran şeylerden biri, hangi konuyu nereden çalışacağını bulmak. İşte burada YKS Haritam'ın konu özetleri devreye giriyor! TYT ve AYT konularının özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında hangi konu varsa, özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Ve Vertex'in yapay zekâsı Cortex, çok yakında konu özetlerine de güç katacak.",
+ "konusma": "Peki ya sınav hazırlığı? Bilgi çok, zaman az. ye ka se'de seni en çok yoran şeylerden biri, hangi konuyu nereden çalışacağını bulmak. İşte burada ye ka se Haritam'ın konu özetleri devreye giriyor! te ye te ve a ye te konularının özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında hangi konu varsa, özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Ve Vertex'in yapay zekâsı korteks, çok yakında konu özetlerine de güç katacak.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 29.29827664399093,
+ "kelimeler": [
+  {
+   "k": "Peki",
+   "bas": 0.0,
+   "son": 0.307
+  },
+  {
+   "k": "ya",
+   "bas": 0.307,
+   "son": 0.491
+  },
+  {
+   "k": "sınav",
+   "bas": 0.491,
+   "son": 0.86
+  },
+  {
+   "k": "hazırlığı?",
+   "bas": 0.86,
+   "son": 1.474
+  },
+  {
+   "k": "Bilgi",
+   "bas": 1.694,
+   "son": 2.164
+  },
+  {
+   "k": "çok,",
+   "bas": 2.164,
+   "son": 2.477
+  },
+  {
+   "k": "zaman",
+   "bas": 2.477,
+   "son": 2.946
+  },
+  {
+   "k": "az.",
+   "bas": 2.946,
+   "son": 3.181
+  },
+  {
+   "k": "YKS'de",
+   "bas": 3.401,
+   "son": 3.893
+  },
+  {
+   "k": "seni",
+   "bas": 3.893,
+   "son": 4.166
+  },
+  {
+   "k": "en",
+   "bas": 4.166,
+   "son": 4.33
+  },
+  {
+   "k": "çok",
+   "bas": 4.33,
+   "son": 4.549
+  },
+  {
+   "k": "yoran",
+   "bas": 4.549,
+   "son": 4.877
+  },
+  {
+   "k": "şeylerden",
+   "bas": 4.877,
+   "son": 5.424
+  },
+  {
+   "k": "biri,",
+   "bas": 5.424,
+   "son": 5.698
+  },
+  {
+   "k": "hangi",
+   "bas": 5.698,
+   "son": 6.026
+  },
+  {
+   "k": "konuyu",
+   "bas": 6.026,
+   "son": 6.409
+  },
+  {
+   "k": "nereden",
+   "bas": 6.409,
+   "son": 6.846
+  },
+  {
+   "k": "çalışacağını",
+   "bas": 6.846,
+   "son": 7.557
+  },
+  {
+   "k": "bulmak.",
+   "bas": 7.557,
+   "son": 7.94
+  },
+  {
+   "k": "İşte",
+   "bas": 8.16,
+   "son": 8.444
+  },
+  {
+   "k": "burada",
+   "bas": 8.444,
+   "son": 8.842
+  },
+  {
+   "k": "YKS",
+   "bas": 8.842,
+   "son": 9.241
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 9.241,
+   "son": 9.809
+  },
+  {
+   "k": "konu",
+   "bas": 9.809,
+   "son": 10.094
+  },
+  {
+   "k": "özetleri",
+   "bas": 10.094,
+   "son": 10.605
+  },
+  {
+   "k": "devreye",
+   "bas": 10.605,
+   "son": 11.06
+  },
+  {
+   "k": "giriyor!",
+   "bas": 11.06,
+   "son": 11.515
+  },
+  {
+   "k": "TYT",
+   "bas": 11.735,
+   "son": 12.138
+  },
+  {
+   "k": "ve",
+   "bas": 12.138,
+   "son": 12.311
+  },
+  {
+   "k": "AYT",
+   "bas": 12.311,
+   "son": 12.656
+  },
+  {
+   "k": "konularının",
+   "bas": 12.656,
+   "son": 13.347
+  },
+  {
+   "k": "özetleri",
+   "bas": 13.347,
+   "son": 13.865
+  },
+  {
+   "k": "tek",
+   "bas": 13.865,
+   "son": 14.095
+  },
+  {
+   "k": "yerde.",
+   "bas": 14.095,
+   "son": 14.44
+  },
+  {
+   "k": "Üstelik",
+   "bas": 14.66,
+   "son": 15.069
+  },
+  {
+   "k": "haftalık",
+   "bas": 15.069,
+   "son": 15.529
+  },
+  {
+   "k": "programındaki",
+   "bas": 15.529,
+   "son": 16.244
+  },
+  {
+   "k": "konularla",
+   "bas": 16.244,
+   "son": 16.755
+  },
+  {
+   "k": "otomatik",
+   "bas": 16.755,
+   "son": 17.215
+  },
+  {
+   "k": "eşleşiyor.",
+   "bas": 17.215,
+   "son": 17.725
+  },
+  {
+   "k": "Bugün",
+   "bas": 17.945,
+   "son": 18.322
+  },
+  {
+   "k": "programında",
+   "bas": 18.322,
+   "son": 19.074
+  },
+  {
+   "k": "hangi",
+   "bas": 19.074,
+   "son": 19.45
+  },
+  {
+   "k": "konu",
+   "bas": 19.45,
+   "son": 19.764
+  },
+  {
+   "k": "varsa,",
+   "bas": 19.764,
+   "son": 20.14
+  },
+  {
+   "k": "özeti",
+   "bas": 20.14,
+   "son": 20.516
+  },
+  {
+   "k": "de",
+   "bas": 20.516,
+   "son": 20.704
+  },
+  {
+   "k": "hazır.",
+   "bas": 20.704,
+   "son": 21.08
+  },
+  {
+   "k": "Ekstra",
+   "bas": 21.3,
+   "son": 21.756
+  },
+  {
+   "k": "kaynak",
+   "bas": 21.756,
+   "son": 22.211
+  },
+  {
+   "k": "aramak",
+   "bas": 22.211,
+   "son": 22.667
+  },
+  {
+   "k": "yok,",
+   "bas": 22.667,
+   "son": 22.927
+  },
+  {
+   "k": "sayfa",
+   "bas": 22.927,
+   "son": 23.317
+  },
+  {
+   "k": "sayfa",
+   "bas": 23.317,
+   "son": 23.708
+  },
+  {
+   "k": "gezmek",
+   "bas": 23.708,
+   "son": 24.163
+  },
+  {
+   "k": "yok.",
+   "bas": 24.163,
+   "son": 24.423
+  },
+  {
+   "k": "Ve",
+   "bas": 24.643,
+   "son": 24.818
+  },
+  {
+   "k": "Vertex'in",
+   "bas": 24.818,
+   "son": 25.344
+  },
+  {
+   "k": "yapay",
+   "bas": 25.344,
+   "son": 25.694
+  },
+  {
+   "k": "zekâsı",
+   "bas": 25.694,
+   "son": 26.102
+  },
+  {
+   "k": "Cortex,",
+   "bas": 26.102,
+   "son": 26.569
+  },
+  {
+   "k": "çok",
+   "bas": 26.569,
+   "son": 26.802
+  },
+  {
+   "k": "yakında",
+   "bas": 26.802,
+   "son": 27.269
+  },
+  {
+   "k": "konu",
+   "bas": 27.269,
+   "son": 27.561
+  },
+  {
+   "k": "özetlerine",
+   "bas": 27.561,
+   "son": 28.203
+  },
+  {
+   "k": "de",
+   "bas": 28.203,
+   "son": 28.378
+  },
+  {
+   "k": "güç",
+   "bas": 28.378,
+   "son": 28.611
+  },
+  {
+   "k": "katacak.",
+   "bas": 28.611,
+   "son": 29.078
+  }
+ ]
+}

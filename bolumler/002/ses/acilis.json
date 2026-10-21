@@ -1,1 +1,94 @@
-{"metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ikinci bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.", "sure": 8.8, "kelimeler": [{"k": "Arpama", "bas": 0.1, "son": 0.5}, {"k": "Teknoloji", "bas": 0.55, "son": 1.1}, {"k": "Gündemi'ne", "bas": 1.15, "son": 1.75}, {"k": "hoş", "bas": 1.8, "son": 2.05}, {"k": "geldin,", "bas": 2.1, "son": 2.55}, {"k": "bu", "bas": 2.6, "son": 2.8}, {"k": "ikinci", "bas": 2.85, "son": 3.25}, {"k": "bölümümüz.", "bas": 3.3, "son": 3.9}, {"k": "Yazılım", "bas": 4.2, "son": 4.65}, {"k": "ve", "bas": 4.7, "son": 4.9}, {"k": "teknoloji", "bas": 4.95, "son": 5.5}, {"k": "dünyasından", "bas": 5.55, "son": 6.2}, {"k": "en", "bas": 6.25, "son": 6.45}, {"k": "önemli", "bas": 6.5, "son": 6.9}, {"k": "gelişmeler,", "bas": 6.95, "son": 7.6}, {"k": "iki", "bas": 7.65, "son": 7.9}, {"k": "dakikada.", "bas": 7.95, "son": 8.5}], "ses": "taslak"}
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ikinci bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ikinci bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 7.77750566893424,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.404
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.404,
+   "son": 0.98
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.98,
+   "son": 1.557
+  },
+  {
+   "k": "hoş",
+   "bas": 1.557,
+   "son": 1.787
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.787,
+   "son": 2.191
+  },
+  {
+   "k": "bu",
+   "bas": 2.191,
+   "son": 2.364
+  },
+  {
+   "k": "ikinci",
+   "bas": 2.364,
+   "son": 2.767
+  },
+  {
+   "k": "bölümümüz.",
+   "bas": 2.767,
+   "son": 3.344
+  },
+  {
+   "k": "Yazılım",
+   "bas": 3.564,
+   "son": 4.041
+  },
+  {
+   "k": "ve",
+   "bas": 4.041,
+   "son": 4.219
+  },
+  {
+   "k": "teknoloji",
+   "bas": 4.219,
+   "son": 4.815
+  },
+  {
+   "k": "dünyasından",
+   "bas": 4.815,
+   "son": 5.531
+  },
+  {
+   "k": "en",
+   "bas": 5.531,
+   "son": 5.71
+  },
+  {
+   "k": "önemli",
+   "bas": 5.71,
+   "son": 6.127
+  },
+  {
+   "k": "gelişmeler,",
+   "bas": 6.127,
+   "son": 6.783
+  },
+  {
+   "k": "iki",
+   "bas": 6.783,
+   "son": 7.021
+  },
+  {
+   "k": "dakikada.",
+   "bas": 7.021,
+   "son": 7.558
+  }
+ ]
+}

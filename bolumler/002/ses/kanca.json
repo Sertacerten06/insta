@@ -1,1 +1,64 @@
-{"metin": "Ankara'ya 4,1 milyar dolarlık dev bir veri merkezi geliyor! Hazırsan başlıyoruz!", "sure": 5.75, "kelimeler": [{"k": "Ankara'ya", "bas": 0.1, "son": 0.65}, {"k": "4,1", "bas": 0.7, "son": 0.95}, {"k": "milyar", "bas": 1.0, "son": 1.4}, {"k": "dolarlık", "bas": 1.45, "son": 1.95}, {"k": "dev", "bas": 2.0, "son": 2.25}, {"k": "bir", "bas": 2.3, "son": 2.55}, {"k": "veri", "bas": 2.6, "son": 2.9}, {"k": "merkezi", "bas": 2.95, "son": 3.4}, {"k": "geliyor!", "bas": 3.45, "son": 3.95}, {"k": "Hazırsan", "bas": 4.25, "son": 4.75}, {"k": "başlıyoruz!", "bas": 4.8, "son": 5.45}], "ses": "taslak"}
+{
+ "metin": "Ankara'ya 4,1 milyar dolarlık dev bir veri merkezi geliyor! Hazırsan başlıyoruz!",
+ "konusma": "Ankara'ya 4,1 milyar dolarlık dev bir veri merkezi geliyor! Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 5.722539682539683,
+ "kelimeler": [
+  {
+   "k": "Ankara'ya",
+   "bas": 0.0,
+   "son": 0.618
+  },
+  {
+   "k": "4,1",
+   "bas": 0.618,
+   "son": 0.824
+  },
+  {
+   "k": "milyar",
+   "bas": 0.824,
+   "son": 1.304
+  },
+  {
+   "k": "dolarlık",
+   "bas": 1.304,
+   "son": 1.922
+  },
+  {
+   "k": "dev",
+   "bas": 1.922,
+   "son": 2.197
+  },
+  {
+   "k": "bir",
+   "bas": 2.197,
+   "son": 2.471
+  },
+  {
+   "k": "veri",
+   "bas": 2.471,
+   "son": 2.814
+  },
+  {
+   "k": "merkezi",
+   "bas": 2.814,
+   "son": 3.363
+  },
+  {
+   "k": "geliyor!",
+   "bas": 3.363,
+   "son": 3.913
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 4.133,
+   "son": 4.749
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 4.749,
+   "son": 5.503
+  }
+ ]
+}

@@ -1,59 +1,59 @@
 {
  "metin": "Okuldaki yazılı sorularını yakında yapay zekâ mı hazırlayacak? Hazırsan başlıyoruz!",
  "konusma": "Okuldaki yazılı sorularını yakında yapay zekâ mı hazırlayacak? Hazırsan başlıyoruz!",
- "servis": "edge",
- "ses": "tr-TR-EmelNeural",
- "sure": 5.982875,
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 5.1420408163265305,
  "kelimeler": [
   {
    "k": "Okuldaki",
-   "bas": 0.096,
-   "son": 0.559
+   "bas": 0.0,
+   "son": 0.462
   },
   {
    "k": "yazılı",
-   "bas": 0.559,
-   "son": 0.872
+   "bas": 0.462,
+   "son": 0.821
   },
   {
    "k": "sorularını",
-   "bas": 0.872,
-   "son": 1.346
+   "bas": 0.821,
+   "son": 1.385
   },
   {
    "k": "yakında",
-   "bas": 1.346,
-   "son": 1.705
+   "bas": 1.385,
+   "son": 1.796
   },
   {
    "k": "yapay",
-   "bas": 1.705,
-   "son": 2.018
+   "bas": 1.796,
+   "son": 2.104
   },
   {
    "k": "zekâ",
-   "bas": 2.018,
-   "son": 2.33
+   "bas": 2.104,
+   "son": 2.36
   },
   {
    "k": "mı",
-   "bas": 2.353,
-   "son": 2.457
+   "bas": 2.36,
+   "son": 2.514
   },
   {
    "k": "hazırlayacak?",
-   "bas": 2.457,
-   "son": 3.106
+   "bas": 2.514,
+   "son": 3.181
   },
   {
    "k": "Hazırsan",
-   "bas": 4.456,
-   "son": 5.0
+   "bas": 3.401,
+   "son": 4.086
   },
   {
    "k": "başlıyoruz!",
-   "bas": 5.0,
-   "son": 5.683
+   "bas": 4.086,
+   "son": 4.922
   }
  ]
 }

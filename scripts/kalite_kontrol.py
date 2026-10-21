@@ -59,15 +59,17 @@ def main():
     lu = lufs(mp4)
     kontrol("ses ~-16 LUFS", lu is not None and abs(lu - ayar["tts"].get("hedef_lufs", -16)) <= 1.5, f"{lu} LUFS")
     sen = senaryo(args.bolum)
-    kontrol("Haritam bölümü var", any(b["sahne"] == "haritam" for b in sen["bolumler"]))
+    kontrol("Haritam bölümü var", any(b["sahne"].startswith("haritam") for b in sen["bolumler"]))
     cap = (bd / "caption.txt").read_text(encoding="utf-8") if (bd / "caption.txt").exists() else ""
     kontrol("caption'da kaynaklar ve haritam.arpama.tr", "Kaynaklar:" in cap and "haritam.arpama.tr" in cap)
     etiketler = re.findall(r"#\w+", cap)
     kontrol("hashtag 5–10, #arpama #haritam #yks var", 5 <= len(etiketler) <= 10 and
             {"#arpama", "#haritam", "#yks"} <= set(etiketler), f"{len(etiketler)} etiket")
+    tts = ayar["tts"]
+    marka_sesi = tts.get("piper_ses") if tts.get("servis") == "piper" else tts["ses"]
     kontrol("marka sesi config ile aynı", all(
-        json.loads((bd / "ses" / f"{b['id']}.json").read_text(encoding="utf-8")).get("ses") == ayar["tts"]["ses"]
-        for b in sen["bolumler"]), ayar["tts"]["ses"])
+        json.loads((bd / "ses" / f"{b['id']}.json").read_text(encoding="utf-8")).get("ses") == marka_sesi
+        for b in sen["bolumler"]), marka_sesi)
 
     kare_dir = bd / "kontrol"
     kare_dir.mkdir(exist_ok=True)

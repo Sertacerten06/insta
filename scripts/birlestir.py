@@ -103,7 +103,10 @@ def main():
     # 1) konuşma izi
     konusma = np.zeros(n)
     for s in zaman["sahneler"]:
-        yerlestir(konusma, oku(bd / "ses" / f"{s['id']}.mp3"), s["ses_bas"])
+        ses = bd / "ses" / f"{s['id']}.wav"
+        if not ses.exists():
+            ses = ses.with_suffix(".mp3")
+        yerlestir(konusma, oku(ses), s["ses_bas"])
     tepe = np.max(np.abs(konusma)) or 1
     konusma *= 0.7 / tepe
 

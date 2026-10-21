@@ -1,94 +1,94 @@
 {
  "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ilk bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
  "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ilk bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
- "servis": "edge",
- "ses": "tr-TR-EmelNeural",
- "sure": 8.077791,
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 7.6033560090702945,
  "kelimeler": [
   {
    "k": "Arpama",
-   "bas": 0.096,
-   "son": 0.467
+   "bas": 0.0,
+   "son": 0.395
   },
   {
    "k": "Teknoloji",
-   "bas": 0.467,
-   "son": 0.987
+   "bas": 0.395,
+   "son": 0.958
   },
   {
    "k": "Gündemi'ne",
-   "bas": 0.988,
-   "son": 1.439
+   "bas": 0.958,
+   "son": 1.522
   },
   {
    "k": "hoş",
-   "bas": 1.439,
-   "son": 1.693
+   "bas": 1.522,
+   "son": 1.747
   },
   {
    "k": "geldin,",
-   "bas": 1.694,
-   "son": 2.156
+   "bas": 1.747,
+   "son": 2.142
   },
   {
    "k": "bu",
-   "bas": 2.214,
-   "son": 2.376
+   "bas": 2.142,
+   "son": 2.311
   },
   {
    "k": "ilk",
-   "bas": 2.376,
-   "son": 2.562
+   "bas": 2.311,
+   "son": 2.536
   },
   {
    "k": "bölümümüz.",
-   "bas": 2.562,
-   "son": 3.117
+   "bas": 2.536,
+   "son": 3.1
   },
   {
    "k": "Yazılım",
-   "bas": 4.109,
-   "son": 4.514
+   "bas": 3.32,
+   "son": 3.805
   },
   {
    "k": "ve",
-   "bas": 4.525,
-   "son": 4.641
+   "bas": 3.805,
+   "son": 3.987
   },
   {
    "k": "teknoloji",
-   "bas": 4.641,
-   "son": 5.162
+   "bas": 3.987,
+   "son": 4.593
   },
   {
    "k": "dünyasından",
-   "bas": 5.162,
-   "son": 5.845
+   "bas": 4.593,
+   "son": 5.321
   },
   {
    "k": "en",
-   "bas": 5.856,
-   "son": 6.018
+   "bas": 5.321,
+   "son": 5.503
   },
   {
    "k": "önemli",
-   "bas": 6.019,
-   "son": 6.285
+   "bas": 5.503,
+   "son": 5.928
   },
   {
    "k": "gelişmeler,",
-   "bas": 6.285,
-   "son": 6.887
+   "bas": 5.928,
+   "son": 6.595
   },
   {
    "k": "iki",
-   "bas": 7.06,
-   "son": 7.211
+   "bas": 6.595,
+   "son": 6.838
   },
   {
    "k": "dakikada.",
-   "bas": 7.211,
-   "son": 7.778
+   "bas": 6.838,
+   "son": 7.383
   }
  ]
 }

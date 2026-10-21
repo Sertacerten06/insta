@@ -1,364 +1,364 @@
 {
  "metin": "İlk durağımız Türkiye. Millî Eğitim Bakanlığı, 16 Ekim'de yeni Ortak Yazılı Sınav Sistemi'ni tanıttı. Sistem bu dönemin ilk yazılılarından itibaren 5, 6 ve 7 ile 9, 10 ve 11. sınıflarda kullanılacak. Sorular açık uçlu olacak ve her sınav döneminde binlerce yeni soru sisteme eklenecek. Peki yapay zekâ nerede? Bakanlık, soru yazımında ve açık uçlu cevapların puanlanmasında yapay zekâ desteğini ilerleyen aşamada sisteme katmayı planlıyor. Yani şimdilik bir plan, ama yön belli.",
  "konusma": "İlk durağımız Türkiye. Millî Eğitim Bakanlığı, 16 Ekim'de yeni Ortak Yazılı Sınav Sistemi'ni tanıttı. Sistem bu dönemin ilk yazılılarından itibaren 5, 6 ve 7 ile 9, 10 ve 11. sınıflarda kullanılacak. Sorular açık uçlu olacak ve her sınav döneminde binlerce yeni soru sisteme eklenecek. Peki yapay zekâ nerede? Bakanlık, soru yazımında ve açık uçlu cevapların puanlanmasında yapay zekâ desteğini ilerleyen aşamada sisteme katmayı planlıyor. Yani şimdilik bir plan, ama yön belli.",
- "servis": "edge",
- "ses": "tr-TR-EmelNeural",
- "sure": 34.512958,
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 29.217596371882085,
  "kelimeler": [
   {
    "k": "İlk",
-   "bas": 0.096,
-   "son": 0.27
+   "bas": 0.0,
+   "son": 0.255
   },
   {
    "k": "durağımız",
-   "bas": 0.316,
-   "son": 0.814
+   "bas": 0.255,
+   "son": 0.894
   },
   {
    "k": "Türkiye.",
-   "bas": 0.814,
-   "son": 1.335
+   "bas": 0.894,
+   "son": 1.405
   },
   {
    "k": "Millî",
-   "bas": 2.245,
-   "son": 2.569
+   "bas": 1.625,
+   "son": 1.972
   },
   {
    "k": "Eğitim",
-   "bas": 2.581,
-   "son": 2.905
+   "bas": 1.972,
+   "son": 2.377
   },
   {
    "k": "Bakanlığı,",
-   "bas": 2.905,
-   "son": 3.414
+   "bas": 2.377,
+   "son": 2.956
   },
   {
    "k": "16",
-   "bas": 3.588,
-   "son": 4.387
+   "bas": 2.956,
+   "son": 3.13
   },
   {
    "k": "Ekim'de",
-   "bas": 4.387,
-   "son": 4.387
+   "bas": 3.13,
+   "son": 3.535
   },
   {
    "k": "yeni",
-   "bas": 4.387,
-   "son": 4.618
+   "bas": 3.535,
+   "son": 3.825
   },
   {
    "k": "Ortak",
-   "bas": 4.63,
-   "son": 4.954
+   "bas": 3.825,
+   "son": 4.172
   },
   {
    "k": "Yazılı",
-   "bas": 4.965,
-   "son": 5.255
+   "bas": 4.172,
+   "son": 4.577
   },
   {
    "k": "Sınav",
-   "bas": 5.255,
-   "son": 5.556
+   "bas": 4.577,
+   "son": 4.925
   },
   {
    "k": "Sistemi'ni",
-   "bas": 5.556,
-   "son": 5.984
+   "bas": 4.925,
+   "son": 5.504
   },
   {
    "k": "tanıttı.",
-   "bas": 5.984,
-   "son": 6.47
+   "bas": 5.504,
+   "son": 5.967
   },
   {
    "k": "Sistem",
-   "bas": 7.477,
-   "son": 7.893
+   "bas": 6.187,
+   "son": 6.731
   },
   {
    "k": "bu",
-   "bas": 7.894,
-   "son": 8.009
+   "bas": 6.731,
+   "son": 6.965
   },
   {
    "k": "dönemin",
-   "bas": 8.009,
-   "son": 8.403
+   "bas": 6.965,
+   "son": 7.587
   },
   {
    "k": "ilk",
-   "bas": 8.414,
-   "son": 8.611
+   "bas": 7.587,
+   "son": 7.898
   },
   {
    "k": "yazılılarından",
-   "bas": 8.623,
-   "son": 9.317
+   "bas": 7.898,
+   "son": 9.065
   },
   {
    "k": "itibaren",
-   "bas": 9.329,
-   "son": 9.907
+   "bas": 9.065,
+   "son": 9.765
   },
   {
    "k": "5,",
-   "bas": 9.907,
-   "son": 10.22
+   "bas": 9.765,
+   "son": 9.921
   },
   {
    "k": "6",
-   "bas": 10.37,
-   "son": 10.66
+   "bas": 9.921,
+   "son": 10.076
   },
   {
    "k": "ve",
-   "bas": 10.671,
-   "son": 10.787
+   "bas": 10.076,
+   "son": 10.31
   },
   {
    "k": "7",
-   "bas": 10.787,
-   "son": 11.018
+   "bas": 10.31,
+   "son": 10.465
   },
   {
    "k": "ile",
-   "bas": 11.018,
-   "son": 11.146
+   "bas": 10.465,
+   "son": 10.776
   },
   {
    "k": "9,",
-   "bas": 11.146,
-   "son": 11.539
+   "bas": 10.776,
+   "son": 10.932
   },
   {
    "k": "10",
-   "bas": 11.84,
-   "son": 11.991
+   "bas": 10.932,
+   "son": 11.165
   },
   {
    "k": "ve",
-   "bas": 12.002,
-   "son": 12.13
+   "bas": 11.165,
+   "son": 11.399
   },
   {
    "k": "11.",
-   "bas": 12.176,
-   "son": 12.674
+   "bas": 11.399,
+   "son": 11.632
   },
   {
    "k": "sınıflarda",
-   "bas": 12.674,
-   "son": 13.183
+   "bas": 11.852,
+   "son": 12.512
   },
   {
    "k": "kullanılacak.",
-   "bas": 13.183,
-   "son": 13.843
+   "bas": 12.512,
+   "son": 13.292
   },
   {
    "k": "Sorular",
-   "bas": 16.065,
-   "son": 16.447
+   "bas": 13.512,
+   "son": 13.955
   },
   {
    "k": "açık",
-   "bas": 16.447,
-   "son": 16.69
+   "bas": 13.955,
+   "son": 14.233
   },
   {
    "k": "uçlu",
-   "bas": 16.69,
-   "son": 17.014
+   "bas": 14.233,
+   "son": 14.51
   },
   {
    "k": "olacak",
-   "bas": 17.014,
-   "son": 17.396
+   "bas": 14.51,
+   "son": 14.898
   },
   {
    "k": "ve",
-   "bas": 17.442,
-   "son": 17.593
+   "bas": 14.898,
+   "son": 15.064
   },
   {
    "k": "her",
-   "bas": 17.593,
-   "son": 17.836
+   "bas": 15.064,
+   "son": 15.286
   },
   {
    "k": "sınav",
-   "bas": 17.836,
-   "son": 18.125
+   "bas": 15.286,
+   "son": 15.619
   },
   {
    "k": "döneminde",
-   "bas": 18.125,
-   "son": 18.576
+   "bas": 15.619,
+   "son": 16.173
   },
   {
    "k": "binlerce",
-   "bas": 18.576,
-   "son": 19.109
+   "bas": 16.173,
+   "son": 16.673
   },
   {
    "k": "yeni",
-   "bas": 19.109,
-   "son": 19.317
+   "bas": 16.673,
+   "son": 16.95
   },
   {
    "k": "soru",
-   "bas": 19.317,
-   "son": 19.514
+   "bas": 16.95,
+   "son": 17.227
   },
   {
    "k": "sisteme",
-   "bas": 19.514,
-   "son": 19.884
+   "bas": 17.227,
+   "son": 17.671
   },
   {
    "k": "eklenecek.",
-   "bas": 19.884,
-   "son": 20.451
+   "bas": 17.671,
+   "son": 18.225
   },
   {
    "k": "Peki",
-   "bas": 21.921,
-   "son": 22.222
+   "bas": 18.445,
+   "son": 18.733
   },
   {
    "k": "yapay",
-   "bas": 22.222,
-   "son": 22.546
+   "bas": 18.733,
+   "son": 19.078
   },
   {
    "k": "zekâ",
-   "bas": 22.546,
-   "son": 22.859
+   "bas": 19.078,
+   "son": 19.366
   },
   {
    "k": "nerede?",
-   "bas": 22.882,
-   "son": 23.299
+   "bas": 19.366,
+   "son": 19.769
   },
   {
    "k": "Bakanlık,",
-   "bas": 24.248,
-   "son": 24.734
+   "bas": 19.989,
+   "son": 20.443
   },
   {
    "k": "soru",
-   "bas": 24.838,
-   "son": 25.081
+   "bas": 20.443,
+   "son": 20.695
   },
   {
    "k": "yazımında",
-   "bas": 25.081,
-   "son": 25.567
+   "bas": 20.695,
+   "son": 21.199
   },
   {
    "k": "ve",
-   "bas": 25.567,
-   "son": 25.683
+   "bas": 21.199,
+   "son": 21.35
   },
   {
    "k": "açık",
-   "bas": 25.694,
-   "son": 25.949
+   "bas": 21.35,
+   "son": 21.603
   },
   {
    "k": "uçlu",
-   "bas": 25.949,
-   "son": 26.238
+   "bas": 21.603,
+   "son": 21.855
   },
   {
    "k": "cevapların",
-   "bas": 26.238,
-   "son": 26.759
+   "bas": 21.855,
+   "son": 22.41
   },
   {
    "k": "puanlanmasında",
-   "bas": 26.759,
-   "son": 27.569
+   "bas": 22.41,
+   "son": 23.166
   },
   {
    "k": "yapay",
-   "bas": 27.604,
-   "son": 27.917
+   "bas": 23.166,
+   "son": 23.469
   },
   {
    "k": "zekâ",
-   "bas": 27.917,
-   "son": 28.194
+   "bas": 23.469,
+   "son": 23.721
   },
   {
    "k": "desteğini",
-   "bas": 28.218,
-   "son": 28.681
+   "bas": 23.721,
+   "son": 24.225
   },
   {
    "k": "ilerleyen",
-   "bas": 28.681,
-   "son": 29.12
+   "bas": 24.225,
+   "son": 24.729
   },
   {
    "k": "aşamada",
-   "bas": 29.12,
-   "son": 29.502
+   "bas": 24.729,
+   "son": 25.133
   },
   {
    "k": "sisteme",
-   "bas": 29.502,
-   "son": 29.873
+   "bas": 25.133,
+   "son": 25.536
   },
   {
    "k": "katmayı",
-   "bas": 29.884,
-   "son": 30.243
+   "bas": 25.536,
+   "son": 25.94
   },
   {
    "k": "planlıyor.",
-   "bas": 30.243,
-   "son": 30.81
+   "bas": 25.94,
+   "son": 26.444
   },
   {
    "k": "Yani",
-   "bas": 32.06,
-   "son": 32.407
+   "bas": 26.664,
+   "son": 26.979
   },
   {
    "k": "şimdilik",
-   "bas": 32.407,
-   "son": 32.847
+   "bas": 26.979,
+   "son": 27.547
   },
   {
    "k": "bir",
-   "bas": 32.859,
-   "son": 32.975
+   "bas": 27.547,
+   "son": 27.799
   },
   {
    "k": "plan,",
-   "bas": 32.998,
-   "son": 33.333
+   "bas": 27.799,
+   "son": 28.115
   },
   {
    "k": "ama",
-   "bas": 33.449,
-   "son": 33.646
+   "bas": 28.115,
+   "son": 28.367
   },
   {
    "k": "yön",
-   "bas": 33.646,
-   "son": 33.831
+   "bas": 28.367,
+   "son": 28.619
   },
   {
    "k": "belli.",
-   "bas": 33.831,
-   "son": 34.213
+   "bas": 28.619,
+   "son": 28.998
   }
  ]
 }
