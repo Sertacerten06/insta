@@ -135,11 +135,29 @@ def madde(d, yk, x, y, metin, boyut=39):
 
 # ------------------------------------------------------------------ 0. KANCA
 class Kanca(Sahne):
+    """Kanca: ikon + 3 satır başlık (senaryo.json -> "kanca"). Ortadaki satır altın bantlı."""
+
+    VARSAYILAN = {"ikon": "kagit", "satirlar": ["YAZILI SORULARINI", "YAPAY ZEKÂ", "MI HAZIRLAYACAK?"], "vurgu": 1}
+
     def olaylar(self):
         return [(0.0, "blip"), (0.4, "blip"), (0.8, "blip")]
 
     def ciz(self, t, d, yk):
-        # piksel sınav kâğıdı
+        k = self.ctx.get("kanca") or self.VARSAYILAN
+        if k.get("ikon") == "sunucu":
+            self._sunucu(d, yk, t)
+        else:
+            self._kagit(d, yk, t)
+        ys = [180, 197, 240]
+        for i, satir in enumerate(k["satirlar"][:3]):
+            if t < i * 0.4:
+                continue
+            if i == k.get("vurgu", 1):
+                yk.yaz(satir, RCX, R(ys[i]), "orta", ad="piksel", boyut=95, bant="altin", kenar=6)
+            else:
+                yk.yaz(satir, RCX, R(ys[i]), "orta", ad="piksel", boyut=55, renk="beyaz", kenar=6)
+
+    def _kagit(self, d, yk, t):
         x, y, w, h = CX - 30, 92, 60, 76
         d.rectangle([x + 3, y + 3, x + w + 2, y + h + 2], fill=P["zemin3"])          # piksel gölge
         d.rectangle([x, y, x + w - 1, y + h - 1], fill=P["gumus"], outline=P["gumus_koyu"])
@@ -151,13 +169,17 @@ class Kanca(Sahne):
             d.rectangle([x + 6, yy, x + w - 8 - (i % 3) * 7, yy + 1], fill=P["soluk"])
         if yanip(t, 0.5):
             yk.yaz("?", R(CX), R(y + 14), "orta", ad="piksel", boyut=190, bant="altin", kenar=8)
-        # başlık satırları kademeli gelir
-        if t >= 0.0:
-            yk.yaz("YAZILI SORULARINI", RCX, R(180), "orta", ad="piksel", boyut=55, renk="beyaz", kenar=6)
-        if t >= 0.4:
-            yk.yaz("YAPAY ZEKÂ", RCX, R(197), "orta", ad="piksel", boyut=95, bant="altin", kenar=6)
-        if t >= 0.8:
-            yk.yaz("MI HAZIRLAYACAK?", RCX, R(240), "orta", ad="piksel", boyut=55, renk="beyaz", kenar=6)
+
+    def _sunucu(self, d, yk, t):
+        sw, sh = ikon_boyut(I.SUNUCU, 3)
+        for k in range(3):
+            x = CX - sw * 3 // 2 - 4 + k * (sw + 4)
+            ikon(d, I.SUNUCU, x, 96, 3)
+            # yanıp sönen LED'ler
+            for j in range(3):
+                if yanip(t + k * 0.17 + j * 0.29, 0.5, 0.5):
+                    d.rectangle([x + 3 * 3, 96 + (2 + 4 * j) * 3, x + 3 * 3 + 2, 96 + (2 + 4 * j) * 3 + 2],
+                                fill=P["mavi_buz"])
 
 
 # ------------------------------------------------------------------ 1. AÇILIŞ
@@ -340,7 +362,7 @@ class HaberJAXA(Sahne):
 
 
 # ------------------------------------------------------------------ 4. HARİTAM
-class Haritam(Sahne):
+class Haritam(Sahne):  # Bölüm 1: haftalık program
     GUNLER = ["PZT", "SAL", "ÇAR", "PER", "CUM", "CMT", "PAZ"]
     DERSLER = [["MAT", "FİZ"], ["TÜR", "KİM", "MAT"], ["BİY", "GEO"], ["MAT", "TAR"], ["FİZ", "TÜR", "KİM"],
                ["DNM", "MAT"], ["TEK"]]
@@ -487,7 +509,7 @@ class Kapanis(Sahne):
             dugme(d, CX - 80, by, 160, 26)
             yk.yaz("ÜCRETSİZ BAŞLA", R(CX - 8), R(by) + 30, "orta", ad="marka", boyut=48, renk="beyaz")
             ikon(d, I.UCGEN_SAG, CX + 64, by + 8, 2)
-        if t >= self.kt("telefonuna"):
+        if t >= self.kt("telefon", varsayilan=1.5):
             ikon(d, I.TELEFON, 28, 196, 2)
             yk.yaz("UYGULAMA OLARAK EKLE", R(48), R(198) + 4, ad="piksel", boyut=31, renk="gumus")
             yk.yaz("TELEFON + BİLGİSAYAR", R(48), R(207) + 6, ad="piksel_ince", boyut=31, renk="soluk")
@@ -500,5 +522,213 @@ class Kapanis(Sahne):
             ikon(d, I.TIK, CX + 62, 251, 2)
 
 
+# ------------------------------------------------------------------ Bölüm 2 · HABER: VERİ MERKEZİ
+class HaberVeri(Sahne):
+    def z(self):
+        return {"tesis": self.kt("450"), "mw": self.kt("22", tam=True), "toplam": self.kt("Tüm"),
+                "ne": self.kt("Peki"), "saklar": self.kt("Kurumların"), "hedef": self.kt("2030")}
+
+    def olaylar(self):
+        z = self.z()
+        return [(z["tesis"], "coin"), (z["mw"], "tik"), (z["toplam"], "coin"), (z["saklar"], "blip"),
+                (z["hedef"], "levelup")]
+
+    def ciz(self, t, d, yk):
+        etiket(d, yk, "TÜRKİYE", "20 EKİM", rozet="TR")
+        baslik_kutusu(d, yk, ["ANKARA TEMELLİ:", "YENİ VERİ MERKEZİ"])
+        z = self.z()
+        # sunucu dolapları: aşama aşama yükselir
+        n = 2 if t < z["tesis"] else 4 if t < z["toplam"] else 6
+        sw, sh = ikon_boyut(I.SUNUCU, 2)
+        for k in range(n):
+            x = 104 + (k % 3) * (sw + 3)
+            y = 140 if k < 3 else 140 + sh + 4
+            ikon(d, I.SUNUCU, x, y, 2)
+            for j in range(3):
+                if yanip(t + k * 0.21 + j * 0.37, 0.6, 0.5):
+                    d.rectangle([x + 6, y + (2 + 4 * j) * 2, x + 7, y + (2 + 4 * j) * 2 + 1], fill=P["mavi_buz"])
+        # veri paketleri sunuculara akar
+        if t >= z["saklar"]:
+            for i in range(6):
+                f = ((t - z["saklar"]) * 1.2 + i / 6) % 1.0
+                px = int(4 + f * 96)
+                py = 160 + (i % 3) * 14
+                d.rectangle([px, py, px + 3, py + 3], fill=P["altin"] if i % 2 else P["mavi_acik"])
+        # rakamlar
+        if t >= z["tesis"]:
+            yk.yaz("1. AŞAMA", R(4), R(138), ad="piksel_ince", boyut=31, renk="soluk")
+            yk.yaz("450 MİLYON $", R(4), R(146), ad="piksel", boyut=55, bant="altin", kenar=4)
+        if t >= z["mw"]:
+            yk.yaz("22 MW TESİS", R(4), R(165), ad="piksel", boyut=47, renk="gumus", kenar=4)
+        if t >= z["toplam"]:
+            yk.yaz("TOPLAM", R(4), R(186), ad="piksel_ince", boyut=31, renk="soluk")
+            yk.yaz("4,1 MİLYAR $", R(4), R(194), ad="piksel", boyut=55, bant="altin", kenar=4)
+        if t >= z["ne"]:
+            madde(d, yk, 4, 222, "VERİYİ GÜVENLE SAKLAR + İŞLER")
+        if t >= z["hedef"]:
+            yk.yaz("2030 HEDEFİ: EN AZ 1 GW", R(4), R(240) - 4, ad="piksel", boyut=39, renk="gumus")
+            xp_bar(d, 4, 254, GEN - 8, adim(t - z["hedef"], 8) / 2.0, "altin")
+        kaynak(yk, self.ctx["kaynak"])
+
+
+# ------------------------------------------------------------------ Bölüm 2 · HABER: CHATGPT SLIDES
+class HaberSlides(Sahne):
+    def z(self):
+        return {"sohbet": self.kt("sohbetten"), "dosya": self.kt("dosyalardan"), "taslak": self.kt("taslaktan"),
+                "ekip": self.kt("Ekip"), "indir": self.kt("PowerPoint"), "plan": self.kt("Şimdilik"),
+                "yani": self.kt("Yani")}
+
+    def olaylar(self):
+        z = self.z()
+        o = [(z["sohbet"], "blip"), (z["dosya"], "blip"), (z["taslak"], "blip"), (z["ekip"], "tik"),
+             (z["indir"], "coin"), (z["plan"], "tik")]
+        for i in range(4):
+            o.append((z["taslak"] + 0.6 + i * 0.25, "tik"))
+        return o
+
+    def ciz(self, t, d, yk):
+        etiket(d, yk, "DÜNYA", "20 EKİM", ikon_sablon=I.KURE)
+        baslik_kutusu(d, yk, ["CHATGPT SLIDES:", "YAPAY ZEKÂYLA SUNUM"])
+        z = self.z()
+        # sol: girdiler (sohbet, dosya, taslak)
+        girdiler = [("sohbet", I.SOHBET, "SOHBET"), ("dosya", I.DOSYA, "DOSYA"), ("taslak", I.DOSYA, "TASLAK")]
+        for i, (k, ik, ad) in enumerate(girdiler):
+            if t >= z[k]:
+                y = 140 + i * 24
+                ikon(d, ik, 4, y, 2)
+                yk.yaz(ad, R(26), R(y) + 12, ad="piksel_ince", boyut=31, renk="gumus")
+                # ok -> sunum
+                for k2 in range(5):
+                    if (int(t * 8) + k2) % 5 != 0:
+                        d.point((62 + k2 * 4, y + 8), fill=P["mavi_acik"])
+        # sağ: sunum ekranı, slaytlar dizilir
+        ex, ey, ew, eh = 92, 136, GEN - 96, 74
+        panel(d, ex, ey, ew, eh)
+        if t >= z["taslak"] + 0.5:
+            adet = min(4, 1 + int((t - z["taslak"] - 0.5) / 0.25))
+            for i in range(adet):
+                sx, sy = ex + 6 + (i % 2) * 49, ey + 8 + (i // 2) * 32
+                d.rectangle([sx, sy, sx + 45, sy + 27], fill=P["gumus"], outline=P["gumus_koyu"])
+                d.rectangle([sx + 3, sy + 3, sx + 26, sy + 5], fill=P["mavi"])
+                d.rectangle([sx + 3, sy + 9, sx + 38, sy + 9], fill=P["soluk"])
+                d.rectangle([sx + 3, sy + 13, sx + 32, sy + 13], fill=P["soluk"])
+                if i == 1:
+                    for c, hh in enumerate([6, 10, 14]):
+                        d.rectangle([sx + 30 + c * 4, sy + 24 - hh, sx + 32 + c * 4, sy + 24], fill=P["altin"])
+        # ekip: iki imleç aynı sunumda
+        if t >= z["ekip"]:
+            for i, (dx, dy) in enumerate([(30, 30), (70, 50)]):
+                sal = int((t * 2 + i) % 2) * 3
+                ikon(d, I.IMLEC, ex + dx + sal, ey + dy - sal, 2,
+                     renk_degis={"mavi_acik": "altin" if i else "mavi_acik"})
+            yk.yaz("AYNI ANDA DÜZENLE", R(ex + ew // 2), R(ey + eh + 2), "orta", ad="piksel_ince", boyut=31,
+                   renk="mavi_acik")
+        # indirme biçimleri
+        if t >= z["indir"]:
+            for i, ad in enumerate(["PPTX", "PDF"]):
+                dugme(d, 4 + i * 44, 218, 40, 14)
+                yk.yaz(ad, R(24 + i * 44), R(218) + 10, "orta", ad="piksel", boyut=39, renk="beyaz")
+        if t >= z["plan"]:
+            d.rectangle([4, 238, GEN - 5, 262], fill=P["zemin2"], outline=P["altin_koyu"])
+            yk.yaz("ŞİMDİLİK: PRO · BUSINESS · ENTERPRISE", R(CX), R(241), "orta", ad="piksel_ince", boyut=31,
+                   renk="altin")
+            yk.yaz("ÜCRETSİZ PLANDA YOK", R(CX), R(251), "orta", ad="piksel_ince", boyut=31, renk="soluk")
+        kaynak(yk, self.ctx["kaynak"])
+
+
+# ------------------------------------------------------------------ Bölüm 2 · HARİTAM: KONU ÖZETLERİ
+class HaritamOzet(Sahne):
+    KONULAR = [("MAT", "PROBLEMLER", "TYT"), ("TÜR", "PARAGRAF", "TYT"), ("FİZ", "KUVVET VE HAREKET", "TYT"),
+               ("KİM", "MODERN ATOM TEORİSİ", "AYT"), ("BİY", "HÜCRE", "TYT")]
+
+    def z(self):
+        return {"bilgi": self.kt("Bilgi"), "yoran": self.kt("yoran"), "iste": self.kt("İşte"),
+                "tyt": self.kt("TYT"), "eslesir": self.kt("eşleşiyor"), "bugun": self.kt("Bugün"),
+                "ekstra": self.kt("Ekstra"), "cortex": self.kt("Cortex")}
+
+    def olaylar(self):
+        z = self.z()
+        o = [(z["bilgi"], "boss"), (z["iste"], "glitch"), (z["iste"] + 0.1, "blip"), (z["eslesir"], "coin"),
+             (z["bugun"], "tik"), (z["ekstra"], "blip"), (z["cortex"], "coin"), (self.sure - 1.6, "levelup")]
+        for i in range(len(self.KONULAR)):
+            o.append((z["tyt"] + i * 0.2, "tik"))
+        return o
+
+    def ciz(self, t, d, yk):
+        z = self.z()
+        if t < z["iste"]:
+            self._yigin(d, yk, t, z)
+        else:
+            self._uygulama(d, yk, t, z)
+
+    def _yigin(self, d, yk, t, z):
+        # kitap yığını büyür: bilgi çok, zaman az
+        kitaplar = [I.KITAP_1, I.KITAP_2, I.KITAP_3]
+        adet = 2 if t < z["bilgi"] else min(9, 2 + int((t - z["bilgi"]) * 4))
+        for i in range(adet):
+            kay = (i * 7) % 9 - 4
+            ikon(d, kitaplar[i % 3], CX - 22 + kay, 228 - i * 7, 4)
+        if t >= z["bilgi"]:
+            yk.yaz("BİLGİ ÇOK", RCX, R(110), "orta", ad="piksel", boyut=71, renk="gumus", kenar=6)
+            yk.yaz("ZAMAN AZ", RCX, R(132), "orta", ad="piksel", boyut=71, renk="kirmizi", kenar=6)
+        if t >= z["yoran"] and yanip(t, 0.5):
+            yk.yaz("HANGİ KONU? NEREDEN?", RCX, R(160), "orta", ad="piksel", boyut=47, bant="altin", kenar=5)
+
+    def _uygulama(self, d, yk, t, z):
+        x0, y0, w = 0, 80, GEN
+        panel(d, x0, y0, w, 206)
+        dugme(d, x0 + 2, y0 + 2, w - 4, 20)
+        yk.yaz("YKS HARİTAM", R(CX), R(y0 + 2) + 10, "orta", ad="piksel", boyut=47, renk="beyaz")
+        yk.yaz("KONU ÖZETLERİ", R(x0 + 4), R(y0 + 25), ad="piksel", boyut=39, renk="altin")
+        # TYT / AYT sekmeleri
+        if t >= z["tyt"]:
+            for i, ad in enumerate(["TYT", "AYT"]):
+                sx = x0 + 128 + i * 34
+                if (i == 0) == (int(t * 0.8) % 2 == 0):
+                    dugme(d, sx, y0 + 23, 30, 12)
+                else:
+                    d.rectangle([sx, y0 + 23, sx + 29, y0 + 34], fill=P["zemin3"], outline=P["mavi_acik"])
+                yk.yaz(ad, R(sx + 15), R(y0 + 23) + 6, "orta", ad="piksel", boyut=31, renk="beyaz")
+        # konu kartları
+        for i, (ders, konu, sinav) in enumerate(self.KONULAR):
+            ti = z["tyt"] + i * 0.2
+            if t < ti:
+                continue
+            y = y0 + 40 + i * 17
+            secili = t >= z["bugun"] and i == 0
+            d.rectangle([x0 + 4, y, x0 + w - 5, y + 14], fill=P["zemin3"],
+                        outline=P["altin"] if secili else P["cizgi"])
+            d.rectangle([x0 + 5, y + 1, x0 + 26, y + 13], fill=P["mavi"])
+            yk.yaz(ders, R(x0 + 16), R(y) + 12, "orta", ad="piksel", boyut=31, renk="beyaz")
+            yk.yaz(konu, R(x0 + 31), R(y) + 12, ad="piksel", boyut=31, renk="gumus")
+            yk.yaz(sinav, R(x0 + w - 8), R(y) + 14, "sag", ad="piksel_ince", boyut=27, renk="soluk")
+        # programla eşleşme
+        if t >= z["eslesir"]:
+            py = y0 + 128
+            d.rectangle([x0 + 4, py, x0 + w - 5, py + 16], fill=P["zemin2"], outline=P["mavi"])
+            yk.yaz("PROGRAM · BUGÜN: MAT", R(x0 + 8), R(py) + 14, ad="piksel", boyut=31, renk="mavi_acik")
+            if t >= z["bugun"]:
+                ikon(d, I.TIK, x0 + w - 18, py + 5, 1)
+                yk.yaz("EŞLEŞTİ", R(x0 + w - 22), R(py) + 14, "sag", ad="piksel", boyut=31, renk="altin")
+                # bağlantı çizgisi kart <-> program
+                for yy in range(y0 + 55, py, 3):
+                    d.point((x0 + w - 12, yy), fill=P["altin_koyu"])
+        if t >= z["ekstra"]:
+            ey = y0 + 150
+            for i, ad in enumerate(["EKSTRA KAYNAK", "SAYFA SAYFA"]):
+                ex = x0 + 4 + i * 98
+                yk.yaz(ad, R(ex + 2), R(ey) + 4, ad="piksel_ince", boyut=31, renk="soluk")
+                d.line([ex, ey + 6, ex + 88, ey + 6], fill=P["kirmizi"], width=1)
+        if t >= z["cortex"]:
+            cy = y0 + 166
+            renk = P["altin"] if yanip(t, 0.6, 0.7) else P["altin_koyu"]
+            d.rectangle([x0 + 4, cy, x0 + w - 5, cy + 26], fill=P["zemin2"], outline=renk)
+            yk.yaz("CORTEX", R(CX), R(cy) + 10, "orta", ad="piksel", boyut=47, bant="altin")
+            yk.yaz("YAPAY ZEKÂ · ÇOK YAKINDA", R(CX), R(cy) + 58, "orta", ad="piksel_ince", boyut=31, renk="gumus")
+        if t >= self.sure - 1.6:
+            yk.yaz("LEVEL UP!", RCX, R(y0 + 196), "orta", ad="ingilizce_etiket", boyut=40, bant="altin")
+
+
 SAHNELER = {"kanca": Kanca, "acilis": Acilis, "haber_meb": HaberMEB, "haber_jaxa": HaberJAXA,
-            "haritam": Haritam, "cta": Kapanis}
+            "haritam": Haritam, "cta": Kapanis,
+            "haber_veri": HaberVeri, "haber_slides": HaberSlides, "haritam_ozet": HaritamOzet}

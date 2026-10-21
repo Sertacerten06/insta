@@ -1,19 +1,111 @@
 {
-  "guncelleme": "2026-10-20",
+  "guncelleme": "2026-10-21",
   "haberler": [
     {
-      "id": "2026-10-16-meb-ortak-yazili", "bolge": "TR", "tarih": "2026-10-16", "puan": 9,
+      "id": "2026-10-16-meb-ortak-yazili",
+      "bolge": "TR",
+      "tarih": "2026-10-16",
+      "puan": 9,
       "gerekce": "Türkiye +3, eğitim/sınav/yapay zekâ +2, genç kitle +2, 48 saatten eski",
       "baslik": "MEB Ortak Yazılı Sınav Sistemi'ni tanıttı",
-      "kaynaklar": [{"ad": "MEB", "url": "https://www.meb.gov.tr"}, {"ad": "Onedio", "url": "https://onedio.com"}],
+      "kaynaklar": [
+        {
+          "ad": "MEB",
+          "url": "https://www.meb.gov.tr"
+        },
+        {
+          "ad": "Onedio",
+          "url": "https://onedio.com"
+        }
+      ],
       "kullanildi": 1
     },
     {
-      "id": "2026-10-20-jaxa-mmx", "bolge": "DUNYA", "tarih": "2026-10-20", "puan": 6,
+      "id": "2026-10-20-jaxa-mmx",
+      "bolge": "DUNYA",
+      "tarih": "2026-10-20",
+      "puan": 6,
       "gerekce": "son 48 saat +2, genç kitle +2, uzay görseli 8-bit'e uygun",
       "baslik": "JAXA MMX aracını H3 ile Phobos'a fırlattı",
-      "kaynaklar": [{"ad": "JAXA", "url": "https://global.jaxa.jp"}, {"ad": "Forbes", "url": "https://www.forbes.com"}],
+      "kaynaklar": [
+        {
+          "ad": "JAXA",
+          "url": "https://global.jaxa.jp"
+        },
+        {
+          "ad": "Forbes",
+          "url": "https://www.forbes.com"
+        }
+      ],
       "kullanildi": 1
+    },
+    {
+      "id": "2026-10-20-ankara-temelli-veri-merkezi",
+      "bolge": "TR",
+      "tarih": "2026-10-20",
+      "puan": 9,
+      "gerekce": "TR +3, 48 saat +2, yapay zekâ altyapısı +2, anlaşılır +2",
+      "baslik": "Ankara Temelli'de 4,1 milyar $'lık veri merkezinin temeli atıldı",
+      "kaynaklar": [
+        {
+          "ad": "LOG",
+          "url": "https://www.log.com.tr/ankarada-450-milyon-dolar-yatirimla-veri-merkezi-kurulacak/"
+        },
+        {
+          "ad": "Hürriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/ankara-temelliye-4-1-milyar-dolarlik-veri-merkezi-bakan-kacir-2012den-bu-yana-42-milyar-liralik-veri-merkezi-yatiriminin-onunu-actik-43347690"
+        }
+      ],
+      "kullanildi": 2
+    },
+    {
+      "id": "2026-10-16-chatgpt-slides",
+      "bolge": "DUNYA",
+      "tarih": "2026-10-20",
+      "puan": 6,
+      "gerekce": "48 saat +2, öğrenci/sunum +2, genç kitle +2",
+      "baslik": "ChatGPT Slides kullanıma sunuldu",
+      "kaynaklar": [
+        {
+          "ad": "Webtekno",
+          "url": "https://www.webtekno.com/chatgpt-slides-kullanima-sunuldu-h227512.html"
+        },
+        {
+          "ad": "Digital Applied",
+          "url": "https://www.digitalapplied.com/blog/chatgpt-slides-plans-export-what-teams-get"
+        }
+      ],
+      "kullanildi": 2
+    },
+    {
+      "id": "2026-10-20-gemini-prompt-arena",
+      "bolge": "TR",
+      "tarih": "2026-10-21",
+      "puan": 4,
+      "gerekce": "TR +3, öğrenci +2, genç +2, tek kaynak/tanıtım −5 → bekletiliyor",
+      "baslik": "Google Gemini Prompt Arena (üniversiteliler, 1 milyon TL ödül)",
+      "kaynaklar": [
+        {
+          "ad": "Webtekno",
+          "url": "https://www.webtekno.com/google-1-milyon-tl-odullu-yapay-zeka-yarismasi-gemini-prompt-arena-h227539.html"
+        }
+      ],
+      "kullanildi": null
+    },
+    {
+      "id": "2026-10-20-artemis-ii-ay-verileri",
+      "bolge": "DUNYA",
+      "tarih": "2026-10-20",
+      "puan": 4,
+      "gerekce": "48 saat +2, genç kitle +2; ikinci kaynak aranacak",
+      "baslik": "Artemis II verileri Ay'ın bilinmeyen özelliklerini ortaya çıkardı",
+      "kaynaklar": [
+        {
+          "ad": "Webtekno",
+          "url": "https://www.webtekno.com/artemis-ii-gelen-veriler-ay-bilinmeyen-ozelliklerini-ortaya-cikardi-h227455.html"
+        }
+      ],
+      "kullanildi": null
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "bolum": 2,
+  "seri": "Arpama Teknoloji Gündemi",
+  "baslik": "Ankara'ya Dev Veri Merkezi, Sunumlara Yapay Zekâ",
+  "haritam_ozellik": "konu_ozetleri",
+  "kanca": {"ikon": "sunucu", "satirlar": ["ANKARA'YA", "4,1 MİLYAR $", "VERİ MERKEZİ!"], "vurgu": 1},
+  "vurgu_kelimeleri": ["4,1", "milyar", "veri", "merkezi", "yapay", "zekâ", "Slides", "YKS", "Haritam", "Haritam'ın", "konu", "özetleri", "ücretsiz", "Cortex", "ikinci", "haritam.arpama.tr", "2030'a", "1"],
+  "bolumler": [
+    {"id": "kanca", "sahne": "kanca",
+     "metin": "Ankara'ya 4,1 milyar dolarlık dev bir veri merkezi geliyor! Hazırsan başlıyoruz!"},
+    {"id": "acilis", "sahne": "acilis",
+     "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu ikinci bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada."},
+    {"id": "haber1", "sahne": "haber_veri",
+     "metin": "İlk durağımız yine Türkiye. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 20 Ekim'de Ankara Temelli'de yeni bir veri merkezinin temelini attı. İlk aşamada 450 milyon dolarlık yatırımla 22 megavatlık bir tesis kurulacak. Tüm aşamalar bitince toplam yatırım 4,1 milyar dolara ulaşacak. Peki veri merkezi ne işe yarar? Kurumların ve teknoloji şirketlerinin verilerini güvenle saklar ve işler. Bakanlık, 2030'a kadar Türkiye'nin veri merkezi gücünü en az 1 gigavata çıkarmayı hedefliyor. Yapay zekâ çağında bu, oyunun enerjisi demek."},
+    {"id": "haber2", "sahne": "haber_slides",
+     "metin": "Şimdi dünyaya geçelim. OpenAI, ChatGPT'ye Slides adında yeni bir özellik ekledi. Artık bir sohbetten, yüklediğin dosyalardan ya da bir taslaktan sunum hazırlanabiliyor. Ekip arkadaşlarınla aynı sunumu aynı anda düzenleyebiliyor, PowerPoint ya da PDF olarak indirebiliyorsun. Şimdilik sadece Pro, Business ve Enterprise kullanıcılarına açık. Yani sunum ödevi bitmedi, ama yardımcın değişiyor."},
+    {"id": "haritam", "sahne": "haritam_ozet",
+     "metin": "Peki ya sınav hazırlığı? Bilgi çok, zaman az. YKS'de seni en çok yoran şeylerden biri, hangi konuyu nereden çalışacağını bulmak. İşte burada YKS Haritam'ın konu özetleri devreye giriyor! TYT ve AYT konularının özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında hangi konu varsa, özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Ve Vertex'in yapay zekâsı Cortex, çok yakında konu özetlerine de güç katacak."},
+    {"id": "cta", "sahne": "cta",
+     "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"}
+  ],
+  "kaynak_satirlari": {"haber1": "Kaynak: LOG, Hürriyet", "haber2": "Kaynak: Webtekno, Digital Applied"},
+  "kapak": {"ust": "VERİ MERKEZİ", "alt_satirlar": ["ANKARA'YA", "4,1 MİLYAR $"], "bolum_etiketi": "BÖLÜM 2", "ikon": "sunucu"},
+  "caption": "Ankara'ya 4,1 milyar dolarlık veri merkezi geliyor 🕹️\n\nBu bölümde:\n▸ Ankara Temelli'de yeni veri merkezinin temeli atıldı\n▸ ChatGPT'ye sunum hazırlayan Slides özelliği geldi\n▸ Haritam: TYT/AYT konu özetleri programınla eşleşiyor\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: LOG, Hürriyet, Webtekno, Digital Applied\n\n#yks #yks2027 #teknoloji #yapayzeka #verimerkezi #teknolojihaberleri #arpama #haritam"
+}

@@ -1,8 +1,15 @@
 {
-  "son_bolum": 1,
+  "son_bolum": 2,
   "haritam_ozellik_sirasi": [
-    "haftalik_program", "konu_ozetleri", "kendini_test_et", "deneme_takibi",
-    "yanlis_defteri", "odak_sayaci", "kurum_paneli", "cortex_cok_yakinda", "ucretsiz_her_cihazda"
+    "haftalik_program",
+    "konu_ozetleri",
+    "kendini_test_et",
+    "deneme_takibi",
+    "yanlis_defteri",
+    "odak_sayaci",
+    "kurum_paneli",
+    "cortex_cok_yakinda",
+    "ucretsiz_her_cihazda"
   ],
   "bolumler": [
     {
@@ -13,8 +20,49 @@
       "durum": "onay_bekliyor",
       "haritam_ozellik": "haftalik_program",
       "haberler": [
-        {"id": "2026-10-16-meb-ortak-yazili", "baslik": "MEB Ortak Yazılı Sınav Sistemi", "kaynaklar": ["MEB", "Onedio"]},
-        {"id": "2026-10-20-jaxa-mmx", "baslik": "JAXA MMX Phobos'a fırlatıldı", "kaynaklar": ["JAXA", "Forbes"]}
+        {
+          "id": "2026-10-16-meb-ortak-yazili",
+          "baslik": "MEB Ortak Yazılı Sınav Sistemi",
+          "kaynaklar": [
+            "MEB",
+            "Onedio"
+          ]
+        },
+        {
+          "id": "2026-10-20-jaxa-mmx",
+          "baslik": "JAXA MMX Phobos'a fırlatıldı",
+          "kaynaklar": [
+            "JAXA",
+            "Forbes"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 2,
+      "baslik": "Ankara'ya Dev Veri Merkezi, Sunumlara Yapay Zekâ",
+      "uretim_tarihi": "2026-10-21",
+      "yayin_tarihi": null,
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "konu_ozetleri",
+      "haberler": [
+        {
+          "id": "2026-10-20-ankara-temelli-veri-merkezi",
+          "baslik": "Ankara Temelli veri merkezi",
+          "kaynaklar": [
+            "LOG",
+            "Hürriyet"
+          ]
+        },
+        {
+          "id": "2026-10-16-chatgpt-slides",
+          "baslik": "ChatGPT Slides",
+          "kaynaklar": [
+            "Webtekno",
+            "Digital Applied"
+          ]
+        }
       ],
       "instagram_link": null
     }

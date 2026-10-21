@@ -63,7 +63,7 @@ def sahne_nesneleri(sen, sahneler, handle):
     for s in sahneler:
         ctx = {"sure": s["son"] - s["bas"], "kelimeler": s["kelimeler"], "bolum": sen["bolum"],
                "ses_son": s["ses_son"] - s["bas"], "kaynak": sen.get("kaynak_satirlari", {}).get(s["id"], ""),
-               "handle": handle}
+               "handle": handle, "kanca": sen.get("kanca")}
         nesneler.append(SAHNELER[s["sahne"]](ctx))
     return nesneler
 
@@ -238,8 +238,12 @@ class Render:
         yildizlar(d, 0.3, tohum=7, adet=110)
         d.rectangle([10, 66, SW - 11, 413], outline=P["cizgi"])
         d.rectangle([12, 68, SW - 13, 70], fill=P["mavi"])
-        ikon(d, I.ROKET, SW // 2 - 11, 300, 2)
-        ikon(d, I.ALEV_2, SW // 2 - 9, 332, 2)
+        if k.get("ikon") == "sunucu":
+            for j in range(3):
+                ikon(d, I.SUNUCU, SW // 2 - 37 + j * 26, 296, 2)
+        else:
+            ikon(d, I.ROKET, SW // 2 - 11, 300, 2)
+            ikon(d, I.ALEV_2, SW // 2 - 9, 332, 2)
         yk = YaziKatmani()
         cx = SW * OLCEK // 2
         logo(yk, cx, 330, 150)
