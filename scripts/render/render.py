@@ -241,6 +241,9 @@ class Render:
         if k.get("ikon") == "sunucu":
             for j in range(3):
                 ikon(d, I.SUNUCU, SW // 2 - 37 + j * 26, 296, 2)
+        elif k.get("ikon") == "telefon":
+            ikon(d, I.TELEFON, SW // 2 - 14, 286, 4)
+            d.rectangle([SW // 2 + 10, 280, SW // 2 + 21, 291], fill=P["kirmizi"])
         else:
             ikon(d, I.ROKET, SW // 2 - 11, 300, 2)
             ikon(d, I.ALEV_2, SW // 2 - 9, 332, 2)

@@ -1,0 +1,83 @@
+{
+ "bolum": 3,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Tıklamadan Önce Bir Daha Bak",
+ "haritam_ozellik": "kendini_test_et",
+ "kanca": {
+  "ikon": "uyari",
+  "satirlar": [
+   "TIKLAMADAN ÖNCE",
+   "BİR DAHA BAK!",
+   "DOLANDIRICIYA DİKKAT"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "dolandırıcılığa",
+  "dolandırıcılık",
+  "Bir",
+  "Daha",
+  "Bak",
+  "Güvende",
+  "Kal",
+  "Specs",
+  "2.195",
+  "YKS",
+  "Haritam'ın",
+  "Kendini",
+  "Test",
+  "Et",
+  "eksiklerine",
+  "ücretsiz",
+  "haritam.arpama.tr",
+  "şifreni",
+  "iki",
+  "adımlı"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Instagram'da bir mesaj: Tebrikler, kazandın! Tıklamadan önce bir daha bak. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu üçüncü bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_dolandirici",
+   "metin": "İlk durağımız Türkiye. İçişleri Bakanlığı, Emniyet'in siber suçlarla mücadele programı SİBERAY ve Meta, bu hafta ortak bir kampanya başlattı. Adı: Bir Daha Bak, Güvende Kal. Dört hafta boyunca Instagram ve Facebook kullanıcılarına dolandırıcılığa karşı uyarılar gösterilecek. Peki neye dikkat edeceksin? Tıklamadan önce bağlantının adresine bak. Garanti kazanç, inanılmaz indirim ya da acil ödeme isteyen mesajlara güvenme. Şifreni ve doğrulama kodunu kimseyle paylaşma. Ve iki adımlı doğrulamayı mutlaka aç."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_specs",
+   "metin": "Şimdi dünyaya geçelim. Snapchat'in sahibi Snap, artırılmış gerçeklik gözlüğü Specs için ünlü oyuncu Robert Downey Junior ile anlaştı. Downey, şirkette fahri bir yönetici olarak gözlüğün tanıtımına ve geliştirilmesine destek verecek. Specs, dijital görüntüleri gerçek dünyanın üzerine yerleştiriyor. Bu sonbaharda çıkması beklenen gözlüğün fiyatı ise tam 2.195 dolar. Gözlük ilk olarak ABD, İngiltere ve Fransa'da satışa çıkacak. Telefonların yerini alır mı bilinmez, ama şimdilik cüzdanı epey zorlar."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_test",
+   "metin": "Peki sınav hazırlığındaki en büyük tuzak ne? Konuyu okuyup anladığını sanmak. YKS Haritam'ın Kendini Test Et özelliği tam bunun için! Kartlarla hızlı tekrar yaparsın. Bildiğin kartlar geçer, bilmediklerin ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Her gün birkaç dakikalık test, sınav gününe kadar büyük fark yaratır."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: Teknoblog, BT Günlüğü",
+  "haber2": "Kaynak: Teknoblog, Mixed News"
+ },
+ "kapak": {
+  "ust": "BİR DAHA BAK!",
+  "alt_satirlar": [
+   "INSTAGRAM'DA",
+   "DOLANDIRICI ALARMI"
+  ],
+  "bolum_etiketi": "BÖLÜM 3",
+  "ikon": "telefon"
+ },
+ "caption": "Tıklamadan önce bir daha bak 🕹️\n\nBu bölümde:\n▸ Meta ve SİBERAY'dan 4 haftalık dolandırıcılık kampanyası: \"Bir Daha Bak, Güvende Kal\"\n▸ Snap'in AR gözlüğü Specs'e Robert Downey Jr. desteği (2.195 $)\n▸ Haritam: Kendini Test Et, bilmediğin kartlar daha sık gelir\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Teknoblog, BT Günlüğü, Mixed News\n\n#yks #yks2027 #teknoloji #siberguvenlik #dolandiricilik #teknolojihaberleri #arpama #haritam"
+}
