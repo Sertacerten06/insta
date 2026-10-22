@@ -1,254 +1,255 @@
 {
  "metin": "Önce ne oldu? 21 Ekim'de PHP ekibi, PHP2Shell adı verilen iki kritik açık için acil yama yayımladı. Tehlike puanları ondan 9,2. Bu açıklarla saldırgan, giriş bile yapmadan sunucuda kendi kodunu çalıştırabiliyor. Hollanda'da bazı kamu ve okul siteleri önlem olarak kapatıldı. Türkiye'de de Siber Güvenlik Başkanlığı kurumlara acil uyarı gönderdi.",
  "konusma": "Önce ne oldu? 21 Ekim'de pe ha pe ekibi, pe ha pe tu şel adı verilen iki kritik açık için acil yama yayımladı. Tehlike puanları ondan dokuz virgül iki. Bu açıklarla saldırgan, giriş bile yapmadan sunucuda kendi kodunu çalıştırabiliyor. Hollanda'da bazı kamu ve okul siteleri önlem olarak kapatıldı. Türkiye'de de Siber Güvenlik Başkanlığı kurumlara acil uyarı gönderdi.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 21.451700680272108,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 24.208,
  "kelimeler": [
   {
    "k": "Önce",
-   "bas": 0.0,
-   "son": 0.322
+   "bas": 0.089,
+   "son": 0.379
   },
   {
    "k": "ne",
-   "bas": 0.322,
-   "son": 0.514
+   "bas": 0.379,
+   "son": 0.513
   },
   {
    "k": "oldu?",
-   "bas": 0.514,
-   "son": 0.836
+   "bas": 0.525,
+   "son": 0.86
   },
   {
    "k": "21",
-   "bas": 1.056,
-   "son": 1.234
+   "bas": 1.863,
+   "son": 2.612
   },
   {
    "k": "Ekim'de",
-   "bas": 1.234,
-   "son": 1.648
+   "bas": 2.612,
+   "son": 2.612
   },
   {
    "k": "PHP",
-   "bas": 1.648,
-   "son": 2.063
+   "bas": 2.612,
+   "son": 2.991
   },
   {
    "k": "ekibi,",
-   "bas": 2.063,
-   "son": 2.418
+   "bas": 2.991,
+   "son": 3.393
   },
   {
    "k": "PHP2Shell",
-   "bas": 2.418,
-   "son": 3.129
+   "bas": 3.56,
+   "son": 4.308
   },
   {
    "k": "adı",
-   "bas": 3.129,
-   "son": 3.366
+   "bas": 4.308,
+   "son": 4.453
   },
   {
    "k": "verilen",
-   "bas": 3.366,
-   "son": 3.84
+   "bas": 4.453,
+   "son": 4.844
   },
   {
    "k": "iki",
-   "bas": 3.84,
-   "son": 4.077
+   "bas": 4.866,
+   "son": 5.034
   },
   {
    "k": "kritik",
-   "bas": 4.077,
-   "son": 4.492
+   "bas": 5.034,
+   "son": 5.357
   },
   {
    "k": "açık",
-   "bas": 4.492,
-   "son": 4.788
+   "bas": 5.357,
+   "son": 5.58
   },
   {
    "k": "için",
-   "bas": 4.788,
-   "son": 5.084
+   "bas": 5.58,
+   "son": 5.815
   },
   {
    "k": "acil",
-   "bas": 5.084,
-   "son": 5.38
+   "bas": 5.815,
+   "son": 6.183
   },
   {
    "k": "yama",
-   "bas": 5.38,
-   "son": 5.676
+   "bas": 6.183,
+   "son": 6.362
   },
   {
    "k": "yayımladı.",
-   "bas": 5.676,
-   "son": 6.269
+   "bas": 6.362,
+   "son": 6.864
   },
   {
    "k": "Tehlike",
-   "bas": 6.489,
-   "son": 7.019
+   "bas": 7.969,
+   "son": 8.337
   },
   {
    "k": "puanları",
-   "bas": 7.019,
-   "son": 7.616
+   "bas": 8.36,
+   "son": 8.829
   },
   {
    "k": "ondan",
-   "bas": 7.616,
-   "son": 8.014
+   "bas": 8.85,
+   "son": 9.207
   },
   {
    "k": "9,2.",
-   "bas": 8.014,
-   "son": 9.008
+   "bas": 9.207,
+   "son": 10.078
   },
   {
    "k": "Bu",
-   "bas": 9.228,
-   "son": 9.394
+   "bas": 10.993,
+   "son": 11.128
   },
   {
    "k": "açıklarla",
-   "bas": 9.394,
-   "son": 9.946
+   "bas": 11.128,
+   "son": 11.619
   },
   {
    "k": "saldırgan,",
-   "bas": 9.946,
-   "son": 10.498
+   "bas": 11.618,
+   "son": 12.232
   },
   {
    "k": "giriş",
-   "bas": 10.498,
-   "son": 10.829
+   "bas": 12.399,
+   "son": 12.723
   },
   {
    "k": "bile",
-   "bas": 10.829,
-   "son": 11.106
+   "bas": 12.723,
+   "son": 12.902
   },
   {
    "k": "yapmadan",
-   "bas": 11.106,
-   "son": 11.603
+   "bas": 12.902,
+   "son": 13.381
   },
   {
    "k": "sunucuda",
-   "bas": 11.603,
-   "son": 12.1
+   "bas": 13.382,
+   "son": 13.784
   },
   {
    "k": "kendi",
-   "bas": 12.1,
-   "son": 12.431
+   "bas": 13.784,
+   "son": 14.073
   },
   {
    "k": "kodunu",
-   "bas": 12.431,
-   "son": 12.817
+   "bas": 14.073,
+   "son": 14.363
   },
   {
    "k": "çalıştırabiliyor.",
-   "bas": 12.817,
-   "son": 13.756
+   "bas": 14.363,
+   "son": 15.189
   },
   {
    "k": "Hollanda'da",
-   "bas": 13.976,
-   "son": 14.548
+   "bas": 16.239,
+   "son": 16.808
   },
   {
    "k": "bazı",
-   "bas": 14.548,
-   "son": 14.807
+   "bas": 16.808,
+   "son": 17.165
   },
   {
    "k": "kamu",
-   "bas": 14.807,
-   "son": 15.067
+   "bas": 17.165,
+   "son": 17.478
   },
   {
    "k": "ve",
-   "bas": 15.067,
-   "son": 15.223
+   "bas": 17.488,
+   "son": 17.622
   },
   {
    "k": "okul",
-   "bas": 15.223,
-   "son": 15.483
+   "bas": 17.656,
+   "son": 17.912
   },
   {
    "k": "siteleri",
-   "bas": 15.483,
-   "son": 15.951
+   "bas": 17.912,
+   "son": 18.326
   },
   {
    "k": "önlem",
-   "bas": 15.951,
-   "son": 16.262
+   "bas": 18.326,
+   "son": 18.661
   },
   {
    "k": "olarak",
-   "bas": 16.262,
-   "son": 16.626
+   "bas": 18.661,
+   "son": 18.906
   },
   {
    "k": "kapatıldı.",
-   "bas": 16.626,
-   "son": 17.146
+   "bas": 18.918,
+   "son": 19.475
   },
   {
    "k": "Türkiye'de",
-   "bas": 17.366,
-   "son": 17.926
+   "bas": 20.446,
+   "son": 20.927
   },
   {
    "k": "de",
-   "bas": 17.926,
-   "son": 18.094
+   "bas": 20.927,
+   "son": 21.071
   },
   {
    "k": "Siber",
-   "bas": 18.094,
-   "son": 18.43
+   "bas": 21.071,
+   "son": 21.406
   },
   {
    "k": "Güvenlik",
-   "bas": 18.43,
-   "son": 18.934
+   "bas": 21.406,
+   "son": 21.786
   },
   {
    "k": "Başkanlığı",
-   "bas": 18.934,
-   "son": 19.551
+   "bas": 21.797,
+   "son": 22.321
   },
   {
    "k": "kurumlara",
-   "bas": 19.551,
-   "son": 20.111
+   "bas": 22.332,
+   "son": 22.746
   },
   {
    "k": "acil",
-   "bas": 20.111,
-   "son": 20.391
+   "bas": 22.746,
+   "son": 23.103
   },
   {
    "k": "uyarı",
-   "bas": 20.391,
-   "son": 20.727
+   "bas": 23.103,
+   "son": 23.337
   },
   {
    "k": "gönderdi.",
-   "bas": 20.727,
-   "son": 21.232
+   "bas": 23.337,
+   "son": 23.939
   }
- ]
+ ],
+ "hiz_carpani": 1.12
 }

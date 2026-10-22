@@ -1,284 +1,285 @@
 {
  "metin": "Verilerin güvende mi? Sorun telefonunda değil, sitelerin sunucularında. Siteler güncellendikçe risk azalıyor. Sen yine de farklı şifreler kullan ve iki adımlı doğrulamayı aç. Geliştiriciysen hemen PHP'yi güncelle: 8.5.12, 8.4.27, 8.3.36 ya da 8.2.35. Sonra sunucuyu yeniden başlat. 8.1 ve öncesine artık resmi yama gelmiyor, yeni sürüme geç. Kayıtlarda tuhaf hatalar var mı, mutlaka kontrol et.",
  "konusma": "Verilerin güvende mi? Sorun telefonunda değil, sitelerin sunucularında. Siteler güncellendikçe risk azalıyor. Sen yine de farklı şifreler kullan ve iki adımlı doğrulamayı aç. Geliştiriciysen hemen pe ha pe'yi güncelle: sekiz beş on iki, sekiz dört yirmi yedi, sekiz üç otuz altı ya da sekiz iki otuz beş. Sonra sunucuyu yeniden başlat. sekiz bir ve öncesine artık resmi yama gelmiyor, yeni sürüme geç. Kayıtlarda tuhaf hatalar var mı, mutlaka kontrol et.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 27.97532879818594,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 31.585,
  "kelimeler": [
   {
    "k": "Verilerin",
-   "bas": 0.0,
-   "son": 0.603
+   "bas": 0.089,
+   "son": 0.525
   },
   {
    "k": "güvende",
-   "bas": 0.603,
-   "son": 1.085
+   "bas": 0.536,
+   "son": 0.971
   },
   {
    "k": "mi?",
-   "bas": 1.085,
-   "son": 1.265
+   "bas": 0.971,
+   "son": 1.149
   },
   {
    "k": "Sorun",
-   "bas": 1.485,
-   "son": 1.828
+   "bas": 2.087,
+   "son": 2.354
   },
   {
    "k": "telefonunda",
-   "bas": 1.828,
-   "son": 2.513
+   "bas": 2.355,
+   "son": 2.902
   },
   {
    "k": "değil,",
-   "bas": 2.513,
-   "son": 2.855
+   "bas": 2.902,
+   "son": 3.259
   },
   {
    "k": "sitelerin",
-   "bas": 2.855,
-   "son": 3.426
+   "bas": 3.304,
+   "son": 3.739
   },
   {
    "k": "sunucularında.",
-   "bas": 3.426,
-   "son": 4.225
+   "bas": 3.739,
+   "son": 4.431
   },
   {
    "k": "Siteler",
-   "bas": 4.445,
-   "son": 4.932
+   "bas": 5.436,
+   "son": 5.859
   },
   {
    "k": "güncellendikçe",
-   "bas": 4.932,
-   "son": 5.846
+   "bas": 5.859,
+   "son": 6.641
   },
   {
    "k": "risk",
-   "bas": 5.846,
-   "son": 6.15
+   "bas": 6.641,
+   "son": 6.875
   },
   {
    "k": "azalıyor.",
-   "bas": 6.15,
-   "son": 6.698
+   "bas": 6.875,
+   "son": 7.377
   },
   {
    "k": "Sen",
-   "bas": 6.918,
-   "son": 7.129
+   "bas": 8.337,
+   "son": 8.594
   },
   {
    "k": "yine",
-   "bas": 7.129,
-   "son": 7.393
+   "bas": 8.604,
+   "son": 8.828
   },
   {
    "k": "de",
-   "bas": 7.393,
-   "son": 7.551
+   "bas": 8.828,
+   "son": 8.962
   },
   {
    "k": "farklı",
-   "bas": 7.551,
-   "son": 7.921
+   "bas": 8.962,
+   "son": 9.274
   },
   {
    "k": "şifreler",
-   "bas": 7.921,
-   "son": 8.396
+   "bas": 9.274,
+   "son": 9.754
   },
   {
    "k": "kullan",
-   "bas": 8.396,
-   "son": 8.765
+   "bas": 9.777,
+   "son": 10.122
   },
   {
    "k": "ve",
-   "bas": 8.765,
-   "son": 8.924
+   "bas": 10.134,
+   "son": 10.268
   },
   {
    "k": "iki",
-   "bas": 8.924,
-   "son": 9.135
+   "bas": 10.29,
+   "son": 10.513
   },
   {
    "k": "adımlı",
-   "bas": 9.135,
-   "son": 9.504
+   "bas": 10.513,
+   "son": 10.826
   },
   {
    "k": "doğrulamayı",
-   "bas": 9.504,
-   "son": 10.138
+   "bas": 10.826,
+   "son": 11.351
   },
   {
    "k": "aç.",
-   "bas": 10.138,
-   "son": 10.296
+   "bas": 11.351,
+   "son": 11.574
   },
   {
    "k": "Geliştiriciysen",
-   "bas": 10.516,
-   "son": 11.653
+   "bas": 12.824,
+   "son": 13.638
   },
   {
    "k": "hemen",
-   "bas": 11.653,
-   "son": 12.079
+   "bas": 13.638,
+   "son": 13.973
   },
   {
    "k": "PHP'yi",
-   "bas": 12.079,
-   "son": 12.718
+   "bas": 13.973,
+   "son": 14.509
   },
   {
    "k": "güncelle:",
-   "bas": 12.718,
-   "son": 13.357
+   "bas": 14.509,
+   "son": 15.033
   },
   {
    "k": "8.5.12,",
-   "bas": 13.357,
-   "son": 14.351
+   "bas": 15.223,
+   "son": 16.228
   },
   {
    "k": "8.4.27,",
-   "bas": 14.351,
-   "son": 15.701
+   "bas": 16.406,
+   "son": 17.5
   },
   {
    "k": "8.3.36",
-   "bas": 15.701,
-   "son": 16.837
+   "bas": 17.723,
+   "son": 18.75
   },
   {
    "k": "ya",
-   "bas": 16.837,
-   "son": 17.05
+   "bas": 18.761,
+   "son": 18.872
   },
   {
    "k": "da",
-   "bas": 17.05,
-   "son": 17.263
+   "bas": 18.872,
+   "son": 18.984
   },
   {
    "k": "8.2.35.",
-   "bas": 17.263,
-   "son": 18.399
+   "bas": 18.984,
+   "son": 20.055
   },
   {
    "k": "Sonra",
-   "bas": 18.619,
-   "son": 19.017
+   "bas": 21.071,
+   "son": 21.451
   },
   {
    "k": "sunucuyu",
-   "bas": 19.017,
-   "son": 19.612
+   "bas": 21.451,
+   "son": 21.942
   },
   {
    "k": "yeniden",
-   "bas": 19.612,
-   "son": 20.142
+   "bas": 21.942,
+   "son": 22.344
   },
   {
    "k": "başlat.",
-   "bas": 20.142,
-   "son": 20.605
+   "bas": 22.344,
+   "son": 22.768
   },
   {
    "k": "8.1",
-   "bas": 20.825,
-   "son": 21.375
+   "bas": 23.75,
+   "son": 24.275
   },
   {
    "k": "ve",
-   "bas": 21.375,
-   "son": 21.559
+   "bas": 24.275,
+   "son": 24.386
   },
   {
    "k": "öncesine",
-   "bas": 21.559,
-   "son": 22.11
+   "bas": 24.386,
+   "son": 24.899
   },
   {
    "k": "artık",
-   "bas": 22.11,
-   "son": 22.477
+   "bas": 24.911,
+   "son": 25.268
   },
   {
    "k": "resmi",
-   "bas": 22.477,
-   "son": 22.844
+   "bas": 25.279,
+   "son": 25.659
   },
   {
    "k": "yama",
-   "bas": 22.844,
-   "son": 23.15
+   "bas": 25.659,
+   "son": 25.871
   },
   {
    "k": "gelmiyor,",
-   "bas": 23.15,
-   "son": 23.7
+   "bas": 25.871,
+   "son": 26.384
   },
   {
    "k": "yeni",
-   "bas": 23.7,
-   "son": 24.006
+   "bas": 26.562,
+   "son": 26.775
   },
   {
    "k": "sürüme",
-   "bas": 24.006,
-   "son": 24.435
+   "bas": 26.775,
+   "son": 27.098
   },
   {
    "k": "geç.",
-   "bas": 24.435,
-   "son": 24.679
+   "bas": 27.098,
+   "son": 27.344
   },
   {
    "k": "Kayıtlarda",
-   "bas": 24.899,
-   "son": 25.515
+   "bas": 28.449,
+   "son": 28.996
   },
   {
    "k": "tuhaf",
-   "bas": 25.515,
-   "son": 25.851
+   "bas": 29.006,
+   "son": 29.286
   },
   {
    "k": "hatalar",
-   "bas": 25.851,
-   "son": 26.299
+   "bas": 29.286,
+   "son": 29.754
   },
   {
    "k": "var",
-   "bas": 26.299,
-   "son": 26.523
+   "bas": 29.754,
+   "son": 29.945
   },
   {
    "k": "mı,",
-   "bas": 26.523,
-   "son": 26.691
+   "bas": 29.945,
+   "son": 30.112
   },
   {
    "k": "mutlaka",
-   "bas": 26.691,
-   "son": 27.139
+   "bas": 30.268,
+   "son": 30.692
   },
   {
    "k": "kontrol",
-   "bas": 27.139,
-   "son": 27.587
+   "bas": 30.704,
+   "son": 31.15
   },
   {
    "k": "et.",
-   "bas": 27.587,
-   "son": 27.755
+   "bas": 31.15,
+   "son": 31.317
   }
- ]
+ ],
+ "hiz_carpani": 1.12
 }

@@ -1,339 +1,340 @@
 {
  "metin": "Şimdi dünyaya geçelim. Snapchat'in sahibi Snap, artırılmış gerçeklik gözlüğü Specs için ünlü oyuncu Robert Downey Junior ile anlaştı. Downey, şirkette fahri bir yönetici olarak gözlüğün tanıtımına ve geliştirilmesine destek verecek. Specs, dijital görüntüleri gerçek dünyanın üzerine yerleştiriyor. Bu sonbaharda çıkması beklenen gözlüğün fiyatı ise tam 2.195 dolar. Gözlük ilk olarak ABD, İngiltere ve Fransa'da satışa çıkacak. Telefonların yerini alır mı bilinmez, ama şimdilik cüzdanı epey zorlar.",
  "konusma": "Şimdi dünyaya geçelim. snepçet'in sahibi snep, artırılmış gerçeklik gözlüğü speks için ünlü oyuncu robırt dauni cunior ile anlaştı. dauni, şirkette fahri bir yönetici olarak gözlüğün tanıtımına ve geliştirilmesine destek verecek. speks, dijital görüntüleri gerçek dünyanın üzerine yerleştiriyor. Bu sonbaharda çıkması beklenen gözlüğün fiyatı ise tam iki bin yüz doksan beş dolar. Gözlük ilk olarak a be de, İngiltere ve Fransa'da satışa çıkacak. Telefonların yerini alır mı bilinmez, ama şimdilik cüzdanı epey zorlar.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 29.949614512471655,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 32.5,
  "kelimeler": [
   {
    "k": "Şimdi",
-   "bas": 0.0,
-   "son": 0.345
+   "bas": 0.086,
+   "son": 0.421
   },
   {
    "k": "dünyaya",
-   "bas": 0.345,
-   "son": 0.805
+   "bas": 0.42,
+   "son": 0.862
   },
   {
    "k": "geçelim.",
-   "bas": 0.805,
-   "son": 1.265
+   "bas": 0.862,
+   "son": 1.272
   },
   {
    "k": "Snapchat'in",
-   "bas": 1.485,
-   "son": 2.056
+   "bas": 2.177,
+   "son": 2.716
   },
   {
    "k": "sahibi",
-   "bas": 2.056,
-   "son": 2.456
+   "bas": 2.716,
+   "son": 3.103
   },
   {
    "k": "Snap,",
-   "bas": 2.456,
-   "son": 2.741
+   "bas": 3.103,
+   "son": 3.405
   },
   {
    "k": "artırılmış",
-   "bas": 2.741,
-   "son": 3.369
+   "bas": 3.578,
+   "son": 4.128
   },
   {
    "k": "gerçeklik",
-   "bas": 3.369,
-   "son": 3.939
+   "bas": 4.127,
+   "son": 4.579
   },
   {
    "k": "gözlüğü",
-   "bas": 3.939,
-   "son": 4.396
+   "bas": 4.591,
+   "son": 4.914
   },
   {
    "k": "Specs",
-   "bas": 4.396,
-   "son": 4.738
+   "bas": 4.914,
+   "son": 5.237
   },
   {
    "k": "için",
-   "bas": 4.738,
-   "son": 5.023
+   "bas": 5.237,
+   "son": 5.484
   },
   {
    "k": "ünlü",
-   "bas": 5.023,
-   "son": 5.309
+   "bas": 5.507,
+   "son": 5.722
   },
   {
    "k": "oyuncu",
-   "bas": 5.309,
-   "son": 5.708
+   "bas": 5.733,
+   "son": 6.056
   },
   {
    "k": "Robert",
-   "bas": 5.708,
-   "son": 6.108
+   "bas": 6.056,
+   "son": 6.326
   },
   {
    "k": "Downey",
-   "bas": 6.108,
-   "son": 6.45
+   "bas": 6.326,
+   "son": 6.552
   },
   {
    "k": "Junior",
-   "bas": 6.45,
-   "son": 6.85
+   "bas": 6.552,
+   "son": 6.832
   },
   {
    "k": "ile",
-   "bas": 6.85,
-   "son": 7.078
+   "bas": 6.832,
+   "son": 6.972
   },
   {
    "k": "anlaştı.",
-   "bas": 7.078,
-   "son": 7.534
+   "bas": 6.972,
+   "son": 7.49
   },
   {
    "k": "Downey,",
-   "bas": 7.754,
-   "son": 8.068
+   "bas": 8.395,
+   "son": 8.772
   },
   {
    "k": "şirkette",
-   "bas": 8.068,
-   "son": 8.54
+   "bas": 8.836,
+   "son": 9.267
   },
   {
    "k": "fahri",
-   "bas": 8.54,
-   "son": 8.854
+   "bas": 9.267,
+   "son": 9.569
   },
   {
    "k": "bir",
-   "bas": 8.854,
-   "son": 9.063
+   "bas": 9.569,
+   "son": 9.677
   },
   {
    "k": "yönetici",
-   "bas": 9.063,
-   "son": 9.535
+   "bas": 9.677,
+   "son": 10.053
   },
   {
    "k": "olarak",
-   "bas": 9.535,
-   "son": 9.901
+   "bas": 10.053,
+   "son": 10.355
   },
   {
    "k": "gözlüğün",
-   "bas": 9.901,
-   "son": 10.373
+   "bas": 10.366,
+   "son": 10.744
   },
   {
    "k": "tanıtımına",
-   "bas": 10.373,
-   "son": 10.949
+   "bas": 10.744,
+   "son": 11.25
   },
   {
    "k": "ve",
-   "bas": 10.949,
-   "son": 11.106
+   "bas": 11.283,
+   "son": 11.401
   },
   {
    "k": "geliştirilmesine",
-   "bas": 11.106,
-   "son": 11.996
+   "bas": 11.401,
+   "son": 12.134
   },
   {
    "k": "destek",
-   "bas": 11.996,
-   "son": 12.362
+   "bas": 12.134,
+   "son": 12.467
   },
   {
    "k": "verecek.",
-   "bas": 12.362,
-   "son": 12.781
+   "bas": 12.468,
+   "son": 12.866
   },
   {
    "k": "Specs,",
-   "bas": 13.001,
-   "son": 13.354
+   "bas": 14.493,
+   "son": 14.881
   },
   {
    "k": "dijital",
-   "bas": 13.354,
-   "son": 13.824
+   "bas": 14.924,
+   "son": 15.366
   },
   {
    "k": "görüntüleri",
-   "bas": 13.824,
-   "son": 14.53
+   "bas": 15.366,
+   "son": 15.851
   },
   {
    "k": "gerçek",
-   "bas": 14.53,
-   "son": 14.941
+   "bas": 15.851,
+   "son": 16.217
   },
   {
    "k": "dünyanın",
-   "bas": 14.941,
-   "son": 15.47
+   "bas": 16.228,
+   "son": 16.648
   },
   {
    "k": "üzerine",
-   "bas": 15.47,
-   "son": 15.94
+   "bas": 16.659,
+   "son": 16.983
   },
   {
    "k": "yerleştiriyor.",
-   "bas": 15.94,
-   "son": 16.763
+   "bas": 16.983,
+   "son": 17.694
   },
   {
    "k": "Bu",
-   "bas": 16.983,
-   "son": 17.155
+   "bas": 18.642,
+   "son": 18.76
   },
   {
    "k": "sonbaharda",
-   "bas": 17.155,
-   "son": 17.788
+   "bas": 18.76,
+   "son": 19.299
   },
   {
    "k": "çıkması",
-   "bas": 17.788,
-   "son": 18.247
+   "bas": 19.299,
+   "son": 19.655
   },
   {
    "k": "beklenen",
-   "bas": 18.247,
-   "son": 18.765
+   "bas": 19.655,
+   "son": 20.065
   },
   {
    "k": "gözlüğün",
-   "bas": 18.765,
-   "son": 19.282
+   "bas": 20.065,
+   "son": 20.463
   },
   {
    "k": "fiyatı",
-   "bas": 19.282,
-   "son": 19.684
+   "bas": 20.464,
+   "son": 20.743
   },
   {
    "k": "ise",
-   "bas": 19.684,
-   "son": 19.914
+   "bas": 20.743,
+   "son": 21.046
   },
   {
    "k": "tam",
-   "bas": 19.914,
-   "son": 20.144
+   "bas": 21.25,
+   "son": 21.454
   },
   {
    "k": "2.195",
-   "bas": 20.144,
-   "son": 21.236
+   "bas": 21.487,
+   "son": 22.608
   },
   {
    "k": "dolar.",
-   "bas": 21.236,
-   "son": 21.581
-  },
-  {
-   "k": "Gözlük",
-   "bas": 21.801,
-   "son": 22.24
-  },
-  {
-   "k": "ilk",
-   "bas": 22.24,
-   "son": 22.491
-  },
-  {
-   "k": "olarak",
-   "bas": 22.491,
+   "bas": 22.608,
    "son": 22.931
   },
   {
+   "k": "Gözlük",
+   "bas": 24.03,
+   "son": 24.386
+  },
+  {
+   "k": "ilk",
+   "bas": 24.397,
+   "son": 24.579
+  },
+  {
+   "k": "olarak",
+   "bas": 24.579,
+   "son": 24.882
+  },
+  {
    "k": "ABD,",
-   "bas": 22.931,
-   "son": 23.308
+   "bas": 24.914,
+   "son": 25.388
   },
   {
    "k": "İngiltere",
-   "bas": 23.308,
-   "son": 23.936
+   "bas": 25.484,
+   "son": 25.98
   },
   {
    "k": "ve",
-   "bas": 23.936,
-   "son": 24.124
+   "bas": 25.991,
+   "son": 26.121
   },
   {
    "k": "Fransa'da",
-   "bas": 24.124,
-   "son": 24.69
+   "bas": 26.121,
+   "son": 26.573
   },
   {
    "k": "satışa",
-   "bas": 24.69,
-   "son": 25.129
+   "bas": 26.573,
+   "son": 26.897
   },
   {
    "k": "çıkacak.",
-   "bas": 25.129,
-   "son": 25.632
+   "bas": 26.897,
+   "son": 27.306
   },
   {
    "k": "Telefonların",
-   "bas": 25.852,
-   "son": 26.572
+   "bas": 28.879,
+   "son": 29.461
   },
   {
    "k": "yerini",
-   "bas": 26.572,
-   "son": 26.96
+   "bas": 29.461,
+   "son": 29.752
   },
   {
    "k": "alır",
-   "bas": 26.96,
-   "son": 27.237
+   "bas": 29.753,
+   "son": 29.99
   },
   {
    "k": "mı",
-   "bas": 27.237,
-   "son": 27.403
+   "bas": 29.99,
+   "son": 30.086
   },
   {
    "k": "bilinmez,",
-   "bas": 27.403,
-   "son": 27.902
+   "bas": 30.086,
+   "son": 30.582
   },
   {
    "k": "ama",
-   "bas": 27.902,
-   "son": 28.123
+   "bas": 30.711,
+   "son": 30.872
   },
   {
    "k": "şimdilik",
-   "bas": 28.123,
-   "son": 28.622
+   "bas": 30.872,
+   "son": 31.25
   },
   {
    "k": "cüzdanı",
-   "bas": 28.622,
-   "son": 29.065
+   "bas": 31.261,
+   "son": 31.606
   },
   {
    "k": "epey",
-   "bas": 29.065,
-   "son": 29.342
+   "bas": 31.606,
+   "son": 31.843
   },
   {
    "k": "zorlar.",
-   "bas": 29.342,
-   "son": 29.73
+   "bas": 31.843,
+   "son": 32.241
   }
- ]
+ ],
+ "hiz_carpani": 1.16
 }

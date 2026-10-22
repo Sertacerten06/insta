@@ -1,94 +1,95 @@
 {
  "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu üçüncü bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
  "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu üçüncü bölümümüz. Yazılım ve teknoloji dünyasından en önemli gelişmeler, iki dakikada.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 7.684625850340136,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 7.64,
  "kelimeler": [
   {
    "k": "Arpama",
-   "bas": 0.0,
-   "son": 0.399
+   "bas": 0.086,
+   "son": 0.431
   },
   {
    "k": "Teknoloji",
-   "bas": 0.399,
-   "son": 0.97
+   "bas": 0.431,
+   "son": 0.916
   },
   {
    "k": "Gündemi'ne",
-   "bas": 0.97,
-   "son": 1.54
+   "bas": 0.916,
+   "son": 1.347
   },
   {
    "k": "hoş",
-   "bas": 1.54,
-   "son": 1.769
+   "bas": 1.347,
+   "son": 1.584
   },
   {
    "k": "geldin,",
-   "bas": 1.769,
-   "son": 2.168
+   "bas": 1.584,
+   "son": 2.015
   },
   {
    "k": "bu",
-   "bas": 2.168,
-   "son": 2.339
+   "bas": 2.069,
+   "son": 2.209
   },
   {
    "k": "üçüncü",
-   "bas": 2.339,
-   "son": 2.738
+   "bas": 2.209,
+   "son": 2.522
   },
   {
    "k": "bölümümüz.",
-   "bas": 2.738,
-   "son": 3.309
+   "bas": 2.522,
+   "son": 3.028
   },
   {
    "k": "Yazılım",
-   "bas": 3.529,
-   "son": 3.999
+   "bas": 3.966,
+   "son": 4.342
   },
   {
    "k": "ve",
-   "bas": 3.999,
-   "son": 4.175
+   "bas": 4.353,
+   "son": 4.461
   },
   {
    "k": "teknoloji",
-   "bas": 4.175,
-   "son": 4.762
+   "bas": 4.461,
+   "son": 4.946
   },
   {
    "k": "dünyasından",
-   "bas": 4.762,
-   "son": 5.467
+   "bas": 4.946,
+   "son": 5.582
   },
   {
    "k": "en",
-   "bas": 5.467,
-   "son": 5.644
+   "bas": 5.592,
+   "son": 5.743
   },
   {
    "k": "önemli",
-   "bas": 5.644,
-   "son": 6.055
+   "bas": 5.743,
+   "son": 5.991
   },
   {
    "k": "gelişmeler,",
-   "bas": 6.055,
-   "son": 6.701
+   "bas": 5.991,
+   "son": 6.552
   },
   {
    "k": "iki",
-   "bas": 6.701,
-   "son": 6.936
+   "bas": 6.713,
+   "son": 6.853
   },
   {
    "k": "dakikada.",
-   "bas": 6.936,
-   "son": 7.465
+   "bas": 6.853,
+   "son": 7.381
   }
- ]
+ ],
+ "hiz_carpani": 1.16
 }

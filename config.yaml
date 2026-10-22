@@ -19,10 +19,10 @@ video:
   guvenli_alan: {ust: 220, alt: 380, sag: 140}
 
 tts:
-  servis: piper             # piper (bilgisayarda, ücretsiz, kararlı) | edge | espeak
-  ses: tr-TR-AhmetNeural    # sadece servis: edge iken (sunucu çoğu zaman boş dönüyor)
+  servis: edge              # edge (Emel, kadın; bilgisayarda çalışır) | piper (bulutta, erkek) | espeak
+  ses: tr-TR-EmelNeural     # marka sesi (kadın), 2026-10-22 kullanıcı isteği
   piper_ses: tr_TR-fahrettin-medium   # marka sesi (erkek). models/piper/ içine indirilir
-  hiz: "+0%"
+  hiz: "+0%"                # Emel yavaş: süre 130 sn üstüne çıkarsa wav atempo ile hızlandırılır (Bölüm 3: 1.16, 4: 1.12)
   hedef_lufs: -16
 
 muzik:

@@ -1,349 +1,350 @@
 {
  "metin": "İlk durağımız Türkiye. İçişleri Bakanlığı, Emniyet'in siber suçlarla mücadele programı SİBERAY ve Meta, bu hafta ortak bir kampanya başlattı. Adı: Bir Daha Bak, Güvende Kal. Dört hafta boyunca Instagram ve Facebook kullanıcılarına dolandırıcılığa karşı uyarılar gösterilecek. Peki neye dikkat edeceksin? Tıklamadan önce bağlantının adresine bak. Garanti kazanç, inanılmaz indirim ya da acil ödeme isteyen mesajlara güvenme. Şifreni ve doğrulama kodunu kimseyle paylaşma. Ve iki adımlı doğrulamayı mutlaka aç.",
  "konusma": "İlk durağımız Türkiye. İçişleri Bakanlığı, Emniyet'in siber suçlarla mücadele programı siberay ve Meta, bu hafta ortak bir kampanya başlattı. Adı: Bir Daha Bak, Güvende Kal. Dört hafta boyunca instagram ve feysbuk kullanıcılarına dolandırıcılığa karşı uyarılar gösterilecek. Peki neye dikkat edeceksin? Tıklamadan önce bağlantının adresine bak. Garanti kazanç, inanılmaz indirim ya da acil ödeme isteyen mesajlara güvenme. Şifreni ve doğrulama kodunu kimseyle paylaşma. Ve iki adımlı doğrulamayı mutlaka aç.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 30.041315192743763,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 33.89,
  "kelimeler": [
   {
    "k": "İlk",
-   "bas": 0.0,
-   "son": 0.251
+   "bas": 0.086,
+   "son": 0.247
   },
   {
    "k": "durağımız",
-   "bas": 0.251,
-   "son": 0.879
+   "bas": 0.291,
+   "son": 0.754
   },
   {
    "k": "Türkiye.",
-   "bas": 0.879,
-   "son": 1.382
+   "bas": 0.754,
+   "son": 1.24
   },
   {
    "k": "İçişleri",
-   "bas": 1.602,
-   "son": 2.122
+   "bas": 2.091,
+   "son": 2.489
   },
   {
    "k": "Bakanlığı,",
-   "bas": 2.122,
-   "son": 2.701
+   "bas": 2.49,
+   "son": 2.964
   },
   {
    "k": "Emniyet'in",
-   "bas": 2.701,
-   "son": 3.279
+   "bas": 3.125,
+   "son": 3.588
   },
   {
    "k": "siber",
-   "bas": 3.279,
-   "son": 3.626
+   "bas": 3.588,
+   "son": 3.879
   },
   {
    "k": "suçlarla",
-   "bas": 3.626,
-   "son": 4.147
+   "bas": 3.879,
+   "son": 4.332
   },
   {
    "k": "mücadele",
-   "bas": 4.147,
-   "son": 4.668
+   "bas": 4.332,
+   "son": 4.817
   },
   {
    "k": "programı",
-   "bas": 4.668,
-   "son": 5.188
+   "bas": 4.828,
+   "son": 5.204
   },
   {
    "k": "SİBERAY",
-   "bas": 5.188,
-   "son": 5.651
+   "bas": 5.204,
+   "son": 5.614
   },
   {
    "k": "ve",
-   "bas": 5.651,
-   "son": 5.824
+   "bas": 5.615,
+   "son": 5.733
   },
   {
    "k": "Meta,",
-   "bas": 5.824,
-   "son": 6.114
+   "bas": 5.733,
+   "son": 6.024
   },
   {
    "k": "bu",
-   "bas": 6.114,
-   "son": 6.287
+   "bas": 6.261,
+   "son": 6.391
   },
   {
    "k": "hafta",
-   "bas": 6.287,
-   "son": 6.634
+   "bas": 6.39,
+   "son": 6.628
   },
   {
    "k": "ortak",
-   "bas": 6.634,
-   "son": 6.981
+   "bas": 6.628,
+   "son": 6.94
   },
   {
    "k": "bir",
-   "bas": 6.981,
-   "son": 7.213
+   "bas": 6.95,
+   "son": 7.047
   },
   {
    "k": "kampanya",
-   "bas": 7.213,
-   "son": 7.733
+   "bas": 7.047,
+   "son": 7.478
   },
   {
    "k": "başlattı.",
-   "bas": 7.733,
-   "son": 8.254
+   "bas": 7.478,
+   "son": 8.017
   },
   {
    "k": "Adı:",
-   "bas": 8.474,
-   "son": 8.74
+   "bas": 8.966,
+   "son": 9.235
   },
   {
    "k": "Bir",
-   "bas": 8.74,
-   "son": 9.006
+   "bas": 9.397,
+   "son": 9.622
   },
   {
    "k": "Daha",
-   "bas": 9.006,
-   "son": 9.338
+   "bas": 9.622,
+   "son": 9.849
   },
   {
    "k": "Bak,",
-   "bas": 9.338,
-   "son": 9.604
+   "bas": 9.849,
+   "son": 10.065
   },
   {
    "k": "Güvende",
-   "bas": 9.604,
-   "son": 10.136
+   "bas": 10.161,
+   "son": 10.592
   },
   {
    "k": "Kal.",
-   "bas": 10.136,
-   "son": 10.401
+   "bas": 10.603,
+   "son": 10.905
   },
   {
    "k": "Dört",
-   "bas": 10.621,
-   "son": 10.882
+   "bas": 11.778,
+   "son": 12.016
   },
   {
    "k": "hafta",
-   "bas": 10.882,
-   "son": 11.195
+   "bas": 12.016,
+   "son": 12.284
   },
   {
    "k": "boyunca",
-   "bas": 11.195,
-   "son": 11.612
+   "bas": 12.284,
+   "son": 12.629
   },
   {
    "k": "Instagram",
-   "bas": 11.612,
-   "son": 12.133
+   "bas": 12.629,
+   "son": 13.211
   },
   {
    "k": "ve",
-   "bas": 12.133,
-   "son": 12.289
+   "bas": 13.233,
+   "son": 13.362
   },
   {
    "k": "Facebook",
-   "bas": 12.289,
-   "son": 12.707
+   "bas": 13.362,
+   "son": 13.728
   },
   {
    "k": "kullanıcılarına",
-   "bas": 12.707,
-   "son": 13.541
+   "bas": 13.75,
+   "son": 14.342
   },
   {
    "k": "dolandırıcılığa",
-   "bas": 13.541,
-   "son": 14.375
+   "bas": 14.342,
+   "son": 15.01
   },
   {
    "k": "karşı",
-   "bas": 14.375,
-   "son": 14.687
+   "bas": 15.011,
+   "son": 15.323
   },
   {
    "k": "uyarılar",
-   "bas": 14.687,
-   "son": 15.157
+   "bas": 15.323,
+   "son": 15.733
   },
   {
    "k": "gösterilecek.",
-   "bas": 15.157,
-   "son": 15.834
+   "bas": 15.733,
+   "son": 16.39
   },
   {
    "k": "Peki",
-   "bas": 16.054,
-   "son": 16.336
+   "bas": 17.791,
+   "son": 18.028
   },
   {
    "k": "neye",
-   "bas": 16.336,
-   "son": 16.618
+   "bas": 18.039,
+   "son": 18.276
   },
   {
    "k": "dikkat",
-   "bas": 16.618,
-   "son": 17.012
+   "bas": 18.276,
+   "son": 18.578
   },
   {
    "k": "edeceksin?",
-   "bas": 17.012,
-   "son": 17.575
+   "bas": 18.578,
+   "son": 19.159
   },
   {
    "k": "Tıklamadan",
-   "bas": 17.795,
-   "son": 18.375
+   "bas": 20.0,
+   "son": 20.484
   },
   {
    "k": "önce",
-   "bas": 18.375,
-   "son": 18.638
+   "bas": 20.507,
+   "son": 20.743
   },
   {
    "k": "bağlantının",
-   "bas": 18.638,
-   "son": 19.27
+   "bas": 20.743,
+   "son": 21.347
   },
   {
    "k": "adresine",
-   "bas": 19.27,
-   "son": 19.744
+   "bas": 21.369,
+   "son": 21.8
   },
   {
    "k": "bak.",
-   "bas": 19.744,
-   "son": 19.955
+   "bas": 21.8,
+   "son": 22.016
   },
   {
    "k": "Garanti",
-   "bas": 20.175,
-   "son": 20.651
+   "bas": 23.362,
+   "son": 23.74
   },
   {
    "k": "kazanç,",
-   "bas": 20.651,
-   "son": 21.068
+   "bas": 23.74,
+   "son": 24.106
   },
   {
    "k": "inanılmaz",
-   "bas": 21.068,
-   "son": 21.664
+   "bas": 24.31,
+   "son": 24.774
   },
   {
    "k": "indirim",
-   "bas": 21.664,
-   "son": 22.141
+   "bas": 24.774,
+   "son": 25.129
   },
   {
    "k": "ya",
-   "bas": 22.141,
-   "son": 22.319
+   "bas": 25.151,
+   "son": 25.248
   },
   {
    "k": "da",
-   "bas": 22.319,
-   "son": 22.498
+   "bas": 25.248,
+   "son": 25.366
   },
   {
    "k": "acil",
-   "bas": 22.498,
-   "son": 22.796
+   "bas": 25.366,
+   "son": 25.722
   },
   {
    "k": "ödeme",
-   "bas": 22.796,
-   "son": 23.153
+   "bas": 25.722,
+   "son": 25.97
   },
   {
    "k": "isteyen",
-   "bas": 23.153,
-   "son": 23.63
+   "bas": 25.97,
+   "son": 26.326
   },
   {
    "k": "mesajlara",
-   "bas": 23.63,
-   "son": 24.226
+   "bas": 26.326,
+   "son": 26.822
   },
   {
    "k": "güvenme.",
-   "bas": 24.226,
-   "son": 24.702
+   "bas": 26.822,
+   "son": 27.296
   },
   {
    "k": "Şifreni",
-   "bas": 24.922,
-   "son": 25.377
+   "bas": 28.448,
+   "son": 28.901
   },
   {
    "k": "ve",
-   "bas": 25.377,
-   "son": 25.547
+   "bas": 28.901,
+   "son": 29.03
   },
   {
    "k": "doğrulama",
-   "bas": 25.547,
-   "son": 26.115
+   "bas": 29.03,
+   "son": 29.483
   },
   {
    "k": "kodunu",
-   "bas": 26.115,
-   "son": 26.513
+   "bas": 29.493,
+   "son": 29.784
   },
   {
    "k": "kimseyle",
-   "bas": 26.513,
-   "son": 27.024
+   "bas": 29.784,
+   "son": 30.237
   },
   {
    "k": "paylaşma.",
-   "bas": 27.024,
-   "son": 27.535
+   "bas": 30.247,
+   "son": 30.797
   },
   {
    "k": "Ve",
-   "bas": 27.755,
-   "son": 27.922
+   "bas": 31.724,
+   "son": 31.864
   },
   {
    "k": "iki",
-   "bas": 27.922,
-   "son": 28.146
+   "bas": 31.875,
+   "son": 32.112
   },
   {
    "k": "adımlı",
-   "bas": 28.146,
-   "son": 28.537
+   "bas": 32.123,
+   "son": 32.457
   },
   {
    "k": "doğrulamayı",
-   "bas": 28.537,
-   "son": 29.207
+   "bas": 32.457,
+   "son": 32.984
   },
   {
    "k": "mutlaka",
-   "bas": 29.207,
-   "son": 29.654
+   "bas": 32.996,
+   "son": 33.438
   },
   {
    "k": "aç.",
-   "bas": 29.654,
-   "son": 29.821
+   "bas": 33.448,
+   "son": 33.631
   }
- ]
+ ],
+ "hiz_carpani": 1.16
 }

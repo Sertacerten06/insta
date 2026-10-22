@@ -1,264 +1,265 @@
 {
  "metin": "Peki sınav hazırlığındaki en büyük tuzak ne? Konuyu okuyup anladığını sanmak. YKS Haritam'ın Kendini Test Et özelliği tam bunun için! Kartlarla hızlı tekrar yaparsın. Bildiğin kartlar geçer, bilmediklerin ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Her gün birkaç dakikalık test, sınav gününe kadar büyük fark yaratır.",
  "konusma": "Peki sınav hazırlığındaki en büyük tuzak ne? Konuyu okuyup anladığını sanmak. ye ka se Haritam'ın Kendini Test Et özelliği tam bunun için! Kartlarla hızlı tekrar yaparsın. Bildiğin kartlar geçer, bilmediklerin ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Her gün birkaç dakikalık test, sınav gününe kadar büyük fark yaratır.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 22.612108843537413,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 24.278,
  "kelimeler": [
   {
    "k": "Peki",
-   "bas": 0.0,
-   "son": 0.278
+   "bas": 0.086,
+   "son": 0.313
   },
   {
    "k": "sınav",
-   "bas": 0.278,
-   "son": 0.612
+   "bas": 0.323,
+   "son": 0.603
   },
   {
    "k": "hazırlığındaki",
-   "bas": 0.612,
-   "son": 1.448
+   "bas": 0.603,
+   "son": 1.26
   },
   {
    "k": "en",
-   "bas": 1.448,
-   "son": 1.615
+   "bas": 1.26,
+   "son": 1.455
   },
   {
    "k": "büyük",
-   "bas": 1.615,
-   "son": 1.949
+   "bas": 1.466,
+   "son": 1.681
   },
   {
    "k": "tuzak",
-   "bas": 1.949,
-   "son": 2.283
+   "bas": 1.703,
+   "son": 1.983
   },
   {
    "k": "ne?",
-   "bas": 2.283,
-   "son": 2.45
+   "bas": 2.004,
+   "son": 2.166
   },
   {
    "k": "Konuyu",
-   "bas": 2.67,
-   "son": 3.046
+   "bas": 3.039,
+   "son": 3.341
   },
   {
    "k": "okuyup",
-   "bas": 3.046,
-   "son": 3.421
+   "bas": 3.352,
+   "son": 3.707
   },
   {
    "k": "anladığını",
-   "bas": 3.421,
-   "son": 4.012
+   "bas": 3.74,
+   "son": 4.235
   },
   {
    "k": "sanmak.",
-   "bas": 4.012,
-   "son": 4.388
+   "bas": 4.234,
+   "son": 4.644
   },
   {
    "k": "YKS",
-   "bas": 4.608,
-   "son": 5.001
+   "bas": 5.862,
+   "son": 6.261
   },
   {
    "k": "Haritam'ın",
-   "bas": 5.001,
-   "son": 5.564
+   "bas": 6.261,
+   "son": 6.692
   },
   {
    "k": "Kendini",
-   "bas": 5.564,
-   "son": 6.013
+   "bas": 6.703,
+   "son": 7.091
   },
   {
    "k": "Test",
-   "bas": 6.013,
-   "son": 6.294
+   "bas": 7.102,
+   "son": 7.371
   },
   {
    "k": "Et",
-   "bas": 6.294,
-   "son": 6.463
+   "bas": 7.381,
+   "son": 7.511
   },
   {
    "k": "özelliği",
-   "bas": 6.463,
-   "son": 6.969
+   "bas": 7.522,
+   "son": 7.942
   },
   {
    "k": "tam",
-   "bas": 6.969,
-   "son": 7.194
+   "bas": 7.964,
+   "son": 8.179
   },
   {
    "k": "bunun",
-   "bas": 7.194,
-   "son": 7.531
+   "bas": 8.179,
+   "son": 8.438
   },
   {
    "k": "için!",
-   "bas": 7.531,
-   "son": 7.812
+   "bas": 8.437,
+   "son": 8.728
   },
   {
    "k": "Kartlarla",
-   "bas": 8.032,
-   "son": 8.606
+   "bas": 9.645,
+   "son": 10.14
   },
   {
    "k": "hızlı",
-   "bas": 8.606,
-   "son": 8.95
+   "bas": 10.14,
+   "son": 10.453
   },
   {
    "k": "tekrar",
-   "bas": 8.95,
-   "son": 9.351
+   "bas": 10.453,
+   "son": 10.841
   },
   {
    "k": "yaparsın.",
-   "bas": 9.351,
-   "son": 9.867
+   "bas": 10.841,
+   "son": 11.358
   },
   {
    "k": "Bildiğin",
-   "bas": 10.087,
-   "son": 10.647
+   "bas": 12.253,
+   "son": 12.586
   },
   {
    "k": "kartlar",
-   "bas": 10.647,
-   "son": 11.144
+   "bas": 12.586,
+   "son": 12.996
   },
   {
    "k": "geçer,",
-   "bas": 11.144,
-   "son": 11.518
+   "bas": 12.996,
+   "son": 13.351
   },
   {
    "k": "bilmediklerin",
-   "bas": 11.518,
-   "son": 12.389
+   "bas": 13.491,
+   "son": 14.116
   },
   {
    "k": "ise",
-   "bas": 12.389,
-   "son": 12.638
+   "bas": 14.127,
+   "son": 14.342
   },
   {
    "k": "daha",
-   "bas": 12.638,
-   "son": 12.949
+   "bas": 14.353,
+   "son": 14.569
   },
   {
    "k": "sık",
-   "bas": 12.949,
-   "son": 13.198
+   "bas": 14.569,
+   "son": 14.72
   },
   {
    "k": "karşına",
-   "bas": 13.198,
-   "son": 13.696
+   "bas": 14.72,
+   "son": 15.086
   },
   {
    "k": "çıkar.",
-   "bas": 13.696,
-   "son": 14.069
+   "bas": 15.086,
+   "son": 15.431
   },
   {
    "k": "Böylece",
-   "bas": 14.289,
-   "son": 14.782
+   "bas": 16.39,
+   "son": 16.789
   },
   {
    "k": "zamanını",
-   "bas": 14.782,
-   "son": 15.337
+   "bas": 16.789,
+   "son": 17.209
   },
   {
    "k": "zaten",
-   "bas": 15.337,
-   "son": 15.708
+   "bas": 17.209,
+   "son": 17.619
   },
   {
    "k": "bildiklerine",
-   "bas": 15.708,
-   "son": 16.509
+   "bas": 17.619,
+   "son": 18.114
   },
   {
    "k": "değil,",
-   "bas": 16.509,
-   "son": 16.879
+   "bas": 18.114,
+   "son": 18.427
   },
   {
    "k": "eksiklerine",
-   "bas": 16.879,
-   "son": 17.62
+   "bas": 18.567,
+   "son": 19.106
   },
   {
    "k": "harcarsın.",
-   "bas": 17.62,
-   "son": 18.236
+   "bas": 19.106,
+   "son": 19.72
   },
   {
    "k": "Her",
-   "bas": 18.456,
-   "son": 18.688
+   "bas": 20.69,
+   "son": 20.916
   },
   {
    "k": "gün",
-   "bas": 18.688,
-   "son": 18.919
+   "bas": 20.927,
+   "son": 21.078
   },
   {
    "k": "birkaç",
-   "bas": 18.919,
-   "son": 19.325
+   "bas": 21.088,
+   "son": 21.411
   },
   {
    "k": "dakikalık",
-   "bas": 19.325,
-   "son": 19.903
+   "bas": 21.422,
+   "son": 21.908
   },
   {
    "k": "test,",
-   "bas": 19.903,
-   "son": 20.193
+   "bas": 21.918,
+   "son": 22.198
   },
   {
    "k": "sınav",
-   "bas": 20.193,
-   "son": 20.54
+   "bas": 22.328,
+   "son": 22.618
   },
   {
    "k": "gününe",
-   "bas": 20.54,
-   "son": 20.945
+   "bas": 22.619,
+   "son": 22.898
   },
   {
    "k": "kadar",
-   "bas": 20.945,
-   "son": 21.292
+   "bas": 22.898,
+   "son": 23.19
   },
   {
    "k": "büyük",
-   "bas": 21.292,
-   "son": 21.64
+   "bas": 23.19,
+   "son": 23.384
   },
   {
    "k": "fark",
-   "bas": 21.64,
-   "son": 21.929
+   "bas": 23.384,
+   "son": 23.599
   },
   {
    "k": "yaratır.",
-   "bas": 21.929,
-   "son": 22.392
+   "bas": 23.609,
+   "son": 24.02
   }
- ]
+ ],
+ "hiz_carpani": 1.16
 }

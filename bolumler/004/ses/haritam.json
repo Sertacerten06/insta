@@ -1,144 +1,145 @@
 {
  "metin": "Açığı kapatmak için önce nerede olduğunu bilmen gerekir. Sınavda da öyle. YKS Haritam'ın Deneme Takibi, netlerini grafikle gösterir, puanını tahmin eder ve hedefine ne kadar kaldığını söyler.",
  "konusma": "Açığı kapatmak için önce nerede olduğunu bilmen gerekir. Sınavda da öyle. ye ka se Haritam'ın Deneme Takibi, netlerini grafikle gösterir, puanını tahmin eder ve hedefine ne kadar kaldığını söyler.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 11.677868480725623,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 12.21,
  "kelimeler": [
   {
    "k": "Açığı",
-   "bas": 0.0,
-   "son": 0.326
+   "bas": 0.089,
+   "son": 0.357
   },
   {
    "k": "kapatmak",
-   "bas": 0.326,
-   "son": 0.815
+   "bas": 0.368,
+   "son": 0.792
   },
   {
    "k": "için",
-   "bas": 0.815,
-   "son": 1.086
+   "bas": 0.804,
+   "son": 1.071
   },
   {
    "k": "önce",
-   "bas": 1.086,
-   "son": 1.358
+   "bas": 1.082,
+   "son": 1.35
   },
   {
    "k": "nerede",
-   "bas": 1.358,
-   "son": 1.738
+   "bas": 1.35,
+   "son": 1.64
   },
   {
    "k": "olduğunu",
-   "bas": 1.738,
-   "son": 2.227
+   "bas": 1.64,
+   "son": 2.031
   },
   {
    "k": "bilmen",
-   "bas": 2.227,
-   "son": 2.607
+   "bas": 2.031,
+   "son": 2.366
   },
   {
    "k": "gerekir.",
-   "bas": 2.607,
-   "son": 3.042
+   "bas": 2.366,
+   "son": 2.823
   },
   {
    "k": "Sınavda",
-   "bas": 3.262,
-   "son": 3.871
+   "bas": 3.939,
+   "son": 4.409
   },
   {
    "k": "da",
-   "bas": 3.871,
-   "son": 4.1
+   "bas": 4.409,
+   "son": 4.543
   },
   {
    "k": "öyle.",
-   "bas": 4.1,
-   "son": 4.481
+   "bas": 4.554,
+   "son": 4.933
   },
   {
    "k": "YKS",
-   "bas": 4.701,
-   "son": 5.105
+   "bas": 5.871,
+   "son": 6.283
   },
   {
    "k": "Haritam'ın",
-   "bas": 5.105,
-   "son": 5.683
+   "bas": 6.283,
+   "son": 6.696
   },
   {
    "k": "Deneme",
-   "bas": 5.683,
-   "son": 6.087
+   "bas": 6.696,
+   "son": 6.987
   },
   {
    "k": "Takibi,",
-   "bas": 6.087,
-   "son": 6.491
+   "bas": 6.987,
+   "son": 7.467
   },
   {
    "k": "netlerini",
-   "bas": 6.491,
-   "son": 7.069
+   "bas": 7.656,
+   "son": 8.103
   },
   {
    "k": "grafikle",
-   "bas": 7.069,
-   "son": 7.588
+   "bas": 8.103,
+   "son": 8.504
   },
   {
    "k": "gösterir,",
-   "bas": 7.588,
-   "son": 8.108
+   "bas": 8.504,
+   "son": 8.962
   },
   {
    "k": "puanını",
-   "bas": 8.108,
-   "son": 8.57
+   "bas": 9.185,
+   "son": 9.565
   },
   {
    "k": "tahmin",
-   "bas": 8.57,
-   "son": 8.975
+   "bas": 9.565,
+   "son": 9.933
   },
   {
    "k": "eder",
-   "bas": 8.975,
-   "son": 9.263
+   "bas": 9.933,
+   "son": 10.189
   },
   {
    "k": "ve",
-   "bas": 9.263,
-   "son": 9.437
+   "bas": 10.189,
+   "son": 10.29
   },
   {
    "k": "hedefine",
-   "bas": 9.437,
-   "son": 9.956
+   "bas": 10.29,
+   "son": 10.67
   },
   {
    "k": "ne",
-   "bas": 9.956,
-   "son": 10.13
+   "bas": 10.67,
+   "son": 10.792
   },
   {
    "k": "kadar",
-   "bas": 10.13,
-   "son": 10.476
+   "bas": 10.793,
+   "son": 11.082
   },
   {
    "k": "kaldığını",
-   "bas": 10.476,
-   "son": 11.054
+   "bas": 11.094,
+   "son": 11.507
   },
   {
    "k": "söyler.",
-   "bas": 11.054,
-   "son": 11.458
+   "bas": 11.506,
+   "son": 11.942
   }
- ]
+ ],
+ "hiz_carpani": 1.12
 }

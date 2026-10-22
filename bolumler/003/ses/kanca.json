@@ -1,69 +1,70 @@
 {
  "metin": "Instagram'da bir mesaj: Tebrikler, kazandın! Tıklamadan önce bir daha bak. Hazırsan başlıyoruz!",
  "konusma": "instagram'da bir mesaj: Tebrikler, kazandın! Tıklamadan önce bir daha bak. Hazırsan başlıyoruz!",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 6.604308390022676,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 7.166,
  "kelimeler": [
   {
    "k": "Instagram'da",
-   "bas": 0.0,
-   "son": 0.877
+   "bas": 0.086,
+   "son": 0.69
   },
   {
    "k": "bir",
-   "bas": 0.877,
-   "son": 1.169
+   "bas": 0.69,
+   "son": 0.819
   },
   {
    "k": "mesaj:",
-   "bas": 1.169,
-   "son": 1.607
+   "bas": 0.819,
+   "son": 1.24
   },
   {
    "k": "Tebrikler,",
-   "bas": 1.607,
-   "son": 2.338
+   "bas": 1.358,
+   "son": 1.94
   },
   {
    "k": "kazandın!",
-   "bas": 2.338,
-   "son": 2.995
+   "bas": 2.026,
+   "son": 2.575
   },
   {
    "k": "Tıklamadan",
-   "bas": 3.215,
-   "son": 3.805
+   "bas": 3.427,
+   "son": 3.933
   },
   {
    "k": "önce",
-   "bas": 3.805,
-   "son": 4.074
+   "bas": 3.944,
+   "son": 4.203
   },
   {
    "k": "bir",
-   "bas": 4.074,
-   "son": 4.288
+   "bas": 4.203,
+   "son": 4.332
   },
   {
    "k": "daha",
-   "bas": 4.288,
-   "son": 4.557
+   "bas": 4.332,
+   "son": 4.559
   },
   {
    "k": "bak.",
-   "bas": 4.557,
-   "son": 4.771
+   "bas": 4.558,
+   "son": 4.773
   },
   {
    "k": "Hazırsan",
-   "bas": 4.991,
-   "son": 5.618
+   "bas": 5.766,
+   "son": 6.272
   },
   {
    "k": "başlıyoruz!",
-   "bas": 5.618,
-   "son": 6.384
+   "bas": 6.272,
+   "son": 6.908
   }
- ]
+ ],
+ "hiz_carpani": 1.16
 }

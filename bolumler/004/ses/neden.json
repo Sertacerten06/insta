@@ -1,259 +1,260 @@
 {
  "metin": "Peki neden böyle oldu? Hatalı kod on yıldan uzun süredir PHP'nin içindeydi. İlk işaretler 2024'te görülmüş, ama küçük ekip çözüm üzerinde anlaşamayınca iş aylarca bekledi. Sonunda Wiz ve OpenAI araştırmacıları, yapay zekâ yardımıyla açığın nasıl kullanılabileceğini gösterdi. Yani yapay zekâ açığı bulmaya yardım etti, ama aynı güç saldırganların da elinde.",
  "konusma": "Peki neden böyle oldu? Hatalı kod on yıldan uzun süredir pe ha pe'nin içindeydi. İlk işaretler 2024'te görülmüş, ama küçük ekip çözüm üzerinde anlaşamayınca iş aylarca bekledi. Sonunda viz ve open ey ay araştırmacıları, yapay zekâ yardımıyla açığın nasıl kullanılabileceğini gösterdi. Yani yapay zekâ açığı bulmaya yardım etti, ama aynı güç saldırganların da elinde.",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 21.754149659863945,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 23.549,
  "kelimeler": [
   {
    "k": "Peki",
-   "bas": 0.0,
-   "son": 0.264
+   "bas": 0.089,
+   "son": 0.335
   },
   {
    "k": "neden",
-   "bas": 0.264,
-   "son": 0.58
+   "bas": 0.346,
+   "son": 0.659
   },
   {
    "k": "böyle",
-   "bas": 0.58,
-   "son": 0.897
+   "bas": 0.659,
+   "son": 0.938
   },
   {
    "k": "oldu?",
-   "bas": 0.897,
-   "son": 1.161
+   "bas": 0.938,
+   "son": 1.262
   },
   {
    "k": "Hatalı",
-   "bas": 1.381,
-   "son": 1.759
+   "bas": 2.244,
+   "son": 2.646
   },
   {
    "k": "kod",
-   "bas": 1.759,
-   "son": 1.975
+   "bas": 2.656,
+   "son": 2.857
   },
   {
    "k": "on",
-   "bas": 1.975,
-   "son": 2.137
+   "bas": 2.89,
+   "son": 3.07
   },
   {
    "k": "yıldan",
-   "bas": 2.137,
-   "son": 2.514
+   "bas": 3.07,
+   "son": 3.404
   },
   {
    "k": "uzun",
-   "bas": 2.514,
-   "son": 2.784
+   "bas": 3.415,
+   "son": 3.695
   },
   {
    "k": "süredir",
-   "bas": 2.784,
-   "son": 3.216
+   "bas": 3.695,
+   "son": 4.085
   },
   {
    "k": "PHP'nin",
-   "bas": 3.216,
-   "son": 3.755
+   "bas": 4.096,
+   "son": 4.687
   },
   {
    "k": "içindeydi.",
-   "bas": 3.755,
-   "son": 4.295
+   "bas": 4.687,
+   "son": 5.246
   },
   {
    "k": "İlk",
-   "bas": 4.515,
-   "son": 4.773
+   "bas": 6.171,
+   "son": 6.328
   },
   {
    "k": "işaretler",
-   "bas": 4.773,
-   "son": 5.417
+   "bas": 6.35,
+   "son": 6.908
   },
   {
    "k": "2024'te",
-   "bas": 5.417,
-   "son": 5.868
+   "bas": 6.908,
+   "son": 7.857
   },
   {
    "k": "görülmüş,",
-   "bas": 5.868,
-   "son": 6.448
+   "bas": 7.857,
+   "son": 8.348
   },
   {
    "k": "ama",
-   "bas": 6.448,
-   "son": 6.705
+   "bas": 8.515,
+   "son": 8.694
   },
   {
    "k": "küçük",
-   "bas": 6.705,
-   "son": 7.092
+   "bas": 8.695,
+   "son": 8.973
   },
   {
    "k": "ekip",
-   "bas": 7.092,
-   "son": 7.414
+   "bas": 8.973,
+   "son": 9.196
   },
   {
    "k": "çözüm",
-   "bas": 7.414,
-   "son": 7.8
+   "bas": 9.23,
+   "son": 9.476
   },
   {
    "k": "üzerinde",
-   "bas": 7.8,
-   "son": 8.38
+   "bas": 9.476,
+   "son": 9.866
   },
   {
    "k": "anlaşamayınca",
-   "bas": 8.38,
-   "son": 9.282
+   "bas": 9.866,
+   "son": 10.525
   },
   {
    "k": "iş",
-   "bas": 9.282,
-   "son": 9.475
+   "bas": 10.524,
+   "son": 10.714
   },
   {
    "k": "aylarca",
-   "bas": 9.475,
-   "son": 9.991
+   "bas": 10.714,
+   "son": 11.105
   },
   {
    "k": "bekledi.",
-   "bas": 9.991,
-   "son": 10.506
+   "bas": 11.105,
+   "son": 11.574
   },
   {
    "k": "Sonunda",
-   "bas": 10.726,
-   "son": 11.197
+   "bas": 12.545,
+   "son": 12.936
   },
   {
    "k": "Wiz",
-   "bas": 11.197,
-   "son": 11.432
+   "bas": 12.936,
+   "son": 13.192
   },
   {
    "k": "ve",
-   "bas": 11.432,
-   "son": 11.608
+   "bas": 13.192,
+   "son": 13.304
   },
   {
    "k": "OpenAI",
-   "bas": 11.608,
-   "son": 12.138
+   "bas": 13.314,
+   "son": 13.851
   },
   {
    "k": "araştırmacıları,",
-   "bas": 12.138,
-   "son": 13.079
+   "bas": 13.85,
+   "son": 14.631
   },
   {
    "k": "yapay",
-   "bas": 13.079,
-   "son": 13.432
+   "bas": 14.866,
+   "son": 15.134
   },
   {
    "k": "zekâ",
-   "bas": 13.432,
-   "son": 13.726
+   "bas": 15.134,
+   "son": 15.424
   },
   {
    "k": "yardımıyla",
-   "bas": 13.726,
-   "son": 14.373
+   "bas": 15.436,
+   "son": 15.949
   },
   {
    "k": "açığın",
-   "bas": 14.373,
-   "son": 14.785
+   "bas": 15.949,
+   "son": 16.262
   },
   {
    "k": "nasıl",
-   "bas": 14.785,
-   "son": 15.138
+   "bas": 16.261,
+   "son": 16.551
   },
   {
    "k": "kullanılabileceğini",
-   "bas": 15.138,
-   "son": 16.315
+   "bas": 16.552,
+   "son": 17.355
   },
   {
    "k": "gösterdi.",
-   "bas": 16.315,
-   "son": 16.844
+   "bas": 17.355,
+   "son": 17.946
   },
   {
    "k": "Yani",
-   "bas": 17.064,
-   "son": 17.344
+   "bas": 19.029,
+   "son": 19.353
   },
   {
    "k": "yapay",
-   "bas": 17.344,
-   "son": 17.679
+   "bas": 19.353,
+   "son": 19.621
   },
   {
    "k": "zekâ",
-   "bas": 17.679,
-   "son": 17.958
+   "bas": 19.621,
+   "son": 19.911
   },
   {
    "k": "açığı",
-   "bas": 17.958,
-   "son": 18.294
+   "bas": 19.944,
+   "son": 20.156
   },
   {
    "k": "bulmaya",
-   "bas": 18.294,
-   "son": 18.74
+   "bas": 20.156,
+   "son": 20.491
   },
   {
    "k": "yardım",
-   "bas": 18.74,
-   "son": 19.132
+   "bas": 20.491,
+   "son": 20.837
   },
   {
    "k": "etti,",
-   "bas": 19.132,
-   "son": 19.411
+   "bas": 20.837,
+   "son": 21.161
   },
   {
    "k": "ama",
-   "bas": 19.411,
-   "son": 19.634
+   "bas": 21.429,
+   "son": 21.607
   },
   {
    "k": "aynı",
-   "bas": 19.634,
-   "son": 19.914
+   "bas": 21.607,
+   "son": 21.886
   },
   {
    "k": "güç",
-   "bas": 19.914,
-   "son": 20.137
+   "bas": 21.886,
+   "son": 22.043
   },
   {
    "k": "saldırganların",
-   "bas": 20.137,
-   "son": 20.975
+   "bas": 22.043,
+   "son": 22.757
   },
   {
    "k": "da",
-   "bas": 20.975,
-   "son": 21.143
+   "bas": 22.757,
+   "son": 22.869
   },
   {
    "k": "elinde.",
-   "bas": 21.143,
-   "son": 21.534
+   "bas": 22.869,
+   "son": 23.281
   }
- ]
+ ],
+ "hiz_carpani": 1.12
 }

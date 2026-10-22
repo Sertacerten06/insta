@@ -1,104 +1,105 @@
 {
  "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
  "konusma": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
- "servis": "piper",
- "ses": "tr_TR-fahrettin-medium",
- "sure": 10.795510204081634,
+ "servis": "edge",
+ "ses": "tr-TR-EmelNeural",
+ "sure": 11.002,
  "kelimeler": [
   {
    "k": "Haritam",
-   "bas": 0.0,
-   "son": 0.476
+   "bas": 0.086,
+   "son": 0.484
   },
   {
    "k": "tamamen",
-   "bas": 0.476,
-   "son": 0.953
+   "bas": 0.496,
+   "son": 0.884
   },
   {
    "k": "ücretsiz,",
-   "bas": 0.953,
-   "son": 1.489
+   "bas": 0.895,
+   "son": 1.434
   },
   {
    "k": "telefonda",
-   "bas": 1.489,
-   "son": 2.084
+   "bas": 1.498,
+   "son": 1.961
   },
   {
    "k": "da",
-   "bas": 2.084,
-   "son": 2.263
+   "bas": 1.961,
+   "son": 2.069
   },
   {
    "k": "bilgisayarda",
-   "bas": 2.263,
-   "son": 3.037
+   "bas": 2.069,
+   "son": 2.661
   },
   {
    "k": "da",
-   "bas": 3.037,
-   "son": 3.216
+   "bas": 2.661,
+   "son": 2.769
   },
   {
    "k": "çalışır.",
-   "bas": 3.216,
-   "son": 3.692
+   "bas": 2.769,
+   "son": 3.2
   },
   {
    "k": "haritam.arpama.tr",
-   "bas": 3.912,
-   "son": 5.697
+   "bas": 4.116,
+   "son": 5.733
   },
   {
    "k": "adresinden",
-   "bas": 5.697,
-   "son": 6.398
+   "bas": 5.733,
+   "son": 6.303
   },
   {
    "k": "hemen",
-   "bas": 6.398,
-   "son": 6.78
+   "bas": 6.303,
+   "son": 6.595
   },
   {
    "k": "başla.",
-   "bas": 6.78,
-   "son": 7.163
+   "bas": 6.595,
+   "son": 6.972
   },
   {
    "k": "Arpama'yı",
-   "bas": 7.383,
-   "son": 7.905
+   "bas": 7.931,
+   "son": 8.341
   },
   {
    "k": "takip",
-   "bas": 7.905,
-   "son": 8.254
+   "bas": 8.341,
+   "son": 8.685
   },
   {
    "k": "etmeyi",
-   "bas": 8.254,
-   "son": 8.66
+   "bas": 8.685,
+   "son": 8.966
   },
   {
    "k": "unutma,",
-   "bas": 8.66,
-   "son": 9.066
+   "bas": 8.966,
+   "son": 9.365
   },
   {
    "k": "gelecek",
-   "bas": 9.066,
-   "son": 9.531
+   "bas": 9.472,
+   "son": 9.882
   },
   {
    "k": "bölümde",
-   "bas": 9.531,
-   "son": 9.995
+   "bas": 9.882,
+   "son": 10.205
   },
   {
    "k": "görüşürüz!",
-   "bas": 9.995,
-   "son": 10.576
+   "bas": 10.205,
+   "son": 10.744
   }
- ]
+ ],
+ "hiz_carpani": 1.16
 }
