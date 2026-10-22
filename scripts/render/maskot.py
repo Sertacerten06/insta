@@ -63,6 +63,29 @@ def durum(sahne, lt, sure, ses_son, kelimeler):
     return "konus" if konusuyor else "bekle"
 
 
+ZIPLAMA = 0.33     # bir noktadan ötekine zıplama süresi (sn)
+GOSTERME = 1.4     # varılan yerde modun (ör. isaret) sürdüğü süre
+
+
+def yol_durumu(yol, lt, konusuyor):
+    """yol: [(t, x, ayak_y, mod)]. Dönüş: (x, ayak_y, anim)."""
+    import math
+    yol = sorted(yol, key=lambda w: w[0])
+    i = max([k for k, w in enumerate(yol) if w[0] <= lt] or [0])
+    t1, x1, y1, mod = yol[i]
+    if lt < t1:                       # ilk noktadan önce
+        return x1, y1, "bekle"
+    if i > 0 and lt < t1 + ZIPLAMA:   # zıplıyor: adımlı (12 fps) yay
+        _, x0, y0, _ = yol[i - 1]
+        f = math.floor((lt - t1) / ZIPLAMA * 4) / 4
+        x = round(x0 + (x1 - x0) * f)
+        y = round(y0 + (y1 - y0) * f - 10 * math.sin(math.pi * f))
+        return x, y, "sevin"
+    if mod and (mod.endswith("!") or lt < t1 + ZIPLAMA + GOSTERME):
+        return x1, y1, mod.rstrip("!")
+    return x1, y1, "konus" if konusuyor else "bekle"
+
+
 def ciz(im, x, ayak_y, anim, t):
     """im: sanal kare (RGB). Arpi'nin ayak noktası (x, ayak_y)'ye gelir."""
     sp = kare_sec(anim, t)

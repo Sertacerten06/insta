@@ -82,11 +82,10 @@ def olaylar(sahneler, nesneler):
 # ------------------------------------------------------------------ altyazı (§8)
 SATIR_MAX = 16
 ALTYAZI_BOYUT = 67   # VT323 100px (font pikseli = 1 sanal piksel)
-MASKOT_X = SAG - 26              # Arpi'nin ayak noktası (sanal x); alt bilgi çizgisinin üstünde durur
 MASKOT_ACIK = maskot.var_mi()
-# Arpi varken altyazı onun solundaki alana sığar
-ALTYAZI_CX = ((SOL + MASKOT_X - 26) // 2) * OLCEK if MASKOT_ACIK else RCX
-ALTYAZI_MAX_G = (MASKOT_X - 26 - SOL - 4) * OLCEK if MASKOT_ACIK else (SAG - SOL) * OLCEK
+# Arpi sol kenarda dolaşır; altyazı ortada kalır, sol kenara taşmayacak genişlikte kırılır
+ALTYAZI_CX = RCX
+ALTYAZI_MAX_G = (SAG - SOL - 20) * OLCEK
 
 
 def altyazi_sayfalari(sahneler, vurgu):
@@ -206,8 +205,9 @@ class Render:
             yk.ops += yk_sahne.ops
         alt_bilgi(d, yk)
         if MASKOT_ACIK:
-            anim = maskot.durum(s["sahne"], lt, s["son"] - s["bas"], s["ses_son"] - s["bas"], s["kelimeler"])
-            maskot.ciz(im, MASKOT_X, 371, anim, t)
+            konusuyor = any(k["bas"] - 0.02 <= lt < k["son"] for k in s["kelimeler"])
+            mx, my, anim = maskot.yol_durumu(self.nesneler[i].maskot_yol(), lt, konusuyor)
+            maskot.ciz(im, SOL + mx, my, anim, t)
         for sy in self.sayfalar:
             if sy["bas"] - 0.05 <= t < sy["son"]:
                 altyazi_ciz(yk, sy, t)

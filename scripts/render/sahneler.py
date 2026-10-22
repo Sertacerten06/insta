@@ -56,8 +56,23 @@ class Sahne:
     def olaylar(self):
         return []
 
+    def maskot_yol(self):
+        """Arpi'nin yolu: [(t, x, ayak_y, mod)], yerel koordinat. mod: isaret/sevin/saskin/dusun/selam/levelup;
+        '!' ile biten mod kalıcıdır. Varsayılan: sol kenarda başlığı gösterir, sonra alt köşede dinlenir."""
+        return [(0.0, *M(113), "isaret"), (2.5, *DINLEN, None)]
+
     def ciz(self, t, d, yk):
         raise NotImplementedError
+
+
+# ------------------------------------------------------------------ Arpi (maskot) konumları
+MX = -17                           # sol kenar boşluğu (yerel x; içerik alanının solu)
+DINLEN = (MX, 371)                 # alt bilgi çizgisi üstünde dinlenme yeri
+
+
+def M(hedef_y):
+    """Sol kenardan hedef_y yüksekliğindeki öğeyi göstermek için ayak noktası."""
+    return MX, hedef_y + 26
 
 
 # ------------------------------------------------------------------ ortak öğeler
@@ -155,6 +170,11 @@ def kod_penceresi(d, yk, x, y, w, h, t, catlak=False):
 # ------------------------------------------------------------------ 0. KANCA
 class Kanca(Sahne):
     """Kanca: ikon + 3 satır başlık (senaryo.json -> "kanca"). Ortadaki satır altın bantlı."""
+    def maskot_yol(self):
+        ikon = (self.ctx.get("kanca") or {}).get("ikon")
+        x = 22 if ikon == "php" else 42 if ikon == "uyari" else 30
+        return [(0.0, x, 164, "dusun!"), (1.2, x, 164, "isaret"), (2.8, *DINLEN, None)]
+
 
     VARSAYILAN = {"ikon": "kagit", "satirlar": ["YAZILI SORULARINI", "YAPAY ZEKÂ", "MI HAZIRLAYACAK?"], "vurgu": 1}
 
@@ -219,6 +239,9 @@ class Kanca(Sahne):
 
 # ------------------------------------------------------------------ 1. AÇILIŞ
 class Acilis(Sahne):
+    def maskot_yol(self):
+        return [(0.0, *DINLEN, None), (self.LOGO_T + 1.6, MX, 252, "selam!")]
+
     LOGO_T = 1.2
 
     def olaylar(self):
@@ -532,6 +555,12 @@ class Haritam(Sahne):  # Bölüm 1: haftalık program
 
 # ------------------------------------------------------------------ 5. CTA / KAPANIŞ
 class Kapanis(Sahne):
+    def maskot_yol(self):
+        son = self.ctx["ses_son"] + 0.2
+        return [(0.0, *M(129), "isaret"), (self.kt("ücretsiz"), *M(173), "isaret"),
+                (self.kt("telefon", varsayilan=1.5), *M(203), "isaret"), (self.kt("takip"), *M(230), "isaret"),
+                (son, MX, 262, "selam!")]
+
     def olaylar(self):
         return [(self.kt("ücretsiz"), "coin"), (self.ctx["ses_son"] + 0.2, "gamesaved"),
                 (self.ctx["ses_son"] + 0.2, "jingle_kapanis")]
@@ -768,6 +797,13 @@ class HaritamOzet(Sahne):
 
 # ------------------------------------------------------------------ Bölüm 3 · HABER: BİR DAHA BAK
 class HaberDolandirici(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(113), "sevin"), (z["adi"], *M(152), "isaret"), (z["dort"], *M(185), "isaret"),
+                (z["adresine"], *M(213), "isaret"), (z["Garanti"], *M(230), "isaret"),
+                (z["Şifreni"], *M(247), "isaret"), (z["adımlı"], *M(264), "isaret"),
+                (z["adımlı"] + 1.4, *DINLEN, "sevin")]
+
     MADDELER = [("adresine", "ADRESİ KONTROL ET"), ("Garanti", "GARANTİ KAZANÇ = TUZAK"),
                 ("Şifreni", "ŞİFRE + KOD PAYLAŞMA"), ("adımlı", "2 ADIMLI DOĞRULAMA AÇ")]
 
@@ -824,6 +860,12 @@ class HaberDolandirici(Sahne):
 
 # ------------------------------------------------------------------ Bölüm 3 · HABER: SNAP SPECS
 class HaberSpecs(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(113), "sevin"), (z["dijital"], *M(150), "isaret"), (z["rdj"], *M(190), "isaret"),
+                (z["sonbahar"], *M(220), "isaret"), (z["fiyat"], *M(242), "saskin"), (z["ulke"], *M(262), "isaret"),
+                (z["cuzdan"] + 1.5, *DINLEN, None)]
+
     def z(self):
         return {"rdj": self.kt("Robert"), "fahri": self.kt("fahri"), "dijital": self.kt("dijital"),
                 "sonbahar": self.kt("sonbaharda"), "fiyat": self.kt("fiyatı"), "ulke": self.kt("ABD"),
@@ -884,6 +926,13 @@ class HaberSpecs(Sahne):
 
 # ------------------------------------------------------------------ Bölüm 3 · HARİTAM: KENDİNİ TEST ET
 class HaritamTest(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(120), "dusun"), (z["tuzak"], *M(110), "saskin"), (z["konuyu"], *M(145), "dusun"),
+                (z["yks"], *M(100), "sevin"), (z["kart"], *M(150), "isaret"), (z["bildigin"], *M(182), "isaret"),
+                (z["bilme"], *M(205), "isaret"), (z["zaman"], *M(242), "isaret"), (z["her"], *M(258), "isaret"),
+                (self.sure - 1.6, *DINLEN, "levelup!")]
+
     KARTLAR = [("TYT · BİYOLOJİ", "HÜCRE ZARININ GÖREVİ?"), ("TYT · MATEMATİK", "ÜSLÜ SAYILAR"),
                ("AYT · KİMYA", "MOL KAVRAMI"), ("TYT · TARİH", "İLK TÜRK DEVLETLERİ")]
 
@@ -970,6 +1019,12 @@ class HaritamTest(Sahne):
 
 # ------------------------------------------------------------------ Özel bölüm · PHP: NE OLDU
 class PhpNe(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(113), "saskin"), (z["yama"], *M(148), "isaret"), (z["puan"], *M(175), "saskin"),
+                (z["giris"], *M(209), "isaret"), (z["hol"], *M(233), "isaret"), (z["tr"], *M(251), "isaret"),
+                (z["tr"] + 2.5, *DINLEN, None)]
+
     def z(self):
         return {"yama": self.kt("acil"), "puan": self.kt("9,2"), "giris": self.kt("giriş"),
                 "hol": self.kt("Hollanda"), "tr": self.kt("Türkiye'de")}
@@ -1013,6 +1068,11 @@ class PhpNe(Sahne):
 
 # ------------------------------------------------------------------ Özel bölüm · PHP: NEDEN
 class PhpNeden(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(113), "dusun"), (z["on"], *M(160), "isaret"), (z["bekle"], *M(192), "dusun"),
+                (z["ai"], *M(222), "isaret"), (z["yani"], *M(264), "saskin"), (z["yani"] + 3.0, *DINLEN, None)]
+
     def z(self):
         return {"on": self.kt("Hatalı"), "y24": self.kt("2024"), "bekle": self.kt("aylarca"),
                 "ai": self.kt("Wiz"), "yani": self.kt("Yani")}
@@ -1060,6 +1120,13 @@ class PhpNeden(Sahne):
 
 # ------------------------------------------------------------------ Özel bölüm · PHP: NE YAPMALI
 class PhpYapilacak(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(113), "dusun"), (z["sunucu"], *M(155), "isaret"), (z["sifre"], *M(211), "isaret"),
+                (z["iki"], *M(229), "isaret"), (z["gelis"], *M(113), "sevin"), (z["s0"], *M(156), "isaret"),
+                (z["s0"] + 1.4, *M(176), "isaret"), (z["yeniden"], *M(203), "isaret"),
+                (z["eski"], *M(221), "saskin"), (z["kayit"], *M(239), "isaret"), (z["kayit"] + 2.5, *DINLEN, None)]
+
     SURUMLER = ["8.5.12", "8.4.27", "8.3.36", "8.2.35"]
 
     def z(self):
@@ -1115,6 +1182,11 @@ class PhpYapilacak(Sahne):
 
 # ------------------------------------------------------------------ HARİTAM: DENEME TAKİBİ
 class HaritamDeneme(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(150), "dusun"), (z["yks"], *M(100), "sevin"), (z["grafik"], *M(160), "isaret"),
+                (z["puan"], *M(200), "isaret"), (z["hedef"], *M(236), "isaret"), (self.sure - 1.6, *DINLEN, "levelup!")]
+
     NETLER = [52, 58, 61, 67, 71, 78]
 
     def z(self):
