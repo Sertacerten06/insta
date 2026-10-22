@@ -1,0 +1,230 @@
+{
+  "ad": "Arpi",
+  "tuval": {
+    "w": 48,
+    "h": 52,
+    "not": "Nearest-neighbor ile tam sayı katında büyüt (ör. 10x = 480x520)"
+  },
+  "ayak_noktasi": {
+    "x": 24,
+    "y": 49
+  },
+  "kareler": {
+    "bekle_0": {
+      "dosya": "sprites/bekle_0.png",
+      "sheet_x": 0,
+      "sheet_y": 0
+    },
+    "bekle_1": {
+      "dosya": "sprites/bekle_1.png",
+      "sheet_x": 48,
+      "sheet_y": 0
+    },
+    "bekle_2": {
+      "dosya": "sprites/bekle_2.png",
+      "sheet_x": 96,
+      "sheet_y": 0
+    },
+    "konus_0": {
+      "dosya": "sprites/konus_0.png",
+      "sheet_x": 144,
+      "sheet_y": 0
+    },
+    "konus_1": {
+      "dosya": "sprites/konus_1.png",
+      "sheet_x": 192,
+      "sheet_y": 0
+    },
+    "konus_2": {
+      "dosya": "sprites/konus_2.png",
+      "sheet_x": 240,
+      "sheet_y": 0
+    },
+    "sevin_0": {
+      "dosya": "sprites/sevin_0.png",
+      "sheet_x": 288,
+      "sheet_y": 0
+    },
+    "sevin_1": {
+      "dosya": "sprites/sevin_1.png",
+      "sheet_x": 336,
+      "sheet_y": 0
+    },
+    "isaret_0": {
+      "dosya": "sprites/isaret_0.png",
+      "sheet_x": 0,
+      "sheet_y": 52
+    },
+    "isaret_1": {
+      "dosya": "sprites/isaret_1.png",
+      "sheet_x": 48,
+      "sheet_y": 52
+    },
+    "selam_0": {
+      "dosya": "sprites/selam_0.png",
+      "sheet_x": 96,
+      "sheet_y": 52
+    },
+    "selam_1": {
+      "dosya": "sprites/selam_1.png",
+      "sheet_x": 144,
+      "sheet_y": 52
+    },
+    "saskin_0": {
+      "dosya": "sprites/saskin_0.png",
+      "sheet_x": 192,
+      "sheet_y": 52
+    },
+    "dusun_0": {
+      "dosya": "sprites/dusun_0.png",
+      "sheet_x": 240,
+      "sheet_y": 52
+    },
+    "levelup_0": {
+      "dosya": "sprites/levelup_0.png",
+      "sheet_x": 288,
+      "sheet_y": 52
+    },
+    "levelup_1": {
+      "dosya": "sprites/levelup_1.png",
+      "sheet_x": 336,
+      "sheet_y": 52
+    }
+  },
+  "animasyonlar": {
+    "bekle": {
+      "kullanim": "Varsayılan; sahne boşken nefes alır, ara ara göz kırpar",
+      "kareler": [
+        {
+          "kare": "bekle_0",
+          "ms": 500
+        },
+        {
+          "kare": "bekle_1",
+          "ms": 300
+        },
+        {
+          "kare": "bekle_0",
+          "ms": 900
+        },
+        {
+          "kare": "bekle_2",
+          "ms": 120
+        }
+      ]
+    },
+    "konus": {
+      "kullanim": "Seslendirme konuşurken (TTS kelime zamanlarına göre ağız açılır)",
+      "kareler": [
+        {
+          "kare": "konus_0",
+          "ms": 110
+        },
+        {
+          "kare": "konus_1",
+          "ms": 110
+        },
+        {
+          "kare": "konus_2",
+          "ms": 110
+        },
+        {
+          "kare": "konus_1",
+          "ms": 110
+        }
+      ]
+    },
+    "sevin": {
+      "kullanim": "Haber başlığı çıkınca / iyi haber",
+      "kareler": [
+        {
+          "kare": "sevin_0",
+          "ms": 160
+        },
+        {
+          "kare": "sevin_1",
+          "ms": 320
+        }
+      ]
+    },
+    "isaret": {
+      "kullanim": "Ekrandaki madde veya haritam.arpama.tr yazısını gösterir (sağa bakar)",
+      "kareler": [
+        {
+          "kare": "isaret_0",
+          "ms": 300
+        },
+        {
+          "kare": "isaret_1",
+          "ms": 200
+        }
+      ]
+    },
+    "selam": {
+      "kullanim": "Açılış ve kapanış (GAME SAVED)",
+      "kareler": [
+        {
+          "kare": "selam_0",
+          "ms": 220
+        },
+        {
+          "kare": "selam_1",
+          "ms": 220
+        }
+      ]
+    },
+    "saskin": {
+      "kullanim": "SON DAKİKA veya şaşırtıcı haber",
+      "kareler": [
+        {
+          "kare": "saskin_0",
+          "ms": 400
+        },
+        {
+          "kare": "bekle_0",
+          "ms": 200
+        }
+      ]
+    },
+    "dusun": {
+      "kullanim": "Soru sorarken / kanca cümlesi",
+      "kareler": [
+        {
+          "kare": "dusun_0",
+          "ms": 600
+        }
+      ]
+    },
+    "levelup": {
+      "kullanim": "Haritam bölümü, LEVEL UP anı",
+      "kareler": [
+        {
+          "kare": "levelup_0",
+          "ms": 160
+        },
+        {
+          "kare": "levelup_1",
+          "ms": 160
+        }
+      ]
+    }
+  },
+  "palet": {
+    "K": "#070A10",
+    "P": "#0E1420",
+    "Z": "#111B2B",
+    "D": "#1E2D46",
+    "b": "#2A5AA8",
+    "B": "#2F6FE0",
+    "L": "#7AA9F3",
+    "I": "#CFE0FF",
+    "S": "#D9DDE3",
+    "W": "#FFFFFF",
+    "G": "#C9CED6",
+    "M": "#9AA0AB",
+    "y": "#FFE38F",
+    "Y": "#F2C14E",
+    "O": "#D4A017",
+    "R": "#E0705C"
+  }
+}

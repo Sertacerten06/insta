@@ -25,6 +25,7 @@ from ortak import ayarlar, bolum_dizini, senaryo  # noqa: E402
 from cizim import (SOL, SAG, Kaydir, OLCEK, P, SH, SW, YaziKatmani, dither_maske, glitch, ikon, xp_bar,  # noqa: E402
                    yeni_kare, yildizlar, yazi, yazi_genislik)
 import ikonlar as I  # noqa: E402
+import maskot  # noqa: E402
 from sahneler import SAHNELER, logo, sade
 
 RCX = SW * OLCEK // 2  # ekranın tam ortası (içerik simetrik boşluklu)  # noqa: E402
@@ -81,6 +82,11 @@ def olaylar(sahneler, nesneler):
 # ------------------------------------------------------------------ altyazı (§8)
 SATIR_MAX = 16
 ALTYAZI_BOYUT = 67   # VT323 100px (font pikseli = 1 sanal piksel)
+MASKOT_X = SAG - 26              # Arpi'nin ayak noktası (sanal x); alt bilgi çizgisinin üstünde durur
+MASKOT_ACIK = maskot.var_mi()
+# Arpi varken altyazı onun solundaki alana sığar
+ALTYAZI_CX = ((SOL + MASKOT_X - 26) // 2) * OLCEK if MASKOT_ACIK else RCX
+ALTYAZI_MAX_G = (MASKOT_X - 26 - SOL - 4) * OLCEK if MASKOT_ACIK else (SAG - SOL) * OLCEK
 
 
 def altyazi_sayfalari(sahneler, vurgu):
@@ -98,8 +104,8 @@ def altyazi_sayfalari(sahneler, vurgu):
             satir = []
 
         for k in kel:
-            uzun = len(" ".join(x["k"] for x in satir + [k]))
-            if satir and uzun > SATIR_MAX:
+            metin = " ".join(x["k"] for x in satir + [k])
+            if satir and (len(metin) > SATIR_MAX or yazi_genislik(metin, "piksel", ALTYAZI_BOYUT) > ALTYAZI_MAX_G):
                 satir_kapat()
                 if len(sayfa) == 2:
                     sayfalar.append(sayfa)
@@ -134,7 +140,7 @@ def altyazi_ciz(yk, sayfa, t):
     for j, satir in enumerate(sayfa["satirlar"]):
         sprite = [yazi(k, "piksel", ALTYAZI_BOYUT, renk="altin" if v else "gumus", kenar=6) for k, v, _ in satir]
         toplam = sum(s.width for s in sprite) + bosluk * (len(sprite) - 1)
-        x = RCX - toplam // 2
+        x = ALTYAZI_CX - toplam // 2
         for s, (_, _, kb) in zip(sprite, satir):
             if t >= kb - 0.05:  # kelime söylenince belirir
                 yk.ekle(s, x, y0 + j * 92)
@@ -199,6 +205,9 @@ class Render:
         if not (i > 0 and lt < GECIS / 2):  # geçişin ilk yarısında sahne yazıları gizli
             yk.ops += yk_sahne.ops
         alt_bilgi(d, yk)
+        if MASKOT_ACIK:
+            anim = maskot.durum(s["sahne"], lt, s["son"] - s["bas"], s["ses_son"] - s["bas"], s["kelimeler"])
+            maskot.ciz(im, MASKOT_X, 371, anim, t)
         for sy in self.sayfalar:
             if sy["bas"] - 0.05 <= t < sy["son"]:
                 altyazi_ciz(yk, sy, t)
