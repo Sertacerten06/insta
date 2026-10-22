@@ -1,0 +1,69 @@
+{
+ "metin": "Web sitelerinin çoğunu çalıştıran PHP'de kritik açık! Verilerin güvende mi? Hazırsan başlıyoruz!",
+ "konusma": "Web sitelerinin çoğunu çalıştıran pe ha pe'de kritik açık! Verilerin güvende mi? Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 6.627528344671202,
+ "kelimeler": [
+  {
+   "k": "Web",
+   "bas": 0.0,
+   "son": 0.223
+  },
+  {
+   "k": "sitelerinin",
+   "bas": 0.223,
+   "son": 0.892
+  },
+  {
+   "k": "çoğunu",
+   "bas": 0.892,
+   "son": 1.282
+  },
+  {
+   "k": "çalıştıran",
+   "bas": 1.282,
+   "son": 1.895
+  },
+  {
+   "k": "PHP'de",
+   "bas": 1.895,
+   "son": 2.396
+  },
+  {
+   "k": "kritik",
+   "bas": 2.396,
+   "son": 2.786
+  },
+  {
+   "k": "açık!",
+   "bas": 2.786,
+   "son": 3.065
+  },
+  {
+   "k": "Verilerin",
+   "bas": 3.285,
+   "son": 3.899
+  },
+  {
+   "k": "güvende",
+   "bas": 3.899,
+   "son": 4.39
+  },
+  {
+   "k": "mi?",
+   "bas": 4.39,
+   "son": 4.574
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 4.794,
+   "son": 5.52
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 5.52,
+   "son": 6.408
+  }
+ ]
+}

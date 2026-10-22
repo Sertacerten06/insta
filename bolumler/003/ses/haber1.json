@@ -1,1 +1,349 @@
-{"metin": "İlk durağımız Türkiye. İçişleri Bakanlığı, Emniyet'in siber suçlarla mücadele programı SİBERAY ve Meta, bu hafta ortak bir kampanya başlattı. Adı: Bir Daha Bak, Güvende Kal. Dört hafta boyunca Instagram ve Facebook kullanıcılarına dolandırıcılığa karşı uyarılar gösterilecek. Peki neye dikkat edeceksin? Tıklamadan önce bağlantının adresine bak. Garanti kazanç, inanılmaz indirim ya da acil ödeme isteyen mesajlara güvenme. Şifreni ve doğrulama kodunu kimseyle paylaşma. Ve iki adımlı doğrulamayı mutlaka aç.", "servis": "yer_tutucu", "ses": "x", "sure": 30.599999999999966, "kelimeler": [{"k": "İlk", "bas": 0, "son": 0.4}, {"k": "durağımız", "bas": 0.45, "son": 0.85}, {"k": "Türkiye.", "bas": 0.9, "son": 1.3}, {"k": "İçişleri", "bas": 1.35, "son": 1.75}, {"k": "Bakanlığı,", "bas": 1.8, "son": 2.2}, {"k": "Emniyet'in", "bas": 2.25, "son": 2.65}, {"k": "siber", "bas": 2.7, "son": 3.1}, {"k": "suçlarla", "bas": 3.15, "son": 3.55}, {"k": "mücadele", "bas": 3.6, "son": 4.0}, {"k": "programı", "bas": 4.05, "son": 4.45}, {"k": "SİBERAY", "bas": 4.5, "son": 4.9}, {"k": "ve", "bas": 4.95, "son": 5.35}, {"k": "Meta,", "bas": 5.4, "son": 5.8}, {"k": "bu", "bas": 5.85, "son": 6.25}, {"k": "hafta", "bas": 6.3, "son": 6.7}, {"k": "ortak", "bas": 6.75, "son": 7.15}, {"k": "bir", "bas": 7.2, "son": 7.6}, {"k": "kampanya", "bas": 7.65, "son": 8.05}, {"k": "başlattı.", "bas": 8.1, "son": 8.5}, {"k": "Adı:", "bas": 8.55, "son": 8.95}, {"k": "Bir", "bas": 9.0, "son": 9.4}, {"k": "Daha", "bas": 9.45, "son": 9.85}, {"k": "Bak,", "bas": 9.9, "son": 10.3}, {"k": "Güvende", "bas": 10.35, "son": 10.75}, {"k": "Kal.", "bas": 10.8, "son": 11.2}, {"k": "Dört", "bas": 11.25, "son": 11.65}, {"k": "hafta", "bas": 11.7, "son": 12.1}, {"k": "boyunca", "bas": 12.15, "son": 12.55}, {"k": "Instagram", "bas": 12.6, "son": 13.0}, {"k": "ve", "bas": 13.05, "son": 13.45}, {"k": "Facebook", "bas": 13.5, "son": 13.9}, {"k": "kullanıcılarına", "bas": 13.95, "son": 14.35}, {"k": "dolandırıcılığa", "bas": 14.4, "son": 14.8}, {"k": "karşı", "bas": 14.85, "son": 15.25}, {"k": "uyarılar", "bas": 15.3, "son": 15.7}, {"k": "gösterilecek.", "bas": 15.75, "son": 16.15}, {"k": "Peki", "bas": 16.2, "son": 16.6}, {"k": "neye", "bas": 16.65, "son": 17.05}, {"k": "dikkat", "bas": 17.1, "son": 17.5}, {"k": "edeceksin?", "bas": 17.55, "son": 17.95}, {"k": "Tıklamadan", "bas": 18.0, "son": 18.4}, {"k": "önce", "bas": 18.45, "son": 18.85}, {"k": "bağlantının", "bas": 18.9, "son": 19.3}, {"k": "adresine", "bas": 19.35, "son": 19.75}, {"k": "bak.", "bas": 19.8, "son": 20.2}, {"k": "Garanti", "bas": 20.25, "son": 20.65}, {"k": "kazanç,", "bas": 20.7, "son": 21.1}, {"k": "inanılmaz", "bas": 21.15, "son": 21.55}, {"k": "indirim", "bas": 21.6, "son": 22.0}, {"k": "ya", "bas": 22.05, "son": 22.45}, {"k": "da", "bas": 22.5, "son": 22.9}, {"k": "acil", "bas": 22.95, "son": 23.35}, {"k": "ödeme", "bas": 23.4, "son": 23.8}, {"k": "isteyen", "bas": 23.85, "son": 24.25}, {"k": "mesajlara", "bas": 24.3, "son": 24.7}, {"k": "güvenme.", "bas": 24.75, "son": 25.15}, {"k": "Şifreni", "bas": 25.2, "son": 25.6}, {"k": "ve", "bas": 25.65, "son": 26.05}, {"k": "doğrulama", "bas": 26.1, "son": 26.5}, {"k": "kodunu", "bas": 26.55, "son": 26.95}, {"k": "kimseyle", "bas": 27.0, "son": 27.4}, {"k": "paylaşma.", "bas": 27.45, "son": 27.85}, {"k": "Ve", "bas": 27.9, "son": 28.3}, {"k": "iki", "bas": 28.35, "son": 28.75}, {"k": "adımlı", "bas": 28.8, "son": 29.2}, {"k": "doğrulamayı", "bas": 29.25, "son": 29.65}, {"k": "mutlaka", "bas": 29.7, "son": 30.1}, {"k": "aç.", "bas": 30.15, "son": 30.55}]}
+{
+ "metin": "İlk durağımız Türkiye. İçişleri Bakanlığı, Emniyet'in siber suçlarla mücadele programı SİBERAY ve Meta, bu hafta ortak bir kampanya başlattı. Adı: Bir Daha Bak, Güvende Kal. Dört hafta boyunca Instagram ve Facebook kullanıcılarına dolandırıcılığa karşı uyarılar gösterilecek. Peki neye dikkat edeceksin? Tıklamadan önce bağlantının adresine bak. Garanti kazanç, inanılmaz indirim ya da acil ödeme isteyen mesajlara güvenme. Şifreni ve doğrulama kodunu kimseyle paylaşma. Ve iki adımlı doğrulamayı mutlaka aç.",
+ "konusma": "İlk durağımız Türkiye. İçişleri Bakanlığı, Emniyet'in siber suçlarla mücadele programı siberay ve Meta, bu hafta ortak bir kampanya başlattı. Adı: Bir Daha Bak, Güvende Kal. Dört hafta boyunca instagram ve feysbuk kullanıcılarına dolandırıcılığa karşı uyarılar gösterilecek. Peki neye dikkat edeceksin? Tıklamadan önce bağlantının adresine bak. Garanti kazanç, inanılmaz indirim ya da acil ödeme isteyen mesajlara güvenme. Şifreni ve doğrulama kodunu kimseyle paylaşma. Ve iki adımlı doğrulamayı mutlaka aç.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 30.041315192743763,
+ "kelimeler": [
+  {
+   "k": "İlk",
+   "bas": 0.0,
+   "son": 0.251
+  },
+  {
+   "k": "durağımız",
+   "bas": 0.251,
+   "son": 0.879
+  },
+  {
+   "k": "Türkiye.",
+   "bas": 0.879,
+   "son": 1.382
+  },
+  {
+   "k": "İçişleri",
+   "bas": 1.602,
+   "son": 2.122
+  },
+  {
+   "k": "Bakanlığı,",
+   "bas": 2.122,
+   "son": 2.701
+  },
+  {
+   "k": "Emniyet'in",
+   "bas": 2.701,
+   "son": 3.279
+  },
+  {
+   "k": "siber",
+   "bas": 3.279,
+   "son": 3.626
+  },
+  {
+   "k": "suçlarla",
+   "bas": 3.626,
+   "son": 4.147
+  },
+  {
+   "k": "mücadele",
+   "bas": 4.147,
+   "son": 4.668
+  },
+  {
+   "k": "programı",
+   "bas": 4.668,
+   "son": 5.188
+  },
+  {
+   "k": "SİBERAY",
+   "bas": 5.188,
+   "son": 5.651
+  },
+  {
+   "k": "ve",
+   "bas": 5.651,
+   "son": 5.824
+  },
+  {
+   "k": "Meta,",
+   "bas": 5.824,
+   "son": 6.114
+  },
+  {
+   "k": "bu",
+   "bas": 6.114,
+   "son": 6.287
+  },
+  {
+   "k": "hafta",
+   "bas": 6.287,
+   "son": 6.634
+  },
+  {
+   "k": "ortak",
+   "bas": 6.634,
+   "son": 6.981
+  },
+  {
+   "k": "bir",
+   "bas": 6.981,
+   "son": 7.213
+  },
+  {
+   "k": "kampanya",
+   "bas": 7.213,
+   "son": 7.733
+  },
+  {
+   "k": "başlattı.",
+   "bas": 7.733,
+   "son": 8.254
+  },
+  {
+   "k": "Adı:",
+   "bas": 8.474,
+   "son": 8.74
+  },
+  {
+   "k": "Bir",
+   "bas": 8.74,
+   "son": 9.006
+  },
+  {
+   "k": "Daha",
+   "bas": 9.006,
+   "son": 9.338
+  },
+  {
+   "k": "Bak,",
+   "bas": 9.338,
+   "son": 9.604
+  },
+  {
+   "k": "Güvende",
+   "bas": 9.604,
+   "son": 10.136
+  },
+  {
+   "k": "Kal.",
+   "bas": 10.136,
+   "son": 10.401
+  },
+  {
+   "k": "Dört",
+   "bas": 10.621,
+   "son": 10.882
+  },
+  {
+   "k": "hafta",
+   "bas": 10.882,
+   "son": 11.195
+  },
+  {
+   "k": "boyunca",
+   "bas": 11.195,
+   "son": 11.612
+  },
+  {
+   "k": "Instagram",
+   "bas": 11.612,
+   "son": 12.133
+  },
+  {
+   "k": "ve",
+   "bas": 12.133,
+   "son": 12.289
+  },
+  {
+   "k": "Facebook",
+   "bas": 12.289,
+   "son": 12.707
+  },
+  {
+   "k": "kullanıcılarına",
+   "bas": 12.707,
+   "son": 13.541
+  },
+  {
+   "k": "dolandırıcılığa",
+   "bas": 13.541,
+   "son": 14.375
+  },
+  {
+   "k": "karşı",
+   "bas": 14.375,
+   "son": 14.687
+  },
+  {
+   "k": "uyarılar",
+   "bas": 14.687,
+   "son": 15.157
+  },
+  {
+   "k": "gösterilecek.",
+   "bas": 15.157,
+   "son": 15.834
+  },
+  {
+   "k": "Peki",
+   "bas": 16.054,
+   "son": 16.336
+  },
+  {
+   "k": "neye",
+   "bas": 16.336,
+   "son": 16.618
+  },
+  {
+   "k": "dikkat",
+   "bas": 16.618,
+   "son": 17.012
+  },
+  {
+   "k": "edeceksin?",
+   "bas": 17.012,
+   "son": 17.575
+  },
+  {
+   "k": "Tıklamadan",
+   "bas": 17.795,
+   "son": 18.375
+  },
+  {
+   "k": "önce",
+   "bas": 18.375,
+   "son": 18.638
+  },
+  {
+   "k": "bağlantının",
+   "bas": 18.638,
+   "son": 19.27
+  },
+  {
+   "k": "adresine",
+   "bas": 19.27,
+   "son": 19.744
+  },
+  {
+   "k": "bak.",
+   "bas": 19.744,
+   "son": 19.955
+  },
+  {
+   "k": "Garanti",
+   "bas": 20.175,
+   "son": 20.651
+  },
+  {
+   "k": "kazanç,",
+   "bas": 20.651,
+   "son": 21.068
+  },
+  {
+   "k": "inanılmaz",
+   "bas": 21.068,
+   "son": 21.664
+  },
+  {
+   "k": "indirim",
+   "bas": 21.664,
+   "son": 22.141
+  },
+  {
+   "k": "ya",
+   "bas": 22.141,
+   "son": 22.319
+  },
+  {
+   "k": "da",
+   "bas": 22.319,
+   "son": 22.498
+  },
+  {
+   "k": "acil",
+   "bas": 22.498,
+   "son": 22.796
+  },
+  {
+   "k": "ödeme",
+   "bas": 22.796,
+   "son": 23.153
+  },
+  {
+   "k": "isteyen",
+   "bas": 23.153,
+   "son": 23.63
+  },
+  {
+   "k": "mesajlara",
+   "bas": 23.63,
+   "son": 24.226
+  },
+  {
+   "k": "güvenme.",
+   "bas": 24.226,
+   "son": 24.702
+  },
+  {
+   "k": "Şifreni",
+   "bas": 24.922,
+   "son": 25.377
+  },
+  {
+   "k": "ve",
+   "bas": 25.377,
+   "son": 25.547
+  },
+  {
+   "k": "doğrulama",
+   "bas": 25.547,
+   "son": 26.115
+  },
+  {
+   "k": "kodunu",
+   "bas": 26.115,
+   "son": 26.513
+  },
+  {
+   "k": "kimseyle",
+   "bas": 26.513,
+   "son": 27.024
+  },
+  {
+   "k": "paylaşma.",
+   "bas": 27.024,
+   "son": 27.535
+  },
+  {
+   "k": "Ve",
+   "bas": 27.755,
+   "son": 27.922
+  },
+  {
+   "k": "iki",
+   "bas": 27.922,
+   "son": 28.146
+  },
+  {
+   "k": "adımlı",
+   "bas": 28.146,
+   "son": 28.537
+  },
+  {
+   "k": "doğrulamayı",
+   "bas": 28.537,
+   "son": 29.207
+  },
+  {
+   "k": "mutlaka",
+   "bas": 29.207,
+   "son": 29.654
+  },
+  {
+   "k": "aç.",
+   "bas": 29.654,
+   "son": 29.821
+  }
+ ]
+}

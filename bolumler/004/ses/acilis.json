@@ -1,0 +1,84 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu bir özel bölüm. Bugün tek bir konu var: PHP.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu bir özel bölüm. Bugün tek bir konu var: pe ha pe.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 5.513560090702948,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.389
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.389,
+   "son": 0.945
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.945,
+   "son": 1.5
+  },
+  {
+   "k": "hoş",
+   "bas": 1.5,
+   "son": 1.722
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.722,
+   "son": 2.111
+  },
+  {
+   "k": "bu",
+   "bas": 2.111,
+   "son": 2.278
+  },
+  {
+   "k": "bir",
+   "bas": 2.278,
+   "son": 2.5
+  },
+  {
+   "k": "özel",
+   "bas": 2.5,
+   "son": 2.778
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.778,
+   "son": 3.111
+  },
+  {
+   "k": "Bugün",
+   "bas": 3.331,
+   "son": 3.724
+  },
+  {
+   "k": "tek",
+   "bas": 3.724,
+   "son": 3.986
+  },
+  {
+   "k": "bir",
+   "bas": 3.986,
+   "son": 4.247
+  },
+  {
+   "k": "konu",
+   "bas": 4.247,
+   "son": 4.574
+  },
+  {
+   "k": "var:",
+   "bas": 4.574,
+   "son": 4.836
+  },
+  {
+   "k": "PHP.",
+   "bas": 4.836,
+   "son": 5.294
+  }
+ ]
+}

@@ -1,1 +1,339 @@
-{"metin": "Şimdi dünyaya geçelim. Snapchat'in sahibi Snap, artırılmış gerçeklik gözlüğü Specs için ünlü oyuncu Robert Downey Junior ile anlaştı. Downey, şirkette fahri bir yönetici olarak gözlüğün tanıtımına ve geliştirilmesine destek verecek. Specs, dijital görüntüleri gerçek dünyanın üzerine yerleştiriyor. Bu sonbaharda çıkması beklenen gözlüğün fiyatı ise tam 2.195 dolar. Gözlük ilk olarak ABD, İngiltere ve Fransa'da satışa çıkacak. Telefonların yerini alır mı bilinmez, ama şimdilik cüzdanı epey zorlar.", "servis": "yer_tutucu", "ses": "x", "sure": 29.699999999999967, "kelimeler": [{"k": "Şimdi", "bas": 0, "son": 0.4}, {"k": "dünyaya", "bas": 0.45, "son": 0.85}, {"k": "geçelim.", "bas": 0.9, "son": 1.3}, {"k": "Snapchat'in", "bas": 1.35, "son": 1.75}, {"k": "sahibi", "bas": 1.8, "son": 2.2}, {"k": "Snap,", "bas": 2.25, "son": 2.65}, {"k": "artırılmış", "bas": 2.7, "son": 3.1}, {"k": "gerçeklik", "bas": 3.15, "son": 3.55}, {"k": "gözlüğü", "bas": 3.6, "son": 4.0}, {"k": "Specs", "bas": 4.05, "son": 4.45}, {"k": "için", "bas": 4.5, "son": 4.9}, {"k": "ünlü", "bas": 4.95, "son": 5.35}, {"k": "oyuncu", "bas": 5.4, "son": 5.8}, {"k": "Robert", "bas": 5.85, "son": 6.25}, {"k": "Downey", "bas": 6.3, "son": 6.7}, {"k": "Junior", "bas": 6.75, "son": 7.15}, {"k": "ile", "bas": 7.2, "son": 7.6}, {"k": "anlaştı.", "bas": 7.65, "son": 8.05}, {"k": "Downey,", "bas": 8.1, "son": 8.5}, {"k": "şirkette", "bas": 8.55, "son": 8.95}, {"k": "fahri", "bas": 9.0, "son": 9.4}, {"k": "bir", "bas": 9.45, "son": 9.85}, {"k": "yönetici", "bas": 9.9, "son": 10.3}, {"k": "olarak", "bas": 10.35, "son": 10.75}, {"k": "gözlüğün", "bas": 10.8, "son": 11.2}, {"k": "tanıtımına", "bas": 11.25, "son": 11.65}, {"k": "ve", "bas": 11.7, "son": 12.1}, {"k": "geliştirilmesine", "bas": 12.15, "son": 12.55}, {"k": "destek", "bas": 12.6, "son": 13.0}, {"k": "verecek.", "bas": 13.05, "son": 13.45}, {"k": "Specs,", "bas": 13.5, "son": 13.9}, {"k": "dijital", "bas": 13.95, "son": 14.35}, {"k": "görüntüleri", "bas": 14.4, "son": 14.8}, {"k": "gerçek", "bas": 14.85, "son": 15.25}, {"k": "dünyanın", "bas": 15.3, "son": 15.7}, {"k": "üzerine", "bas": 15.75, "son": 16.15}, {"k": "yerleştiriyor.", "bas": 16.2, "son": 16.6}, {"k": "Bu", "bas": 16.65, "son": 17.05}, {"k": "sonbaharda", "bas": 17.1, "son": 17.5}, {"k": "çıkması", "bas": 17.55, "son": 17.95}, {"k": "beklenen", "bas": 18.0, "son": 18.4}, {"k": "gözlüğün", "bas": 18.45, "son": 18.85}, {"k": "fiyatı", "bas": 18.9, "son": 19.3}, {"k": "ise", "bas": 19.35, "son": 19.75}, {"k": "tam", "bas": 19.8, "son": 20.2}, {"k": "2.195", "bas": 20.25, "son": 20.65}, {"k": "dolar.", "bas": 20.7, "son": 21.1}, {"k": "Gözlük", "bas": 21.15, "son": 21.55}, {"k": "ilk", "bas": 21.6, "son": 22.0}, {"k": "olarak", "bas": 22.05, "son": 22.45}, {"k": "ABD,", "bas": 22.5, "son": 22.9}, {"k": "İngiltere", "bas": 22.95, "son": 23.35}, {"k": "ve", "bas": 23.4, "son": 23.8}, {"k": "Fransa'da", "bas": 23.85, "son": 24.25}, {"k": "satışa", "bas": 24.3, "son": 24.7}, {"k": "çıkacak.", "bas": 24.75, "son": 25.15}, {"k": "Telefonların", "bas": 25.2, "son": 25.6}, {"k": "yerini", "bas": 25.65, "son": 26.05}, {"k": "alır", "bas": 26.1, "son": 26.5}, {"k": "mı", "bas": 26.55, "son": 26.95}, {"k": "bilinmez,", "bas": 27.0, "son": 27.4}, {"k": "ama", "bas": 27.45, "son": 27.85}, {"k": "şimdilik", "bas": 27.9, "son": 28.3}, {"k": "cüzdanı", "bas": 28.35, "son": 28.75}, {"k": "epey", "bas": 28.8, "son": 29.2}, {"k": "zorlar.", "bas": 29.25, "son": 29.65}]}
+{
+ "metin": "Şimdi dünyaya geçelim. Snapchat'in sahibi Snap, artırılmış gerçeklik gözlüğü Specs için ünlü oyuncu Robert Downey Junior ile anlaştı. Downey, şirkette fahri bir yönetici olarak gözlüğün tanıtımına ve geliştirilmesine destek verecek. Specs, dijital görüntüleri gerçek dünyanın üzerine yerleştiriyor. Bu sonbaharda çıkması beklenen gözlüğün fiyatı ise tam 2.195 dolar. Gözlük ilk olarak ABD, İngiltere ve Fransa'da satışa çıkacak. Telefonların yerini alır mı bilinmez, ama şimdilik cüzdanı epey zorlar.",
+ "konusma": "Şimdi dünyaya geçelim. snepçet'in sahibi snep, artırılmış gerçeklik gözlüğü speks için ünlü oyuncu robırt dauni cunior ile anlaştı. dauni, şirkette fahri bir yönetici olarak gözlüğün tanıtımına ve geliştirilmesine destek verecek. speks, dijital görüntüleri gerçek dünyanın üzerine yerleştiriyor. Bu sonbaharda çıkması beklenen gözlüğün fiyatı ise tam iki bin yüz doksan beş dolar. Gözlük ilk olarak a be de, İngiltere ve Fransa'da satışa çıkacak. Telefonların yerini alır mı bilinmez, ama şimdilik cüzdanı epey zorlar.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 29.949614512471655,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.345
+  },
+  {
+   "k": "dünyaya",
+   "bas": 0.345,
+   "son": 0.805
+  },
+  {
+   "k": "geçelim.",
+   "bas": 0.805,
+   "son": 1.265
+  },
+  {
+   "k": "Snapchat'in",
+   "bas": 1.485,
+   "son": 2.056
+  },
+  {
+   "k": "sahibi",
+   "bas": 2.056,
+   "son": 2.456
+  },
+  {
+   "k": "Snap,",
+   "bas": 2.456,
+   "son": 2.741
+  },
+  {
+   "k": "artırılmış",
+   "bas": 2.741,
+   "son": 3.369
+  },
+  {
+   "k": "gerçeklik",
+   "bas": 3.369,
+   "son": 3.939
+  },
+  {
+   "k": "gözlüğü",
+   "bas": 3.939,
+   "son": 4.396
+  },
+  {
+   "k": "Specs",
+   "bas": 4.396,
+   "son": 4.738
+  },
+  {
+   "k": "için",
+   "bas": 4.738,
+   "son": 5.023
+  },
+  {
+   "k": "ünlü",
+   "bas": 5.023,
+   "son": 5.309
+  },
+  {
+   "k": "oyuncu",
+   "bas": 5.309,
+   "son": 5.708
+  },
+  {
+   "k": "Robert",
+   "bas": 5.708,
+   "son": 6.108
+  },
+  {
+   "k": "Downey",
+   "bas": 6.108,
+   "son": 6.45
+  },
+  {
+   "k": "Junior",
+   "bas": 6.45,
+   "son": 6.85
+  },
+  {
+   "k": "ile",
+   "bas": 6.85,
+   "son": 7.078
+  },
+  {
+   "k": "anlaştı.",
+   "bas": 7.078,
+   "son": 7.534
+  },
+  {
+   "k": "Downey,",
+   "bas": 7.754,
+   "son": 8.068
+  },
+  {
+   "k": "şirkette",
+   "bas": 8.068,
+   "son": 8.54
+  },
+  {
+   "k": "fahri",
+   "bas": 8.54,
+   "son": 8.854
+  },
+  {
+   "k": "bir",
+   "bas": 8.854,
+   "son": 9.063
+  },
+  {
+   "k": "yönetici",
+   "bas": 9.063,
+   "son": 9.535
+  },
+  {
+   "k": "olarak",
+   "bas": 9.535,
+   "son": 9.901
+  },
+  {
+   "k": "gözlüğün",
+   "bas": 9.901,
+   "son": 10.373
+  },
+  {
+   "k": "tanıtımına",
+   "bas": 10.373,
+   "son": 10.949
+  },
+  {
+   "k": "ve",
+   "bas": 10.949,
+   "son": 11.106
+  },
+  {
+   "k": "geliştirilmesine",
+   "bas": 11.106,
+   "son": 11.996
+  },
+  {
+   "k": "destek",
+   "bas": 11.996,
+   "son": 12.362
+  },
+  {
+   "k": "verecek.",
+   "bas": 12.362,
+   "son": 12.781
+  },
+  {
+   "k": "Specs,",
+   "bas": 13.001,
+   "son": 13.354
+  },
+  {
+   "k": "dijital",
+   "bas": 13.354,
+   "son": 13.824
+  },
+  {
+   "k": "görüntüleri",
+   "bas": 13.824,
+   "son": 14.53
+  },
+  {
+   "k": "gerçek",
+   "bas": 14.53,
+   "son": 14.941
+  },
+  {
+   "k": "dünyanın",
+   "bas": 14.941,
+   "son": 15.47
+  },
+  {
+   "k": "üzerine",
+   "bas": 15.47,
+   "son": 15.94
+  },
+  {
+   "k": "yerleştiriyor.",
+   "bas": 15.94,
+   "son": 16.763
+  },
+  {
+   "k": "Bu",
+   "bas": 16.983,
+   "son": 17.155
+  },
+  {
+   "k": "sonbaharda",
+   "bas": 17.155,
+   "son": 17.788
+  },
+  {
+   "k": "çıkması",
+   "bas": 17.788,
+   "son": 18.247
+  },
+  {
+   "k": "beklenen",
+   "bas": 18.247,
+   "son": 18.765
+  },
+  {
+   "k": "gözlüğün",
+   "bas": 18.765,
+   "son": 19.282
+  },
+  {
+   "k": "fiyatı",
+   "bas": 19.282,
+   "son": 19.684
+  },
+  {
+   "k": "ise",
+   "bas": 19.684,
+   "son": 19.914
+  },
+  {
+   "k": "tam",
+   "bas": 19.914,
+   "son": 20.144
+  },
+  {
+   "k": "2.195",
+   "bas": 20.144,
+   "son": 21.236
+  },
+  {
+   "k": "dolar.",
+   "bas": 21.236,
+   "son": 21.581
+  },
+  {
+   "k": "Gözlük",
+   "bas": 21.801,
+   "son": 22.24
+  },
+  {
+   "k": "ilk",
+   "bas": 22.24,
+   "son": 22.491
+  },
+  {
+   "k": "olarak",
+   "bas": 22.491,
+   "son": 22.931
+  },
+  {
+   "k": "ABD,",
+   "bas": 22.931,
+   "son": 23.308
+  },
+  {
+   "k": "İngiltere",
+   "bas": 23.308,
+   "son": 23.936
+  },
+  {
+   "k": "ve",
+   "bas": 23.936,
+   "son": 24.124
+  },
+  {
+   "k": "Fransa'da",
+   "bas": 24.124,
+   "son": 24.69
+  },
+  {
+   "k": "satışa",
+   "bas": 24.69,
+   "son": 25.129
+  },
+  {
+   "k": "çıkacak.",
+   "bas": 25.129,
+   "son": 25.632
+  },
+  {
+   "k": "Telefonların",
+   "bas": 25.852,
+   "son": 26.572
+  },
+  {
+   "k": "yerini",
+   "bas": 26.572,
+   "son": 26.96
+  },
+  {
+   "k": "alır",
+   "bas": 26.96,
+   "son": 27.237
+  },
+  {
+   "k": "mı",
+   "bas": 27.237,
+   "son": 27.403
+  },
+  {
+   "k": "bilinmez,",
+   "bas": 27.403,
+   "son": 27.902
+  },
+  {
+   "k": "ama",
+   "bas": 27.902,
+   "son": 28.123
+  },
+  {
+   "k": "şimdilik",
+   "bas": 28.123,
+   "son": 28.622
+  },
+  {
+   "k": "cüzdanı",
+   "bas": 28.622,
+   "son": 29.065
+  },
+  {
+   "k": "epey",
+   "bas": 29.065,
+   "son": 29.342
+  },
+  {
+   "k": "zorlar.",
+   "bas": 29.342,
+   "son": 29.73
+  }
+ ]
+}

@@ -1,1 +1,104 @@
-{"metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!", "servis": "yer_tutucu", "ses": "x", "sure": 8.55, "kelimeler": [{"k": "Haritam", "bas": 0, "son": 0.4}, {"k": "tamamen", "bas": 0.45, "son": 0.85}, {"k": "ücretsiz,", "bas": 0.9, "son": 1.3}, {"k": "telefonda", "bas": 1.35, "son": 1.75}, {"k": "da", "bas": 1.8, "son": 2.2}, {"k": "bilgisayarda", "bas": 2.25, "son": 2.65}, {"k": "da", "bas": 2.7, "son": 3.1}, {"k": "çalışır.", "bas": 3.15, "son": 3.55}, {"k": "haritam.arpama.tr", "bas": 3.6, "son": 4.0}, {"k": "adresinden", "bas": 4.05, "son": 4.45}, {"k": "hemen", "bas": 4.5, "son": 4.9}, {"k": "başla.", "bas": 4.95, "son": 5.35}, {"k": "Arpama'yı", "bas": 5.4, "son": 5.8}, {"k": "takip", "bas": 5.85, "son": 6.25}, {"k": "etmeyi", "bas": 6.3, "son": 6.7}, {"k": "unutma,", "bas": 6.75, "son": 7.15}, {"k": "gelecek", "bas": 7.2, "son": 7.6}, {"k": "bölümde", "bas": 7.65, "son": 8.05}, {"k": "görüşürüz!", "bas": 8.1, "son": 8.5}]}
+{
+ "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 10.795510204081634,
+ "kelimeler": [
+  {
+   "k": "Haritam",
+   "bas": 0.0,
+   "son": 0.476
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.476,
+   "son": 0.953
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 0.953,
+   "son": 1.489
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.489,
+   "son": 2.084
+  },
+  {
+   "k": "da",
+   "bas": 2.084,
+   "son": 2.263
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.263,
+   "son": 3.037
+  },
+  {
+   "k": "da",
+   "bas": 3.037,
+   "son": 3.216
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.216,
+   "son": 3.692
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 3.912,
+   "son": 5.697
+  },
+  {
+   "k": "adresinden",
+   "bas": 5.697,
+   "son": 6.398
+  },
+  {
+   "k": "hemen",
+   "bas": 6.398,
+   "son": 6.78
+  },
+  {
+   "k": "başla.",
+   "bas": 6.78,
+   "son": 7.163
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 7.383,
+   "son": 7.905
+  },
+  {
+   "k": "takip",
+   "bas": 7.905,
+   "son": 8.254
+  },
+  {
+   "k": "etmeyi",
+   "bas": 8.254,
+   "son": 8.66
+  },
+  {
+   "k": "unutma,",
+   "bas": 8.66,
+   "son": 9.066
+  },
+  {
+   "k": "gelecek",
+   "bas": 9.066,
+   "son": 9.531
+  },
+  {
+   "k": "bölümde",
+   "bas": 9.531,
+   "son": 9.995
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 9.995,
+   "son": 10.576
+  }
+ ]
+}

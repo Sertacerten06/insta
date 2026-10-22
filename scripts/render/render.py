@@ -63,7 +63,7 @@ def sahne_nesneleri(sen, sahneler, handle):
     for s in sahneler:
         ctx = {"sure": s["son"] - s["bas"], "kelimeler": s["kelimeler"], "bolum": sen["bolum"],
                "ses_son": s["ses_son"] - s["bas"], "kaynak": sen.get("kaynak_satirlari", {}).get(s["id"], ""),
-               "handle": handle, "kanca": sen.get("kanca")}
+               "handle": handle, "kanca": sen.get("kanca"), "ozel": sen.get("ozel", False)}
         nesneler.append(SAHNELER[s["sahne"]](ctx))
     return nesneler
 
@@ -241,9 +241,15 @@ class Render:
         if k.get("ikon") == "sunucu":
             for j in range(3):
                 ikon(d, I.SUNUCU, SW // 2 - 37 + j * 26, 296, 2)
+        elif k.get("ikon") == "php":
+            d.rectangle([SW // 2 - 40, 290, SW // 2 + 40, 342], fill=P["zemin2"], outline=P["cizgi"])
+            for i in range(4):
+                d.rectangle([SW // 2 - 32 + (i % 2) * 6, 302 + i * 9, SW // 2 - 32 + (i % 2) * 6 + 20 + i * 9, 304 + i * 9],
+                            fill=P["altin"] if i == 1 else P["gumus_koyu"])
+            d.line([(SW // 2 + 4, 290), (SW // 2 - 6, 308), (SW // 2 + 6, 318), (SW // 2 - 2, 342)], fill=P["kirmizi"], width=2)
         elif k.get("ikon") == "telefon":
-            ikon(d, I.TELEFON, SW // 2 - 14, 286, 4)
-            d.rectangle([SW // 2 + 10, 280, SW // 2 + 21, 291], fill=P["kirmizi"])
+            ikon(d, I.TELEFON, SW // 2 - 14, 292, 4)
+            d.rectangle([SW // 2 + 10, 286, SW // 2 + 21, 297], fill=P["kirmizi"])
         else:
             ikon(d, I.ROKET, SW // 2 - 11, 300, 2)
             ikon(d, I.ALEV_2, SW // 2 - 9, 332, 2)

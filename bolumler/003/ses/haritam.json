@@ -1,1 +1,264 @@
-{"metin": "Peki sınav hazırlığındaki en büyük tuzak ne? Konuyu okuyup anladığını sanmak. YKS Haritam'ın Kendini Test Et özelliği tam bunun için! Kartlarla hızlı tekrar yaparsın. Bildiğin kartlar geçer, bilmediklerin ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Her gün birkaç dakikalık test, sınav gününe kadar büyük fark yaratır.", "servis": "yer_tutucu", "ses": "x", "sure": 22.949999999999978, "kelimeler": [{"k": "Peki", "bas": 0, "son": 0.4}, {"k": "sınav", "bas": 0.45, "son": 0.85}, {"k": "hazırlığındaki", "bas": 0.9, "son": 1.3}, {"k": "en", "bas": 1.35, "son": 1.75}, {"k": "büyük", "bas": 1.8, "son": 2.2}, {"k": "tuzak", "bas": 2.25, "son": 2.65}, {"k": "ne?", "bas": 2.7, "son": 3.1}, {"k": "Konuyu", "bas": 3.15, "son": 3.55}, {"k": "okuyup", "bas": 3.6, "son": 4.0}, {"k": "anladığını", "bas": 4.05, "son": 4.45}, {"k": "sanmak.", "bas": 4.5, "son": 4.9}, {"k": "YKS", "bas": 4.95, "son": 5.35}, {"k": "Haritam'ın", "bas": 5.4, "son": 5.8}, {"k": "Kendini", "bas": 5.85, "son": 6.25}, {"k": "Test", "bas": 6.3, "son": 6.7}, {"k": "Et", "bas": 6.75, "son": 7.15}, {"k": "özelliği", "bas": 7.2, "son": 7.6}, {"k": "tam", "bas": 7.65, "son": 8.05}, {"k": "bunun", "bas": 8.1, "son": 8.5}, {"k": "için!", "bas": 8.55, "son": 8.95}, {"k": "Kartlarla", "bas": 9.0, "son": 9.4}, {"k": "hızlı", "bas": 9.45, "son": 9.85}, {"k": "tekrar", "bas": 9.9, "son": 10.3}, {"k": "yaparsın.", "bas": 10.35, "son": 10.75}, {"k": "Bildiğin", "bas": 10.8, "son": 11.2}, {"k": "kartlar", "bas": 11.25, "son": 11.65}, {"k": "geçer,", "bas": 11.7, "son": 12.1}, {"k": "bilmediklerin", "bas": 12.15, "son": 12.55}, {"k": "ise", "bas": 12.6, "son": 13.0}, {"k": "daha", "bas": 13.05, "son": 13.45}, {"k": "sık", "bas": 13.5, "son": 13.9}, {"k": "karşına", "bas": 13.95, "son": 14.35}, {"k": "çıkar.", "bas": 14.4, "son": 14.8}, {"k": "Böylece", "bas": 14.85, "son": 15.25}, {"k": "zamanını", "bas": 15.3, "son": 15.7}, {"k": "zaten", "bas": 15.75, "son": 16.15}, {"k": "bildiklerine", "bas": 16.2, "son": 16.6}, {"k": "değil,", "bas": 16.65, "son": 17.05}, {"k": "eksiklerine", "bas": 17.1, "son": 17.5}, {"k": "harcarsın.", "bas": 17.55, "son": 17.95}, {"k": "Her", "bas": 18.0, "son": 18.4}, {"k": "gün", "bas": 18.45, "son": 18.85}, {"k": "birkaç", "bas": 18.9, "son": 19.3}, {"k": "dakikalık", "bas": 19.35, "son": 19.75}, {"k": "test,", "bas": 19.8, "son": 20.2}, {"k": "sınav", "bas": 20.25, "son": 20.65}, {"k": "gününe", "bas": 20.7, "son": 21.1}, {"k": "kadar", "bas": 21.15, "son": 21.55}, {"k": "büyük", "bas": 21.6, "son": 22.0}, {"k": "fark", "bas": 22.05, "son": 22.45}, {"k": "yaratır.", "bas": 22.5, "son": 22.9}]}
+{
+ "metin": "Peki sınav hazırlığındaki en büyük tuzak ne? Konuyu okuyup anladığını sanmak. YKS Haritam'ın Kendini Test Et özelliği tam bunun için! Kartlarla hızlı tekrar yaparsın. Bildiğin kartlar geçer, bilmediklerin ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Her gün birkaç dakikalık test, sınav gününe kadar büyük fark yaratır.",
+ "konusma": "Peki sınav hazırlığındaki en büyük tuzak ne? Konuyu okuyup anladığını sanmak. ye ka se Haritam'ın Kendini Test Et özelliği tam bunun için! Kartlarla hızlı tekrar yaparsın. Bildiğin kartlar geçer, bilmediklerin ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Her gün birkaç dakikalık test, sınav gününe kadar büyük fark yaratır.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 22.612108843537413,
+ "kelimeler": [
+  {
+   "k": "Peki",
+   "bas": 0.0,
+   "son": 0.278
+  },
+  {
+   "k": "sınav",
+   "bas": 0.278,
+   "son": 0.612
+  },
+  {
+   "k": "hazırlığındaki",
+   "bas": 0.612,
+   "son": 1.448
+  },
+  {
+   "k": "en",
+   "bas": 1.448,
+   "son": 1.615
+  },
+  {
+   "k": "büyük",
+   "bas": 1.615,
+   "son": 1.949
+  },
+  {
+   "k": "tuzak",
+   "bas": 1.949,
+   "son": 2.283
+  },
+  {
+   "k": "ne?",
+   "bas": 2.283,
+   "son": 2.45
+  },
+  {
+   "k": "Konuyu",
+   "bas": 2.67,
+   "son": 3.046
+  },
+  {
+   "k": "okuyup",
+   "bas": 3.046,
+   "son": 3.421
+  },
+  {
+   "k": "anladığını",
+   "bas": 3.421,
+   "son": 4.012
+  },
+  {
+   "k": "sanmak.",
+   "bas": 4.012,
+   "son": 4.388
+  },
+  {
+   "k": "YKS",
+   "bas": 4.608,
+   "son": 5.001
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 5.001,
+   "son": 5.564
+  },
+  {
+   "k": "Kendini",
+   "bas": 5.564,
+   "son": 6.013
+  },
+  {
+   "k": "Test",
+   "bas": 6.013,
+   "son": 6.294
+  },
+  {
+   "k": "Et",
+   "bas": 6.294,
+   "son": 6.463
+  },
+  {
+   "k": "özelliği",
+   "bas": 6.463,
+   "son": 6.969
+  },
+  {
+   "k": "tam",
+   "bas": 6.969,
+   "son": 7.194
+  },
+  {
+   "k": "bunun",
+   "bas": 7.194,
+   "son": 7.531
+  },
+  {
+   "k": "için!",
+   "bas": 7.531,
+   "son": 7.812
+  },
+  {
+   "k": "Kartlarla",
+   "bas": 8.032,
+   "son": 8.606
+  },
+  {
+   "k": "hızlı",
+   "bas": 8.606,
+   "son": 8.95
+  },
+  {
+   "k": "tekrar",
+   "bas": 8.95,
+   "son": 9.351
+  },
+  {
+   "k": "yaparsın.",
+   "bas": 9.351,
+   "son": 9.867
+  },
+  {
+   "k": "Bildiğin",
+   "bas": 10.087,
+   "son": 10.647
+  },
+  {
+   "k": "kartlar",
+   "bas": 10.647,
+   "son": 11.144
+  },
+  {
+   "k": "geçer,",
+   "bas": 11.144,
+   "son": 11.518
+  },
+  {
+   "k": "bilmediklerin",
+   "bas": 11.518,
+   "son": 12.389
+  },
+  {
+   "k": "ise",
+   "bas": 12.389,
+   "son": 12.638
+  },
+  {
+   "k": "daha",
+   "bas": 12.638,
+   "son": 12.949
+  },
+  {
+   "k": "sık",
+   "bas": 12.949,
+   "son": 13.198
+  },
+  {
+   "k": "karşına",
+   "bas": 13.198,
+   "son": 13.696
+  },
+  {
+   "k": "çıkar.",
+   "bas": 13.696,
+   "son": 14.069
+  },
+  {
+   "k": "Böylece",
+   "bas": 14.289,
+   "son": 14.782
+  },
+  {
+   "k": "zamanını",
+   "bas": 14.782,
+   "son": 15.337
+  },
+  {
+   "k": "zaten",
+   "bas": 15.337,
+   "son": 15.708
+  },
+  {
+   "k": "bildiklerine",
+   "bas": 15.708,
+   "son": 16.509
+  },
+  {
+   "k": "değil,",
+   "bas": 16.509,
+   "son": 16.879
+  },
+  {
+   "k": "eksiklerine",
+   "bas": 16.879,
+   "son": 17.62
+  },
+  {
+   "k": "harcarsın.",
+   "bas": 17.62,
+   "son": 18.236
+  },
+  {
+   "k": "Her",
+   "bas": 18.456,
+   "son": 18.688
+  },
+  {
+   "k": "gün",
+   "bas": 18.688,
+   "son": 18.919
+  },
+  {
+   "k": "birkaç",
+   "bas": 18.919,
+   "son": 19.325
+  },
+  {
+   "k": "dakikalık",
+   "bas": 19.325,
+   "son": 19.903
+  },
+  {
+   "k": "test,",
+   "bas": 19.903,
+   "son": 20.193
+  },
+  {
+   "k": "sınav",
+   "bas": 20.193,
+   "son": 20.54
+  },
+  {
+   "k": "gününe",
+   "bas": 20.54,
+   "son": 20.945
+  },
+  {
+   "k": "kadar",
+   "bas": 20.945,
+   "son": 21.292
+  },
+  {
+   "k": "büyük",
+   "bas": 21.292,
+   "son": 21.64
+  },
+  {
+   "k": "fark",
+   "bas": 21.64,
+   "son": 21.929
+  },
+  {
+   "k": "yaratır.",
+   "bas": 21.929,
+   "son": 22.392
+  }
+ ]
+}

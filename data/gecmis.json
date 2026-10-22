@@ -1,5 +1,5 @@
 {
-  "son_bolum": 2,
+  "son_bolum": 4,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -61,6 +61,55 @@
           "kaynaklar": [
             "Webtekno",
             "Digital Applied"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 3,
+      "baslik": "Tıklamadan Önce Bir Daha Bak",
+      "uretim_tarihi": "2026-10-22",
+      "yayin_tarihi": null,
+      "planlanan_yayin": "2026-10-23 19:00",
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "kendini_test_et",
+      "haberler": [
+        {
+          "id": "2026-10-20-meta-siberay-bir-daha-bak",
+          "baslik": "Meta + SİBERAY 'Bir Daha Bak, Güvende Kal'",
+          "kaynaklar": [
+            "Teknoblog",
+            "BT Günlüğü"
+          ]
+        },
+        {
+          "id": "2026-10-21-snap-specs-rdj",
+          "baslik": "Snap Specs'e Robert Downey Jr.",
+          "kaynaklar": [
+            "Teknoblog",
+            "Mixed News"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 4,
+      "ozel": true,
+      "baslik": "PHP'de Kritik Açık: Verilerimiz Güvende mi?",
+      "uretim_tarihi": "2026-10-22",
+      "yayin_tarihi": null,
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "deneme_takibi",
+      "haberler": [
+        {
+          "id": "2026-10-21-php2shell",
+          "baslik": "PHP2Shell CVE-2026-109618/109619",
+          "kaynaklar": [
+            "The Hacker News",
+            "CNBC-e",
+            "Diken"
           ]
         }
       ],

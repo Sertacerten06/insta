@@ -1,0 +1,284 @@
+{
+ "metin": "Verilerin güvende mi? Sorun telefonunda değil, sitelerin sunucularında. Siteler güncellendikçe risk azalıyor. Sen yine de farklı şifreler kullan ve iki adımlı doğrulamayı aç. Geliştiriciysen hemen PHP'yi güncelle: 8.5.12, 8.4.27, 8.3.36 ya da 8.2.35. Sonra sunucuyu yeniden başlat. 8.1 ve öncesine artık resmi yama gelmiyor, yeni sürüme geç. Kayıtlarda tuhaf hatalar var mı, mutlaka kontrol et.",
+ "konusma": "Verilerin güvende mi? Sorun telefonunda değil, sitelerin sunucularında. Siteler güncellendikçe risk azalıyor. Sen yine de farklı şifreler kullan ve iki adımlı doğrulamayı aç. Geliştiriciysen hemen pe ha pe'yi güncelle: sekiz beş on iki, sekiz dört yirmi yedi, sekiz üç otuz altı ya da sekiz iki otuz beş. Sonra sunucuyu yeniden başlat. sekiz bir ve öncesine artık resmi yama gelmiyor, yeni sürüme geç. Kayıtlarda tuhaf hatalar var mı, mutlaka kontrol et.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 27.97532879818594,
+ "kelimeler": [
+  {
+   "k": "Verilerin",
+   "bas": 0.0,
+   "son": 0.603
+  },
+  {
+   "k": "güvende",
+   "bas": 0.603,
+   "son": 1.085
+  },
+  {
+   "k": "mi?",
+   "bas": 1.085,
+   "son": 1.265
+  },
+  {
+   "k": "Sorun",
+   "bas": 1.485,
+   "son": 1.828
+  },
+  {
+   "k": "telefonunda",
+   "bas": 1.828,
+   "son": 2.513
+  },
+  {
+   "k": "değil,",
+   "bas": 2.513,
+   "son": 2.855
+  },
+  {
+   "k": "sitelerin",
+   "bas": 2.855,
+   "son": 3.426
+  },
+  {
+   "k": "sunucularında.",
+   "bas": 3.426,
+   "son": 4.225
+  },
+  {
+   "k": "Siteler",
+   "bas": 4.445,
+   "son": 4.932
+  },
+  {
+   "k": "güncellendikçe",
+   "bas": 4.932,
+   "son": 5.846
+  },
+  {
+   "k": "risk",
+   "bas": 5.846,
+   "son": 6.15
+  },
+  {
+   "k": "azalıyor.",
+   "bas": 6.15,
+   "son": 6.698
+  },
+  {
+   "k": "Sen",
+   "bas": 6.918,
+   "son": 7.129
+  },
+  {
+   "k": "yine",
+   "bas": 7.129,
+   "son": 7.393
+  },
+  {
+   "k": "de",
+   "bas": 7.393,
+   "son": 7.551
+  },
+  {
+   "k": "farklı",
+   "bas": 7.551,
+   "son": 7.921
+  },
+  {
+   "k": "şifreler",
+   "bas": 7.921,
+   "son": 8.396
+  },
+  {
+   "k": "kullan",
+   "bas": 8.396,
+   "son": 8.765
+  },
+  {
+   "k": "ve",
+   "bas": 8.765,
+   "son": 8.924
+  },
+  {
+   "k": "iki",
+   "bas": 8.924,
+   "son": 9.135
+  },
+  {
+   "k": "adımlı",
+   "bas": 9.135,
+   "son": 9.504
+  },
+  {
+   "k": "doğrulamayı",
+   "bas": 9.504,
+   "son": 10.138
+  },
+  {
+   "k": "aç.",
+   "bas": 10.138,
+   "son": 10.296
+  },
+  {
+   "k": "Geliştiriciysen",
+   "bas": 10.516,
+   "son": 11.653
+  },
+  {
+   "k": "hemen",
+   "bas": 11.653,
+   "son": 12.079
+  },
+  {
+   "k": "PHP'yi",
+   "bas": 12.079,
+   "son": 12.718
+  },
+  {
+   "k": "güncelle:",
+   "bas": 12.718,
+   "son": 13.357
+  },
+  {
+   "k": "8.5.12,",
+   "bas": 13.357,
+   "son": 14.351
+  },
+  {
+   "k": "8.4.27,",
+   "bas": 14.351,
+   "son": 15.701
+  },
+  {
+   "k": "8.3.36",
+   "bas": 15.701,
+   "son": 16.837
+  },
+  {
+   "k": "ya",
+   "bas": 16.837,
+   "son": 17.05
+  },
+  {
+   "k": "da",
+   "bas": 17.05,
+   "son": 17.263
+  },
+  {
+   "k": "8.2.35.",
+   "bas": 17.263,
+   "son": 18.399
+  },
+  {
+   "k": "Sonra",
+   "bas": 18.619,
+   "son": 19.017
+  },
+  {
+   "k": "sunucuyu",
+   "bas": 19.017,
+   "son": 19.612
+  },
+  {
+   "k": "yeniden",
+   "bas": 19.612,
+   "son": 20.142
+  },
+  {
+   "k": "başlat.",
+   "bas": 20.142,
+   "son": 20.605
+  },
+  {
+   "k": "8.1",
+   "bas": 20.825,
+   "son": 21.375
+  },
+  {
+   "k": "ve",
+   "bas": 21.375,
+   "son": 21.559
+  },
+  {
+   "k": "öncesine",
+   "bas": 21.559,
+   "son": 22.11
+  },
+  {
+   "k": "artık",
+   "bas": 22.11,
+   "son": 22.477
+  },
+  {
+   "k": "resmi",
+   "bas": 22.477,
+   "son": 22.844
+  },
+  {
+   "k": "yama",
+   "bas": 22.844,
+   "son": 23.15
+  },
+  {
+   "k": "gelmiyor,",
+   "bas": 23.15,
+   "son": 23.7
+  },
+  {
+   "k": "yeni",
+   "bas": 23.7,
+   "son": 24.006
+  },
+  {
+   "k": "sürüme",
+   "bas": 24.006,
+   "son": 24.435
+  },
+  {
+   "k": "geç.",
+   "bas": 24.435,
+   "son": 24.679
+  },
+  {
+   "k": "Kayıtlarda",
+   "bas": 24.899,
+   "son": 25.515
+  },
+  {
+   "k": "tuhaf",
+   "bas": 25.515,
+   "son": 25.851
+  },
+  {
+   "k": "hatalar",
+   "bas": 25.851,
+   "son": 26.299
+  },
+  {
+   "k": "var",
+   "bas": 26.299,
+   "son": 26.523
+  },
+  {
+   "k": "mı,",
+   "bas": 26.523,
+   "son": 26.691
+  },
+  {
+   "k": "mutlaka",
+   "bas": 26.691,
+   "son": 27.139
+  },
+  {
+   "k": "kontrol",
+   "bas": 27.139,
+   "son": 27.587
+  },
+  {
+   "k": "et.",
+   "bas": 27.587,
+   "son": 27.755
+  }
+ ]
+}

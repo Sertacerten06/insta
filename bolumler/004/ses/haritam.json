@@ -1,0 +1,144 @@
+{
+ "metin": "Açığı kapatmak için önce nerede olduğunu bilmen gerekir. Sınavda da öyle. YKS Haritam'ın Deneme Takibi, netlerini grafikle gösterir, puanını tahmin eder ve hedefine ne kadar kaldığını söyler.",
+ "konusma": "Açığı kapatmak için önce nerede olduğunu bilmen gerekir. Sınavda da öyle. ye ka se Haritam'ın Deneme Takibi, netlerini grafikle gösterir, puanını tahmin eder ve hedefine ne kadar kaldığını söyler.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 11.677868480725623,
+ "kelimeler": [
+  {
+   "k": "Açığı",
+   "bas": 0.0,
+   "son": 0.326
+  },
+  {
+   "k": "kapatmak",
+   "bas": 0.326,
+   "son": 0.815
+  },
+  {
+   "k": "için",
+   "bas": 0.815,
+   "son": 1.086
+  },
+  {
+   "k": "önce",
+   "bas": 1.086,
+   "son": 1.358
+  },
+  {
+   "k": "nerede",
+   "bas": 1.358,
+   "son": 1.738
+  },
+  {
+   "k": "olduğunu",
+   "bas": 1.738,
+   "son": 2.227
+  },
+  {
+   "k": "bilmen",
+   "bas": 2.227,
+   "son": 2.607
+  },
+  {
+   "k": "gerekir.",
+   "bas": 2.607,
+   "son": 3.042
+  },
+  {
+   "k": "Sınavda",
+   "bas": 3.262,
+   "son": 3.871
+  },
+  {
+   "k": "da",
+   "bas": 3.871,
+   "son": 4.1
+  },
+  {
+   "k": "öyle.",
+   "bas": 4.1,
+   "son": 4.481
+  },
+  {
+   "k": "YKS",
+   "bas": 4.701,
+   "son": 5.105
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 5.105,
+   "son": 5.683
+  },
+  {
+   "k": "Deneme",
+   "bas": 5.683,
+   "son": 6.087
+  },
+  {
+   "k": "Takibi,",
+   "bas": 6.087,
+   "son": 6.491
+  },
+  {
+   "k": "netlerini",
+   "bas": 6.491,
+   "son": 7.069
+  },
+  {
+   "k": "grafikle",
+   "bas": 7.069,
+   "son": 7.588
+  },
+  {
+   "k": "gösterir,",
+   "bas": 7.588,
+   "son": 8.108
+  },
+  {
+   "k": "puanını",
+   "bas": 8.108,
+   "son": 8.57
+  },
+  {
+   "k": "tahmin",
+   "bas": 8.57,
+   "son": 8.975
+  },
+  {
+   "k": "eder",
+   "bas": 8.975,
+   "son": 9.263
+  },
+  {
+   "k": "ve",
+   "bas": 9.263,
+   "son": 9.437
+  },
+  {
+   "k": "hedefine",
+   "bas": 9.437,
+   "son": 9.956
+  },
+  {
+   "k": "ne",
+   "bas": 9.956,
+   "son": 10.13
+  },
+  {
+   "k": "kadar",
+   "bas": 10.13,
+   "son": 10.476
+  },
+  {
+   "k": "kaldığını",
+   "bas": 10.476,
+   "son": 11.054
+  },
+  {
+   "k": "söyler.",
+   "bas": 11.054,
+   "son": 11.458
+  }
+ ]
+}

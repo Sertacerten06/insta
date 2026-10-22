@@ -1,0 +1,254 @@
+{
+ "metin": "Önce ne oldu? 21 Ekim'de PHP ekibi, PHP2Shell adı verilen iki kritik açık için acil yama yayımladı. Tehlike puanları ondan 9,2. Bu açıklarla saldırgan, giriş bile yapmadan sunucuda kendi kodunu çalıştırabiliyor. Hollanda'da bazı kamu ve okul siteleri önlem olarak kapatıldı. Türkiye'de de Siber Güvenlik Başkanlığı kurumlara acil uyarı gönderdi.",
+ "konusma": "Önce ne oldu? 21 Ekim'de pe ha pe ekibi, pe ha pe tu şel adı verilen iki kritik açık için acil yama yayımladı. Tehlike puanları ondan dokuz virgül iki. Bu açıklarla saldırgan, giriş bile yapmadan sunucuda kendi kodunu çalıştırabiliyor. Hollanda'da bazı kamu ve okul siteleri önlem olarak kapatıldı. Türkiye'de de Siber Güvenlik Başkanlığı kurumlara acil uyarı gönderdi.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 21.451700680272108,
+ "kelimeler": [
+  {
+   "k": "Önce",
+   "bas": 0.0,
+   "son": 0.322
+  },
+  {
+   "k": "ne",
+   "bas": 0.322,
+   "son": 0.514
+  },
+  {
+   "k": "oldu?",
+   "bas": 0.514,
+   "son": 0.836
+  },
+  {
+   "k": "21",
+   "bas": 1.056,
+   "son": 1.234
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 1.234,
+   "son": 1.648
+  },
+  {
+   "k": "PHP",
+   "bas": 1.648,
+   "son": 2.063
+  },
+  {
+   "k": "ekibi,",
+   "bas": 2.063,
+   "son": 2.418
+  },
+  {
+   "k": "PHP2Shell",
+   "bas": 2.418,
+   "son": 3.129
+  },
+  {
+   "k": "adı",
+   "bas": 3.129,
+   "son": 3.366
+  },
+  {
+   "k": "verilen",
+   "bas": 3.366,
+   "son": 3.84
+  },
+  {
+   "k": "iki",
+   "bas": 3.84,
+   "son": 4.077
+  },
+  {
+   "k": "kritik",
+   "bas": 4.077,
+   "son": 4.492
+  },
+  {
+   "k": "açık",
+   "bas": 4.492,
+   "son": 4.788
+  },
+  {
+   "k": "için",
+   "bas": 4.788,
+   "son": 5.084
+  },
+  {
+   "k": "acil",
+   "bas": 5.084,
+   "son": 5.38
+  },
+  {
+   "k": "yama",
+   "bas": 5.38,
+   "son": 5.676
+  },
+  {
+   "k": "yayımladı.",
+   "bas": 5.676,
+   "son": 6.269
+  },
+  {
+   "k": "Tehlike",
+   "bas": 6.489,
+   "son": 7.019
+  },
+  {
+   "k": "puanları",
+   "bas": 7.019,
+   "son": 7.616
+  },
+  {
+   "k": "ondan",
+   "bas": 7.616,
+   "son": 8.014
+  },
+  {
+   "k": "9,2.",
+   "bas": 8.014,
+   "son": 9.008
+  },
+  {
+   "k": "Bu",
+   "bas": 9.228,
+   "son": 9.394
+  },
+  {
+   "k": "açıklarla",
+   "bas": 9.394,
+   "son": 9.946
+  },
+  {
+   "k": "saldırgan,",
+   "bas": 9.946,
+   "son": 10.498
+  },
+  {
+   "k": "giriş",
+   "bas": 10.498,
+   "son": 10.829
+  },
+  {
+   "k": "bile",
+   "bas": 10.829,
+   "son": 11.106
+  },
+  {
+   "k": "yapmadan",
+   "bas": 11.106,
+   "son": 11.603
+  },
+  {
+   "k": "sunucuda",
+   "bas": 11.603,
+   "son": 12.1
+  },
+  {
+   "k": "kendi",
+   "bas": 12.1,
+   "son": 12.431
+  },
+  {
+   "k": "kodunu",
+   "bas": 12.431,
+   "son": 12.817
+  },
+  {
+   "k": "çalıştırabiliyor.",
+   "bas": 12.817,
+   "son": 13.756
+  },
+  {
+   "k": "Hollanda'da",
+   "bas": 13.976,
+   "son": 14.548
+  },
+  {
+   "k": "bazı",
+   "bas": 14.548,
+   "son": 14.807
+  },
+  {
+   "k": "kamu",
+   "bas": 14.807,
+   "son": 15.067
+  },
+  {
+   "k": "ve",
+   "bas": 15.067,
+   "son": 15.223
+  },
+  {
+   "k": "okul",
+   "bas": 15.223,
+   "son": 15.483
+  },
+  {
+   "k": "siteleri",
+   "bas": 15.483,
+   "son": 15.951
+  },
+  {
+   "k": "önlem",
+   "bas": 15.951,
+   "son": 16.262
+  },
+  {
+   "k": "olarak",
+   "bas": 16.262,
+   "son": 16.626
+  },
+  {
+   "k": "kapatıldı.",
+   "bas": 16.626,
+   "son": 17.146
+  },
+  {
+   "k": "Türkiye'de",
+   "bas": 17.366,
+   "son": 17.926
+  },
+  {
+   "k": "de",
+   "bas": 17.926,
+   "son": 18.094
+  },
+  {
+   "k": "Siber",
+   "bas": 18.094,
+   "son": 18.43
+  },
+  {
+   "k": "Güvenlik",
+   "bas": 18.43,
+   "son": 18.934
+  },
+  {
+   "k": "Başkanlığı",
+   "bas": 18.934,
+   "son": 19.551
+  },
+  {
+   "k": "kurumlara",
+   "bas": 19.551,
+   "son": 20.111
+  },
+  {
+   "k": "acil",
+   "bas": 20.111,
+   "son": 20.391
+  },
+  {
+   "k": "uyarı",
+   "bas": 20.391,
+   "son": 20.727
+  },
+  {
+   "k": "gönderdi.",
+   "bas": 20.727,
+   "son": 21.232
+  }
+ ]
+}

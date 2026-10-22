@@ -1,0 +1,88 @@
+{
+ "bolum": 4,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "PHP'de Kritik Açık: Verilerimiz Güvende mi?",
+ "ozel": true,
+ "haritam_ozellik": "deneme_takibi",
+ "kanca": {
+  "ikon": "php",
+  "satirlar": [
+   "İNTERNETİN DEVİ",
+   "PHP'DE AÇIK!",
+   "VERİLERİN GÜVENDE Mİ?"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "PHP",
+  "PHP'de",
+  "PHP2Shell",
+  "kritik",
+  "9,2",
+  "güncelle",
+  "yapay",
+  "zekâ",
+  "YKS",
+  "Haritam'ın",
+  "Deneme",
+  "Takibi",
+  "ücretsiz",
+  "haritam.arpama.tr",
+  "8.5.12",
+  "8.4.27",
+  "8.3.36",
+  "8.2.35"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Web sitelerinin çoğunu çalıştıran PHP'de kritik açık! Verilerin güvende mi? Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu bir özel bölüm. Bugün tek bir konu var: PHP."
+  },
+  {
+   "id": "ne_oldu",
+   "sahne": "php_ne",
+   "metin": "Önce ne oldu? 21 Ekim'de PHP ekibi, PHP2Shell adı verilen iki kritik açık için acil yama yayımladı. Tehlike puanları ondan 9,2. Bu açıklarla saldırgan, giriş bile yapmadan sunucuda kendi kodunu çalıştırabiliyor. Hollanda'da bazı kamu ve okul siteleri önlem olarak kapatıldı. Türkiye'de de Siber Güvenlik Başkanlığı kurumlara acil uyarı gönderdi."
+  },
+  {
+   "id": "neden",
+   "sahne": "php_neden",
+   "metin": "Peki neden böyle oldu? Hatalı kod on yıldan uzun süredir PHP'nin içindeydi. İlk işaretler 2024'te görülmüş, ama küçük ekip çözüm üzerinde anlaşamayınca iş aylarca bekledi. Sonunda Wiz ve OpenAI araştırmacıları, yapay zekâ yardımıyla açığın nasıl kullanılabileceğini gösterdi. Yani yapay zekâ açığı bulmaya yardım etti, ama aynı güç saldırganların da elinde."
+  },
+  {
+   "id": "ne_yapmali",
+   "sahne": "php_yapilacak",
+   "metin": "Verilerin güvende mi? Sorun telefonunda değil, sitelerin sunucularında. Siteler güncellendikçe risk azalıyor. Sen yine de farklı şifreler kullan ve iki adımlı doğrulamayı aç. Geliştiriciysen hemen PHP'yi güncelle: 8.5.12, 8.4.27, 8.3.36 ya da 8.2.35. Sonra sunucuyu yeniden başlat. 8.1 ve öncesine artık resmi yama gelmiyor, yeni sürüme geç. Kayıtlarda tuhaf hatalar var mı, mutlaka kontrol et."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_deneme",
+   "metin": "Açığı kapatmak için önce nerede olduğunu bilmen gerekir. Sınavda da öyle. YKS Haritam'ın Deneme Takibi, netlerini grafikle gösterir, puanını tahmin eder ve hedefine ne kadar kaldığını söyler."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "ne_oldu": "Kaynak: The Hacker News, CNBC-e",
+  "neden": "Kaynak: The Hacker News, Diken",
+  "ne_yapmali": "Kaynak: The Hacker News, Diken"
+ },
+ "kapak": {
+  "ust": "PHP'DE AÇIK!",
+  "alt_satirlar": [
+   "VERİLERİN",
+   "GÜVENDE Mİ?"
+  ],
+  "bolum_etiketi": "ÖZEL BÖLÜM",
+  "ikon": "php"
+ },
+ "caption": "PHP'de kritik açık: verilerimiz güvende mi? 🕹️\n\nÖzel bölümde:\n▸ PHP2Shell: 21 Ekim'de yamalanan iki kritik açık (CVSS 9.2)\n▸ Neden oldu? On yıllık hata, aylarca bekleyen yama, yapay zekâ\n▸ Kullanıcı ve geliştirici olarak ne yapmalı? PHP 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35\n▸ Haritam: Deneme Takibi ile netlerini ve hedefini gör\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: The Hacker News, CNBC-e, Diken\n\n#php #siberguvenlik #yazilim #teknoloji #teknolojihaberleri #yks #arpama #haritam"
+}

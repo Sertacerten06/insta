@@ -1,0 +1,259 @@
+{
+ "metin": "Peki neden böyle oldu? Hatalı kod on yıldan uzun süredir PHP'nin içindeydi. İlk işaretler 2024'te görülmüş, ama küçük ekip çözüm üzerinde anlaşamayınca iş aylarca bekledi. Sonunda Wiz ve OpenAI araştırmacıları, yapay zekâ yardımıyla açığın nasıl kullanılabileceğini gösterdi. Yani yapay zekâ açığı bulmaya yardım etti, ama aynı güç saldırganların da elinde.",
+ "konusma": "Peki neden böyle oldu? Hatalı kod on yıldan uzun süredir pe ha pe'nin içindeydi. İlk işaretler 2024'te görülmüş, ama küçük ekip çözüm üzerinde anlaşamayınca iş aylarca bekledi. Sonunda viz ve open ey ay araştırmacıları, yapay zekâ yardımıyla açığın nasıl kullanılabileceğini gösterdi. Yani yapay zekâ açığı bulmaya yardım etti, ama aynı güç saldırganların da elinde.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 21.754149659863945,
+ "kelimeler": [
+  {
+   "k": "Peki",
+   "bas": 0.0,
+   "son": 0.264
+  },
+  {
+   "k": "neden",
+   "bas": 0.264,
+   "son": 0.58
+  },
+  {
+   "k": "böyle",
+   "bas": 0.58,
+   "son": 0.897
+  },
+  {
+   "k": "oldu?",
+   "bas": 0.897,
+   "son": 1.161
+  },
+  {
+   "k": "Hatalı",
+   "bas": 1.381,
+   "son": 1.759
+  },
+  {
+   "k": "kod",
+   "bas": 1.759,
+   "son": 1.975
+  },
+  {
+   "k": "on",
+   "bas": 1.975,
+   "son": 2.137
+  },
+  {
+   "k": "yıldan",
+   "bas": 2.137,
+   "son": 2.514
+  },
+  {
+   "k": "uzun",
+   "bas": 2.514,
+   "son": 2.784
+  },
+  {
+   "k": "süredir",
+   "bas": 2.784,
+   "son": 3.216
+  },
+  {
+   "k": "PHP'nin",
+   "bas": 3.216,
+   "son": 3.755
+  },
+  {
+   "k": "içindeydi.",
+   "bas": 3.755,
+   "son": 4.295
+  },
+  {
+   "k": "İlk",
+   "bas": 4.515,
+   "son": 4.773
+  },
+  {
+   "k": "işaretler",
+   "bas": 4.773,
+   "son": 5.417
+  },
+  {
+   "k": "2024'te",
+   "bas": 5.417,
+   "son": 5.868
+  },
+  {
+   "k": "görülmüş,",
+   "bas": 5.868,
+   "son": 6.448
+  },
+  {
+   "k": "ama",
+   "bas": 6.448,
+   "son": 6.705
+  },
+  {
+   "k": "küçük",
+   "bas": 6.705,
+   "son": 7.092
+  },
+  {
+   "k": "ekip",
+   "bas": 7.092,
+   "son": 7.414
+  },
+  {
+   "k": "çözüm",
+   "bas": 7.414,
+   "son": 7.8
+  },
+  {
+   "k": "üzerinde",
+   "bas": 7.8,
+   "son": 8.38
+  },
+  {
+   "k": "anlaşamayınca",
+   "bas": 8.38,
+   "son": 9.282
+  },
+  {
+   "k": "iş",
+   "bas": 9.282,
+   "son": 9.475
+  },
+  {
+   "k": "aylarca",
+   "bas": 9.475,
+   "son": 9.991
+  },
+  {
+   "k": "bekledi.",
+   "bas": 9.991,
+   "son": 10.506
+  },
+  {
+   "k": "Sonunda",
+   "bas": 10.726,
+   "son": 11.197
+  },
+  {
+   "k": "Wiz",
+   "bas": 11.197,
+   "son": 11.432
+  },
+  {
+   "k": "ve",
+   "bas": 11.432,
+   "son": 11.608
+  },
+  {
+   "k": "OpenAI",
+   "bas": 11.608,
+   "son": 12.138
+  },
+  {
+   "k": "araştırmacıları,",
+   "bas": 12.138,
+   "son": 13.079
+  },
+  {
+   "k": "yapay",
+   "bas": 13.079,
+   "son": 13.432
+  },
+  {
+   "k": "zekâ",
+   "bas": 13.432,
+   "son": 13.726
+  },
+  {
+   "k": "yardımıyla",
+   "bas": 13.726,
+   "son": 14.373
+  },
+  {
+   "k": "açığın",
+   "bas": 14.373,
+   "son": 14.785
+  },
+  {
+   "k": "nasıl",
+   "bas": 14.785,
+   "son": 15.138
+  },
+  {
+   "k": "kullanılabileceğini",
+   "bas": 15.138,
+   "son": 16.315
+  },
+  {
+   "k": "gösterdi.",
+   "bas": 16.315,
+   "son": 16.844
+  },
+  {
+   "k": "Yani",
+   "bas": 17.064,
+   "son": 17.344
+  },
+  {
+   "k": "yapay",
+   "bas": 17.344,
+   "son": 17.679
+  },
+  {
+   "k": "zekâ",
+   "bas": 17.679,
+   "son": 17.958
+  },
+  {
+   "k": "açığı",
+   "bas": 17.958,
+   "son": 18.294
+  },
+  {
+   "k": "bulmaya",
+   "bas": 18.294,
+   "son": 18.74
+  },
+  {
+   "k": "yardım",
+   "bas": 18.74,
+   "son": 19.132
+  },
+  {
+   "k": "etti,",
+   "bas": 19.132,
+   "son": 19.411
+  },
+  {
+   "k": "ama",
+   "bas": 19.411,
+   "son": 19.634
+  },
+  {
+   "k": "aynı",
+   "bas": 19.634,
+   "son": 19.914
+  },
+  {
+   "k": "güç",
+   "bas": 19.914,
+   "son": 20.137
+  },
+  {
+   "k": "saldırganların",
+   "bas": 20.137,
+   "son": 20.975
+  },
+  {
+   "k": "da",
+   "bas": 20.975,
+   "son": 21.143
+  },
+  {
+   "k": "elinde.",
+   "bas": 21.143,
+   "son": 21.534
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+PHP'de kritik açık: verilerimiz güvende mi? 🕹️
+
+Özel bölümde:
+▸ PHP2Shell: 21 Ekim'de yamalanan iki kritik açık (CVSS 9.2)
+▸ Neden oldu? On yıllık hata, aylarca bekleyen yama, yapay zekâ
+▸ Kullanıcı ve geliştirici olarak ne yapmalı? PHP 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35
+▸ Haritam: Deneme Takibi ile netlerini ve hedefini gör
+
+YKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)
+
+Kaynaklar: The Hacker News, CNBC-e, Diken
+
+#php #siberguvenlik #yazilim #teknoloji #teknolojihaberleri #yks #arpama #haritam
