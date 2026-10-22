@@ -181,6 +181,8 @@ class Render:
         handle = self.ayar.get("instagram", {}).get("handle", "")
         handle = handle if handle and "<" not in handle else None
         self.sen, self.sahneler, self.toplam = zaman_cizelgesi(no)
+        ses_json = next(iter(sorted((bolum_dizini(no) / "ses").glob("*.json"))), None)
+        maskot.ayarla(json.loads(ses_json.read_text(encoding="utf-8")).get("ses") if ses_json else None)
         self.nesneler = sahne_nesneleri(self.sen, self.sahneler, handle)
         self.sayfalar = altyazi_sayfalari(self.sahneler, self.sen.get("vurgu_kelimeleri", []))
         self.tarih = tarih or tr_tarih(date.today())

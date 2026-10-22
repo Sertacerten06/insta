@@ -11,6 +11,16 @@ from PIL import Image
 from ortak import KOK
 
 DIZIN = KOK / "brand" / "maskot"
+KADIN_SESLER = {"tr-TR-EmelNeural"}    # bu seslerde Arpi'nin kız hali (brand/maskot/kiz/) kullanılır
+
+
+def ayarla(ses):
+    """Seslendirme sesine göre Arpi varyantını seç (kadın ses -> kız Arpi)."""
+    global DIZIN
+    kiz = KOK / "brand" / "maskot" / "kiz"
+    DIZIN = kiz if ses in KADIN_SESLER and (kiz / "arpi.json").exists() else KOK / "brand" / "maskot"
+    _veri.cache_clear()
+    _kare.cache_clear()
 
 
 @lru_cache(maxsize=1)
