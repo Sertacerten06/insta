@@ -1,0 +1,81 @@
+{
+ "bolum": 5,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Doğru Soruyu Sorana 1 Milyon Lira",
+ "haritam_ozellik": "yanlis_defteri",
+ "kanca": {
+  "ikon": "robot",
+  "satirlar": [
+   "YAPAY ZEKÂYA DOĞRU",
+   "SORUYU SORANA",
+   "1 MİLYON TL!"
+  ],
+  "vurgu": 2
+ },
+ "vurgu_kelimeleri": [
+  "Gemini",
+  "Prompt",
+  "Arena",
+  "1",
+  "milyon",
+  "15",
+  "Kasım'a",
+  "Swift",
+  "22",
+  "2.000'den",
+  "YKS",
+  "Haritam'ın",
+  "Yanlış",
+  "Defteri'nde",
+  "aralıklı",
+  "tekrarla",
+  "ücretsiz",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Yapay zekâya doğru soruyu sorana 1 milyon lira! Bir de 22 yıl çalışan bir uzay teleskobuna veda ediyoruz. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu beşinci bölüm. İlk haber Türkiye'den."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_prompt",
+   "metin": "Google, Türkiye'deki üniversite öğrencileri için Gemini Prompt Arena adlı bir yapay zekâ yarışması başlattı. Büyük ödül tam 1 milyon lira. Yarışmacılar Gemini'ye doğru komutları yazarak görsel, video, müzik ve kod üretecek. Yazılım bilmek şart değil. 18 yaşını doldurmuş ön lisans, lisans ve yüksek lisans öğrencileri, 15 Kasım'a kadar yapay zekâyla ürettikleri bir eserle başvurabiliyor. Jüride Ozan Sihay ve Orkun Işıtmak gibi tanıdık isimler var. Önce evden online elemeler var, yarı final ve final ise İstanbul'da. Yani artık iyi soru sormak da bir yetenek."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_swift",
+   "metin": "Dünyadan bir veda haberi. NASA, Swift uzay teleskobunun görevini 23 Ekim'de resmen bitirdi. 2004'te sadece iki yıl çalışsın diye fırlatılan Swift, tam 22 yıl dayandı. Bu sürede evrenin en büyük patlamaları olan 2.000'den fazla gama ışını patlaması ve 1.400'den fazla süpernova gözledi. Verileri yaklaşık 7.000 bilimsel makaleye kaynak oldu. Güneş'in artan etkinliği yüzünden teleskop alçaldı ve artık sabit duramıyor. Önümüzdeki haftalarda atmosfere girip yanacak. Ama 22 yıllık verisi bilim insanlarının elinde kalmaya devam edecek."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_yanlis",
+   "metin": "Swift evreni patlamalardan öğrendi. Sen de en çok yanlışlarından öğrenirsin. YKS Haritam'ın Yanlış Defteri'nde, yanlış yaptığın sorunun fotoğrafını çekip nedenini yazarsın. Haritam o soruyu aralıklı tekrarla yeniden karşına çıkarır. Böylece aynı hatayı sınavda yapmazsın."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, yanlış defterini bugün aç. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: Webtekno, Aposto",
+  "haber2": "Kaynak: NASA, EconoTimes"
+ },
+ "kapak": {
+  "ust": "1 MİLYON TL!",
+  "alt_satirlar": [
+   "YAPAY ZEKÂ",
+   "YARIŞMASI BAŞLADI"
+  ],
+  "bolum_etiketi": "BÖLÜM 5",
+  "ikon": "robot"
+ },
+ "caption": "Yapay zekâya doğru soruyu sorana 1 milyon TL 🕹️\n\nBu bölümde:\n▸ Google'dan üniversitelilere Gemini Prompt Arena: büyük ödül 1 milyon TL, başvuru 15 Kasım'a kadar (promptarena.com.tr)\n▸ NASA'nın Swift teleskobuna veda: 2 yıl için fırlatıldı, 22 yıl çalıştı\n▸ Haritam: Yanlış Defteri ile yanlışlarını aralıklı tekrarla\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Webtekno, Aposto, NASA, EconoTimes\n\n#yks #yks2027 #yapayzeka #gemini #nasa #teknolojihaberleri #arpama #haritam"
+}

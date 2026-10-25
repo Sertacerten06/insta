@@ -1,0 +1,379 @@
+{
+ "metin": "Dünyadan bir veda haberi. NASA, Swift uzay teleskobunun görevini 23 Ekim'de resmen bitirdi. 2004'te sadece iki yıl çalışsın diye fırlatılan Swift, tam 22 yıl dayandı. Bu sürede evrenin en büyük patlamaları olan 2.000'den fazla gama ışını patlaması ve 1.400'den fazla süpernova gözledi. Verileri yaklaşık 7.000 bilimsel makaleye kaynak oldu. Güneş'in artan etkinliği yüzünden teleskop alçaldı ve artık sabit duramıyor. Önümüzdeki haftalarda atmosfere girip yanacak. Ama 22 yıllık verisi bilim insanlarının elinde kalmaya devam edecek.",
+ "konusma": "Dünyadan bir veda haberi. nasa, svift uzay teleskobunun görevini 23 Ekim'de resmen bitirdi. 2004'te sadece iki yıl çalışsın diye fırlatılan svift, tam 22 yıl dayandı. Bu sürede evrenin en büyük patlamaları olan iki bin'den fazla gama ışını patlaması ve bin dört yüz'den fazla süpernova gözledi. Verileri yaklaşık yedi bin bilimsel makaleye kaynak oldu. Güneş'in artan etkinliği yüzünden teleskop alçaldı ve artık sabit duramıyor. Önümüzdeki haftalarda atmosfere girip yanacak. Ama 22 yıllık verisi bilim insanlarının elinde kalmaya devam edecek.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 32.50321995464853,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.539
+  },
+  {
+   "k": "bir",
+   "bas": 0.539,
+   "son": 0.779
+  },
+  {
+   "k": "veda",
+   "bas": 0.779,
+   "son": 1.078
+  },
+  {
+   "k": "haberi.",
+   "bas": 1.078,
+   "son": 1.498
+  },
+  {
+   "k": "NASA,",
+   "bas": 1.718,
+   "son": 2.037
+  },
+  {
+   "k": "Swift",
+   "bas": 2.037,
+   "son": 2.419
+  },
+  {
+   "k": "uzay",
+   "bas": 2.419,
+   "son": 2.738
+  },
+  {
+   "k": "teleskobunun",
+   "bas": 2.738,
+   "son": 3.567
+  },
+  {
+   "k": "görevini",
+   "bas": 3.567,
+   "son": 4.141
+  },
+  {
+   "k": "23",
+   "bas": 4.141,
+   "son": 4.332
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 4.332,
+   "son": 4.778
+  },
+  {
+   "k": "resmen",
+   "bas": 4.778,
+   "son": 5.225
+  },
+  {
+   "k": "bitirdi.",
+   "bas": 5.225,
+   "son": 5.735
+  },
+  {
+   "k": "2004'te",
+   "bas": 5.955,
+   "son": 6.434
+  },
+  {
+   "k": "sadece",
+   "bas": 6.434,
+   "son": 6.914
+  },
+  {
+   "k": "iki",
+   "bas": 6.914,
+   "son": 7.188
+  },
+  {
+   "k": "yıl",
+   "bas": 7.188,
+   "son": 7.462
+  },
+  {
+   "k": "çalışsın",
+   "bas": 7.462,
+   "son": 8.079
+  },
+  {
+   "k": "diye",
+   "bas": 8.079,
+   "son": 8.422
+  },
+  {
+   "k": "fırlatılan",
+   "bas": 8.422,
+   "son": 9.176
+  },
+  {
+   "k": "Swift,",
+   "bas": 9.176,
+   "son": 9.587
+  },
+  {
+   "k": "tam",
+   "bas": 9.587,
+   "son": 9.861
+  },
+  {
+   "k": "22",
+   "bas": 9.861,
+   "son": 10.067
+  },
+  {
+   "k": "yıl",
+   "bas": 10.067,
+   "son": 10.341
+  },
+  {
+   "k": "dayandı.",
+   "bas": 10.341,
+   "son": 10.889
+  },
+  {
+   "k": "Bu",
+   "bas": 11.109,
+   "son": 11.276
+  },
+  {
+   "k": "sürede",
+   "bas": 11.276,
+   "son": 11.666
+  },
+  {
+   "k": "evrenin",
+   "bas": 11.666,
+   "son": 12.111
+  },
+  {
+   "k": "en",
+   "bas": 12.111,
+   "son": 12.278
+  },
+  {
+   "k": "büyük",
+   "bas": 12.278,
+   "son": 12.612
+  },
+  {
+   "k": "patlamaları",
+   "bas": 12.612,
+   "son": 13.28
+  },
+  {
+   "k": "olan",
+   "bas": 13.28,
+   "son": 13.558
+  },
+  {
+   "k": "2.000'den",
+   "bas": 13.558,
+   "son": 14.115
+  },
+  {
+   "k": "fazla",
+   "bas": 14.115,
+   "son": 14.449
+  },
+  {
+   "k": "gama",
+   "bas": 14.449,
+   "son": 14.728
+  },
+  {
+   "k": "ışını",
+   "bas": 14.728,
+   "son": 15.062
+  },
+  {
+   "k": "patlaması",
+   "bas": 15.062,
+   "son": 15.618
+  },
+  {
+   "k": "ve",
+   "bas": 15.618,
+   "son": 15.785
+  },
+  {
+   "k": "1.400'den",
+   "bas": 15.785,
+   "son": 16.565
+  },
+  {
+   "k": "fazla",
+   "bas": 16.565,
+   "son": 16.899
+  },
+  {
+   "k": "süpernova",
+   "bas": 16.899,
+   "son": 17.455
+  },
+  {
+   "k": "gözledi.",
+   "bas": 17.455,
+   "son": 17.901
+  },
+  {
+   "k": "Verileri",
+   "bas": 18.121,
+   "son": 18.615
+  },
+  {
+   "k": "yaklaşık",
+   "bas": 18.615,
+   "son": 19.11
+  },
+  {
+   "k": "7.000",
+   "bas": 19.11,
+   "son": 19.549
+  },
+  {
+   "k": "bilimsel",
+   "bas": 19.549,
+   "son": 20.044
+  },
+  {
+   "k": "makaleye",
+   "bas": 20.044,
+   "son": 20.538
+  },
+  {
+   "k": "kaynak",
+   "bas": 20.538,
+   "son": 20.923
+  },
+  {
+   "k": "oldu.",
+   "bas": 20.923,
+   "son": 21.197
+  },
+  {
+   "k": "Güneş'in",
+   "bas": 21.417,
+   "son": 21.852
+  },
+  {
+   "k": "artan",
+   "bas": 21.852,
+   "son": 22.178
+  },
+  {
+   "k": "etkinliği",
+   "bas": 22.178,
+   "son": 22.721
+  },
+  {
+   "k": "yüzünden",
+   "bas": 22.721,
+   "son": 23.211
+  },
+  {
+   "k": "teleskop",
+   "bas": 23.211,
+   "son": 23.7
+  },
+  {
+   "k": "alçaldı",
+   "bas": 23.7,
+   "son": 24.134
+  },
+  {
+   "k": "ve",
+   "bas": 24.134,
+   "son": 24.297
+  },
+  {
+   "k": "artık",
+   "bas": 24.297,
+   "son": 24.623
+  },
+  {
+   "k": "sabit",
+   "bas": 24.623,
+   "son": 24.949
+  },
+  {
+   "k": "duramıyor.",
+   "bas": 24.949,
+   "son": 25.493
+  },
+  {
+   "k": "Önümüzdeki",
+   "bas": 25.713,
+   "son": 26.334
+  },
+  {
+   "k": "haftalarda",
+   "bas": 26.334,
+   "son": 26.956
+  },
+  {
+   "k": "atmosfere",
+   "bas": 26.956,
+   "son": 27.522
+  },
+  {
+   "k": "girip",
+   "bas": 27.522,
+   "son": 27.861
+  },
+  {
+   "k": "yanacak.",
+   "bas": 27.861,
+   "son": 28.313
+  },
+  {
+   "k": "Ama",
+   "bas": 28.533,
+   "son": 28.754
+  },
+  {
+   "k": "22",
+   "bas": 28.754,
+   "son": 28.919
+  },
+  {
+   "k": "yıllık",
+   "bas": 28.919,
+   "son": 29.305
+  },
+  {
+   "k": "verisi",
+   "bas": 29.305,
+   "son": 29.691
+  },
+  {
+   "k": "bilim",
+   "bas": 29.691,
+   "son": 30.022
+  },
+  {
+   "k": "insanlarının",
+   "bas": 30.022,
+   "son": 30.739
+  },
+  {
+   "k": "elinde",
+   "bas": 30.739,
+   "son": 31.125
+  },
+  {
+   "k": "kalmaya",
+   "bas": 31.125,
+   "son": 31.566
+  },
+  {
+   "k": "devam",
+   "bas": 31.566,
+   "son": 31.897
+  },
+  {
+   "k": "edecek.",
+   "bas": 31.897,
+   "son": 32.283
+  }
+ ]
+}

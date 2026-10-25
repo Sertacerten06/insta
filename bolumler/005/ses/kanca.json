@@ -1,0 +1,109 @@
+{
+ "metin": "Yapay zekâya doğru soruyu sorana 1 milyon lira! Bir de 22 yıl çalışan bir uzay teleskobuna veda ediyoruz. Hazırsan başlıyoruz!",
+ "konusma": "Yapay zekâya doğru soruyu sorana 1 milyon lira! Bir de 22 yıl çalışan bir uzay teleskobuna veda ediyoruz. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 8.310975056689342,
+ "kelimeler": [
+  {
+   "k": "Yapay",
+   "bas": 0.0,
+   "son": 0.345
+  },
+  {
+   "k": "zekâya",
+   "bas": 0.345,
+   "son": 0.748
+  },
+  {
+   "k": "doğru",
+   "bas": 0.748,
+   "son": 1.094
+  },
+  {
+   "k": "soruyu",
+   "bas": 1.094,
+   "son": 1.496
+  },
+  {
+   "k": "sorana",
+   "bas": 1.496,
+   "son": 1.899
+  },
+  {
+   "k": "1",
+   "bas": 1.899,
+   "son": 2.014
+  },
+  {
+   "k": "milyon",
+   "bas": 2.014,
+   "son": 2.417
+  },
+  {
+   "k": "lira!",
+   "bas": 2.417,
+   "son": 2.705
+  },
+  {
+   "k": "Bir",
+   "bas": 2.925,
+   "son": 3.17
+  },
+  {
+   "k": "de",
+   "bas": 3.17,
+   "son": 3.354
+  },
+  {
+   "k": "22",
+   "bas": 3.354,
+   "son": 3.538
+  },
+  {
+   "k": "yıl",
+   "bas": 3.538,
+   "son": 3.783
+  },
+  {
+   "k": "çalışan",
+   "bas": 3.783,
+   "son": 4.274
+  },
+  {
+   "k": "bir",
+   "bas": 4.274,
+   "son": 4.519
+  },
+  {
+   "k": "uzay",
+   "bas": 4.519,
+   "son": 4.826
+  },
+  {
+   "k": "teleskobuna",
+   "bas": 4.826,
+   "son": 5.561
+  },
+  {
+   "k": "veda",
+   "bas": 5.561,
+   "son": 5.868
+  },
+  {
+   "k": "ediyoruz.",
+   "bas": 5.868,
+   "son": 6.42
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 6.64,
+   "son": 7.293
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 7.293,
+   "son": 8.091
+  }
+ ]
+}

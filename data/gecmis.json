@@ -1,5 +1,5 @@
 {
-  "son_bolum": 4,
+  "son_bolum": 5,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -110,6 +110,35 @@
             "The Hacker News",
             "CNBC-e",
             "Diken"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 5,
+      "baslik": "Doğru Soruyu Sorana 1 Milyon Lira",
+      "uretim_tarihi": "2026-10-25",
+      "yayin_tarihi": null,
+      "planlanan_yayin": "2026-10-27 19:00",
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "yanlis_defteri",
+      "ses": "piper tr_TR-fahrettin-medium",
+      "haberler": [
+        {
+          "id": "2026-10-20-gemini-prompt-arena",
+          "baslik": "Google Gemini Prompt Arena (1 milyon TL)",
+          "kaynaklar": [
+            "Webtekno",
+            "Aposto"
+          ]
+        },
+        {
+          "id": "2026-10-23-nasa-swift-veda",
+          "baslik": "NASA Swift görevi bitti",
+          "kaynaklar": [
+            "NASA",
+            "EconoTimes"
           ]
         }
       ],

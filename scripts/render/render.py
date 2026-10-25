@@ -258,6 +258,10 @@ class Render:
                 d.rectangle([SW // 2 - 32 + (i % 2) * 6, 302 + i * 9, SW // 2 - 32 + (i % 2) * 6 + 20 + i * 9, 304 + i * 9],
                             fill=P["altin"] if i == 1 else P["gumus_koyu"])
             d.line([(SW // 2 + 4, 290), (SW // 2 - 6, 308), (SW // 2 + 6, 318), (SW // 2 - 2, 342)], fill=P["kirmizi"], width=2)
+        elif k.get("ikon") == "robot":
+            ikon(d, I.ROBOT, SW // 2 - 24, 290, 4)
+            for j, (dx, dy) in enumerate([(-44, 300), (36, 294), (-38, 330), (40, 326)]):
+                d.rectangle([SW // 2 + dx, dy, SW // 2 + dx + 5, dy + 5], fill=P["altin"], outline=P["altin_koyu"])
         elif k.get("ikon") == "telefon":
             ikon(d, I.TELEFON, SW // 2 - 14, 292, 4)
             d.rectangle([SW // 2 + 10, 286, SW // 2 + 21, 297], fill=P["kirmizi"])

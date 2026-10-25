@@ -1,0 +1,424 @@
+{
+ "metin": "Google, Türkiye'deki üniversite öğrencileri için Gemini Prompt Arena adlı bir yapay zekâ yarışması başlattı. Büyük ödül tam 1 milyon lira. Yarışmacılar Gemini'ye doğru komutları yazarak görsel, video, müzik ve kod üretecek. Yazılım bilmek şart değil. 18 yaşını doldurmuş ön lisans, lisans ve yüksek lisans öğrencileri, 15 Kasım'a kadar yapay zekâyla ürettikleri bir eserle başvurabiliyor. Jüride Ozan Sihay ve Orkun Işıtmak gibi tanıdık isimler var. Önce evden online elemeler var, yarı final ve final ise İstanbul'da. Yani artık iyi soru sormak da bir yetenek.",
+ "konusma": "gugıl, Türkiye'deki üniversite öğrencileri için cemini Prompt Arena adlı bir yapay zekâ yarışması başlattı. Büyük ödül tam 1 milyon lira. Yarışmacılar cemini'ye doğru komutları yazarak görsel, video, müzik ve kod üretecek. Yazılım bilmek şart değil. 18 yaşını doldurmuş ön lisans, lisans ve yüksek lisans öğrencileri, 15 Kasım'a kadar yapay zekâyla ürettikleri bir eserle başvurabiliyor. Jüride Ozan Sihay ve Orkun ışıtmak gibi tanıdık isimler var. Önce evden online elemeler var, yarı final ve final ise İstanbul'da. Yani artık iyi soru sormak da bir yetenek.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 33.5481179138322,
+ "kelimeler": [
+  {
+   "k": "Google,",
+   "bas": 0.0,
+   "son": 0.326
+  },
+  {
+   "k": "Türkiye'deki",
+   "bas": 0.326,
+   "son": 0.979
+  },
+  {
+   "k": "üniversite",
+   "bas": 0.979,
+   "son": 1.578
+  },
+  {
+   "k": "öğrencileri",
+   "bas": 1.578,
+   "son": 2.23
+  },
+  {
+   "k": "için",
+   "bas": 2.23,
+   "son": 2.502
+  },
+  {
+   "k": "Gemini",
+   "bas": 2.502,
+   "son": 2.883
+  },
+  {
+   "k": "Prompt",
+   "bas": 2.883,
+   "son": 3.264
+  },
+  {
+   "k": "Arena",
+   "bas": 3.264,
+   "son": 3.59
+  },
+  {
+   "k": "adlı",
+   "bas": 3.59,
+   "son": 3.862
+  },
+  {
+   "k": "bir",
+   "bas": 3.862,
+   "son": 4.08
+  },
+  {
+   "k": "yapay",
+   "bas": 4.08,
+   "son": 4.406
+  },
+  {
+   "k": "zekâ",
+   "bas": 4.406,
+   "son": 4.678
+  },
+  {
+   "k": "yarışması",
+   "bas": 4.678,
+   "son": 5.222
+  },
+  {
+   "k": "başlattı.",
+   "bas": 5.222,
+   "son": 5.712
+  },
+  {
+   "k": "Büyük",
+   "bas": 5.932,
+   "son": 6.333
+  },
+  {
+   "k": "ödül",
+   "bas": 6.333,
+   "son": 6.668
+  },
+  {
+   "k": "tam",
+   "bas": 6.668,
+   "son": 6.935
+  },
+  {
+   "k": "1",
+   "bas": 6.935,
+   "son": 7.069
+  },
+  {
+   "k": "milyon",
+   "bas": 7.069,
+   "son": 7.537
+  },
+  {
+   "k": "lira.",
+   "bas": 7.537,
+   "son": 7.871
+  },
+  {
+   "k": "Yarışmacılar",
+   "bas": 8.091,
+   "son": 8.896
+  },
+  {
+   "k": "Gemini'ye",
+   "bas": 8.896,
+   "son": 9.453
+  },
+  {
+   "k": "doğru",
+   "bas": 9.453,
+   "son": 9.825
+  },
+  {
+   "k": "komutları",
+   "bas": 9.825,
+   "son": 10.444
+  },
+  {
+   "k": "yazarak",
+   "bas": 10.444,
+   "son": 10.939
+  },
+  {
+   "k": "görsel,",
+   "bas": 10.939,
+   "son": 11.373
+  },
+  {
+   "k": "video,",
+   "bas": 11.373,
+   "son": 11.744
+  },
+  {
+   "k": "müzik",
+   "bas": 11.744,
+   "son": 12.116
+  },
+  {
+   "k": "ve",
+   "bas": 12.116,
+   "son": 12.302
+  },
+  {
+   "k": "kod",
+   "bas": 12.302,
+   "son": 12.549
+  },
+  {
+   "k": "üretecek.",
+   "bas": 12.549,
+   "son": 13.106
+  },
+  {
+   "k": "Yazılım",
+   "bas": 13.326,
+   "son": 13.827
+  },
+  {
+   "k": "bilmek",
+   "bas": 13.827,
+   "son": 14.264
+  },
+  {
+   "k": "şart",
+   "bas": 14.264,
+   "son": 14.577
+  },
+  {
+   "k": "değil.",
+   "bas": 14.577,
+   "son": 14.952
+  },
+  {
+   "k": "18",
+   "bas": 15.172,
+   "son": 15.343
+  },
+  {
+   "k": "yaşını",
+   "bas": 15.343,
+   "son": 15.744
+  },
+  {
+   "k": "doldurmuş",
+   "bas": 15.744,
+   "son": 16.316
+  },
+  {
+   "k": "ön",
+   "bas": 16.316,
+   "son": 16.487
+  },
+  {
+   "k": "lisans,",
+   "bas": 16.487,
+   "son": 16.887
+  },
+  {
+   "k": "lisans",
+   "bas": 16.887,
+   "son": 17.288
+  },
+  {
+   "k": "ve",
+   "bas": 17.288,
+   "son": 17.459
+  },
+  {
+   "k": "yüksek",
+   "bas": 17.459,
+   "son": 17.86
+  },
+  {
+   "k": "lisans",
+   "bas": 17.86,
+   "son": 18.26
+  },
+  {
+   "k": "öğrencileri,",
+   "bas": 18.26,
+   "son": 18.946
+  },
+  {
+   "k": "15",
+   "bas": 18.946,
+   "son": 19.118
+  },
+  {
+   "k": "Kasım'a",
+   "bas": 19.118,
+   "son": 19.518
+  },
+  {
+   "k": "kadar",
+   "bas": 19.518,
+   "son": 19.861
+  },
+  {
+   "k": "yapay",
+   "bas": 19.861,
+   "son": 20.204
+  },
+  {
+   "k": "zekâyla",
+   "bas": 20.204,
+   "son": 20.661
+  },
+  {
+   "k": "ürettikleri",
+   "bas": 20.661,
+   "son": 21.348
+  },
+  {
+   "k": "bir",
+   "bas": 21.348,
+   "son": 21.576
+  },
+  {
+   "k": "eserle",
+   "bas": 21.576,
+   "son": 21.977
+  },
+  {
+   "k": "başvurabiliyor.",
+   "bas": 21.977,
+   "son": 22.834
+  },
+  {
+   "k": "Jüride",
+   "bas": 23.054,
+   "son": 23.434
+  },
+  {
+   "k": "Ozan",
+   "bas": 23.434,
+   "son": 23.705
+  },
+  {
+   "k": "Sihay",
+   "bas": 23.705,
+   "son": 24.03
+  },
+  {
+   "k": "ve",
+   "bas": 24.03,
+   "son": 24.192
+  },
+  {
+   "k": "Orkun",
+   "bas": 24.192,
+   "son": 24.517
+  },
+  {
+   "k": "Işıtmak",
+   "bas": 24.517,
+   "son": 24.951
+  },
+  {
+   "k": "gibi",
+   "bas": 24.951,
+   "son": 25.222
+  },
+  {
+   "k": "tanıdık",
+   "bas": 25.222,
+   "son": 25.655
+  },
+  {
+   "k": "isimler",
+   "bas": 25.655,
+   "son": 26.089
+  },
+  {
+   "k": "var.",
+   "bas": 26.089,
+   "son": 26.305
+  },
+  {
+   "k": "Önce",
+   "bas": 26.525,
+   "son": 26.836
+  },
+  {
+   "k": "evden",
+   "bas": 26.836,
+   "son": 27.208
+  },
+  {
+   "k": "online",
+   "bas": 27.208,
+   "son": 27.643
+  },
+  {
+   "k": "elemeler",
+   "bas": 27.643,
+   "son": 28.202
+  },
+  {
+   "k": "var,",
+   "bas": 28.202,
+   "son": 28.45
+  },
+  {
+   "k": "yarı",
+   "bas": 28.45,
+   "son": 28.761
+  },
+  {
+   "k": "final",
+   "bas": 28.761,
+   "son": 29.133
+  },
+  {
+   "k": "ve",
+   "bas": 29.133,
+   "son": 29.32
+  },
+  {
+   "k": "final",
+   "bas": 29.32,
+   "son": 29.692
+  },
+  {
+   "k": "ise",
+   "bas": 29.692,
+   "son": 29.941
+  },
+  {
+   "k": "İstanbul'da.",
+   "bas": 29.941,
+   "son": 30.624
+  },
+  {
+   "k": "Yani",
+   "bas": 30.844,
+   "son": 31.139
+  },
+  {
+   "k": "artık",
+   "bas": 31.139,
+   "son": 31.494
+  },
+  {
+   "k": "iyi",
+   "bas": 31.494,
+   "son": 31.731
+  },
+  {
+   "k": "soru",
+   "bas": 31.731,
+   "son": 32.027
+  },
+  {
+   "k": "sormak",
+   "bas": 32.027,
+   "son": 32.441
+  },
+  {
+   "k": "da",
+   "bas": 32.441,
+   "son": 32.618
+  },
+  {
+   "k": "bir",
+   "bas": 32.618,
+   "son": 32.855
+  },
+  {
+   "k": "yetenek.",
+   "bas": 32.855,
+   "son": 33.328
+  }
+ ]
+}
