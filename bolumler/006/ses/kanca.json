@@ -1,0 +1,114 @@
+{
+ "metin": "Türkiye kendi harita uygulamasını hazırlıyor, Ay'a da araç gönderecek! NASA ise Ay'a dönmeden önce uzayda büyük bir prova yapacak. Hazırsan başlıyoruz!",
+ "konusma": "Türkiye kendi harita uygulamasını hazırlıyor, Ay'a da araç gönderecek! nasa ise Ay'a dönmeden önce uzayda büyük bir prova yapacak. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 9.68095238095238,
+ "kelimeler": [
+  {
+   "k": "Türkiye",
+   "bas": 0.0,
+   "son": 0.477
+  },
+  {
+   "k": "kendi",
+   "bas": 0.477,
+   "son": 0.834
+  },
+  {
+   "k": "harita",
+   "bas": 0.834,
+   "son": 1.251
+  },
+  {
+   "k": "uygulamasını",
+   "bas": 1.251,
+   "son": 2.026
+  },
+  {
+   "k": "hazırlıyor,",
+   "bas": 2.026,
+   "son": 2.681
+  },
+  {
+   "k": "Ay'a",
+   "bas": 2.681,
+   "son": 2.92
+  },
+  {
+   "k": "da",
+   "bas": 2.92,
+   "son": 3.098
+  },
+  {
+   "k": "araç",
+   "bas": 3.098,
+   "son": 3.396
+  },
+  {
+   "k": "gönderecek!",
+   "bas": 3.396,
+   "son": 4.052
+  },
+  {
+   "k": "NASA",
+   "bas": 4.272,
+   "son": 4.569
+  },
+  {
+   "k": "ise",
+   "bas": 4.569,
+   "son": 4.807
+  },
+  {
+   "k": "Ay'a",
+   "bas": 4.807,
+   "son": 5.045
+  },
+  {
+   "k": "dönmeden",
+   "bas": 5.045,
+   "son": 5.58
+  },
+  {
+   "k": "önce",
+   "bas": 5.58,
+   "son": 5.877
+  },
+  {
+   "k": "uzayda",
+   "bas": 5.877,
+   "son": 6.293
+  },
+  {
+   "k": "büyük",
+   "bas": 6.293,
+   "son": 6.65
+  },
+  {
+   "k": "bir",
+   "bas": 6.65,
+   "son": 6.888
+  },
+  {
+   "k": "prova",
+   "bas": 6.888,
+   "son": 7.244
+  },
+  {
+   "k": "yapacak.",
+   "bas": 7.244,
+   "son": 7.72
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 7.94,
+   "son": 8.624
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 8.624,
+   "son": 9.461
+  }
+ ]
+}

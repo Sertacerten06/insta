@@ -1,0 +1,129 @@
+{
+ "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, ilk odak turunu bugün başlat. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla, ilk odak turunu bugün başlat. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 12.374467120181405,
+ "kelimeler": [
+  {
+   "k": "Haritam",
+   "bas": 0.0,
+   "son": 0.493
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.493,
+   "son": 0.986
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 0.986,
+   "son": 1.54
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.54,
+   "son": 2.156
+  },
+  {
+   "k": "da",
+   "bas": 2.156,
+   "son": 2.341
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.341,
+   "son": 3.142
+  },
+  {
+   "k": "da",
+   "bas": 3.142,
+   "son": 3.327
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.327,
+   "son": 3.82
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 4.04,
+   "son": 5.681
+  },
+  {
+   "k": "adresinden",
+   "bas": 5.681,
+   "son": 6.326
+  },
+  {
+   "k": "hemen",
+   "bas": 6.326,
+   "son": 6.678
+  },
+  {
+   "k": "başla,",
+   "bas": 6.678,
+   "son": 7.03
+  },
+  {
+   "k": "ilk",
+   "bas": 7.03,
+   "son": 7.264
+  },
+  {
+   "k": "odak",
+   "bas": 7.264,
+   "son": 7.558
+  },
+  {
+   "k": "turunu",
+   "bas": 7.558,
+   "son": 7.968
+  },
+  {
+   "k": "bugün",
+   "bas": 7.968,
+   "son": 8.32
+  },
+  {
+   "k": "başlat.",
+   "bas": 8.32,
+   "son": 8.73
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 8.95,
+   "son": 9.474
+  },
+  {
+   "k": "takip",
+   "bas": 9.474,
+   "son": 9.824
+  },
+  {
+   "k": "etmeyi",
+   "bas": 9.824,
+   "son": 10.232
+  },
+  {
+   "k": "unutma,",
+   "bas": 10.232,
+   "son": 10.64
+  },
+  {
+   "k": "gelecek",
+   "bas": 10.64,
+   "son": 11.106
+  },
+  {
+   "k": "bölümde",
+   "bas": 11.106,
+   "son": 11.572
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 11.572,
+   "son": 12.154
+  }
+ ]
+}

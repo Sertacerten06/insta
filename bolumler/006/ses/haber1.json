@@ -1,0 +1,409 @@
+{
+ "metin": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 22 Ekim'de Bursa Teknik Üniversitesi'nde yeni hedefler açıkladı. Türkiye, 2027 başından itibaren tamamen yerli bir harita ve navigasyon uygulaması kullanmaya hazırlanıyor. Bakan, bunun veri güvenliği için stratejik olduğunu söyledi. Projede Togg'un da katkısı var. Aynı konuşmada uzaydan da haber geldi. Yüzde 80'den fazlası yerli olan Türk Ay aracının, kendi hibrit motoruyla 2027'nin ilk aylarında Ay'a gönderilmesi planlanıyor. Bir de yapay zekâ hedefi var: iki yıl içinde 5 milyon kişiye yapay zekâ okuryazarlığı kazandırmak.",
+ "konusma": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 22 Ekim'de Bursa Teknik Üniversitesi'nde yeni hedefler açıkladı. Türkiye, iki bin yirmi yedi başından itibaren tamamen yerli bir harita ve navigasyon uygulaması kullanmaya hazırlanıyor. Bakan, bunun veri güvenliği için stratejik olduğunu söyledi. Projede tog'un da katkısı var. Aynı konuşmada uzaydan da haber geldi. Yüzde seksen'den fazlası yerli olan Türk Ay aracının, kendi hibrit motoruyla iki bin yirmi yedi'nin ilk aylarında Ay'a gönderilmesi planlanıyor. Bir de yapay zekâ hedefi var: iki yıl içinde 5 milyon kişiye yapay zekâ okuryazarlığı kazandırmak.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 34.34979591836735,
+ "kelimeler": [
+  {
+   "k": "Sanayi",
+   "bas": 0.0,
+   "son": 0.415
+  },
+  {
+   "k": "ve",
+   "bas": 0.415,
+   "son": 0.593
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.593,
+   "son": 1.187
+  },
+  {
+   "k": "Bakanı",
+   "bas": 1.187,
+   "son": 1.602
+  },
+  {
+   "k": "Mehmet",
+   "bas": 1.602,
+   "son": 2.018
+  },
+  {
+   "k": "Fatih",
+   "bas": 2.018,
+   "son": 2.374
+  },
+  {
+   "k": "Kacır,",
+   "bas": 2.374,
+   "son": 2.73
+  },
+  {
+   "k": "22",
+   "bas": 2.73,
+   "son": 2.908
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 2.908,
+   "son": 3.323
+  },
+  {
+   "k": "Bursa",
+   "bas": 3.323,
+   "son": 3.679
+  },
+  {
+   "k": "Teknik",
+   "bas": 3.679,
+   "son": 4.094
+  },
+  {
+   "k": "Üniversitesi'nde",
+   "bas": 4.094,
+   "son": 5.044
+  },
+  {
+   "k": "yeni",
+   "bas": 5.044,
+   "son": 5.341
+  },
+  {
+   "k": "hedefler",
+   "bas": 5.341,
+   "son": 5.875
+  },
+  {
+   "k": "açıkladı.",
+   "bas": 5.875,
+   "son": 6.409
+  },
+  {
+   "k": "Türkiye,",
+   "bas": 6.629,
+   "son": 7.067
+  },
+  {
+   "k": "2027",
+   "bas": 7.067,
+   "son": 7.945
+  },
+  {
+   "k": "başından",
+   "bas": 7.945,
+   "son": 8.439
+  },
+  {
+   "k": "itibaren",
+   "bas": 8.439,
+   "son": 8.932
+  },
+  {
+   "k": "tamamen",
+   "bas": 8.932,
+   "son": 9.371
+  },
+  {
+   "k": "yerli",
+   "bas": 9.371,
+   "son": 9.7
+  },
+  {
+   "k": "bir",
+   "bas": 9.7,
+   "son": 9.92
+  },
+  {
+   "k": "harita",
+   "bas": 9.92,
+   "son": 10.303
+  },
+  {
+   "k": "ve",
+   "bas": 10.303,
+   "son": 10.468
+  },
+  {
+   "k": "navigasyon",
+   "bas": 10.468,
+   "son": 11.071
+  },
+  {
+   "k": "uygulaması",
+   "bas": 11.071,
+   "son": 11.675
+  },
+  {
+   "k": "kullanmaya",
+   "bas": 11.675,
+   "son": 12.278
+  },
+  {
+   "k": "hazırlanıyor.",
+   "bas": 12.278,
+   "son": 12.991
+  },
+  {
+   "k": "Bakan,",
+   "bas": 13.211,
+   "son": 13.54
+  },
+  {
+   "k": "bunun",
+   "bas": 13.54,
+   "son": 13.87
+  },
+  {
+   "k": "veri",
+   "bas": 13.87,
+   "son": 14.144
+  },
+  {
+   "k": "güvenliği",
+   "bas": 14.144,
+   "son": 14.693
+  },
+  {
+   "k": "için",
+   "bas": 14.693,
+   "son": 14.968
+  },
+  {
+   "k": "stratejik",
+   "bas": 14.968,
+   "son": 15.517
+  },
+  {
+   "k": "olduğunu",
+   "bas": 15.517,
+   "son": 16.011
+  },
+  {
+   "k": "söyledi.",
+   "bas": 16.011,
+   "son": 16.45
+  },
+  {
+   "k": "Projede",
+   "bas": 16.67,
+   "son": 17.154
+  },
+  {
+   "k": "Togg'un",
+   "bas": 17.154,
+   "son": 17.516
+  },
+  {
+   "k": "da",
+   "bas": 17.516,
+   "son": 17.698
+  },
+  {
+   "k": "katkısı",
+   "bas": 17.698,
+   "son": 18.181
+  },
+  {
+   "k": "var.",
+   "bas": 18.181,
+   "son": 18.423
+  },
+  {
+   "k": "Aynı",
+   "bas": 18.643,
+   "son": 18.952
+  },
+  {
+   "k": "konuşmada",
+   "bas": 18.952,
+   "son": 19.569
+  },
+  {
+   "k": "uzaydan",
+   "bas": 19.569,
+   "son": 20.063
+  },
+  {
+   "k": "da",
+   "bas": 20.063,
+   "son": 20.248
+  },
+  {
+   "k": "haber",
+   "bas": 20.248,
+   "son": 20.618
+  },
+  {
+   "k": "geldi.",
+   "bas": 20.618,
+   "son": 20.988
+  },
+  {
+   "k": "Yüzde",
+   "bas": 21.208,
+   "son": 21.537
+  },
+  {
+   "k": "80'den",
+   "bas": 21.537,
+   "son": 22.084
+  },
+  {
+   "k": "fazlası",
+   "bas": 22.084,
+   "son": 22.522
+  },
+  {
+   "k": "yerli",
+   "bas": 22.522,
+   "son": 22.851
+  },
+  {
+   "k": "olan",
+   "bas": 22.851,
+   "son": 23.125
+  },
+  {
+   "k": "Türk",
+   "bas": 23.125,
+   "son": 23.398
+  },
+  {
+   "k": "Ay",
+   "bas": 23.398,
+   "son": 23.563
+  },
+  {
+   "k": "aracının,",
+   "bas": 23.563,
+   "son": 24.055
+  },
+  {
+   "k": "kendi",
+   "bas": 24.055,
+   "son": 24.384
+  },
+  {
+   "k": "hibrit",
+   "bas": 24.384,
+   "son": 24.767
+  },
+  {
+   "k": "motoruyla",
+   "bas": 24.767,
+   "son": 25.314
+  },
+  {
+   "k": "2027'nin",
+   "bas": 25.314,
+   "son": 26.354
+  },
+  {
+   "k": "ilk",
+   "bas": 26.354,
+   "son": 26.573
+  },
+  {
+   "k": "aylarında",
+   "bas": 26.573,
+   "son": 27.121
+  },
+  {
+   "k": "Ay'a",
+   "bas": 27.121,
+   "son": 27.34
+  },
+  {
+   "k": "gönderilmesi",
+   "bas": 27.34,
+   "son": 28.052
+  },
+  {
+   "k": "planlanıyor.",
+   "bas": 28.052,
+   "son": 28.709
+  },
+  {
+   "k": "Bir",
+   "bas": 28.929,
+   "son": 29.143
+  },
+  {
+   "k": "de",
+   "bas": 29.143,
+   "son": 29.304
+  },
+  {
+   "k": "yapay",
+   "bas": 29.304,
+   "son": 29.626
+  },
+  {
+   "k": "zekâ",
+   "bas": 29.626,
+   "son": 29.894
+  },
+  {
+   "k": "hedefi",
+   "bas": 29.894,
+   "son": 30.269
+  },
+  {
+   "k": "var:",
+   "bas": 30.269,
+   "son": 30.484
+  },
+  {
+   "k": "iki",
+   "bas": 30.484,
+   "son": 30.698
+  },
+  {
+   "k": "yıl",
+   "bas": 30.698,
+   "son": 30.913
+  },
+  {
+   "k": "içinde",
+   "bas": 30.913,
+   "son": 31.288
+  },
+  {
+   "k": "5",
+   "bas": 31.288,
+   "son": 31.395
+  },
+  {
+   "k": "milyon",
+   "bas": 31.395,
+   "son": 31.77
+  },
+  {
+   "k": "kişiye",
+   "bas": 31.77,
+   "son": 32.146
+  },
+  {
+   "k": "yapay",
+   "bas": 32.146,
+   "son": 32.468
+  },
+  {
+   "k": "zekâ",
+   "bas": 32.468,
+   "son": 32.736
+  },
+  {
+   "k": "okuryazarlığı",
+   "bas": 32.736,
+   "son": 33.486
+  },
+  {
+   "k": "kazandırmak.",
+   "bas": 33.486,
+   "son": 34.13
+  }
+ ]
+}

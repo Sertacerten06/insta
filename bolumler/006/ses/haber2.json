@@ -1,0 +1,349 @@
+{
+ "metin": "Dünyadan da bir Ay haberi. NASA, 23 Ekim'de Artemis 3 görevinin planını anlattı. Bu görevde Ay'a inilmeyecek. Dört astronot, Dünya yörüngesinde yaklaşık 14 gün kalacak ve iki farklı Ay iniş aracıyla kenetlenme provası yapacak: Blue Origin'in Blue Moon'u ve SpaceX'in Starship'i. Görev için üç ayrı roket fırlatılacak. Ekipte Avrupa Uzay Ajansı'ndan Luca Parmitano da var. Hedef 2027'de kalkış. Prova başarılı olursa, astronotların 2028'de Ay'ın güney kutbuna inmesi planlanıyor.",
+ "konusma": "Dünyadan da bir Ay haberi. nasa, 23 Ekim'de Artemis 3 görevinin planını anlattı. Bu görevde Ay'a inilmeyecek. Dört astronot, Dünya yörüngesinde yaklaşık 14 gün kalacak ve iki farklı Ay iniş aracıyla kenetlenme provası yapacak: blu orijin'in blu mun'u ve speys eks'in starşip'i. Görev için üç ayrı roket fırlatılacak. Ekipte Avrupa Uzay Ajansı'ndan luka Parmitano da var. Hedef iki bin yirmi yedi'de kalkış. Prova başarılı olursa, astronotların iki bin yirmi sekiz'de Ay'ın güney kutbuna inmesi planlanıyor.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 29.84453514739229,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.543
+  },
+  {
+   "k": "da",
+   "bas": 0.543,
+   "son": 0.723
+  },
+  {
+   "k": "bir",
+   "bas": 0.723,
+   "son": 0.965
+  },
+  {
+   "k": "Ay",
+   "bas": 0.965,
+   "son": 1.145
+  },
+  {
+   "k": "haberi.",
+   "bas": 1.145,
+   "son": 1.567
+  },
+  {
+   "k": "NASA,",
+   "bas": 1.787,
+   "son": 2.106
+  },
+  {
+   "k": "23",
+   "bas": 2.106,
+   "son": 2.297
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 2.297,
+   "son": 2.743
+  },
+  {
+   "k": "Artemis",
+   "bas": 2.743,
+   "son": 3.253
+  },
+  {
+   "k": "3",
+   "bas": 3.253,
+   "son": 3.381
+  },
+  {
+   "k": "görevinin",
+   "bas": 3.381,
+   "son": 4.018
+  },
+  {
+   "k": "planını",
+   "bas": 4.018,
+   "son": 4.528
+  },
+  {
+   "k": "anlattı.",
+   "bas": 4.528,
+   "son": 5.038
+  },
+  {
+   "k": "Bu",
+   "bas": 5.258,
+   "son": 5.448
+  },
+  {
+   "k": "görevde",
+   "bas": 5.448,
+   "son": 5.953
+  },
+  {
+   "k": "Ay'a",
+   "bas": 5.953,
+   "son": 6.206
+  },
+  {
+   "k": "inilmeyecek.",
+   "bas": 6.206,
+   "son": 6.965
+  },
+  {
+   "k": "Dört",
+   "bas": 7.185,
+   "son": 7.471
+  },
+  {
+   "k": "astronot,",
+   "bas": 7.471,
+   "son": 7.987
+  },
+  {
+   "k": "Dünya",
+   "bas": 7.987,
+   "son": 8.331
+  },
+  {
+   "k": "yörüngesinde",
+   "bas": 8.331,
+   "son": 9.077
+  },
+  {
+   "k": "yaklaşık",
+   "bas": 9.077,
+   "son": 9.592
+  },
+  {
+   "k": "14",
+   "bas": 9.592,
+   "son": 9.764
+  },
+  {
+   "k": "gün",
+   "bas": 9.764,
+   "son": 9.994
+  },
+  {
+   "k": "kalacak",
+   "bas": 9.994,
+   "son": 10.452
+  },
+  {
+   "k": "ve",
+   "bas": 10.452,
+   "son": 10.624
+  },
+  {
+   "k": "iki",
+   "bas": 10.624,
+   "son": 10.854
+  },
+  {
+   "k": "farklı",
+   "bas": 10.854,
+   "son": 11.255
+  },
+  {
+   "k": "Ay",
+   "bas": 11.255,
+   "son": 11.427
+  },
+  {
+   "k": "iniş",
+   "bas": 11.427,
+   "son": 11.713
+  },
+  {
+   "k": "aracıyla",
+   "bas": 11.713,
+   "son": 12.229
+  },
+  {
+   "k": "kenetlenme",
+   "bas": 12.229,
+   "son": 12.86
+  },
+  {
+   "k": "provası",
+   "bas": 12.86,
+   "son": 13.319
+  },
+  {
+   "k": "yapacak:",
+   "bas": 13.319,
+   "son": 13.777
+  },
+  {
+   "k": "Blue",
+   "bas": 13.777,
+   "son": 14.006
+  },
+  {
+   "k": "Origin'in",
+   "bas": 14.006,
+   "son": 14.522
+  },
+  {
+   "k": "Blue",
+   "bas": 14.522,
+   "son": 14.752
+  },
+  {
+   "k": "Moon'u",
+   "bas": 14.752,
+   "son": 15.038
+  },
+  {
+   "k": "ve",
+   "bas": 15.038,
+   "son": 15.21
+  },
+  {
+   "k": "SpaceX'in",
+   "bas": 15.21,
+   "son": 15.841
+  },
+  {
+   "k": "Starship'i.",
+   "bas": 15.841,
+   "son": 16.357
+  },
+  {
+   "k": "Görev",
+   "bas": 16.577,
+   "son": 16.96
+  },
+  {
+   "k": "için",
+   "bas": 16.96,
+   "son": 17.279
+  },
+  {
+   "k": "üç",
+   "bas": 17.279,
+   "son": 17.471
+  },
+  {
+   "k": "ayrı",
+   "bas": 17.471,
+   "son": 17.79
+  },
+  {
+   "k": "roket",
+   "bas": 17.79,
+   "son": 18.173
+  },
+  {
+   "k": "fırlatılacak.",
+   "bas": 18.173,
+   "son": 19.003
+  },
+  {
+   "k": "Ekipte",
+   "bas": 19.223,
+   "son": 19.63
+  },
+  {
+   "k": "Avrupa",
+   "bas": 19.63,
+   "son": 20.036
+  },
+  {
+   "k": "Uzay",
+   "bas": 20.036,
+   "son": 20.326
+  },
+  {
+   "k": "Ajansı'ndan",
+   "bas": 20.326,
+   "son": 20.965
+  },
+  {
+   "k": "Luca",
+   "bas": 20.965,
+   "son": 21.255
+  },
+  {
+   "k": "Parmitano",
+   "bas": 21.255,
+   "son": 21.835
+  },
+  {
+   "k": "da",
+   "bas": 21.835,
+   "son": 22.01
+  },
+  {
+   "k": "var.",
+   "bas": 22.01,
+   "son": 22.242
+  },
+  {
+   "k": "Hedef",
+   "bas": 22.462,
+   "son": 22.839
+  },
+  {
+   "k": "2027'de",
+   "bas": 22.839,
+   "son": 23.972
+  },
+  {
+   "k": "kalkış.",
+   "bas": 23.972,
+   "son": 24.412
+  },
+  {
+   "k": "Prova",
+   "bas": 24.632,
+   "son": 24.954
+  },
+  {
+   "k": "başarılı",
+   "bas": 24.954,
+   "son": 25.437
+  },
+  {
+   "k": "olursa,",
+   "bas": 25.437,
+   "son": 25.813
+  },
+  {
+   "k": "astronotların",
+   "bas": 25.813,
+   "son": 26.565
+  },
+  {
+   "k": "2028'de",
+   "bas": 26.565,
+   "son": 27.585
+  },
+  {
+   "k": "Ay'ın",
+   "bas": 27.585,
+   "son": 27.853
+  },
+  {
+   "k": "güney",
+   "bas": 27.853,
+   "son": 28.175
+  },
+  {
+   "k": "kutbuna",
+   "bas": 28.175,
+   "son": 28.605
+  },
+  {
+   "k": "inmesi",
+   "bas": 28.605,
+   "son": 28.98
+  },
+  {
+   "k": "planlanıyor.",
+   "bas": 28.98,
+   "son": 29.625
+  }
+ ]
+}

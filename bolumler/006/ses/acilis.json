@@ -1,0 +1,64 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu altıncı bölüm. İlk haber Türkiye'den.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu altıncı bölüm. İlk haber Türkiye'den.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 4.770521541950114,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.381
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.381,
+   "son": 0.926
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.926,
+   "son": 1.47
+  },
+  {
+   "k": "hoş",
+   "bas": 1.47,
+   "son": 1.688
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.688,
+   "son": 2.07
+  },
+  {
+   "k": "bu",
+   "bas": 2.07,
+   "son": 2.233
+  },
+  {
+   "k": "altıncı",
+   "bas": 2.233,
+   "son": 2.669
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.669,
+   "son": 2.995
+  },
+  {
+   "k": "İlk",
+   "bas": 3.215,
+   "son": 3.47
+  },
+  {
+   "k": "haber",
+   "bas": 3.47,
+   "son": 3.851
+  },
+  {
+   "k": "Türkiye'den.",
+   "bas": 3.851,
+   "son": 4.551
+  }
+ ]
+}

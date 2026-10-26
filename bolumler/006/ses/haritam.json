@@ -1,0 +1,244 @@
+{
+ "metin": "Ay'a gitmek bile önce prova ister. YKS de öyle: her gün küçük ve odaklı adımlarla hazırlanırsın. YKS Haritam'ın Odak Sayacı, Pomodoro yöntemiyle çalışır. Sayacı başlatırsın, telefonu bırakırsın ve sadece derse odaklanırsın. Günlük odak süreni görürsün, her gün çalıştıkça serin büyür. Seriyi bozmamak için yarın da masaya oturursun.",
+ "konusma": "Ay'a gitmek bile önce prova ister. ye ka se de öyle: her gün küçük ve odaklı adımlarla hazırlanırsın. ye ka se Haritam'ın Odak Sayacı, Pomodoro yöntemiyle çalışır. Sayacı başlatırsın, telefonu bırakırsın ve sadece derse odaklanırsın. Günlük odak süreni görürsün, her gün çalıştıkça serin büyür. Seriyi bozmamak için yarın da masaya oturursun.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 20.5112925170068,
+ "kelimeler": [
+  {
+   "k": "Ay'a",
+   "bas": 0.0,
+   "son": 0.252
+  },
+  {
+   "k": "gitmek",
+   "bas": 0.252,
+   "son": 0.693
+  },
+  {
+   "k": "bile",
+   "bas": 0.693,
+   "son": 1.008
+  },
+  {
+   "k": "önce",
+   "bas": 1.008,
+   "son": 1.322
+  },
+  {
+   "k": "prova",
+   "bas": 1.322,
+   "son": 1.7
+  },
+  {
+   "k": "ister.",
+   "bas": 1.7,
+   "son": 2.078
+  },
+  {
+   "k": "YKS",
+   "bas": 2.298,
+   "son": 2.726
+  },
+  {
+   "k": "de",
+   "bas": 2.726,
+   "son": 2.91
+  },
+  {
+   "k": "öyle:",
+   "bas": 2.91,
+   "son": 3.216
+  },
+  {
+   "k": "her",
+   "bas": 3.216,
+   "son": 3.461
+  },
+  {
+   "k": "gün",
+   "bas": 3.461,
+   "son": 3.705
+  },
+  {
+   "k": "küçük",
+   "bas": 3.705,
+   "son": 4.072
+  },
+  {
+   "k": "ve",
+   "bas": 4.072,
+   "son": 4.256
+  },
+  {
+   "k": "odaklı",
+   "bas": 4.256,
+   "son": 4.684
+  },
+  {
+   "k": "adımlarla",
+   "bas": 4.684,
+   "son": 5.296
+  },
+  {
+   "k": "hazırlanırsın.",
+   "bas": 5.296,
+   "son": 6.153
+  },
+  {
+   "k": "YKS",
+   "bas": 6.373,
+   "son": 6.775
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 6.775,
+   "son": 7.349
+  },
+  {
+   "k": "Odak",
+   "bas": 7.349,
+   "son": 7.636
+  },
+  {
+   "k": "Sayacı,",
+   "bas": 7.636,
+   "son": 8.038
+  },
+  {
+   "k": "Pomodoro",
+   "bas": 8.038,
+   "son": 8.555
+  },
+  {
+   "k": "yöntemiyle",
+   "bas": 8.555,
+   "son": 9.187
+  },
+  {
+   "k": "çalışır.",
+   "bas": 9.187,
+   "son": 9.647
+  },
+  {
+   "k": "Sayacı",
+   "bas": 9.867,
+   "son": 10.307
+  },
+  {
+   "k": "başlatırsın,",
+   "bas": 10.307,
+   "son": 11.06
+  },
+  {
+   "k": "telefonu",
+   "bas": 11.06,
+   "son": 11.626
+  },
+  {
+   "k": "bırakırsın",
+   "bas": 11.626,
+   "son": 12.317
+  },
+  {
+   "k": "ve",
+   "bas": 12.317,
+   "son": 12.506
+  },
+  {
+   "k": "sadece",
+   "bas": 12.506,
+   "son": 12.945
+  },
+  {
+   "k": "derse",
+   "bas": 12.945,
+   "son": 13.322
+  },
+  {
+   "k": "odaklanırsın.",
+   "bas": 13.322,
+   "son": 14.139
+  },
+  {
+   "k": "Günlük",
+   "bas": 14.359,
+   "son": 14.763
+  },
+  {
+   "k": "odak",
+   "bas": 14.763,
+   "son": 15.051
+  },
+  {
+   "k": "süreni",
+   "bas": 15.051,
+   "son": 15.455
+  },
+  {
+   "k": "görürsün,",
+   "bas": 15.455,
+   "son": 15.974
+  },
+  {
+   "k": "her",
+   "bas": 15.974,
+   "son": 16.204
+  },
+  {
+   "k": "gün",
+   "bas": 16.204,
+   "son": 16.435
+  },
+  {
+   "k": "çalıştıkça",
+   "bas": 16.435,
+   "son": 17.069
+  },
+  {
+   "k": "serin",
+   "bas": 17.069,
+   "son": 17.415
+  },
+  {
+   "k": "büyür.",
+   "bas": 17.415,
+   "son": 17.761
+  },
+  {
+   "k": "Seriyi",
+   "bas": 17.981,
+   "son": 18.325
+  },
+  {
+   "k": "bozmamak",
+   "bas": 18.325,
+   "son": 18.767
+  },
+  {
+   "k": "için",
+   "bas": 18.767,
+   "son": 19.013
+  },
+  {
+   "k": "yarın",
+   "bas": 19.013,
+   "son": 19.308
+  },
+  {
+   "k": "da",
+   "bas": 19.308,
+   "son": 19.456
+  },
+  {
+   "k": "masaya",
+   "bas": 19.456,
+   "son": 19.8
+  },
+  {
+   "k": "oturursun.",
+   "bas": 19.8,
+   "son": 20.291
+  }
+ ]
+}

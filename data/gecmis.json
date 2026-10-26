@@ -1,5 +1,5 @@
 {
-  "son_bolum": 5,
+  "son_bolum": 6,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -139,6 +139,35 @@
           "kaynaklar": [
             "NASA",
             "EconoTimes"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 6,
+      "baslik": "Türkiye Kendi Haritasını Çiziyor, Hedef Ay",
+      "uretim_tarihi": "2026-10-26",
+      "yayin_tarihi": null,
+      "planlanan_yayin": "2026-10-30 19:00",
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "odak_sayaci",
+      "ses": "piper tr_TR-fahrettin-medium",
+      "haberler": [
+        {
+          "id": "2026-10-22-yerli-navigasyon-ay-araci",
+          "baslik": "Yerli harita/navigasyon 2027 başı, Türk Ay aracı 2027 ilk aylar",
+          "kaynaklar": [
+            "AA",
+            "Hürriyet"
+          ]
+        },
+        {
+          "id": "2026-10-23-nasa-artemis3-plan",
+          "baslik": "NASA Artemis 3: yörüngede iniş aracı kenetlenme provası",
+          "kaynaklar": [
+            "NASA",
+            "Space.com"
           ]
         }
       ],

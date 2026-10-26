@@ -1,0 +1,83 @@
+{
+ "bolum": 6,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Türkiye Kendi Haritasını Çiziyor, Hedef Ay",
+ "haritam_ozellik": "odak_sayaci",
+ "kanca": {
+  "ikon": "ay",
+  "satirlar": [
+   "TÜRKİYE KENDİ",
+   "HARİTASINI",
+   "ÇİZİYOR!"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "navigasyon",
+  "2027",
+  "Ay'a",
+  "Togg'un",
+  "80'den",
+  "5",
+  "milyon",
+  "Artemis",
+  "14",
+  "kenetlenme",
+  "üç",
+  "2028'de",
+  "YKS",
+  "Haritam'ın",
+  "Odak",
+  "Sayacı",
+  "Pomodoro",
+  "serin",
+  "ücretsiz",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Türkiye kendi harita uygulamasını hazırlıyor, Ay'a da araç gönderecek! NASA ise Ay'a dönmeden önce uzayda büyük bir prova yapacak. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu altıncı bölüm. İlk haber Türkiye'den."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_navigasyon",
+   "metin": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, 22 Ekim'de Bursa Teknik Üniversitesi'nde yeni hedefler açıkladı. Türkiye, 2027 başından itibaren tamamen yerli bir harita ve navigasyon uygulaması kullanmaya hazırlanıyor. Bakan, bunun veri güvenliği için stratejik olduğunu söyledi. Projede Togg'un da katkısı var. Aynı konuşmada uzaydan da haber geldi. Yüzde 80'den fazlası yerli olan Türk Ay aracının, kendi hibrit motoruyla 2027'nin ilk aylarında Ay'a gönderilmesi planlanıyor. Bir de yapay zekâ hedefi var: iki yıl içinde 5 milyon kişiye yapay zekâ okuryazarlığı kazandırmak."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_artemis",
+   "metin": "Dünyadan da bir Ay haberi. NASA, 23 Ekim'de Artemis 3 görevinin planını anlattı. Bu görevde Ay'a inilmeyecek. Dört astronot, Dünya yörüngesinde yaklaşık 14 gün kalacak ve iki farklı Ay iniş aracıyla kenetlenme provası yapacak: Blue Origin'in Blue Moon'u ve SpaceX'in Starship'i. Görev için üç ayrı roket fırlatılacak. Ekipte Avrupa Uzay Ajansı'ndan Luca Parmitano da var. Hedef 2027'de kalkış. Prova başarılı olursa, astronotların 2028'de Ay'ın güney kutbuna inmesi planlanıyor."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_odak",
+   "metin": "Ay'a gitmek bile önce prova ister. YKS de öyle: her gün küçük ve odaklı adımlarla hazırlanırsın. YKS Haritam'ın Odak Sayacı, Pomodoro yöntemiyle çalışır. Sayacı başlatırsın, telefonu bırakırsın ve sadece derse odaklanırsın. Günlük odak süreni görürsün, her gün çalıştıkça serin büyür. Seriyi bozmamak için yarın da masaya oturursun."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, ilk odak turunu bugün başlat. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: AA, Hürriyet",
+  "haber2": "Kaynak: NASA, Space.com"
+ },
+ "kapak": {
+  "ust": "HEDEF AY!",
+  "alt_satirlar": [
+   "YERLİ HARİTA",
+   "+ AY ARACI 2027"
+  ],
+  "bolum_etiketi": "BÖLÜM 6",
+  "ikon": "roket"
+ },
+ "caption": "Türkiye kendi haritasını çiziyor, hedef Ay 🕹️\n\nBu bölümde:\n▸ Yerli harita ve navigasyon uygulaması 2027 başında, Türk Ay aracı 2027'nin ilk aylarında\n▸ NASA Artemis 3: 4 astronot, 14 gün, iki Ay iniş aracıyla kenetlenme provası\n▸ Haritam: Odak Sayacı (Pomodoro) ile günlük odak süren ve serin\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: AA, Hürriyet, NASA, Space.com\n\n#yks #yks2027 #teknoloji #uzay #artemis #teknolojihaberleri #arpama #haritam"
+}
