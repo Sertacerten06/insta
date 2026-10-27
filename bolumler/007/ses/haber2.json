@@ -1,0 +1,404 @@
+{
+ "metin": "Dünyada ise yapay zekâ matematiğe el attı. OpenAI, 26 Ekim'de kendi modelinin, bilgisayar biliminde 1999'dan beri kabul gören Üstel Zaman Hipotezi'ni çürüttüğünü duyurdu. Şirket, modelinin Kakeya sanısını tüm boyutlarda kanıtladığını ve fizikteki ünlü Yang-Mills kuramı için bir varlık kanıtı ürettiğini de söylüyor. Bazı kanıtlar, bilgisayarın adım adım kontrol ettiği Lean diliyle doğrulandı ve herkese açık yayımlandı. Ama dikkat, bunlar şimdilik iddia. Hipotezi ortaya atan bilim insanları dahil uzmanlar, sonuçları bağımsız olarak inceleyecek. Doğrulanırsa, bilim tarihine geçecek bir gün olabilir.",
+ "konusma": "Dünyada ise yapay zekâ matematiğe el attı. open ey ay, 26 Ekim'de kendi modelinin, bilgisayar biliminde bin dokuz yüz doksan dokuz'dan beri kabul gören Üstel Zaman Hipotezi'ni çürüttüğünü duyurdu. Şirket, modelinin kakeya sanısını tüm boyutlarda kanıtladığını ve fizikteki ünlü yang mils kuramı için bir varlık kanıtı ürettiğini de söylüyor. Bazı kanıtlar, bilgisayarın adım adım kontrol ettiği lin diliyle doğrulandı ve herkese açık yayımlandı. Ama dikkat, bunlar şimdilik iddia. Hipotezi ortaya atan bilim insanları dahil uzmanlar, sonuçları bağımsız olarak inceleyecek. Doğrulanırsa, bilim tarihine geçecek bir gün olabilir.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 36.520861678004536,
+ "kelimeler": [
+  {
+   "k": "Dünyada",
+   "bas": 0.0,
+   "son": 0.517
+  },
+  {
+   "k": "ise",
+   "bas": 0.517,
+   "son": 0.776
+  },
+  {
+   "k": "yapay",
+   "bas": 0.776,
+   "son": 1.164
+  },
+  {
+   "k": "zekâ",
+   "bas": 1.164,
+   "son": 1.488
+  },
+  {
+   "k": "matematiğe",
+   "bas": 1.488,
+   "son": 2.199
+  },
+  {
+   "k": "el",
+   "bas": 2.199,
+   "son": 2.393
+  },
+  {
+   "k": "attı.",
+   "bas": 2.393,
+   "son": 2.717
+  },
+  {
+   "k": "OpenAI,",
+   "bas": 2.937,
+   "son": 3.489
+  },
+  {
+   "k": "26",
+   "bas": 3.489,
+   "son": 3.673
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 3.673,
+   "son": 4.102
+  },
+  {
+   "k": "kendi",
+   "bas": 4.102,
+   "son": 4.47
+  },
+  {
+   "k": "modelinin,",
+   "bas": 4.47,
+   "son": 5.083
+  },
+  {
+   "k": "bilgisayar",
+   "bas": 5.083,
+   "son": 5.757
+  },
+  {
+   "k": "biliminde",
+   "bas": 5.757,
+   "son": 6.371
+  },
+  {
+   "k": "1999'dan",
+   "bas": 6.371,
+   "son": 7.965
+  },
+  {
+   "k": "beri",
+   "bas": 7.965,
+   "son": 8.272
+  },
+  {
+   "k": "kabul",
+   "bas": 8.272,
+   "son": 8.64
+  },
+  {
+   "k": "gören",
+   "bas": 8.64,
+   "son": 9.007
+  },
+  {
+   "k": "Üstel",
+   "bas": 9.007,
+   "son": 9.375
+  },
+  {
+   "k": "Zaman",
+   "bas": 9.375,
+   "son": 9.743
+  },
+  {
+   "k": "Hipotezi'ni",
+   "bas": 9.743,
+   "son": 10.418
+  },
+  {
+   "k": "çürüttüğünü",
+   "bas": 10.418,
+   "son": 11.154
+  },
+  {
+   "k": "duyurdu.",
+   "bas": 11.154,
+   "son": 11.644
+  },
+  {
+   "k": "Şirket,",
+   "bas": 11.864,
+   "son": 12.226
+  },
+  {
+   "k": "modelinin",
+   "bas": 12.226,
+   "son": 12.743
+  },
+  {
+   "k": "Kakeya",
+   "bas": 12.743,
+   "son": 13.104
+  },
+  {
+   "k": "sanısını",
+   "bas": 13.104,
+   "son": 13.569
+  },
+  {
+   "k": "tüm",
+   "bas": 13.569,
+   "son": 13.776
+  },
+  {
+   "k": "boyutlarda",
+   "bas": 13.776,
+   "son": 14.345
+  },
+  {
+   "k": "kanıtladığını",
+   "bas": 14.345,
+   "son": 15.068
+  },
+  {
+   "k": "ve",
+   "bas": 15.068,
+   "son": 15.223
+  },
+  {
+   "k": "fizikteki",
+   "bas": 15.223,
+   "son": 15.74
+  },
+  {
+   "k": "ünlü",
+   "bas": 15.74,
+   "son": 15.998
+  },
+  {
+   "k": "Yang-Mills",
+   "bas": 15.998,
+   "son": 16.463
+  },
+  {
+   "k": "kuramı",
+   "bas": 16.463,
+   "son": 16.825
+  },
+  {
+   "k": "için",
+   "bas": 16.825,
+   "son": 17.083
+  },
+  {
+   "k": "bir",
+   "bas": 17.083,
+   "son": 17.29
+  },
+  {
+   "k": "varlık",
+   "bas": 17.29,
+   "son": 17.652
+  },
+  {
+   "k": "kanıtı",
+   "bas": 17.652,
+   "son": 18.013
+  },
+  {
+   "k": "ürettiğini",
+   "bas": 18.013,
+   "son": 18.582
+  },
+  {
+   "k": "de",
+   "bas": 18.582,
+   "son": 18.737
+  },
+  {
+   "k": "söylüyor.",
+   "bas": 18.737,
+   "son": 19.202
+  },
+  {
+   "k": "Bazı",
+   "bas": 19.422,
+   "son": 19.697
+  },
+  {
+   "k": "kanıtlar,",
+   "bas": 19.697,
+   "son": 20.191
+  },
+  {
+   "k": "bilgisayarın",
+   "bas": 20.191,
+   "son": 20.906
+  },
+  {
+   "k": "adım",
+   "bas": 20.906,
+   "son": 21.181
+  },
+  {
+   "k": "adım",
+   "bas": 21.181,
+   "son": 21.456
+  },
+  {
+   "k": "kontrol",
+   "bas": 21.456,
+   "son": 21.896
+  },
+  {
+   "k": "ettiği",
+   "bas": 21.896,
+   "son": 22.281
+  },
+  {
+   "k": "Lean",
+   "bas": 22.281,
+   "son": 22.5
+  },
+  {
+   "k": "diliyle",
+   "bas": 22.5,
+   "son": 22.94
+  },
+  {
+   "k": "doğrulandı",
+   "bas": 22.94,
+   "son": 23.545
+  },
+  {
+   "k": "ve",
+   "bas": 23.545,
+   "son": 23.71
+  },
+  {
+   "k": "herkese",
+   "bas": 23.71,
+   "son": 24.15
+  },
+  {
+   "k": "açık",
+   "bas": 24.15,
+   "son": 24.425
+  },
+  {
+   "k": "yayımlandı.",
+   "bas": 24.425,
+   "son": 25.029
+  },
+  {
+   "k": "Ama",
+   "bas": 25.249,
+   "son": 25.508
+  },
+  {
+   "k": "dikkat,",
+   "bas": 25.508,
+   "son": 25.961
+  },
+  {
+   "k": "bunlar",
+   "bas": 25.961,
+   "son": 26.415
+  },
+  {
+   "k": "şimdilik",
+   "bas": 26.415,
+   "son": 26.997
+  },
+  {
+   "k": "iddia.",
+   "bas": 26.997,
+   "son": 27.386
+  },
+  {
+   "k": "Hipotezi",
+   "bas": 27.606,
+   "son": 28.148
+  },
+  {
+   "k": "ortaya",
+   "bas": 28.148,
+   "son": 28.569
+  },
+  {
+   "k": "atan",
+   "bas": 28.569,
+   "son": 28.871
+  },
+  {
+   "k": "bilim",
+   "bas": 28.871,
+   "son": 29.232
+  },
+  {
+   "k": "insanları",
+   "bas": 29.232,
+   "son": 29.835
+  },
+  {
+   "k": "dahil",
+   "bas": 29.835,
+   "son": 30.196
+  },
+  {
+   "k": "uzmanlar,",
+   "bas": 30.196,
+   "son": 30.738
+  },
+  {
+   "k": "sonuçları",
+   "bas": 30.738,
+   "son": 31.341
+  },
+  {
+   "k": "bağımsız",
+   "bas": 31.341,
+   "son": 31.883
+  },
+  {
+   "k": "olarak",
+   "bas": 31.883,
+   "son": 32.305
+  },
+  {
+   "k": "inceleyecek.",
+   "bas": 32.305,
+   "son": 33.027
+  },
+  {
+   "k": "Doğrulanırsa,",
+   "bas": 33.247,
+   "son": 33.996
+  },
+  {
+   "k": "bilim",
+   "bas": 33.996,
+   "son": 34.342
+  },
+  {
+   "k": "tarihine",
+   "bas": 34.342,
+   "son": 34.861
+  },
+  {
+   "k": "geçecek",
+   "bas": 34.861,
+   "son": 35.321
+  },
+  {
+   "k": "bir",
+   "bas": 35.321,
+   "son": 35.552
+  },
+  {
+   "k": "gün",
+   "bas": 35.552,
+   "son": 35.782
+  },
+  {
+   "k": "olabilir.",
+   "bas": 35.782,
+   "son": 36.301
+  }
+ ]
+}

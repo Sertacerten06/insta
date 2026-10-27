@@ -1,0 +1,87 @@
+{
+ "bolum": 7,
+ "yayin_no": 6,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Yapay Zekâ Matematiği Çözdü mü?",
+ "haritam_ozellik": "kurum_paneli",
+ "kanca": {
+  "ikon": "kagit",
+  "satirlar": [
+   "YAPAY ZEKÂ",
+   "MATEMATİĞİ",
+   "ÇÖZDÜ MÜ?"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "ODTÜ'den",
+  "RoboRoyale",
+  "robotlarla",
+  "kraliçe",
+  "arı",
+  "sütüyle",
+  "Science",
+  "Robotics",
+  "OpenAI",
+  "Üstel",
+  "Zaman",
+  "Hipotezi'ni",
+  "Kakeya",
+  "Yang-Mills",
+  "Lean",
+  "iddia",
+  "YKS",
+  "Kurum",
+  "Paneli'nde",
+  "davet",
+  "Excel'den",
+  "ücretsiz",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Yapay zekâ, matematiğin en zor sorularından birini çözdüğünü iddia ediyor! Bir de ODTÜ'den kraliçe arıyı besleyen robotlar var. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu altıncı bölüm. İlk haber Türkiye'den."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_ari",
+   "metin": "ODTÜ'den ilginç bir proje. Avrupa Birliği destekli RoboRoyale projesinde Türkiye, İngiltere, Çekya ve Avusturya'dan araştırmacılar birlikte çalışıyor. Amaç, yapay zekâ destekli robotlarla bal arılarının tozlaşmasını artırmak. Kovanın girişinde polen girişi sınırlanıyor, böylece arılar daha fazla polen toplamak için daha çok uçuyor. Bu sırada mikro robotlar, kraliçe arıyı mikro pompalarla temiz arı sütüyle besliyor. Yapay zekâlı kameralar da kraliçenin hareketlerini, peteği ve kovana girip çıkan arıları izliyor. Hedef, daha az koloniyle daha fazla verim. Çalışma, Science Robotics dergisinde yayımlandı."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_kanit",
+   "metin": "Dünyada ise yapay zekâ matematiğe el attı. OpenAI, 26 Ekim'de kendi modelinin, bilgisayar biliminde 1999'dan beri kabul gören Üstel Zaman Hipotezi'ni çürüttüğünü duyurdu. Şirket, modelinin Kakeya sanısını tüm boyutlarda kanıtladığını ve fizikteki ünlü Yang-Mills kuramı için bir varlık kanıtı ürettiğini de söylüyor. Bazı kanıtlar, bilgisayarın adım adım kontrol ettiği Lean diliyle doğrulandı ve herkese açık yayımlandı. Ama dikkat, bunlar şimdilik iddia. Hipotezi ortaya atan bilim insanları dahil uzmanlar, sonuçları bağımsız olarak inceleyecek. Doğrulanırsa, bilim tarihine geçecek bir gün olabilir."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_kurum",
+   "metin": "OpenAI'ın kanıtlarını uzmanlar kontrol edecek. Senin emeğini de dershanen takip edebilir. YKS Haritam'ın Kurum Paneli'nde dershaneler öğrencilerini davet koduyla ekler. Programını Excel'den yükler, tamamladığın görevleri ve netlerini görür. Sana not ya da bildirim gönderir. Yani YKS yolunda tek başına değilsin."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, dershanene de söyle. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: AA, Science Robotics",
+  "haber2": "Kaynak: The Next Web, ForkLog"
+ },
+ "kapak": {
+  "ust": "ÇÖZDÜ MÜ?",
+  "alt_satirlar": [
+   "YAPAY ZEKÂ",
+   "MATEMATİKTE İDDİALI"
+  ],
+  "bolum_etiketi": "BÖLÜM 6",
+  "ikon": "robot"
+ },
+ "caption": "Yapay zekâ matematiği çözdü mü? 🕹️\n\nBu bölümde:\n▸ ODTÜ'nün de içinde olduğu RoboRoyale: yapay zekâlı robotlar kraliçe arıyı besliyor, tozlaşmayı artırıyor\n▸ OpenAI: Üstel Zaman Hipotezi'ni çürüttük, Kakeya ve Yang-Mills kanıtları ürettik dedi (bağımsız inceleme sürüyor)\n▸ Haritam: Kurum Paneli ile dershanen görevlerini ve netlerini takip eder\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: AA, Science Robotics, The Next Web, ForkLog\n\n#yks #yks2027 #yapayzeka #matematik #odtu #teknolojihaberleri #arpama #haritam"
+}

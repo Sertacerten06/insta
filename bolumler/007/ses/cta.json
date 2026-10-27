@@ -1,0 +1,119 @@
+{
+ "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, dershanene de söyle. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla, dershanene de söyle. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 12.31641723356009,
+ "kelimeler": [
+  {
+   "k": "Haritam",
+   "bas": 0.0,
+   "son": 0.497
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.497,
+   "son": 0.995
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 0.995,
+   "son": 1.554
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.554,
+   "son": 2.176
+  },
+  {
+   "k": "da",
+   "bas": 2.176,
+   "son": 2.362
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.362,
+   "son": 3.171
+  },
+  {
+   "k": "da",
+   "bas": 3.171,
+   "son": 3.357
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.357,
+   "son": 3.855
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 4.075,
+   "son": 5.888
+  },
+  {
+   "k": "adresinden",
+   "bas": 5.888,
+   "son": 6.6
+  },
+  {
+   "k": "hemen",
+   "bas": 6.6,
+   "son": 6.988
+  },
+  {
+   "k": "başla,",
+   "bas": 6.988,
+   "son": 7.377
+  },
+  {
+   "k": "dershanene",
+   "bas": 7.377,
+   "son": 8.089
+  },
+  {
+   "k": "de",
+   "bas": 8.089,
+   "son": 8.284
+  },
+  {
+   "k": "söyle.",
+   "bas": 8.284,
+   "son": 8.672
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 8.892,
+   "son": 9.416
+  },
+  {
+   "k": "takip",
+   "bas": 9.416,
+   "son": 9.766
+  },
+  {
+   "k": "etmeyi",
+   "bas": 9.766,
+   "son": 10.174
+  },
+  {
+   "k": "unutma,",
+   "bas": 10.174,
+   "son": 10.582
+  },
+  {
+   "k": "gelecek",
+   "bas": 10.582,
+   "son": 11.048
+  },
+  {
+   "k": "bölümde",
+   "bas": 11.048,
+   "son": 11.514
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 11.514,
+   "son": 12.096
+  }
+ ]
+}

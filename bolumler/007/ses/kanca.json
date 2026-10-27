@@ -1,0 +1,109 @@
+{
+ "metin": "Yapay zekâ, matematiğin en zor sorularından birini çözdüğünü iddia ediyor! Bir de ODTÜ'den kraliçe arıyı besleyen robotlar var. Hazırsan başlıyoruz!",
+ "konusma": "Yapay zekâ, matematiğin en zor sorularından birini çözdüğünü iddia ediyor! Bir de o de te ü'den kraliçe arıyı besleyen robotlar var. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 9.112063492063491,
+ "kelimeler": [
+  {
+   "k": "Yapay",
+   "bas": 0.0,
+   "son": 0.333
+  },
+  {
+   "k": "zekâ,",
+   "bas": 0.333,
+   "son": 0.611
+  },
+  {
+   "k": "matematiğin",
+   "bas": 0.611,
+   "son": 1.277
+  },
+  {
+   "k": "en",
+   "bas": 1.277,
+   "son": 1.443
+  },
+  {
+   "k": "zor",
+   "bas": 1.443,
+   "son": 1.665
+  },
+  {
+   "k": "sorularından",
+   "bas": 1.665,
+   "son": 2.387
+  },
+  {
+   "k": "birini",
+   "bas": 2.387,
+   "son": 2.775
+  },
+  {
+   "k": "çözdüğünü",
+   "bas": 2.775,
+   "son": 3.33
+  },
+  {
+   "k": "iddia",
+   "bas": 3.33,
+   "son": 3.663
+  },
+  {
+   "k": "ediyor!",
+   "bas": 3.663,
+   "son": 4.052
+  },
+  {
+   "k": "Bir",
+   "bas": 4.272,
+   "son": 4.5
+  },
+  {
+   "k": "de",
+   "bas": 4.5,
+   "son": 4.671
+  },
+  {
+   "k": "ODTÜ'den",
+   "bas": 4.671,
+   "son": 5.24
+  },
+  {
+   "k": "kraliçe",
+   "bas": 5.24,
+   "son": 5.696
+  },
+  {
+   "k": "arıyı",
+   "bas": 5.696,
+   "son": 6.037
+  },
+  {
+   "k": "besleyen",
+   "bas": 6.037,
+   "son": 6.55
+  },
+  {
+   "k": "robotlar",
+   "bas": 6.55,
+   "son": 7.063
+  },
+  {
+   "k": "var.",
+   "bas": 7.063,
+   "son": 7.29
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 7.51,
+   "son": 8.132
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 8.132,
+   "son": 8.892
+  }
+ ]
+}

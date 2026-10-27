@@ -1,5 +1,5 @@
 {
-  "son_bolum": 6,
+  "son_bolum": 7,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -176,6 +176,36 @@
       ],
       "instagram_link": null,
       "yayin_no": 5
+    },
+    {
+      "no": 7,
+      "yayin_no": 6,
+      "baslik": "Yapay Zekâ Matematiği Çözdü mü?",
+      "uretim_tarihi": "2026-10-27",
+      "yayin_tarihi": null,
+      "planlanan_yayin": "2026-10-29 19:00",
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "kurum_paneli",
+      "ses": "piper tr_TR-fahrettin-medium",
+      "haberler": [
+        {
+          "id": "2026-10-24-odtu-roboroyale",
+          "baslik": "ODTÜ RoboRoyale: YZ destekli robotlar arı tozlaşmasını artırıyor",
+          "kaynaklar": [
+            "AA",
+            "Science Robotics"
+          ]
+        },
+        {
+          "id": "2026-10-26-openai-eth-kanit",
+          "baslik": "OpenAI: ETH çürütüldü, Kakeya ve Yang-Mills kanıtları (iddia)",
+          "kaynaklar": [
+            "The Next Web",
+            "ForkLog"
+          ]
+        }
+      ],
+      "instagram_link": null
     }
   ]
 }

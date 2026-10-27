@@ -1,0 +1,209 @@
+{
+ "metin": "OpenAI'ın kanıtlarını uzmanlar kontrol edecek. Senin emeğini de dershanen takip edebilir. YKS Haritam'ın Kurum Paneli'nde dershaneler öğrencilerini davet koduyla ekler. Programını Excel'den yükler, tamamladığın görevleri ve netlerini görür. Sana not ya da bildirim gönderir. Yani YKS yolunda tek başına değilsin.",
+ "konusma": "open ey ay'ın kanıtlarını uzmanlar kontrol edecek. Senin emeğini de dershanen takip edebilir. ye ka se Haritam'ın Kurum Paneli'nde dershaneler öğrencilerini davet koduyla ekler. Programını eksel'den yükler, tamamladığın görevleri ve netlerini görür. Sana not ya da bildirim gönderir. Yani ye ka se yolunda tek başına değilsin.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 18.560816326530613,
+ "kelimeler": [
+  {
+   "k": "OpenAI'ın",
+   "bas": 0.0,
+   "son": 0.655
+  },
+  {
+   "k": "kanıtlarını",
+   "bas": 0.655,
+   "son": 1.369
+  },
+  {
+   "k": "uzmanlar",
+   "bas": 1.369,
+   "son": 1.905
+  },
+  {
+   "k": "kontrol",
+   "bas": 1.905,
+   "son": 2.381
+  },
+  {
+   "k": "edecek.",
+   "bas": 2.381,
+   "son": 2.798
+  },
+  {
+   "k": "Senin",
+   "bas": 3.018,
+   "son": 3.343
+  },
+  {
+   "k": "emeğini",
+   "bas": 3.343,
+   "son": 3.777
+  },
+  {
+   "k": "de",
+   "bas": 3.777,
+   "son": 3.939
+  },
+  {
+   "k": "dershanen",
+   "bas": 3.939,
+   "son": 4.481
+  },
+  {
+   "k": "takip",
+   "bas": 4.481,
+   "son": 4.806
+  },
+  {
+   "k": "edebilir.",
+   "bas": 4.806,
+   "son": 5.294
+  },
+  {
+   "k": "YKS",
+   "bas": 5.514,
+   "son": 5.868
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 5.868,
+   "son": 6.375
+  },
+  {
+   "k": "Kurum",
+   "bas": 6.375,
+   "son": 6.68
+  },
+  {
+   "k": "Paneli'nde",
+   "bas": 6.68,
+   "son": 7.187
+  },
+  {
+   "k": "dershaneler",
+   "bas": 7.187,
+   "son": 7.795
+  },
+  {
+   "k": "öğrencilerini",
+   "bas": 7.795,
+   "son": 8.505
+  },
+  {
+   "k": "davet",
+   "bas": 8.505,
+   "son": 8.809
+  },
+  {
+   "k": "koduyla",
+   "bas": 8.809,
+   "son": 9.215
+  },
+  {
+   "k": "ekler.",
+   "bas": 9.215,
+   "son": 9.519
+  },
+  {
+   "k": "Programını",
+   "bas": 9.739,
+   "son": 10.376
+  },
+  {
+   "k": "Excel'den",
+   "bas": 10.376,
+   "son": 10.897
+  },
+  {
+   "k": "yükler,",
+   "bas": 10.897,
+   "son": 11.302
+  },
+  {
+   "k": "tamamladığın",
+   "bas": 11.302,
+   "son": 12.054
+  },
+  {
+   "k": "görevleri",
+   "bas": 12.054,
+   "son": 12.633
+  },
+  {
+   "k": "ve",
+   "bas": 12.633,
+   "son": 12.807
+  },
+  {
+   "k": "netlerini",
+   "bas": 12.807,
+   "son": 13.386
+  },
+  {
+   "k": "görür.",
+   "bas": 13.386,
+   "son": 13.733
+  },
+  {
+   "k": "Sana",
+   "bas": 13.953,
+   "son": 14.243
+  },
+  {
+   "k": "not",
+   "bas": 14.243,
+   "son": 14.475
+  },
+  {
+   "k": "ya",
+   "bas": 14.475,
+   "son": 14.649
+  },
+  {
+   "k": "da",
+   "bas": 14.649,
+   "son": 14.824
+  },
+  {
+   "k": "bildirim",
+   "bas": 14.824,
+   "son": 15.346
+  },
+  {
+   "k": "gönderir.",
+   "bas": 15.346,
+   "son": 15.868
+  },
+  {
+   "k": "Yani",
+   "bas": 16.088,
+   "son": 16.37
+  },
+  {
+   "k": "YKS",
+   "bas": 16.37,
+   "son": 16.764
+  },
+  {
+   "k": "yolunda",
+   "bas": 16.764,
+   "son": 17.215
+  },
+  {
+   "k": "tek",
+   "bas": 17.215,
+   "son": 17.44
+  },
+  {
+   "k": "başına",
+   "bas": 17.44,
+   "son": 17.834
+  },
+  {
+   "k": "değilsin.",
+   "bas": 17.834,
+   "son": 18.341
+  }
+ ]
+}

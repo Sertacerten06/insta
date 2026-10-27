@@ -1,0 +1,399 @@
+{
+ "metin": "ODTÜ'den ilginç bir proje. Avrupa Birliği destekli RoboRoyale projesinde Türkiye, İngiltere, Çekya ve Avusturya'dan araştırmacılar birlikte çalışıyor. Amaç, yapay zekâ destekli robotlarla bal arılarının tozlaşmasını artırmak. Kovanın girişinde polen girişi sınırlanıyor, böylece arılar daha fazla polen toplamak için daha çok uçuyor. Bu sırada mikro robotlar, kraliçe arıyı mikro pompalarla temiz arı sütüyle besliyor. Yapay zekâlı kameralar da kraliçenin hareketlerini, peteği ve kovana girip çıkan arıları izliyor. Hedef, daha az koloniyle daha fazla verim. Çalışma, Science Robotics dergisinde yayımlandı.",
+ "konusma": "o de te ü'den ilginç bir proje. Avrupa Birliği destekli robo royal projesinde Türkiye, İngiltere, Çekya ve Avusturya'dan araştırmacılar birlikte çalışıyor. Amaç, yapay zekâ destekli robotlarla bal arılarının tozlaşmasını artırmak. Kovanın girişinde polen girişi sınırlanıyor, böylece arılar daha fazla polen toplamak için daha çok uçuyor. Bu sırada mikro robotlar, kraliçe arıyı mikro pompalarla temiz arı sütüyle besliyor. Yapay zekâlı kameralar da kraliçenin hareketlerini, peteği ve kovana girip çıkan arıları izliyor. Hedef, daha az koloniyle daha fazla verim. Çalışma, sayıns robotiks dergisinde yayımlandı.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 34.6162358276644,
+ "kelimeler": [
+  {
+   "k": "ODTÜ'den",
+   "bas": 0.0,
+   "son": 0.744
+  },
+  {
+   "k": "ilginç",
+   "bas": 0.744,
+   "son": 1.265
+  },
+  {
+   "k": "bir",
+   "bas": 1.265,
+   "son": 1.562
+  },
+  {
+   "k": "proje.",
+   "bas": 1.562,
+   "son": 2.009
+  },
+  {
+   "k": "Avrupa",
+   "bas": 2.229,
+   "son": 2.618
+  },
+  {
+   "k": "Birliği",
+   "bas": 2.618,
+   "son": 3.063
+  },
+  {
+   "k": "destekli",
+   "bas": 3.063,
+   "son": 3.563
+  },
+  {
+   "k": "RoboRoyale",
+   "bas": 3.563,
+   "son": 4.119
+  },
+  {
+   "k": "projesinde",
+   "bas": 4.119,
+   "son": 4.731
+  },
+  {
+   "k": "Türkiye,",
+   "bas": 4.731,
+   "son": 5.176
+  },
+  {
+   "k": "İngiltere,",
+   "bas": 5.176,
+   "son": 5.732
+  },
+  {
+   "k": "Çekya",
+   "bas": 5.732,
+   "son": 6.066
+  },
+  {
+   "k": "ve",
+   "bas": 6.066,
+   "son": 6.233
+  },
+  {
+   "k": "Avusturya'dan",
+   "bas": 6.233,
+   "son": 6.955
+  },
+  {
+   "k": "araştırmacılar",
+   "bas": 6.955,
+   "son": 7.79
+  },
+  {
+   "k": "birlikte",
+   "bas": 7.79,
+   "son": 8.29
+  },
+  {
+   "k": "çalışıyor.",
+   "bas": 8.29,
+   "son": 8.846
+  },
+  {
+   "k": "Amaç,",
+   "bas": 9.066,
+   "son": 9.346
+  },
+  {
+   "k": "yapay",
+   "bas": 9.346,
+   "son": 9.682
+  },
+  {
+   "k": "zekâ",
+   "bas": 9.682,
+   "son": 9.962
+  },
+  {
+   "k": "destekli",
+   "bas": 9.962,
+   "son": 10.466
+  },
+  {
+   "k": "robotlarla",
+   "bas": 10.466,
+   "son": 11.082
+  },
+  {
+   "k": "bal",
+   "bas": 11.082,
+   "son": 11.306
+  },
+  {
+   "k": "arılarının",
+   "bas": 11.306,
+   "son": 11.921
+  },
+  {
+   "k": "tozlaşmasını",
+   "bas": 11.921,
+   "son": 12.649
+  },
+  {
+   "k": "artırmak.",
+   "bas": 12.649,
+   "son": 13.153
+  },
+  {
+   "k": "Kovanın",
+   "bas": 13.373,
+   "son": 13.779
+  },
+  {
+   "k": "girişinde",
+   "bas": 13.779,
+   "son": 14.286
+  },
+  {
+   "k": "polen",
+   "bas": 14.286,
+   "son": 14.59
+  },
+  {
+   "k": "girişi",
+   "bas": 14.59,
+   "son": 14.945
+  },
+  {
+   "k": "sınırlanıyor,",
+   "bas": 14.945,
+   "son": 15.604
+  },
+  {
+   "k": "böylece",
+   "bas": 15.604,
+   "son": 16.01
+  },
+  {
+   "k": "arılar",
+   "bas": 16.01,
+   "son": 16.365
+  },
+  {
+   "k": "daha",
+   "bas": 16.365,
+   "son": 16.618
+  },
+  {
+   "k": "fazla",
+   "bas": 16.618,
+   "son": 16.923
+  },
+  {
+   "k": "polen",
+   "bas": 16.923,
+   "son": 17.227
+  },
+  {
+   "k": "toplamak",
+   "bas": 17.227,
+   "son": 17.683
+  },
+  {
+   "k": "için",
+   "bas": 17.683,
+   "son": 17.937
+  },
+  {
+   "k": "daha",
+   "bas": 17.937,
+   "son": 18.191
+  },
+  {
+   "k": "çok",
+   "bas": 18.191,
+   "son": 18.393
+  },
+  {
+   "k": "uçuyor.",
+   "bas": 18.393,
+   "son": 18.748
+  },
+  {
+   "k": "Bu",
+   "bas": 18.968,
+   "son": 19.132
+  },
+  {
+   "k": "sırada",
+   "bas": 19.132,
+   "son": 19.515
+  },
+  {
+   "k": "mikro",
+   "bas": 19.515,
+   "son": 19.843
+  },
+  {
+   "k": "robotlar,",
+   "bas": 19.843,
+   "son": 20.336
+  },
+  {
+   "k": "kraliçe",
+   "bas": 20.336,
+   "son": 20.773
+  },
+  {
+   "k": "arıyı",
+   "bas": 20.773,
+   "son": 21.101
+  },
+  {
+   "k": "mikro",
+   "bas": 21.101,
+   "son": 21.43
+  },
+  {
+   "k": "pompalarla",
+   "bas": 21.43,
+   "son": 22.031
+  },
+  {
+   "k": "temiz",
+   "bas": 22.031,
+   "son": 22.359
+  },
+  {
+   "k": "arı",
+   "bas": 22.359,
+   "son": 22.578
+  },
+  {
+   "k": "sütüyle",
+   "bas": 22.578,
+   "son": 23.016
+  },
+  {
+   "k": "besliyor.",
+   "bas": 23.016,
+   "son": 23.508
+  },
+  {
+   "k": "Yapay",
+   "bas": 23.728,
+   "son": 24.046
+  },
+  {
+   "k": "zekâlı",
+   "bas": 24.046,
+   "son": 24.418
+  },
+  {
+   "k": "kameralar",
+   "bas": 24.418,
+   "son": 24.949
+  },
+  {
+   "k": "da",
+   "bas": 24.949,
+   "son": 25.108
+  },
+  {
+   "k": "kraliçenin",
+   "bas": 25.108,
+   "son": 25.692
+  },
+  {
+   "k": "hareketlerini,",
+   "bas": 25.692,
+   "son": 26.436
+  },
+  {
+   "k": "peteği",
+   "bas": 26.436,
+   "son": 26.807
+  },
+  {
+   "k": "ve",
+   "bas": 26.807,
+   "son": 26.966
+  },
+  {
+   "k": "kovana",
+   "bas": 26.966,
+   "son": 27.338
+  },
+  {
+   "k": "girip",
+   "bas": 27.338,
+   "son": 27.657
+  },
+  {
+   "k": "çıkan",
+   "bas": 27.657,
+   "son": 27.975
+  },
+  {
+   "k": "arıları",
+   "bas": 27.975,
+   "son": 28.4
+  },
+  {
+   "k": "izliyor.",
+   "bas": 28.4,
+   "son": 28.825
+  },
+  {
+   "k": "Hedef,",
+   "bas": 29.045,
+   "son": 29.384
+  },
+  {
+   "k": "daha",
+   "bas": 29.384,
+   "son": 29.668
+  },
+  {
+   "k": "az",
+   "bas": 29.668,
+   "son": 29.838
+  },
+  {
+   "k": "koloniyle",
+   "bas": 29.838,
+   "son": 30.404
+  },
+  {
+   "k": "daha",
+   "bas": 30.404,
+   "son": 30.687
+  },
+  {
+   "k": "fazla",
+   "bas": 30.687,
+   "son": 31.027
+  },
+  {
+   "k": "verim.",
+   "bas": 31.027,
+   "son": 31.367
+  },
+  {
+   "k": "Çalışma,",
+   "bas": 31.587,
+   "son": 32.075
+  },
+  {
+   "k": "Science",
+   "bas": 32.075,
+   "son": 32.503
+  },
+  {
+   "k": "Robotics",
+   "bas": 32.503,
+   "son": 33.053
+  },
+  {
+   "k": "dergisinde",
+   "bas": 33.053,
+   "son": 33.724
+  },
+  {
+   "k": "yayımlandı.",
+   "bas": 33.724,
+   "son": 34.396
+  }
+ ]
+}
