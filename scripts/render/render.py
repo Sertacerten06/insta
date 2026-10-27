@@ -62,7 +62,7 @@ def zaman_cizelgesi(no):
 def sahne_nesneleri(sen, sahneler, handle):
     nesneler = []
     for s in sahneler:
-        ctx = {"sure": s["son"] - s["bas"], "kelimeler": s["kelimeler"], "bolum": sen["bolum"],
+        ctx = {"sure": s["son"] - s["bas"], "kelimeler": s["kelimeler"], "bolum": sen.get("yayin_no", sen["bolum"]),  # yayın sırası (özel bölümler sayılmaz)
                "ses_son": s["ses_son"] - s["bas"], "kaynak": sen.get("kaynak_satirlari", {}).get(s["id"], ""),
                "handle": handle, "kanca": sen.get("kanca"), "ozel": sen.get("ozel", False)}
         nesneler.append(SAHNELER[s["sahne"]](ctx))

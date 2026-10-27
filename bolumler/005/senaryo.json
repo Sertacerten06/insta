@@ -41,7 +41,7 @@
   {
    "id": "acilis",
    "sahne": "acilis",
-   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu beşinci bölüm. İlk haber Türkiye'den."
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu dördüncü bölüm. İlk haber Türkiye'den."
   },
   {
    "id": "haber1",
@@ -74,8 +74,9 @@
    "YAPAY ZEKÂ",
    "YARIŞMASI BAŞLADI"
   ],
-  "bolum_etiketi": "BÖLÜM 5",
+  "bolum_etiketi": "BÖLÜM 4",
   "ikon": "robot"
  },
- "caption": "Yapay zekâya doğru soruyu sorana 1 milyon TL 🕹️\n\nBu bölümde:\n▸ Google'dan üniversitelilere Gemini Prompt Arena: büyük ödül 1 milyon TL, başvuru 15 Kasım'a kadar (promptarena.com.tr)\n▸ NASA'nın Swift teleskobuna veda: 2 yıl için fırlatıldı, 22 yıl çalıştı\n▸ Haritam: Yanlış Defteri ile yanlışlarını aralıklı tekrarla\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Webtekno, Aposto, NASA, EconoTimes\n\n#yks #yks2027 #yapayzeka #gemini #nasa #teknolojihaberleri #arpama #haritam"
+ "caption": "Yapay zekâya doğru soruyu sorana 1 milyon TL 🕹️\n\nBu bölümde:\n▸ Google'dan üniversitelilere Gemini Prompt Arena: büyük ödül 1 milyon TL, başvuru 15 Kasım'a kadar (promptarena.com.tr)\n▸ NASA'nın Swift teleskobuna veda: 2 yıl için fırlatıldı, 22 yıl çalıştı\n▸ Haritam: Yanlış Defteri ile yanlışlarını aralıklı tekrarla\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Webtekno, Aposto, NASA, EconoTimes\n\n#yks #yks2027 #yapayzeka #gemini #nasa #teknolojihaberleri #arpama #haritam",
+ "yayin_no": 4
 }

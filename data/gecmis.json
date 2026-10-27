@@ -113,7 +113,9 @@
           ]
         }
       ],
-      "instagram_link": null
+      "instagram_link": null,
+      "yayin_no": null,
+      "not": "özel bölüm, yayın numarası almaz"
     },
     {
       "no": 5,
@@ -142,7 +144,8 @@
           ]
         }
       ],
-      "instagram_link": null
+      "instagram_link": null,
+      "yayin_no": 4
     },
     {
       "no": 6,
@@ -171,7 +174,8 @@
           ]
         }
       ],
-      "instagram_link": null
+      "instagram_link": null,
+      "yayin_no": 5
     }
   ]
 }

@@ -1,64 +1,64 @@
 {
- "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu altıncı bölüm. İlk haber Türkiye'den.",
- "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu altıncı bölüm. İlk haber Türkiye'den.",
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu beşinci bölüm. İlk haber Türkiye'den.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu beşinci bölüm. İlk haber Türkiye'den.",
  "servis": "piper",
  "ses": "tr_TR-fahrettin-medium",
- "sure": 4.770521541950114,
+ "sure": 4.747301587301587,
  "kelimeler": [
   {
    "k": "Arpama",
    "bas": 0.0,
-   "son": 0.381
+   "son": 0.374
   },
   {
    "k": "Teknoloji",
-   "bas": 0.381,
-   "son": 0.926
+   "bas": 0.374,
+   "son": 0.908
   },
   {
    "k": "Gündemi'ne",
-   "bas": 0.926,
-   "son": 1.47
+   "bas": 0.908,
+   "son": 1.442
   },
   {
    "k": "hoş",
-   "bas": 1.47,
-   "son": 1.688
+   "bas": 1.442,
+   "son": 1.656
   },
   {
    "k": "geldin,",
-   "bas": 1.688,
-   "son": 2.07
+   "bas": 1.656,
+   "son": 2.029
   },
   {
    "k": "bu",
-   "bas": 2.07,
-   "son": 2.233
+   "bas": 2.029,
+   "son": 2.19
   },
   {
-   "k": "altıncı",
-   "bas": 2.233,
-   "son": 2.669
+   "k": "beşinci",
+   "bas": 2.19,
+   "son": 2.617
   },
   {
    "k": "bölüm.",
-   "bas": 2.669,
-   "son": 2.995
+   "bas": 2.617,
+   "son": 2.937
   },
   {
    "k": "İlk",
-   "bas": 3.215,
-   "son": 3.47
+   "bas": 3.157,
+   "son": 3.418
   },
   {
    "k": "haber",
-   "bas": 3.47,
-   "son": 3.851
+   "bas": 3.418,
+   "son": 3.81
   },
   {
    "k": "Türkiye'den.",
-   "bas": 3.851,
-   "son": 4.551
+   "bas": 3.81,
+   "son": 4.527
   }
  ]
 }
