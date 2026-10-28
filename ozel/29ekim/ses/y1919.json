@@ -1,214 +1,215 @@
 {
- "sure": 19.366,
+ "kaynak": "3-y1919.m4a",
+ "sure": 20.98,
  "kelimeler": [
   {
    "k": "1918'in",
-   "bas": 0.0,
-   "son": 1.431,
+   "bas": 0.06,
+   "son": 1.28,
    "alinti": false
   },
   {
    "k": "sonu.",
-   "bas": 1.431,
-   "son": 1.797,
+   "bas": 1.28,
+   "son": 1.65,
    "alinti": false
   },
   {
    "k": "Osmanlı,",
-   "bas": 2.197,
-   "son": 2.775,
+   "bas": 2.16,
+   "son": 2.85,
    "alinti": false
   },
   {
    "k": "savaştan",
-   "bas": 2.935,
-   "son": 3.426,
+   "bas": 2.87,
+   "son": 3.33,
    "alinti": false
   },
   {
    "k": "yenik",
-   "bas": 3.426,
-   "son": 3.762,
+   "bas": 3.33,
+   "son": 3.65,
    "alinti": false
   },
   {
    "k": "çıkmış.",
-   "bas": 3.762,
-   "son": 4.149,
+   "bas": 3.65,
+   "son": 4.12,
    "alinti": false
   },
   {
    "k": "Mondros'la",
-   "bas": 4.489,
-   "son": 5.053,
+   "bas": 4.64,
+   "son": 5.35,
    "alinti": false
   },
   {
    "k": "birlikte,",
-   "bas": 5.053,
-   "son": 5.564,
+   "bas": 5.35,
+   "son": 5.79,
    "alinti": false
   },
   {
    "k": "ülkenin",
-   "bas": 5.724,
-   "son": 6.11,
+   "bas": 5.85,
+   "son": 6.28,
    "alinti": false
   },
   {
    "k": "dört",
-   "bas": 6.11,
-   "son": 6.36,
+   "bas": 6.28,
+   "son": 6.46,
    "alinti": false
   },
   {
    "k": "bir",
-   "bas": 6.36,
-   "son": 6.564,
+   "bas": 6.46,
+   "son": 6.64,
    "alinti": false
   },
   {
    "k": "yanı",
-   "bas": 6.564,
-   "son": 6.814,
+   "bas": 6.64,
+   "son": 7.0,
    "alinti": false
   },
   {
    "k": "işgal",
-   "bas": 6.814,
-   "son": 7.11,
+   "bas": 7.0,
+   "son": 7.34,
    "alinti": false
   },
   {
    "k": "ediliyor.",
-   "bas": 7.11,
-   "son": 7.541,
+   "bas": 7.34,
+   "son": 7.92,
    "alinti": false
   },
   {
    "k": "19",
-   "bas": 8.041,
-   "son": 8.577,
+   "bas": 8.58,
+   "son": 9.04,
    "alinti": false
   },
   {
    "k": "Mayıs",
-   "bas": 8.577,
-   "son": 8.987,
+   "bas": 9.04,
+   "son": 9.36,
    "alinti": false
   },
   {
    "k": "1919'da,",
-   "bas": 8.987,
-   "son": 10.343,
+   "bas": 9.41,
+   "son": 10.7,
    "alinti": false
   },
   {
    "k": "Mustafa",
-   "bas": 10.503,
-   "son": 10.902,
+   "bas": 10.86,
+   "son": 11.29,
    "alinti": false
   },
   {
    "k": "Kemal",
-   "bas": 10.902,
-   "son": 11.207,
+   "bas": 11.29,
+   "son": 11.6,
    "alinti": false
   },
   {
    "k": "Samsun'a",
-   "bas": 11.207,
-   "son": 11.606,
+   "bas": 11.6,
+   "son": 12.03,
    "alinti": false
   },
   {
    "k": "çıkıyor.",
-   "bas": 11.606,
-   "son": 12.006,
+   "bas": 12.03,
+   "son": 12.56,
    "alinti": false
   },
   {
    "k": "Amasya'da,",
-   "bas": 12.346,
-   "son": 12.958,
+   "bas": 12.9,
+   "son": 14.12,
    "alinti": false
   },
   {
    "k": "bütün",
-   "bas": 13.118,
-   "son": 13.481,
+   "bas": 14.29,
+   "son": 14.61,
    "alinti": false
   },
   {
    "k": "yurda",
-   "bas": 13.481,
-   "son": 13.844,
+   "bas": 14.61,
+   "son": 14.93,
    "alinti": false
   },
   {
    "k": "şu",
-   "bas": 13.844,
-   "son": 14.039,
+   "bas": 14.93,
+   "son": 15.12,
    "alinti": false
   },
   {
    "k": "sözle",
-   "bas": 14.039,
-   "son": 14.402,
+   "bas": 15.12,
+   "son": 15.45,
    "alinti": false
   },
   {
    "k": "sesleniyor:",
-   "bas": 14.402,
-   "son": 15.043,
+   "bas": 15.45,
+   "son": 16.08,
    "alinti": false
   },
   {
    "k": "Milletin",
-   "bas": 15.393,
-   "son": 15.962,
+   "bas": 16.68,
+   "son": 17.15,
    "alinti": true
   },
   {
    "k": "istiklalini,",
-   "bas": 15.962,
-   "son": 16.71,
+   "bas": 17.15,
+   "son": 17.9,
    "alinti": true
   },
   {
    "k": "yine",
-   "bas": 16.87,
-   "son": 17.157,
+   "bas": 18.09,
+   "son": 18.38,
    "alinti": true
   },
   {
    "k": "milletin",
-   "bas": 17.157,
-   "son": 17.652,
+   "bas": 18.38,
+   "son": 18.8,
    "alinti": true
   },
   {
    "k": "azim",
-   "bas": 17.652,
-   "son": 17.938,
+   "bas": 18.8,
+   "son": 19.11,
    "alinti": true
   },
   {
    "k": "ve",
-   "bas": 17.938,
-   "son": 18.121,
+   "bas": 19.11,
+   "son": 19.43,
    "alinti": true
   },
   {
    "k": "kararı",
-   "bas": 18.121,
-   "son": 18.511,
+   "bas": 19.43,
+   "son": 19.85,
    "alinti": true
   },
   {
    "k": "kurtaracaktır.",
-   "bas": 18.511,
-   "son": 19.267,
+   "bas": 19.85,
+   "son": 20.78,
    "alinti": true
   }
  ]

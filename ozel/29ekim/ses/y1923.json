@@ -1,160 +1,161 @@
 {
- "sure": 15.044,
+ "kaynak": "6-y1923.m4a",
+ "sure": 15.69,
  "kelimeler": [
   {
    "k": "Ve",
-   "bas": 0.0,
-   "son": 0.235,
+   "bas": 0.06,
+   "son": 0.3,
    "alinti": false
   },
   {
    "k": "1923.",
-   "bas": 0.235,
-   "son": 1.543,
+   "bas": 0.3,
+   "son": 1.8,
    "alinti": false
   },
   {
    "k": "24",
-   "bas": 1.893,
-   "son": 2.495,
+   "bas": 2.31,
+   "son": 2.82,
    "alinti": false
   },
   {
    "k": "Temmuz'da",
-   "bas": 2.495,
-   "son": 3.039,
+   "bas": 2.82,
+   "son": 3.29,
    "alinti": false
   },
   {
    "k": "Lozan",
-   "bas": 3.039,
-   "son": 3.411,
+   "bas": 3.29,
+   "son": 3.7,
    "alinti": false
   },
   {
    "k": "imzalanıyor.",
-   "bas": 3.411,
-   "son": 4.127,
+   "bas": 3.7,
+   "son": 4.46,
    "alinti": false
   },
   {
    "k": "13",
-   "bas": 4.467,
-   "son": 4.804,
+   "bas": 4.91,
+   "son": 5.26,
    "alinti": false
   },
   {
    "k": "Ekim'de",
-   "bas": 4.804,
-   "son": 5.265,
+   "bas": 5.26,
+   "son": 5.82,
    "alinti": false
   },
   {
    "k": "Ankara,",
-   "bas": 5.265,
-   "son": 5.726,
+   "bas": 5.82,
+   "son": 6.33,
    "alinti": false
   },
   {
    "k": "başkent",
-   "bas": 5.886,
-   "son": 6.361,
+   "bas": 6.37,
+   "son": 6.57,
    "alinti": false
   },
   {
    "k": "oluyor.",
-   "bas": 6.361,
-   "son": 6.78,
+   "bas": 6.6,
+   "son": 6.9,
    "alinti": false
   },
   {
    "k": "28",
-   "bas": 7.23,
-   "son": 7.865,
+   "bas": 7.3,
+   "son": 7.85,
    "alinti": false
   },
   {
    "k": "Ekim",
-   "bas": 7.865,
-   "son": 8.168,
+   "bas": 7.85,
+   "son": 8.15,
    "alinti": false
   },
   {
    "k": "akşamı,",
-   "bas": 8.168,
-   "son": 8.582,
+   "bas": 8.15,
+   "son": 8.6,
    "alinti": false
   },
   {
    "k": "Çankaya'daki",
-   "bas": 8.742,
-   "son": 9.343,
+   "bas": 8.76,
+   "son": 9.46,
    "alinti": false
   },
   {
    "k": "yemekte",
-   "bas": 9.343,
-   "son": 9.752,
+   "bas": 9.46,
+   "son": 10.01,
    "alinti": false
   },
   {
    "k": "Mustafa",
-   "bas": 9.752,
-   "son": 10.16,
+   "bas": 10.01,
+   "son": 10.45,
    "alinti": false
   },
   {
    "k": "Kemal,",
-   "bas": 10.16,
-   "son": 10.473,
+   "bas": 10.45,
+   "son": 10.8,
    "alinti": false
   },
   {
    "k": "arkadaşlarına",
-   "bas": 10.633,
-   "son": 11.324,
+   "bas": 10.94,
+   "son": 11.69,
    "alinti": false
   },
   {
    "k": "dönüp",
-   "bas": 11.324,
-   "son": 11.633,
+   "bas": 11.69,
+   "son": 11.99,
    "alinti": false
   },
   {
    "k": "şöyle",
-   "bas": 11.633,
-   "son": 11.943,
+   "bas": 11.99,
+   "son": 12.27,
    "alinti": false
   },
   {
    "k": "diyor:",
-   "bas": 11.943,
-   "son": 12.253,
+   "bas": 12.27,
+   "son": 12.56,
    "alinti": false
   },
   {
    "k": "Yarın,",
-   "bas": 12.753,
-   "son": 13.289,
+   "bas": 13.01,
+   "son": 13.46,
    "alinti": true
   },
   {
    "k": "Cumhuriyet'i",
-   "bas": 13.449,
-   "son": 14.129,
+   "bas": 13.62,
+   "son": 14.25,
    "alinti": true
   },
   {
    "k": "ilan",
-   "bas": 14.129,
-   "son": 14.428,
+   "bas": 14.25,
+   "son": 14.54,
    "alinti": true
   },
   {
    "k": "edeceğiz.",
-   "bas": 14.428,
-   "son": 14.944,
+   "bas": 14.54,
+   "son": 15.45,
    "alinti": true
   }
  ]

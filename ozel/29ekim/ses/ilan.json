@@ -1,148 +1,149 @@
 {
- "sure": 13.123,
+ "kaynak": "7-ilan.m4a",
+ "sure": 13.94,
  "kelimeler": [
   {
    "k": "Ertesi",
-   "bas": 0.0,
-   "son": 0.536,
+   "bas": 0.06,
+   "son": 0.63,
    "alinti": false
   },
   {
    "k": "akşam,",
-   "bas": 0.536,
-   "son": 1.0,
+   "bas": 0.63,
+   "son": 1.02,
    "alinti": false
   },
   {
    "k": "meclis",
-   "bas": 1.16,
-   "son": 1.52,
+   "bas": 1.06,
+   "son": 1.34,
    "alinti": false
   },
   {
    "k": "tarihi",
-   "bas": 1.52,
-   "son": 1.879,
+   "bas": 1.34,
+   "son": 1.74,
    "alinti": false
   },
   {
    "k": "kararı",
-   "bas": 1.879,
-   "son": 2.239,
+   "bas": 1.74,
+   "son": 2.14,
    "alinti": false
   },
   {
    "k": "veriyor:",
-   "bas": 2.239,
-   "son": 2.647,
+   "bas": 2.14,
+   "son": 2.54,
    "alinti": false
   },
   {
    "k": "Türkiye",
-   "bas": 3.047,
-   "son": 3.481,
+   "bas": 3.07,
+   "son": 3.56,
    "alinti": true
   },
   {
    "k": "Devleti'nin",
-   "bas": 3.481,
-   "son": 4.068,
+   "bas": 3.56,
+   "son": 4.3,
    "alinti": true
   },
   {
    "k": "hükümet",
-   "bas": 4.068,
-   "son": 4.502,
+   "bas": 4.3,
+   "son": 4.8,
    "alinti": true
   },
   {
    "k": "şekli,",
-   "bas": 4.502,
-   "son": 4.834,
+   "bas": 4.8,
+   "son": 5.25,
    "alinti": true
   },
   {
    "k": "Cumhuriyettir.",
-   "bas": 4.994,
-   "son": 5.908,
+   "bas": 5.29,
+   "son": 6.13,
    "alinti": true
   },
   {
    "k": "Gazi",
-   "bas": 6.508,
-   "son": 6.845,
+   "bas": 6.78,
+   "son": 7.44,
    "alinti": false
   },
   {
    "k": "Mustafa",
-   "bas": 6.845,
-   "son": 7.366,
+   "bas": 7.44,
+   "son": 7.93,
    "alinti": false
   },
   {
    "k": "Kemal,",
-   "bas": 7.366,
-   "son": 7.764,
+   "bas": 7.93,
+   "son": 8.28,
    "alinti": false
   },
   {
    "k": "oy",
-   "bas": 7.924,
-   "son": 8.098,
+   "bas": 8.35,
+   "son": 8.53,
    "alinti": false
   },
   {
    "k": "birliğiyle",
-   "bas": 8.098,
-   "son": 8.67,
+   "bas": 8.53,
+   "son": 9.11,
    "alinti": false
   },
   {
    "k": "ilk",
-   "bas": 8.67,
-   "son": 8.894,
+   "bas": 9.11,
+   "son": 9.42,
    "alinti": false
   },
   {
    "k": "Cumhurbaşkanı",
-   "bas": 8.894,
-   "son": 9.615,
+   "bas": 9.42,
+   "son": 10.16,
    "alinti": false
   },
   {
    "k": "seçiliyor.",
-   "bas": 9.615,
-   "son": 10.137,
+   "bas": 10.16,
+   "son": 10.74,
    "alinti": false
   },
   {
    "k": "Ankara'nın",
-   "bas": 10.477,
-   "son": 11.078,
+   "bas": 11.04,
+   "son": 11.71,
    "alinti": false
   },
   {
    "k": "gökyüzünde,",
-   "bas": 11.078,
-   "son": 11.736,
+   "bas": 11.71,
+   "son": 12.39,
    "alinti": false
   },
   {
    "k": "101",
-   "bas": 11.896,
-   "son": 12.379,
+   "bas": 12.59,
+   "son": 12.98,
    "alinti": false
   },
   {
    "k": "pare",
-   "bas": 12.379,
-   "son": 12.733,
+   "bas": 12.98,
+   "son": 13.42,
    "alinti": false
   },
   {
    "k": "top.",
-   "bas": 12.733,
-   "son": 13.023,
+   "bas": 13.42,
+   "son": 13.69,
    "alinti": false
   }
  ]

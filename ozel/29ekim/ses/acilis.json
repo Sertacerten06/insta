@@ -1,46 +1,47 @@
 {
- "sure": 2.818,
+ "kaynak": "2-acilis.m4a",
+ "sure": 3.45,
  "kelimeler": [
   {
    "k": "Gel,",
-   "bas": 0.0,
-   "son": 0.295,
+   "bas": 0.06,
+   "son": 0.21,
    "alinti": false
   },
   {
    "k": "Cumhuriyet'e",
-   "bas": 0.455,
-   "son": 1.02,
+   "bas": 0.21,
+   "son": 1.14,
    "alinti": false
   },
   {
    "k": "giden",
-   "bas": 1.02,
-   "son": 1.315,
+   "bas": 1.14,
+   "son": 1.46,
    "alinti": false
   },
   {
    "k": "dört",
-   "bas": 1.315,
-   "son": 1.563,
+   "bas": 1.46,
+   "son": 1.64,
    "alinti": false
   },
   {
    "k": "yılı",
-   "bas": 1.563,
-   "son": 1.812,
+   "bas": 1.64,
+   "son": 1.95,
    "alinti": false
   },
   {
    "k": "birlikte",
-   "bas": 1.812,
-   "son": 2.242,
+   "bas": 1.95,
+   "son": 2.65,
    "alinti": false
   },
   {
    "k": "yürüyelim.",
-   "bas": 2.242,
-   "son": 2.718,
+   "bas": 2.65,
+   "son": 3.41,
    "alinti": false
   }
  ]

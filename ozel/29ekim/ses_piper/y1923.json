@@ -1,0 +1,161 @@
+{
+ "sure": 15.044,
+ "kelimeler": [
+  {
+   "k": "Ve",
+   "bas": 0.0,
+   "son": 0.235,
+   "alinti": false
+  },
+  {
+   "k": "1923.",
+   "bas": 0.235,
+   "son": 1.543,
+   "alinti": false
+  },
+  {
+   "k": "24",
+   "bas": 1.893,
+   "son": 2.495,
+   "alinti": false
+  },
+  {
+   "k": "Temmuz'da",
+   "bas": 2.495,
+   "son": 3.039,
+   "alinti": false
+  },
+  {
+   "k": "Lozan",
+   "bas": 3.039,
+   "son": 3.411,
+   "alinti": false
+  },
+  {
+   "k": "imzalanıyor.",
+   "bas": 3.411,
+   "son": 4.127,
+   "alinti": false
+  },
+  {
+   "k": "13",
+   "bas": 4.467,
+   "son": 4.804,
+   "alinti": false
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 4.804,
+   "son": 5.265,
+   "alinti": false
+  },
+  {
+   "k": "Ankara,",
+   "bas": 5.265,
+   "son": 5.726,
+   "alinti": false
+  },
+  {
+   "k": "başkent",
+   "bas": 5.886,
+   "son": 6.361,
+   "alinti": false
+  },
+  {
+   "k": "oluyor.",
+   "bas": 6.361,
+   "son": 6.78,
+   "alinti": false
+  },
+  {
+   "k": "28",
+   "bas": 7.23,
+   "son": 7.865,
+   "alinti": false
+  },
+  {
+   "k": "Ekim",
+   "bas": 7.865,
+   "son": 8.168,
+   "alinti": false
+  },
+  {
+   "k": "akşamı,",
+   "bas": 8.168,
+   "son": 8.582,
+   "alinti": false
+  },
+  {
+   "k": "Çankaya'daki",
+   "bas": 8.742,
+   "son": 9.343,
+   "alinti": false
+  },
+  {
+   "k": "yemekte",
+   "bas": 9.343,
+   "son": 9.752,
+   "alinti": false
+  },
+  {
+   "k": "Mustafa",
+   "bas": 9.752,
+   "son": 10.16,
+   "alinti": false
+  },
+  {
+   "k": "Kemal,",
+   "bas": 10.16,
+   "son": 10.473,
+   "alinti": false
+  },
+  {
+   "k": "arkadaşlarına",
+   "bas": 10.633,
+   "son": 11.324,
+   "alinti": false
+  },
+  {
+   "k": "dönüp",
+   "bas": 11.324,
+   "son": 11.633,
+   "alinti": false
+  },
+  {
+   "k": "şöyle",
+   "bas": 11.633,
+   "son": 11.943,
+   "alinti": false
+  },
+  {
+   "k": "diyor:",
+   "bas": 11.943,
+   "son": 12.253,
+   "alinti": false
+  },
+  {
+   "k": "Yarın,",
+   "bas": 12.753,
+   "son": 13.289,
+   "alinti": true
+  },
+  {
+   "k": "Cumhuriyet'i",
+   "bas": 13.449,
+   "son": 14.129,
+   "alinti": true
+  },
+  {
+   "k": "ilan",
+   "bas": 14.129,
+   "son": 14.428,
+   "alinti": true
+  },
+  {
+   "k": "edeceğiz.",
+   "bas": 14.428,
+   "son": 14.944,
+   "alinti": true
+  }
+ ]
+}

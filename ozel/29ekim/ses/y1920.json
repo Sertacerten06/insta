@@ -1,202 +1,203 @@
 {
- "sure": 17.067,
+ "kaynak": "5-y1920.m4a",
+ "sure": 18.32,
  "kelimeler": [
   {
    "k": "23",
-   "bas": 0.0,
-   "son": 0.521,
+   "bas": 0.06,
+   "son": 0.62,
    "alinti": false
   },
   {
    "k": "Nisan",
-   "bas": 0.521,
-   "son": 0.919,
+   "bas": 0.62,
+   "son": 1.02,
    "alinti": false
   },
   {
    "k": "1920.",
-   "bas": 0.919,
-   "son": 1.991,
+   "bas": 1.02,
+   "son": 2.09,
    "alinti": false
   },
   {
    "k": "Ankara'da",
-   "bas": 2.341,
-   "son": 2.835,
+   "bas": 2.7,
+   "son": 3.19,
    "alinti": false
   },
   {
    "k": "Büyük",
-   "bas": 2.835,
-   "son": 3.174,
+   "bas": 3.19,
+   "son": 3.5,
    "alinti": false
   },
   {
    "k": "Millet",
-   "bas": 3.174,
-   "son": 3.564,
+   "bas": 3.5,
+   "son": 3.77,
    "alinti": false
   },
   {
    "k": "Meclisi",
-   "bas": 3.564,
-   "son": 4.006,
+   "bas": 3.8,
+   "son": 4.21,
    "alinti": false
   },
   {
    "k": "açılıyor.",
-   "bas": 4.006,
-   "son": 4.501,
+   "bas": 4.21,
+   "son": 5.23,
    "alinti": false
   },
   {
    "k": "Sakarya'da,",
-   "bas": 4.841,
-   "son": 5.502,
+   "bas": 5.36,
+   "son": 6.14,
    "alinti": false
   },
   {
    "k": "yirmi",
-   "bas": 5.662,
-   "son": 5.962,
+   "bas": 6.27,
+   "son": 6.54,
    "alinti": false
   },
   {
    "k": "iki",
-   "bas": 5.962,
-   "son": 6.169,
+   "bas": 6.54,
+   "son": 6.81,
    "alinti": false
   },
   {
    "k": "gün",
-   "bas": 6.169,
-   "son": 6.377,
+   "bas": 6.81,
+   "son": 6.97,
    "alinti": false
   },
   {
    "k": "yirmi",
-   "bas": 6.377,
-   "son": 6.676,
+   "bas": 6.97,
+   "son": 7.24,
    "alinti": false
   },
   {
    "k": "iki",
-   "bas": 6.676,
-   "son": 6.884,
+   "bas": 7.24,
+   "son": 7.51,
    "alinti": false
   },
   {
    "k": "gece",
-   "bas": 6.884,
-   "son": 7.137,
+   "bas": 7.51,
+   "son": 7.79,
    "alinti": false
   },
   {
    "k": "süren",
-   "bas": 7.137,
-   "son": 7.437,
+   "bas": 7.79,
+   "son": 8.07,
    "alinti": false
   },
   {
    "k": "savaş",
-   "bas": 7.437,
-   "son": 7.736,
+   "bas": 8.07,
+   "son": 8.42,
    "alinti": false
   },
   {
    "k": "kazanılıyor.",
-   "bas": 7.736,
-   "son": 8.313,
+   "bas": 8.42,
+   "son": 9.04,
    "alinti": false
   },
   {
    "k": "26",
-   "bas": 8.763,
-   "son": 9.326,
+   "bas": 9.64,
+   "son": 10.22,
    "alinti": false
   },
   {
    "k": "Ağustos",
-   "bas": 9.326,
-   "son": 9.783,
+   "bas": 10.22,
+   "son": 10.71,
    "alinti": false
   },
   {
    "k": "1922'de",
-   "bas": 9.783,
-   "son": 10.991,
+   "bas": 10.71,
+   "son": 12.04,
    "alinti": false
   },
   {
    "k": "Büyük",
-   "bas": 10.991,
-   "son": 11.34,
+   "bas": 12.04,
+   "son": 12.35,
    "alinti": false
   },
   {
    "k": "Taarruz",
-   "bas": 11.34,
-   "son": 11.796,
+   "bas": 12.35,
+   "son": 12.82,
    "alinti": false
   },
   {
    "k": "başlıyor.",
-   "bas": 11.796,
-   "son": 12.306,
+   "bas": 12.82,
+   "son": 13.3,
    "alinti": false
   },
   {
    "k": "9",
-   "bas": 12.646,
-   "son": 13.044,
+   "bas": 13.79,
+   "son": 14.14,
    "alinti": false
   },
   {
    "k": "Eylül'de,",
-   "bas": 13.044,
-   "son": 13.563,
+   "bas": 14.14,
+   "son": 14.63,
    "alinti": false
   },
   {
    "k": "ordu",
-   "bas": 13.723,
-   "son": 14.066,
+   "bas": 14.9,
+   "son": 15.3,
    "alinti": false
   },
   {
    "k": "İzmir'de.",
-   "bas": 14.066,
-   "son": 14.596,
+   "bas": 15.3,
+   "son": 16.0,
    "alinti": false
   },
   {
    "k": "1",
-   "bas": 15.046,
-   "son": 15.265,
+   "bas": 16.33,
+   "son": 16.5,
    "alinti": false
   },
   {
    "k": "Kasım'da",
-   "bas": 15.265,
-   "son": 15.678,
+   "bas": 16.5,
+   "son": 16.92,
    "alinti": false
   },
   {
    "k": "da",
-   "bas": 15.678,
-   "son": 15.849,
+   "bas": 16.92,
+   "son": 17.15,
    "alinti": false
   },
   {
    "k": "saltanat",
-   "bas": 15.849,
-   "son": 16.311,
+   "bas": 17.15,
+   "son": 17.58,
    "alinti": false
   },
   {
    "k": "kaldırılıyor.",
-   "bas": 16.311,
-   "son": 16.967,
+   "bas": 17.58,
+   "son": 18.32,
    "alinti": false
   }
  ]

@@ -1,124 +1,125 @@
 {
- "sure": 10.929,
+ "kaynak": "1-kanca.m4a",
+ "sure": 11.78,
  "kelimeler": [
   {
    "k": "29",
-   "bas": 0.0,
-   "son": 0.753,
+   "bas": 0.02,
+   "son": 0.68,
    "alinti": false
   },
   {
    "k": "Ekim",
-   "bas": 0.753,
-   "son": 1.113,
+   "bas": 0.68,
+   "son": 1.1,
    "alinti": false
   },
   {
    "k": "1923.",
-   "bas": 1.113,
-   "son": 2.39,
+   "bas": 1.1,
+   "son": 2.26,
    "alinti": false
   },
   {
    "k": "Akşam,",
-   "bas": 2.94,
-   "son": 3.441,
+   "bas": 2.73,
+   "son": 3.05,
    "alinti": false
   },
   {
    "k": "saat",
-   "bas": 3.601,
-   "son": 3.939,
+   "bas": 3.05,
+   "son": 3.45,
    "alinti": false
   },
   {
    "k": "sekiz",
-   "bas": 3.939,
-   "son": 4.339,
+   "bas": 3.45,
+   "son": 3.81,
    "alinti": false
   },
   {
    "k": "buçuk.",
-   "bas": 4.339,
-   "son": 4.738,
+   "bas": 3.81,
+   "son": 4.18,
    "alinti": false
   },
   {
    "k": "Ankara'daki",
-   "bas": 5.188,
-   "son": 5.791,
+   "bas": 4.83,
+   "son": 5.6,
    "alinti": false
   },
   {
    "k": "mecliste",
-   "bas": 5.791,
-   "son": 6.289,
+   "bas": 5.6,
+   "son": 6.11,
    "alinti": false
   },
   {
    "k": "158",
-   "bas": 6.289,
-   "son": 6.996,
+   "bas": 6.11,
+   "son": 6.98,
    "alinti": false
   },
   {
    "k": "milletvekili,",
-   "bas": 6.996,
-   "son": 7.703,
+   "bas": 6.98,
+   "son": 7.81,
    "alinti": false
   },
   {
    "k": "aynı",
-   "bas": 7.863,
-   "son": 8.147,
+   "bas": 8.08,
+   "son": 8.33,
    "alinti": false
   },
   {
    "k": "karara",
-   "bas": 8.147,
-   "son": 8.533,
+   "bas": 8.33,
+   "son": 8.69,
    "alinti": false
   },
   {
    "k": "evet",
-   "bas": 8.533,
-   "son": 8.817,
+   "bas": 8.69,
+   "son": 8.94,
    "alinti": false
   },
   {
    "k": "diyor.",
-   "bas": 8.817,
-   "son": 9.152,
+   "bas": 8.94,
+   "son": 9.29,
    "alinti": false
   },
   {
    "k": "Peki",
-   "bas": 9.492,
-   "son": 9.75,
+   "bas": 9.82,
+   "son": 10.1,
    "alinti": false
   },
   {
    "k": "bu",
-   "bas": 9.75,
-   "son": 9.914,
+   "bas": 10.1,
+   "son": 10.56,
    "alinti": false
   },
   {
    "k": "ana",
-   "bas": 9.914,
-   "son": 10.125,
+   "bas": 10.56,
+   "son": 10.84,
    "alinti": false
   },
   {
    "k": "nasıl",
-   "bas": 10.125,
-   "son": 10.43,
+   "bas": 10.84,
+   "son": 11.13,
    "alinti": false
   },
   {
    "k": "gelindi?",
-   "bas": 10.43,
-   "son": 10.829,
+   "bas": 11.13,
+   "son": 11.53,
    "alinti": false
   }
  ]

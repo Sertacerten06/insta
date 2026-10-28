@@ -1,124 +1,125 @@
 {
- "sure": 8.998,
+ "kaynak": "8-kapanis.m4a",
+ "sure": 9.88,
  "kelimeler": [
   {
    "k": "Erzurum'da",
-   "bas": 0.0,
-   "son": 0.577,
+   "bas": 0.06,
+   "son": 0.83,
    "alinti": false
   },
   {
    "k": "bir",
-   "bas": 0.577,
-   "son": 0.824,
+   "bas": 0.83,
+   "son": 1.01,
    "alinti": false
   },
   {
    "k": "deftere",
-   "bas": 0.824,
-   "son": 1.291,
+   "bas": 1.01,
+   "son": 1.51,
    "alinti": false
   },
   {
    "k": "sessizce",
-   "bas": 1.291,
-   "son": 1.813,
+   "bas": 1.51,
+   "son": 1.97,
    "alinti": false
   },
   {
    "k": "yazılan",
-   "bas": 1.813,
-   "son": 2.28,
+   "bas": 1.97,
+   "son": 2.42,
    "alinti": false
   },
   {
    "k": "o",
-   "bas": 2.28,
-   "son": 2.418,
+   "bas": 2.42,
+   "son": 2.61,
    "alinti": false
   },
   {
    "k": "cümle,",
-   "bas": 2.418,
-   "son": 2.775,
+   "bas": 2.61,
+   "son": 2.93,
    "alinti": false
   },
   {
    "k": "dört",
-   "bas": 3.115,
-   "son": 3.44,
+   "bas": 3.33,
+   "son": 3.49,
    "alinti": false
   },
   {
    "k": "yıl",
-   "bas": 3.44,
-   "son": 3.705,
+   "bas": 3.49,
+   "son": 3.66,
    "alinti": false
   },
   {
    "k": "sonra,",
-   "bas": 3.705,
-   "son": 4.089,
+   "bas": 3.66,
+   "son": 3.96,
    "alinti": false
   },
   {
    "k": "bütün",
-   "bas": 4.249,
-   "son": 4.55,
+   "bas": 3.96,
+   "son": 4.27,
    "alinti": false
   },
   {
    "k": "bir",
-   "bas": 4.55,
-   "son": 4.759,
+   "bas": 4.27,
+   "son": 4.46,
    "alinti": false
   },
   {
    "k": "milletin",
-   "bas": 4.759,
-   "son": 5.199,
+   "bas": 4.46,
+   "son": 4.91,
    "alinti": false
   },
   {
    "k": "geleceği",
-   "bas": 5.199,
-   "son": 5.639,
+   "bas": 4.91,
+   "son": 5.5,
    "alinti": false
   },
   {
    "k": "oldu.",
-   "bas": 5.639,
-   "son": 5.893,
+   "bas": 5.5,
+   "son": 5.84,
    "alinti": false
   },
   {
    "k": "Cumhuriyetimizin",
-   "bas": 6.493,
-   "son": 7.398,
+   "bas": 6.1,
+   "son": 7.54,
    "alinti": true
   },
   {
    "k": "103.",
-   "bas": 7.398,
-   "son": 7.942,
+   "bas": 7.54,
+   "son": 8.27,
    "alinti": true
   },
   {
    "k": "yılı",
-   "bas": 7.942,
-   "son": 8.226,
+   "bas": 8.27,
+   "son": 8.59,
    "alinti": true
   },
   {
    "k": "kutlu",
-   "bas": 8.226,
-   "son": 8.562,
+   "bas": 8.59,
+   "son": 9.28,
    "alinti": true
   },
   {
    "k": "olsun.",
-   "bas": 8.562,
-   "son": 8.898,
+   "bas": 9.28,
+   "son": 9.63,
    "alinti": true
   }
  ]
