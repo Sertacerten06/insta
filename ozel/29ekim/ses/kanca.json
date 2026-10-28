@@ -1,0 +1,125 @@
+{
+ "sure": 10.929,
+ "kelimeler": [
+  {
+   "k": "29",
+   "bas": 0.0,
+   "son": 0.753,
+   "alinti": false
+  },
+  {
+   "k": "Ekim",
+   "bas": 0.753,
+   "son": 1.113,
+   "alinti": false
+  },
+  {
+   "k": "1923.",
+   "bas": 1.113,
+   "son": 2.39,
+   "alinti": false
+  },
+  {
+   "k": "Akşam,",
+   "bas": 2.94,
+   "son": 3.441,
+   "alinti": false
+  },
+  {
+   "k": "saat",
+   "bas": 3.601,
+   "son": 3.939,
+   "alinti": false
+  },
+  {
+   "k": "sekiz",
+   "bas": 3.939,
+   "son": 4.339,
+   "alinti": false
+  },
+  {
+   "k": "buçuk.",
+   "bas": 4.339,
+   "son": 4.738,
+   "alinti": false
+  },
+  {
+   "k": "Ankara'daki",
+   "bas": 5.188,
+   "son": 5.791,
+   "alinti": false
+  },
+  {
+   "k": "mecliste",
+   "bas": 5.791,
+   "son": 6.289,
+   "alinti": false
+  },
+  {
+   "k": "158",
+   "bas": 6.289,
+   "son": 6.996,
+   "alinti": false
+  },
+  {
+   "k": "milletvekili,",
+   "bas": 6.996,
+   "son": 7.703,
+   "alinti": false
+  },
+  {
+   "k": "aynı",
+   "bas": 7.863,
+   "son": 8.147,
+   "alinti": false
+  },
+  {
+   "k": "karara",
+   "bas": 8.147,
+   "son": 8.533,
+   "alinti": false
+  },
+  {
+   "k": "evet",
+   "bas": 8.533,
+   "son": 8.817,
+   "alinti": false
+  },
+  {
+   "k": "diyor.",
+   "bas": 8.817,
+   "son": 9.152,
+   "alinti": false
+  },
+  {
+   "k": "Peki",
+   "bas": 9.492,
+   "son": 9.75,
+   "alinti": false
+  },
+  {
+   "k": "bu",
+   "bas": 9.75,
+   "son": 9.914,
+   "alinti": false
+  },
+  {
+   "k": "ana",
+   "bas": 9.914,
+   "son": 10.125,
+   "alinti": false
+  },
+  {
+   "k": "nasıl",
+   "bas": 10.125,
+   "son": 10.43,
+   "alinti": false
+  },
+  {
+   "k": "gelindi?",
+   "bas": 10.43,
+   "son": 10.829,
+   "alinti": false
+  }
+ ]
+}

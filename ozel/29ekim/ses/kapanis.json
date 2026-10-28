@@ -1,0 +1,125 @@
+{
+ "sure": 8.998,
+ "kelimeler": [
+  {
+   "k": "Erzurum'da",
+   "bas": 0.0,
+   "son": 0.577,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 0.577,
+   "son": 0.824,
+   "alinti": false
+  },
+  {
+   "k": "deftere",
+   "bas": 0.824,
+   "son": 1.291,
+   "alinti": false
+  },
+  {
+   "k": "sessizce",
+   "bas": 1.291,
+   "son": 1.813,
+   "alinti": false
+  },
+  {
+   "k": "yazılan",
+   "bas": 1.813,
+   "son": 2.28,
+   "alinti": false
+  },
+  {
+   "k": "o",
+   "bas": 2.28,
+   "son": 2.418,
+   "alinti": false
+  },
+  {
+   "k": "cümle,",
+   "bas": 2.418,
+   "son": 2.775,
+   "alinti": false
+  },
+  {
+   "k": "dört",
+   "bas": 3.115,
+   "son": 3.44,
+   "alinti": false
+  },
+  {
+   "k": "yıl",
+   "bas": 3.44,
+   "son": 3.705,
+   "alinti": false
+  },
+  {
+   "k": "sonra,",
+   "bas": 3.705,
+   "son": 4.089,
+   "alinti": false
+  },
+  {
+   "k": "bütün",
+   "bas": 4.249,
+   "son": 4.55,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 4.55,
+   "son": 4.759,
+   "alinti": false
+  },
+  {
+   "k": "milletin",
+   "bas": 4.759,
+   "son": 5.199,
+   "alinti": false
+  },
+  {
+   "k": "geleceği",
+   "bas": 5.199,
+   "son": 5.639,
+   "alinti": false
+  },
+  {
+   "k": "oldu.",
+   "bas": 5.639,
+   "son": 5.893,
+   "alinti": false
+  },
+  {
+   "k": "Cumhuriyetimizin",
+   "bas": 6.493,
+   "son": 7.398,
+   "alinti": true
+  },
+  {
+   "k": "103.",
+   "bas": 7.398,
+   "son": 7.942,
+   "alinti": true
+  },
+  {
+   "k": "yılı",
+   "bas": 7.942,
+   "son": 8.226,
+   "alinti": true
+  },
+  {
+   "k": "kutlu",
+   "bas": 8.226,
+   "son": 8.562,
+   "alinti": true
+  },
+  {
+   "k": "olsun.",
+   "bas": 8.562,
+   "son": 8.898,
+   "alinti": true
+  }
+ ]
+}

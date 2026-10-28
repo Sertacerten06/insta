@@ -1,0 +1,47 @@
+{
+ "sure": 2.818,
+ "kelimeler": [
+  {
+   "k": "Gel,",
+   "bas": 0.0,
+   "son": 0.295,
+   "alinti": false
+  },
+  {
+   "k": "Cumhuriyet'e",
+   "bas": 0.455,
+   "son": 1.02,
+   "alinti": false
+  },
+  {
+   "k": "giden",
+   "bas": 1.02,
+   "son": 1.315,
+   "alinti": false
+  },
+  {
+   "k": "dört",
+   "bas": 1.315,
+   "son": 1.563,
+   "alinti": false
+  },
+  {
+   "k": "yılı",
+   "bas": 1.563,
+   "son": 1.812,
+   "alinti": false
+  },
+  {
+   "k": "birlikte",
+   "bas": 1.812,
+   "son": 2.242,
+   "alinti": false
+  },
+  {
+   "k": "yürüyelim.",
+   "bas": 2.242,
+   "son": 2.718,
+   "alinti": false
+  }
+ ]
+}

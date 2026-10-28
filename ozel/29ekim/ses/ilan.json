@@ -1,0 +1,149 @@
+{
+ "sure": 13.123,
+ "kelimeler": [
+  {
+   "k": "Ertesi",
+   "bas": 0.0,
+   "son": 0.536,
+   "alinti": false
+  },
+  {
+   "k": "akşam,",
+   "bas": 0.536,
+   "son": 1.0,
+   "alinti": false
+  },
+  {
+   "k": "meclis",
+   "bas": 1.16,
+   "son": 1.52,
+   "alinti": false
+  },
+  {
+   "k": "tarihi",
+   "bas": 1.52,
+   "son": 1.879,
+   "alinti": false
+  },
+  {
+   "k": "kararı",
+   "bas": 1.879,
+   "son": 2.239,
+   "alinti": false
+  },
+  {
+   "k": "veriyor:",
+   "bas": 2.239,
+   "son": 2.647,
+   "alinti": false
+  },
+  {
+   "k": "Türkiye",
+   "bas": 3.047,
+   "son": 3.481,
+   "alinti": true
+  },
+  {
+   "k": "Devleti'nin",
+   "bas": 3.481,
+   "son": 4.068,
+   "alinti": true
+  },
+  {
+   "k": "hükümet",
+   "bas": 4.068,
+   "son": 4.502,
+   "alinti": true
+  },
+  {
+   "k": "şekli,",
+   "bas": 4.502,
+   "son": 4.834,
+   "alinti": true
+  },
+  {
+   "k": "Cumhuriyettir.",
+   "bas": 4.994,
+   "son": 5.908,
+   "alinti": true
+  },
+  {
+   "k": "Gazi",
+   "bas": 6.508,
+   "son": 6.845,
+   "alinti": false
+  },
+  {
+   "k": "Mustafa",
+   "bas": 6.845,
+   "son": 7.366,
+   "alinti": false
+  },
+  {
+   "k": "Kemal,",
+   "bas": 7.366,
+   "son": 7.764,
+   "alinti": false
+  },
+  {
+   "k": "oy",
+   "bas": 7.924,
+   "son": 8.098,
+   "alinti": false
+  },
+  {
+   "k": "birliğiyle",
+   "bas": 8.098,
+   "son": 8.67,
+   "alinti": false
+  },
+  {
+   "k": "ilk",
+   "bas": 8.67,
+   "son": 8.894,
+   "alinti": false
+  },
+  {
+   "k": "Cumhurbaşkanı",
+   "bas": 8.894,
+   "son": 9.615,
+   "alinti": false
+  },
+  {
+   "k": "seçiliyor.",
+   "bas": 9.615,
+   "son": 10.137,
+   "alinti": false
+  },
+  {
+   "k": "Ankara'nın",
+   "bas": 10.477,
+   "son": 11.078,
+   "alinti": false
+  },
+  {
+   "k": "gökyüzünde,",
+   "bas": 11.078,
+   "son": 11.736,
+   "alinti": false
+  },
+  {
+   "k": "101",
+   "bas": 11.896,
+   "son": 12.379,
+   "alinti": false
+  },
+  {
+   "k": "pare",
+   "bas": 12.379,
+   "son": 12.733,
+   "alinti": false
+  },
+  {
+   "k": "top.",
+   "bas": 12.733,
+   "son": 13.023,
+   "alinti": false
+  }
+ ]
+}

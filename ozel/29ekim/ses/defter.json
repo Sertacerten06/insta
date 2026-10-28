@@ -1,0 +1,209 @@
+{
+ "sure": 16.626,
+ "kelimeler": [
+  {
+   "k": "Temmuz'da",
+   "bas": 0.0,
+   "son": 0.527,
+   "alinti": false
+  },
+  {
+   "k": "yol",
+   "bas": 0.527,
+   "son": 0.777,
+   "alinti": false
+  },
+  {
+   "k": "Erzurum'a",
+   "bas": 0.777,
+   "son": 1.304,
+   "alinti": false
+  },
+  {
+   "k": "uzanıyor.",
+   "bas": 1.304,
+   "son": 1.831,
+   "alinti": false
+  },
+  {
+   "k": "Bir",
+   "bas": 2.171,
+   "son": 2.455,
+   "alinti": false
+  },
+  {
+   "k": "gece,",
+   "bas": 2.455,
+   "son": 2.804,
+   "alinti": false
+  },
+  {
+   "k": "yakın",
+   "bas": 2.964,
+   "son": 3.271,
+   "alinti": false
+  },
+  {
+   "k": "arkadaşı",
+   "bas": 3.271,
+   "son": 3.721,
+   "alinti": false
+  },
+  {
+   "k": "Mazhar",
+   "bas": 3.721,
+   "son": 4.076,
+   "alinti": false
+  },
+  {
+   "k": "Müfit'e",
+   "bas": 4.076,
+   "son": 4.431,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 4.431,
+   "son": 4.644,
+   "alinti": false
+  },
+  {
+   "k": "not",
+   "bas": 4.644,
+   "son": 4.857,
+   "alinti": false
+  },
+  {
+   "k": "yazdırıyor:",
+   "bas": 4.857,
+   "son": 5.401,
+   "alinti": false
+  },
+  {
+   "k": "Zaferden",
+   "bas": 5.851,
+   "son": 6.515,
+   "alinti": true
+  },
+  {
+   "k": "sonra,",
+   "bas": 6.515,
+   "son": 6.969,
+   "alinti": true
+  },
+  {
+   "k": "hükümet",
+   "bas": 7.129,
+   "son": 7.566,
+   "alinti": true
+  },
+  {
+   "k": "biçimi",
+   "bas": 7.566,
+   "son": 7.951,
+   "alinti": true
+  },
+  {
+   "k": "Cumhuriyet",
+   "bas": 7.951,
+   "son": 8.541,
+   "alinti": true
+  },
+  {
+   "k": "olacaktır.",
+   "bas": 8.541,
+   "son": 9.08,
+   "alinti": true
+  },
+  {
+   "k": "Ve",
+   "bas": 9.63,
+   "son": 9.82,
+   "alinti": false
+  },
+  {
+   "k": "bu",
+   "bas": 9.82,
+   "son": 10.01,
+   "alinti": false
+  },
+  {
+   "k": "sayfanın,",
+   "bas": 10.01,
+   "son": 10.525,
+   "alinti": false
+  },
+  {
+   "k": "şimdilik",
+   "bas": 10.685,
+   "son": 11.155,
+   "alinti": false
+  },
+  {
+   "k": "kimseye",
+   "bas": 11.155,
+   "son": 11.575,
+   "alinti": false
+  },
+  {
+   "k": "gösterilmemesini",
+   "bas": 11.575,
+   "son": 12.441,
+   "alinti": false
+  },
+  {
+   "k": "istiyor.",
+   "bas": 12.441,
+   "son": 12.861,
+   "alinti": false
+  },
+  {
+   "k": "Erzurum",
+   "bas": 13.311,
+   "son": 13.758,
+   "alinti": false
+  },
+  {
+   "k": "ve",
+   "bas": 13.758,
+   "son": 13.943,
+   "alinti": false
+  },
+  {
+   "k": "Sivas",
+   "bas": 13.943,
+   "son": 14.285,
+   "alinti": false
+  },
+  {
+   "k": "kongreleriyle,",
+   "bas": 14.285,
+   "son": 15.049,
+   "alinti": false
+  },
+  {
+   "k": "millet",
+   "bas": 15.209,
+   "son": 15.638,
+   "alinti": false
+  },
+  {
+   "k": "artık",
+   "bas": 15.638,
+   "son": 16.01,
+   "alinti": false
+  },
+  {
+   "k": "tek",
+   "bas": 16.01,
+   "son": 16.268,
+   "alinti": false
+  },
+  {
+   "k": "ses.",
+   "bas": 16.268,
+   "son": 16.526,
+   "alinti": false
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "baslik": "29 Ekim özel: Cumhuriyet'e giden yol",
+ "not": "Haritam reklamı yok, Arpama yalnızca açılışta. Tarihler: CNN Türk/AA (29.10.2025), Habertürk (TBMM tutanakları), Cumhuriyet (Nutuk ve Mazhar Müfit anlatımı), Posta/Sözcü (Erzurum defteri).",
+ "ses": {
+  "hiz": 0.97,
+  "virgul": 0.16,
+  "cumle": 0.34
+ },
+ "sahneler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "giris": 0.6,
+   "cumleler": [
+    {
+     "m": "29 Ekim 1923.",
+     "hiz": 0.9,
+     "ara": 0.55
+    },
+    {
+     "m": "Akşam, saat sekiz buçuk.",
+     "ara": 0.45
+    },
+    {
+     "m": "Ankara'daki mecliste 158 milletvekili, aynı karara evet diyor."
+    },
+    {
+     "m": "Peki bu ana nasıl gelindi?",
+     "ara": 0.1
+    }
+   ]
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "giris": 1.4,
+   "cumleler": [
+    {
+     "m": "Gel, Cumhuriyet'e giden dört yılı birlikte yürüyelim.",
+     "ara": 0.1
+    }
+   ]
+  },
+  {
+   "id": "y1919",
+   "sahne": "y1919",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "1918'in sonu.",
+     "ara": 0.4
+    },
+    {
+     "m": "Osmanlı, savaştan yenik çıkmış."
+    },
+    {
+     "m": "Mondros'la birlikte, ülkenin dört bir yanı işgal ediliyor.",
+     "ara": 0.5
+    },
+    {
+     "m": "19 Mayıs 1919'da, Mustafa Kemal Samsun'a çıkıyor."
+    },
+    {
+     "m": "Amasya'da, bütün yurda şu sözle sesleniyor:",
+     "ara": 0.35
+    },
+    {
+     "m": "Milletin istiklalini, yine milletin azim ve kararı kurtaracaktır.",
+     "hiz": 0.9,
+     "ara": 0.1,
+     "alinti": true
+    }
+   ]
+  },
+  {
+   "id": "defter",
+   "sahne": "defter",
+   "giris": 0.6,
+   "cumleler": [
+    {
+     "m": "Temmuz'da yol Erzurum'a uzanıyor."
+    },
+    {
+     "m": "Bir gece, yakın arkadaşı Mazhar Müfit'e bir not yazdırıyor:",
+     "ara": 0.45
+    },
+    {
+     "m": "Zaferden sonra, hükümet biçimi Cumhuriyet olacaktır.",
+     "hiz": 0.86,
+     "ara": 0.55,
+     "alinti": true
+    },
+    {
+     "m": "Ve bu sayfanın, şimdilik kimseye gösterilmemesini istiyor.",
+     "ara": 0.45
+    },
+    {
+     "m": "Erzurum ve Sivas kongreleriyle, millet artık tek ses.",
+     "ara": 0.1
+    }
+   ]
+  },
+  {
+   "id": "y1920",
+   "sahne": "y1920",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "23 Nisan 1920.",
+     "ara": 0.35
+    },
+    {
+     "m": "Ankara'da Büyük Millet Meclisi açılıyor."
+    },
+    {
+     "m": "Sakarya'da, yirmi iki gün yirmi iki gece süren savaş kazanılıyor.",
+     "ara": 0.45
+    },
+    {
+     "m": "26 Ağustos 1922'de Büyük Taarruz başlıyor."
+    },
+    {
+     "m": "9 Eylül'de, ordu İzmir'de.",
+     "ara": 0.45
+    },
+    {
+     "m": "1 Kasım'da da saltanat kaldırılıyor.",
+     "ara": 0.1
+    }
+   ]
+  },
+  {
+   "id": "y1923",
+   "sahne": "y1923",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "Ve 1923.",
+     "ara": 0.35
+    },
+    {
+     "m": "24 Temmuz'da Lozan imzalanıyor."
+    },
+    {
+     "m": "13 Ekim'de Ankara, başkent oluyor.",
+     "ara": 0.45
+    },
+    {
+     "m": "28 Ekim akşamı, Çankaya'daki yemekte Mustafa Kemal, arkadaşlarına dönüp şöyle diyor:",
+     "ara": 0.5
+    },
+    {
+     "m": "Yarın, Cumhuriyet'i ilan edeceğiz.",
+     "hiz": 0.86,
+     "ara": 0.1,
+     "alinti": true
+    }
+   ]
+  },
+  {
+   "id": "ilan",
+   "sahne": "ilan",
+   "giris": 0.6,
+   "cumleler": [
+    {
+     "m": "Ertesi akşam, meclis tarihi kararı veriyor:",
+     "ara": 0.4
+    },
+    {
+     "m": "Türkiye Devleti'nin hükümet şekli, Cumhuriyettir.",
+     "hiz": 0.86,
+     "ara": 0.6,
+     "alinti": true
+    },
+    {
+     "m": "Gazi Mustafa Kemal, oy birliğiyle ilk Cumhurbaşkanı seçiliyor."
+    },
+    {
+     "m": "Ankara'nın gökyüzünde, 101 pare top.",
+     "ara": 0.1
+    }
+   ]
+  },
+  {
+   "id": "kapanis",
+   "sahne": "kapanis",
+   "giris": 0.8,
+   "kuyruk": 4.5,
+   "cumleler": [
+    {
+     "m": "Erzurum'da bir deftere sessizce yazılan o cümle,"
+    },
+    {
+     "m": "dört yıl sonra, bütün bir milletin geleceği oldu.",
+     "ara": 0.6
+    },
+    {
+     "m": "Cumhuriyetimizin 103. yılı kutlu olsun.",
+     "hiz": 0.92,
+     "ara": 0.1,
+     "alinti": true
+    }
+   ]
+  }
+ ],
+ "okunus": {
+  "29": "yirmi dokuz",
+  "1923.": "bin dokuz yüz yirmi üç.",
+  "1923": "bin dokuz yüz yirmi üç",
+  "158": "yüz elli sekiz",
+  "1918'in": "bin dokuz yüz on sekizin",
+  "19": "on dokuz",
+  "1919'da": "bin dokuz yüz on dokuzda",
+  "23": "yirmi üç",
+  "1920": "bin dokuz yüz yirmi",
+  "26": "yirmi altı",
+  "1922'de": "bin dokuz yüz yirmi ikide",
+  "9": "dokuz",
+  "1": "bir",
+  "24": "yirmi dört",
+  "13": "on üç",
+  "28": "yirmi sekiz",
+  "101": "yüz bir",
+  "103": "yüz üçüncü",
+  "Mondros'la": "mondrosla",
+  "istiklalini": "istiklâlini"
+ },
+ "vurgu": [
+  "29",
+  "Ekim",
+  "1923",
+  "158",
+  "Samsun'a",
+  "Erzurum'a",
+  "Cumhuriyet",
+  "Cumhuriyet'i",
+  "Cumhuriyettir",
+  "Sakarya'da",
+  "İzmir'de",
+  "Lozan",
+  "başkent",
+  "Cumhurbaşkanı",
+  "101",
+  "103",
+  "1918'in",
+  "1919'da",
+  "1920",
+  "1922'de",
+  "istiklalini",
+  "Mazhar",
+  "Müfit'e",
+  "Amasya'da",
+  "kutlu"
+ ],
+ "caption": "Cumhuriyet'e giden dört yıl, iki dakikada 🇹🇷\n\n1919'da Erzurum'da bir deftere gizlice yazılan cümle: \"Zaferden sonra hükümet biçimi Cumhuriyet olacaktır.\"\n29 Ekim 1923, saat 20.30: Meclis kararını verdi.\n\n▸ 19 Mayıs 1919 · Samsun\n▸ 23 Nisan 1920 · TBMM açıldı\n▸ 9 Eylül 1922 · İzmir\n▸ 1 Kasım 1922 · Saltanat kaldırıldı\n▸ 24 Temmuz 1923 · Lozan\n▸ 13 Ekim 1923 · Ankara başkent\n▸ 29 Ekim 1923 · Cumhuriyet ilan edildi\n\nCumhuriyetimizin 103. yılı kutlu olsun!\n\n#29ekim #cumhuriyetbayramı #cumhuriyet103yaşında #atatürk #29ekim1923 #arpama"
+}

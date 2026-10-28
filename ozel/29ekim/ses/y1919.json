@@ -1,0 +1,215 @@
+{
+ "sure": 19.366,
+ "kelimeler": [
+  {
+   "k": "1918'in",
+   "bas": 0.0,
+   "son": 1.431,
+   "alinti": false
+  },
+  {
+   "k": "sonu.",
+   "bas": 1.431,
+   "son": 1.797,
+   "alinti": false
+  },
+  {
+   "k": "Osmanlı,",
+   "bas": 2.197,
+   "son": 2.775,
+   "alinti": false
+  },
+  {
+   "k": "savaştan",
+   "bas": 2.935,
+   "son": 3.426,
+   "alinti": false
+  },
+  {
+   "k": "yenik",
+   "bas": 3.426,
+   "son": 3.762,
+   "alinti": false
+  },
+  {
+   "k": "çıkmış.",
+   "bas": 3.762,
+   "son": 4.149,
+   "alinti": false
+  },
+  {
+   "k": "Mondros'la",
+   "bas": 4.489,
+   "son": 5.053,
+   "alinti": false
+  },
+  {
+   "k": "birlikte,",
+   "bas": 5.053,
+   "son": 5.564,
+   "alinti": false
+  },
+  {
+   "k": "ülkenin",
+   "bas": 5.724,
+   "son": 6.11,
+   "alinti": false
+  },
+  {
+   "k": "dört",
+   "bas": 6.11,
+   "son": 6.36,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 6.36,
+   "son": 6.564,
+   "alinti": false
+  },
+  {
+   "k": "yanı",
+   "bas": 6.564,
+   "son": 6.814,
+   "alinti": false
+  },
+  {
+   "k": "işgal",
+   "bas": 6.814,
+   "son": 7.11,
+   "alinti": false
+  },
+  {
+   "k": "ediliyor.",
+   "bas": 7.11,
+   "son": 7.541,
+   "alinti": false
+  },
+  {
+   "k": "19",
+   "bas": 8.041,
+   "son": 8.577,
+   "alinti": false
+  },
+  {
+   "k": "Mayıs",
+   "bas": 8.577,
+   "son": 8.987,
+   "alinti": false
+  },
+  {
+   "k": "1919'da,",
+   "bas": 8.987,
+   "son": 10.343,
+   "alinti": false
+  },
+  {
+   "k": "Mustafa",
+   "bas": 10.503,
+   "son": 10.902,
+   "alinti": false
+  },
+  {
+   "k": "Kemal",
+   "bas": 10.902,
+   "son": 11.207,
+   "alinti": false
+  },
+  {
+   "k": "Samsun'a",
+   "bas": 11.207,
+   "son": 11.606,
+   "alinti": false
+  },
+  {
+   "k": "çıkıyor.",
+   "bas": 11.606,
+   "son": 12.006,
+   "alinti": false
+  },
+  {
+   "k": "Amasya'da,",
+   "bas": 12.346,
+   "son": 12.958,
+   "alinti": false
+  },
+  {
+   "k": "bütün",
+   "bas": 13.118,
+   "son": 13.481,
+   "alinti": false
+  },
+  {
+   "k": "yurda",
+   "bas": 13.481,
+   "son": 13.844,
+   "alinti": false
+  },
+  {
+   "k": "şu",
+   "bas": 13.844,
+   "son": 14.039,
+   "alinti": false
+  },
+  {
+   "k": "sözle",
+   "bas": 14.039,
+   "son": 14.402,
+   "alinti": false
+  },
+  {
+   "k": "sesleniyor:",
+   "bas": 14.402,
+   "son": 15.043,
+   "alinti": false
+  },
+  {
+   "k": "Milletin",
+   "bas": 15.393,
+   "son": 15.962,
+   "alinti": true
+  },
+  {
+   "k": "istiklalini,",
+   "bas": 15.962,
+   "son": 16.71,
+   "alinti": true
+  },
+  {
+   "k": "yine",
+   "bas": 16.87,
+   "son": 17.157,
+   "alinti": true
+  },
+  {
+   "k": "milletin",
+   "bas": 17.157,
+   "son": 17.652,
+   "alinti": true
+  },
+  {
+   "k": "azim",
+   "bas": 17.652,
+   "son": 17.938,
+   "alinti": true
+  },
+  {
+   "k": "ve",
+   "bas": 17.938,
+   "son": 18.121,
+   "alinti": true
+  },
+  {
+   "k": "kararı",
+   "bas": 18.121,
+   "son": 18.511,
+   "alinti": true
+  },
+  {
+   "k": "kurtaracaktır.",
+   "bas": 18.511,
+   "son": 19.267,
+   "alinti": true
+  }
+ ]
+}
