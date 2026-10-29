@@ -6,5 +6,6 @@ logs/*.log
 logs/*.txt
 # Ara dosyalar (yeniden üretilebilir)
 bolumler/*/ara/
-models/
+models/*
+!models/piper/
 ozel/*/ara/
