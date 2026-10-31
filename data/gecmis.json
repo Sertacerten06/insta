@@ -1,5 +1,5 @@
 {
-  "son_bolum": 7,
+  "son_bolum": 8,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -202,6 +202,37 @@
           "kaynaklar": [
             "The Next Web",
             "ForkLog"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 8,
+      "yayin_no": 7,
+      "baslik": "Vertex Teknopark İstanbul'da, Sponsor: Cortex",
+      "uretim_tarihi": "2026-10-31",
+      "yayin_tarihi": null,
+      "planlanan_yayin": null,
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "cortex_cok_yakinda",
+      "sponsor": "Cortex",
+      "ses": "piper tr_TR-fahrettin-medium",
+      "haberler": [
+        {
+          "id": "2026-10-31-vertex-teknopark-istanbul",
+          "baslik": "Vertex, Teknopark İstanbul'a kabul edildi (şirket bilgisi)",
+          "kaynaklar": [
+            "Vertex / Arpama Technology (kullanıcı)"
+          ]
+        },
+        {
+          "id": "2026-10-30-google-suncatcher-haiku",
+          "baslik": "Google Suncatcher uydusu yörüngeden ilk yapay zekâ cevabını (haiku) gönderdi",
+          "kaynaklar": [
+            "ShiftDelete.Net",
+            "Unite.AI",
+            "TechInside"
           ]
         }
       ],

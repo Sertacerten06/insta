@@ -1,0 +1,89 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu yedinci bölüm. Bu bölümün sponsoru Cortex. İlk haber bizim ekipten.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu yedinci bölüm. Bu bölümün sponsoru korteks. İlk haber bizim ekipten.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 6.673968253968254,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.359
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.359,
+   "son": 0.872
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.872,
+   "son": 1.385
+  },
+  {
+   "k": "hoş",
+   "bas": 1.385,
+   "son": 1.59
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.59,
+   "son": 1.949
+  },
+  {
+   "k": "bu",
+   "bas": 1.949,
+   "son": 2.103
+  },
+  {
+   "k": "yedinci",
+   "bas": 2.103,
+   "son": 2.513
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.513,
+   "son": 2.821
+  },
+  {
+   "k": "Bu",
+   "bas": 3.041,
+   "son": 3.229
+  },
+  {
+   "k": "bölümün",
+   "bas": 3.229,
+   "son": 3.73
+  },
+  {
+   "k": "sponsoru",
+   "bas": 3.73,
+   "son": 4.293
+  },
+  {
+   "k": "Cortex.",
+   "bas": 4.293,
+   "son": 4.794
+  },
+  {
+   "k": "İlk",
+   "bas": 5.014,
+   "son": 5.254
+  },
+  {
+   "k": "haber",
+   "bas": 5.254,
+   "son": 5.614
+  },
+  {
+   "k": "bizim",
+   "bas": 5.614,
+   "son": 5.974
+  },
+  {
+   "k": "ekipten.",
+   "bas": 5.974,
+   "son": 6.454
+  }
+ ]
+}
