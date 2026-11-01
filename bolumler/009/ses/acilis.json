@@ -1,0 +1,74 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu sekizinci bölüm. İlk haber doğrudan seni ilgilendiriyor.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu sekizinci bölüm. İlk haber doğrudan seni ilgilendiriyor.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 5.768979591836735,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.388
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.388,
+   "son": 0.942
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.942,
+   "son": 1.496
+  },
+  {
+   "k": "hoş",
+   "bas": 1.496,
+   "son": 1.717
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.717,
+   "son": 2.105
+  },
+  {
+   "k": "bu",
+   "bas": 2.105,
+   "son": 2.271
+  },
+  {
+   "k": "sekizinci",
+   "bas": 2.271,
+   "son": 2.826
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.826,
+   "son": 3.158
+  },
+  {
+   "k": "İlk",
+   "bas": 3.378,
+   "son": 3.601
+  },
+  {
+   "k": "haber",
+   "bas": 3.601,
+   "son": 3.935
+  },
+  {
+   "k": "doğrudan",
+   "bas": 3.935,
+   "son": 4.436
+  },
+  {
+   "k": "seni",
+   "bas": 4.436,
+   "son": 4.714
+  },
+  {
+   "k": "ilgilendiriyor.",
+   "bas": 4.714,
+   "son": 5.549
+  }
+ ]
+}

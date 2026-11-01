@@ -1,5 +1,5 @@
 {
-  "son_bolum": 8,
+  "son_bolum": 9,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -233,6 +233,38 @@
             "ShiftDelete.Net",
             "Unite.AI",
             "TechInside"
+          ]
+        }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 9,
+      "yayin_no": 8,
+      "baslik": "YKS 2027'nin Tarihi Belli Oldu",
+      "uretim_tarihi": "2026-11-01",
+      "yayin_tarihi": null,
+      "planlanan_yayin": "2026-11-03 19:00",
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "ucretsiz_her_cihazda",
+      "ses": "piper tr_TR-fahrettin-medium",
+      "haberler": [
+        {
+          "id": "2026-10-28-osym-2027-takvimi",
+          "baslik": "ÖSYM 2027 takvimi: YKS 19-20 Haziran",
+          "kaynaklar": [
+            "ÖSYM",
+            "Hürriyet",
+            "Memurlar.net"
+          ]
+        },
+        {
+          "id": "2026-10-27-deepmind-genie-4",
+          "baslik": "Google DeepMind Genie 4 dünya modeli",
+          "kaynaklar": [
+            "Google DeepMind",
+            "TechCrunch",
+            "Free Press Journal"
           ]
         }
       ],
