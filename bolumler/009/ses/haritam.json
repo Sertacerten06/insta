@@ -1,0 +1,324 @@
+{
+ "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: her yerde Haritam. Çünkü en iyi plan, yanında taşıyabildiğin plandır. YKS Haritam tamamen ücretsiz. haritam.arpama.tr adresini açıp telefonuna uygulama olarak ekleyebilirsin. Okul yolunda telefondan bugünkü görevlerine bakarsın. Evde bilgisayardan deneme netlerini girersin. Akşam odak sayacını yine telefondan başlatırsın. Haftalık programın, konu özetlerin ve yanlış defterin hep yanında. Sınava kalan her gün, cebindeki planla daha verimli geçsin.",
+ "konusma": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: her yerde Haritam. Çünkü en iyi plan, yanında taşıyabildiğin plandır. ye ka se Haritam tamamen ücretsiz. haritam nokta arpama nokta te re adresini açıp telefonuna uygulama olarak ekleyebilirsin. Okul yolunda telefondan bugünkü görevlerine bakarsın. Evde bilgisayardan deneme netlerini girersin. Akşam odak sayacını yine telefondan başlatırsın. Haftalık programın, konu özetlerin ve yanlış defterin hep yanında. Sınava kalan her gün, cebindeki planla daha verimli geçsin.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 31.12045351473923,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.375
+  },
+  {
+   "k": "sıra",
+   "bas": 0.375,
+   "son": 0.687
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.687,
+   "son": 1.187
+  },
+  {
+   "k": "bölümünde!",
+   "bas": 1.187,
+   "son": 1.811
+  },
+  {
+   "k": "Bugünkü",
+   "bas": 2.031,
+   "son": 2.52
+  },
+  {
+   "k": "bölümün",
+   "bas": 2.52,
+   "son": 3.009
+  },
+  {
+   "k": "adı:",
+   "bas": 3.009,
+   "son": 3.253
+  },
+  {
+   "k": "her",
+   "bas": 3.253,
+   "son": 3.498
+  },
+  {
+   "k": "yerde",
+   "bas": 3.498,
+   "son": 3.864
+  },
+  {
+   "k": "Haritam.",
+   "bas": 3.864,
+   "son": 4.353
+  },
+  {
+   "k": "Çünkü",
+   "bas": 4.573,
+   "son": 4.933
+  },
+  {
+   "k": "en",
+   "bas": 4.933,
+   "son": 5.113
+  },
+  {
+   "k": "iyi",
+   "bas": 5.113,
+   "son": 5.352
+  },
+  {
+   "k": "plan,",
+   "bas": 5.352,
+   "son": 5.652
+  },
+  {
+   "k": "yanında",
+   "bas": 5.652,
+   "son": 6.132
+  },
+  {
+   "k": "taşıyabildiğin",
+   "bas": 6.132,
+   "son": 7.031
+  },
+  {
+   "k": "plandır.",
+   "bas": 7.031,
+   "son": 7.51
+  },
+  {
+   "k": "YKS",
+   "bas": 7.73,
+   "son": 8.21
+  },
+  {
+   "k": "Haritam",
+   "bas": 8.21,
+   "son": 8.759
+  },
+  {
+   "k": "tamamen",
+   "bas": 8.759,
+   "son": 9.308
+  },
+  {
+   "k": "ücretsiz.",
+   "bas": 9.308,
+   "son": 9.925
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 10.145,
+   "son": 11.704
+  },
+  {
+   "k": "adresini",
+   "bas": 11.704,
+   "son": 12.206
+  },
+  {
+   "k": "açıp",
+   "bas": 12.206,
+   "son": 12.484
+  },
+  {
+   "k": "telefonuna",
+   "bas": 12.484,
+   "son": 13.097
+  },
+  {
+   "k": "uygulama",
+   "bas": 13.097,
+   "son": 13.598
+  },
+  {
+   "k": "olarak",
+   "bas": 13.598,
+   "son": 13.988
+  },
+  {
+   "k": "ekleyebilirsin.",
+   "bas": 13.988,
+   "son": 14.824
+  },
+  {
+   "k": "Okul",
+   "bas": 15.044,
+   "son": 15.308
+  },
+  {
+   "k": "yolunda",
+   "bas": 15.308,
+   "son": 15.73
+  },
+  {
+   "k": "telefondan",
+   "bas": 15.73,
+   "son": 16.311
+  },
+  {
+   "k": "bugünkü",
+   "bas": 16.311,
+   "son": 16.733
+  },
+  {
+   "k": "görevlerine",
+   "bas": 16.733,
+   "son": 17.366
+  },
+  {
+   "k": "bakarsın.",
+   "bas": 17.366,
+   "son": 17.842
+  },
+  {
+   "k": "Evde",
+   "bas": 18.062,
+   "son": 18.33
+  },
+  {
+   "k": "bilgisayardan",
+   "bas": 18.33,
+   "son": 19.081
+  },
+  {
+   "k": "deneme",
+   "bas": 19.081,
+   "son": 19.457
+  },
+  {
+   "k": "netlerini",
+   "bas": 19.457,
+   "son": 19.993
+  },
+  {
+   "k": "girersin.",
+   "bas": 19.993,
+   "son": 20.476
+  },
+  {
+   "k": "Akşam",
+   "bas": 20.696,
+   "son": 21.0
+  },
+  {
+   "k": "odak",
+   "bas": 21.0,
+   "son": 21.253
+  },
+  {
+   "k": "sayacını",
+   "bas": 21.253,
+   "son": 21.707
+  },
+  {
+   "k": "yine",
+   "bas": 21.707,
+   "son": 21.96
+  },
+  {
+   "k": "telefondan",
+   "bas": 21.96,
+   "son": 22.516
+  },
+  {
+   "k": "başlatırsın.",
+   "bas": 22.516,
+   "son": 23.123
+  },
+  {
+   "k": "Haftalık",
+   "bas": 23.343,
+   "son": 23.87
+  },
+  {
+   "k": "programın,",
+   "bas": 23.87,
+   "son": 24.456
+  },
+  {
+   "k": "konu",
+   "bas": 24.456,
+   "son": 24.749
+  },
+  {
+   "k": "özetlerin",
+   "bas": 24.749,
+   "son": 25.335
+  },
+  {
+   "k": "ve",
+   "bas": 25.335,
+   "son": 25.511
+  },
+  {
+   "k": "yanlış",
+   "bas": 25.511,
+   "son": 25.921
+  },
+  {
+   "k": "defterin",
+   "bas": 25.921,
+   "son": 26.448
+  },
+  {
+   "k": "hep",
+   "bas": 26.448,
+   "son": 26.682
+  },
+  {
+   "k": "yanında.",
+   "bas": 26.682,
+   "son": 27.151
+  },
+  {
+   "k": "Sınava",
+   "bas": 27.371,
+   "son": 27.797
+  },
+  {
+   "k": "kalan",
+   "bas": 27.797,
+   "son": 28.162
+  },
+  {
+   "k": "her",
+   "bas": 28.162,
+   "son": 28.406
+  },
+  {
+   "k": "gün,",
+   "bas": 28.406,
+   "son": 28.649
+  },
+  {
+   "k": "cebindeki",
+   "bas": 28.649,
+   "son": 29.257
+  },
+  {
+   "k": "planla",
+   "bas": 29.257,
+   "son": 29.683
+  },
+  {
+   "k": "daha",
+   "bas": 29.683,
+   "son": 29.988
+  },
+  {
+   "k": "verimli",
+   "bas": 29.988,
+   "son": 30.474
+  },
+  {
+   "k": "geçsin.",
+   "bas": 30.474,
+   "son": 30.9
+  }
+ ]
+}

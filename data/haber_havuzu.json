@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-10-21",
+  "guncelleme": "2026-11-01",
   "haberler": [
     {
       "id": "2026-10-16-meb-ortak-yazili",
@@ -103,6 +103,63 @@
         {
           "ad": "Webtekno",
           "url": "https://www.webtekno.com/artemis-ii-gelen-veriler-ay-bilinmeyen-ozelliklerini-ortaya-cikardi-h227455.html"
+        }
+      ],
+      "kullanildi": null
+    },
+    {
+      "id": "2026-10-28-osym-2027-takvimi",
+      "bolge": "TR",
+      "tarih": "2026-10-28",
+      "puan": 7,
+      "gerekce": "TR +3, sınav/öğrenci +2, genç kitle +2, 48 saatten eski; Haritam'a doğrudan bağlanıyor",
+      "baslik": "ÖSYM 2027 sınav takvimini açıkladı: TYT 19 Haziran, AYT/YDT 20 Haziran, başvuru 4 Şubat-2 Mart, sonuç 21 Temmuz (planlanan)",
+      "kaynaklar": [
+        {
+          "ad": "Hürriyet",
+          "url": "https://www.hurriyet.com.tr/gundem/2027-takvimi-aciklandi-yks-19-20-haziranda-43358799"
+        },
+        {
+          "ad": "Memurlar.net",
+          "url": "https://www.memurlar.net/haber/1182361/osym-2027-sinav-takvimi-aciklandi-yks-ags-ve-kpss-tarihleri.html"
+        },
+        {
+          "ad": "Fotomaç",
+          "url": "https://www.fotomac.com.tr/haberler/2026/11/01/yks-ne-zaman-2027-yks-sinav-tarihi-belli-oldu-tyt-ayt-ydt-tarihleri"
+        }
+      ],
+      "kullanildi": 9
+    },
+    {
+      "id": "2026-10-27-deepmind-genie-4",
+      "bolge": "DUNYA",
+      "tarih": "2026-10-27",
+      "puan": 4,
+      "gerekce": "yapay zekâ ile öğrenme +2, genç kitle/oyun +2; oyun teması 8-bit'e uygun",
+      "baslik": "Google DeepMind Genie 4: metinden gezilebilir dünya, yerleşik ses, canlı düzenleme (araştırma önizlemesi)",
+      "kaynaklar": [
+        {
+          "ad": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/tech/google-deepmind-unveils-genie-4-for-real-time-ai-worlds-with-built-in-audio"
+        },
+        {
+          "ad": "DataNorth (TechCrunch özetli)",
+          "url": "https://datanorth.ai/news/google-deepmind-genie-4-world-model"
+        }
+      ],
+      "kullanildi": 9
+    },
+    {
+      "id": "2026-10-30-ioniq3-cotY-finalist",
+      "bolge": "TR",
+      "tarih": "2026-10-30",
+      "puan": 5,
+      "gerekce": "TR +3, genç kitle +2; tek kaynak görüldü, doğrulanmadı",
+      "baslik": "Türkiye'de üretilen Hyundai IONIQ 3, 2027 Avrupa'da Yılın Otomobili finalisti",
+      "kaynaklar": [
+        {
+          "ad": "LOG",
+          "url": "https://www.log.com.tr/"
         }
       ],
       "kullanildi": null

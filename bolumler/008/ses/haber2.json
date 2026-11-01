@@ -1,0 +1,379 @@
+{
+ "metin": "Dünyadan ise uzaydan gelen bir şiir var. Google'ın Suncatcher projesi, yapay zekâ çiplerini uzayda çalıştırmayı deniyor. 1 Ekim'de fırlatılan deneme uydusunda, Google'ın TPU adlı yapay zekâ çipi var. Uyduyu Google, Planet şirketiyle birlikte üretti. Google 30 Ekim'de, uydudaki açık model Gemma 4'ün ilk cevabını aldığını duyurdu. Ekip, uzayda olmak üzerine bir haiku istedi. Uydu, Norveç'teki Svalbard üzerinden geçerken şiiri Dünya'ya gönderdi. Sırada ısı ve radyasyon testleri var. 2027'de ise iki uyduyla yeni denemeler planlanıyor.",
+ "konusma": "Dünyadan ise uzaydan gelen bir şiir var. gugıl'ın san keçır projesi, yapay zekâ çiplerini uzayda çalıştırmayı deniyor. 1 Ekim'de fırlatılan deneme uydusunda, gugıl'ın ti pi yu adlı yapay zekâ çipi var. Uyduyu gugıl, plenıt şirketiyle birlikte üretti. gugıl 30 Ekim'de, uydudaki açık model cemma 4'ün ilk cevabını aldığını duyurdu. Ekip, uzayda olmak üzerine bir hayku istedi. Uydu, Norveç'teki svalbard üzerinden geçerken şiiri Dünya'ya gönderdi. Sırada ısı ve radyasyon testleri var. iki bin yirmi yedi'de ise iki uyduyla yeni denemeler planlanıyor.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 32.7928798185941,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.554
+  },
+  {
+   "k": "ise",
+   "bas": 0.554,
+   "son": 0.8
+  },
+  {
+   "k": "uzaydan",
+   "bas": 0.8,
+   "son": 1.292
+  },
+  {
+   "k": "gelen",
+   "bas": 1.292,
+   "son": 1.661
+  },
+  {
+   "k": "bir",
+   "bas": 1.661,
+   "son": 1.908
+  },
+  {
+   "k": "şiir",
+   "bas": 1.908,
+   "son": 2.215
+  },
+  {
+   "k": "var.",
+   "bas": 2.215,
+   "son": 2.461
+  },
+  {
+   "k": "Google'ın",
+   "bas": 2.681,
+   "son": 3.132
+  },
+  {
+   "k": "Suncatcher",
+   "bas": 3.132,
+   "son": 3.639
+  },
+  {
+   "k": "projesi,",
+   "bas": 3.639,
+   "son": 4.089
+  },
+  {
+   "k": "yapay",
+   "bas": 4.089,
+   "son": 4.427
+  },
+  {
+   "k": "zekâ",
+   "bas": 4.427,
+   "son": 4.709
+  },
+  {
+   "k": "çiplerini",
+   "bas": 4.709,
+   "son": 5.272
+  },
+  {
+   "k": "uzayda",
+   "bas": 5.272,
+   "son": 5.666
+  },
+  {
+   "k": "çalıştırmayı",
+   "bas": 5.666,
+   "son": 6.399
+  },
+  {
+   "k": "deniyor.",
+   "bas": 6.399,
+   "son": 6.849
+  },
+  {
+   "k": "1",
+   "bas": 7.069,
+   "son": 7.179
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 7.179,
+   "son": 7.563
+  },
+  {
+   "k": "fırlatılan",
+   "bas": 7.563,
+   "son": 8.167
+  },
+  {
+   "k": "deneme",
+   "bas": 8.167,
+   "son": 8.551
+  },
+  {
+   "k": "uydusunda,",
+   "bas": 8.551,
+   "son": 9.1
+  },
+  {
+   "k": "Google'ın",
+   "bas": 9.1,
+   "son": 9.539
+  },
+  {
+   "k": "TPU",
+   "bas": 9.539,
+   "son": 9.923
+  },
+  {
+   "k": "adlı",
+   "bas": 9.923,
+   "son": 10.198
+  },
+  {
+   "k": "yapay",
+   "bas": 10.198,
+   "son": 10.527
+  },
+  {
+   "k": "zekâ",
+   "bas": 10.527,
+   "son": 10.801
+  },
+  {
+   "k": "çipi",
+   "bas": 10.801,
+   "son": 11.076
+  },
+  {
+   "k": "var.",
+   "bas": 11.076,
+   "son": 11.295
+  },
+  {
+   "k": "Uyduyu",
+   "bas": 11.515,
+   "son": 11.949
+  },
+  {
+   "k": "Google,",
+   "bas": 11.949,
+   "son": 12.321
+  },
+  {
+   "k": "Planet",
+   "bas": 12.321,
+   "son": 12.755
+  },
+  {
+   "k": "şirketiyle",
+   "bas": 12.755,
+   "son": 13.437
+  },
+  {
+   "k": "birlikte",
+   "bas": 13.437,
+   "son": 13.995
+  },
+  {
+   "k": "üretti.",
+   "bas": 13.995,
+   "son": 14.429
+  },
+  {
+   "k": "Google",
+   "bas": 14.649,
+   "son": 15.022
+  },
+  {
+   "k": "30",
+   "bas": 15.022,
+   "son": 15.208
+  },
+  {
+   "k": "Ekim'de,",
+   "bas": 15.208,
+   "son": 15.642
+  },
+  {
+   "k": "uydudaki",
+   "bas": 15.642,
+   "son": 16.2
+  },
+  {
+   "k": "açık",
+   "bas": 16.2,
+   "son": 16.51
+  },
+  {
+   "k": "model",
+   "bas": 16.51,
+   "son": 16.882
+  },
+  {
+   "k": "Gemma",
+   "bas": 16.882,
+   "son": 17.254
+  },
+  {
+   "k": "4'ün",
+   "bas": 17.254,
+   "son": 17.502
+  },
+  {
+   "k": "ilk",
+   "bas": 17.502,
+   "son": 17.751
+  },
+  {
+   "k": "cevabını",
+   "bas": 17.751,
+   "son": 18.309
+  },
+  {
+   "k": "aldığını",
+   "bas": 18.309,
+   "son": 18.867
+  },
+  {
+   "k": "duyurdu.",
+   "bas": 18.867,
+   "son": 19.363
+  },
+  {
+   "k": "Ekip,",
+   "bas": 19.583,
+   "son": 19.887
+  },
+  {
+   "k": "uzayda",
+   "bas": 19.887,
+   "son": 20.312
+  },
+  {
+   "k": "olmak",
+   "bas": 20.312,
+   "son": 20.677
+  },
+  {
+   "k": "üzerine",
+   "bas": 20.677,
+   "son": 21.163
+  },
+  {
+   "k": "bir",
+   "bas": 21.163,
+   "son": 21.406
+  },
+  {
+   "k": "haiku",
+   "bas": 21.406,
+   "son": 21.77
+  },
+  {
+   "k": "istedi.",
+   "bas": 21.77,
+   "son": 22.195
+  },
+  {
+   "k": "Uydu,",
+   "bas": 22.415,
+   "son": 22.713
+  },
+  {
+   "k": "Norveç'teki",
+   "bas": 22.713,
+   "son": 23.366
+  },
+  {
+   "k": "Svalbard",
+   "bas": 23.366,
+   "son": 23.901
+  },
+  {
+   "k": "üzerinden",
+   "bas": 23.901,
+   "son": 24.496
+  },
+  {
+   "k": "geçerken",
+   "bas": 24.496,
+   "son": 25.031
+  },
+  {
+   "k": "şiiri",
+   "bas": 25.031,
+   "son": 25.387
+  },
+  {
+   "k": "Dünya'ya",
+   "bas": 25.387,
+   "son": 25.863
+  },
+  {
+   "k": "gönderdi.",
+   "bas": 25.863,
+   "son": 26.398
+  },
+  {
+   "k": "Sırada",
+   "bas": 26.618,
+   "son": 27.052
+  },
+  {
+   "k": "ısı",
+   "bas": 27.052,
+   "son": 27.301
+  },
+  {
+   "k": "ve",
+   "bas": 27.301,
+   "son": 27.487
+  },
+  {
+   "k": "radyasyon",
+   "bas": 27.487,
+   "son": 28.109
+  },
+  {
+   "k": "testleri",
+   "bas": 28.109,
+   "son": 28.668
+  },
+  {
+   "k": "var.",
+   "bas": 28.668,
+   "son": 28.916
+  },
+  {
+   "k": "2027'de",
+   "bas": 29.136,
+   "son": 30.15
+  },
+  {
+   "k": "ise",
+   "bas": 30.15,
+   "son": 30.376
+  },
+  {
+   "k": "iki",
+   "bas": 30.376,
+   "son": 30.601
+  },
+  {
+   "k": "uyduyla",
+   "bas": 30.601,
+   "son": 31.052
+  },
+  {
+   "k": "yeni",
+   "bas": 31.052,
+   "son": 31.333
+  },
+  {
+   "k": "denemeler",
+   "bas": 31.333,
+   "son": 31.897
+  },
+  {
+   "k": "planlanıyor.",
+   "bas": 31.897,
+   "son": 32.573
+  }
+ ]
+}
