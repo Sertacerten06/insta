@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-11-01",
+  "guncelleme": "2026-11-03",
   "haberler": [
     {
       "id": "2026-10-16-meb-ortak-yazili",
@@ -160,6 +160,67 @@
         {
           "ad": "LOG",
           "url": "https://www.log.com.tr/"
+        }
+      ],
+      "kullanildi": null
+    },
+    {
+      "id": "2026-10-27-siri-turkce",
+      "bolge": "TR",
+      "tarih": "2026-10-27",
+      "puan": 7,
+      "gerekce": "Türkiye +3, genç kitle +2, yapay zekâ +2, 48 saatten eski",
+      "baslik": "Apple: yeni Siri yıl sonuna kadar Türkçe destek kazanacak",
+      "kaynaklar": [
+        {
+          "ad": "Webrazzi",
+          "url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/"
+        },
+        {
+          "ad": "CNBC-e",
+          "url": "https://www.cnbce.com/yapay-zeka/apple-duyurdu-siriye-turkce-dil-destegi-geliyor-h40438"
+        }
+      ],
+      "kullanildi": 10
+    },
+    {
+      "id": "2026-10-27-google-uyku-cercevesi",
+      "bolge": "DUNYA",
+      "tarih": "2026-10-27",
+      "puan": 6,
+      "gerekce": "öğrenme/yapay zekâ +2, genç kitle +2, Haritam'a bağlanıyor (tekrar), 48 saatten eski",
+      "baslik": "Google Research: LLM'ler için uyku çerçevesi (yıkıcı unutmaya karşı)",
+      "kaynaklar": [
+        {
+          "ad": "Google Research",
+          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+        },
+        {
+          "ad": "GIGAZINE",
+          "url": "https://gigazine.net/gsc_news/en/20261030-ai-sleep-knowledge/"
+        },
+        {
+          "ad": "DonanımHaber",
+          "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-2-kasim-2026--212378"
+        }
+      ],
+      "kullanildi": 10
+    },
+    {
+      "id": "2026-10-28-google-cloud-tubisad-akademi",
+      "bolge": "TR",
+      "tarih": "2026-10-28",
+      "puan": 6,
+      "gerekce": "Türkiye +3, yapay zekâ eğitimi +2, hedef kitle profesyoneller (genç kitleye uzak)",
+      "baslik": "Google Cloud + TÜBİSAD Bulut ve Yapay Zeka Yetkinlik Geliştirme Akademisi (12 ayda 1.000+ sertifika)",
+      "kaynaklar": [
+        {
+          "ad": "DonanımHaber",
+          "url": "https://www.donanimhaber.com/google-turkiye-de-yapay-zeka-akademisini-hayata-geciriyor--212180"
+        },
+        {
+          "ad": "Genç Gazete",
+          "url": "https://www.gencgazete.net/google-turkiyede-yapay-zeka-akademisi-kuruyor-1000den-fazla-kisiye-sertifika-verilecek"
         }
       ],
       "kullanildi": null

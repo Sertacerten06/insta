@@ -1,0 +1,69 @@
+{
+ "metin": "Yapay zekâ da uyumaya başladı! Bir de Siri'ye Türkçe geliyor. Hazırsan başlıyoruz!",
+ "konusma": "Yapay zekâ da uyumaya başladı! Bir de siri'ye Türkçe geliyor. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 5.454920634920635,
+ "kelimeler": [
+  {
+   "k": "Yapay",
+   "bas": 0.0,
+   "son": 0.355
+  },
+  {
+   "k": "zekâ",
+   "bas": 0.355,
+   "son": 0.651
+  },
+  {
+   "k": "da",
+   "bas": 0.651,
+   "son": 0.829
+  },
+  {
+   "k": "uyumaya",
+   "bas": 0.829,
+   "son": 1.303
+  },
+  {
+   "k": "başladı!",
+   "bas": 1.303,
+   "son": 1.776
+  },
+  {
+   "k": "Bir",
+   "bas": 1.996,
+   "son": 2.217
+  },
+  {
+   "k": "de",
+   "bas": 2.217,
+   "son": 2.383
+  },
+  {
+   "k": "Siri'ye",
+   "bas": 2.383,
+   "son": 2.77
+  },
+  {
+   "k": "Türkçe",
+   "bas": 2.77,
+   "son": 3.157
+  },
+  {
+   "k": "geliyor.",
+   "bas": 3.157,
+   "son": 3.599
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 3.819,
+   "son": 4.456
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 4.456,
+   "son": 5.235
+  }
+ ]
+}

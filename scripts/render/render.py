@@ -263,6 +263,14 @@ class Render:
             ikon(d, I.ROBOT, SW // 2 - 24, 290, 4)
             for j, (dx, dy) in enumerate([(-44, 300), (36, 294), (-38, 330), (40, 326)]):
                 d.rectangle([SW // 2 + dx, dy, SW // 2 + dx + 5, dy + 5], fill=P["altin"], outline=P["altin_koyu"])
+        elif k.get("ikon") == "uyku":
+            ikon(d, I.ROBOT, SW // 2 - 24, 290, 4)
+            for gx in (4, 7):
+                d.rectangle([SW // 2 - 24 + gx * 4, 306, SW // 2 - 24 + gx * 4 + 3, 309], fill=P["zemin3"])
+                d.rectangle([SW // 2 - 24 + gx * 4, 306, SW // 2 - 24 + gx * 4 + 3, 307], fill=P["gumus_koyu"])
+            for j, (dx, dy, r) in enumerate([(30, 292, "altin"), (40, 282, "mavi_buz"), (50, 272, "altin")]):
+                zx, zy, zs = SW // 2 + dx, dy, 6 - j
+                d.line([(zx, zy), (zx + zs, zy), (zx, zy + zs), (zx + zs, zy + zs)], fill=P[r], width=2)
         elif k.get("ikon") == "telefon":
             ikon(d, I.TELEFON, SW // 2 - 14, 292, 4)
             d.rectangle([SW // 2 + 10, 286, SW // 2 + 21, 297], fill=P["kirmizi"])
