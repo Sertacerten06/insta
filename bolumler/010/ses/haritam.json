@@ -1,0 +1,349 @@
+{
+ "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: haftanı planla. Yapay zekâ bile öğrendiğini kalıcı yapmak için bir düzene ihtiyaç duyuyor. Senin düzenin de YKS Haritam'da. Kayıt olurken alanını ve hedef puanını seçersin, planın buna göre şekillenir. Koçunun verdiği Excel programını yükleyebilir ya da programını kendin yazabilirsin. Görevler haftanın günlerine yerleşir, bitirdikçe işaretlersin. Programındaki konular, TYT ve AYT konu özetleriyle otomatik eşleşir. Tekrarlarını haftaya yay, uykunu da ihmal etme.",
+ "konusma": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: haftanı planla. Yapay zekâ bile öğrendiğini kalıcı yapmak için bir düzene ihtiyaç duyuyor. Senin düzenin de ye ka se Haritam'da. Kayıt olurken alanını ve hedef puanını seçersin, planın buna göre şekillenir. Koçunun verdiği eksel programını yükleyebilir ya da programını kendin yazabilirsin. Görevler haftanın günlerine yerleşir, bitirdikçe işaretlersin. Programındaki konular, te ye te ve a ye te konu özetleriyle otomatik eşleşir. Tekrarlarını haftaya yay, uykunu da ihmal etme.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 30.70308390022676,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.372
+  },
+  {
+   "k": "sıra",
+   "bas": 0.372,
+   "son": 0.683
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.683,
+   "son": 1.179
+  },
+  {
+   "k": "bölümünde!",
+   "bas": 1.179,
+   "son": 1.8
+  },
+  {
+   "k": "Bugünkü",
+   "bas": 2.02,
+   "son": 2.503
+  },
+  {
+   "k": "bölümün",
+   "bas": 2.503,
+   "son": 2.985
+  },
+  {
+   "k": "adı:",
+   "bas": 2.985,
+   "son": 3.227
+  },
+  {
+   "k": "haftanı",
+   "bas": 3.227,
+   "son": 3.71
+  },
+  {
+   "k": "planla.",
+   "bas": 3.71,
+   "son": 4.133
+  },
+  {
+   "k": "Yapay",
+   "bas": 4.353,
+   "son": 4.658
+  },
+  {
+   "k": "zekâ",
+   "bas": 4.658,
+   "son": 4.912
+  },
+  {
+   "k": "bile",
+   "bas": 4.912,
+   "son": 5.166
+  },
+  {
+   "k": "öğrendiğini",
+   "bas": 5.166,
+   "son": 5.776
+  },
+  {
+   "k": "kalıcı",
+   "bas": 5.776,
+   "son": 6.132
+  },
+  {
+   "k": "yapmak",
+   "bas": 6.132,
+   "son": 6.488
+  },
+  {
+   "k": "için",
+   "bas": 6.488,
+   "son": 6.742
+  },
+  {
+   "k": "bir",
+   "bas": 6.742,
+   "son": 6.945
+  },
+  {
+   "k": "düzene",
+   "bas": 6.945,
+   "son": 7.301
+  },
+  {
+   "k": "ihtiyaç",
+   "bas": 7.301,
+   "son": 7.708
+  },
+  {
+   "k": "duyuyor.",
+   "bas": 7.708,
+   "son": 8.114
+  },
+  {
+   "k": "Senin",
+   "bas": 8.334,
+   "son": 8.693
+  },
+  {
+   "k": "düzenin",
+   "bas": 8.693,
+   "son": 9.171
+  },
+  {
+   "k": "de",
+   "bas": 9.171,
+   "son": 9.35
+  },
+  {
+   "k": "YKS",
+   "bas": 9.35,
+   "son": 9.768
+  },
+  {
+   "k": "Haritam'da.",
+   "bas": 9.768,
+   "son": 10.366
+  },
+  {
+   "k": "Kayıt",
+   "bas": 10.586,
+   "son": 10.916
+  },
+  {
+   "k": "olurken",
+   "bas": 10.916,
+   "son": 11.356
+  },
+  {
+   "k": "alanını",
+   "bas": 11.356,
+   "son": 11.796
+  },
+  {
+   "k": "ve",
+   "bas": 11.796,
+   "son": 11.961
+  },
+  {
+   "k": "hedef",
+   "bas": 11.961,
+   "son": 12.291
+  },
+  {
+   "k": "puanını",
+   "bas": 12.291,
+   "son": 12.731
+  },
+  {
+   "k": "seçersin,",
+   "bas": 12.731,
+   "son": 13.226
+  },
+  {
+   "k": "planın",
+   "bas": 13.226,
+   "son": 13.611
+  },
+  {
+   "k": "buna",
+   "bas": 13.611,
+   "son": 13.886
+  },
+  {
+   "k": "göre",
+   "bas": 13.886,
+   "son": 14.161
+  },
+  {
+   "k": "şekillenir.",
+   "bas": 14.161,
+   "son": 14.766
+  },
+  {
+   "k": "Koçunun",
+   "bas": 14.986,
+   "son": 15.384
+  },
+  {
+   "k": "verdiği",
+   "bas": 15.384,
+   "son": 15.782
+  },
+  {
+   "k": "Excel",
+   "bas": 15.782,
+   "son": 16.081
+  },
+  {
+   "k": "programını",
+   "bas": 16.081,
+   "son": 16.629
+  },
+  {
+   "k": "yükleyebilir",
+   "bas": 16.629,
+   "son": 17.276
+  },
+  {
+   "k": "ya",
+   "bas": 17.276,
+   "son": 17.426
+  },
+  {
+   "k": "da",
+   "bas": 17.426,
+   "son": 17.575
+  },
+  {
+   "k": "programını",
+   "bas": 17.575,
+   "son": 18.123
+  },
+  {
+   "k": "kendin",
+   "bas": 18.123,
+   "son": 18.471
+  },
+  {
+   "k": "yazabilirsin.",
+   "bas": 18.471,
+   "son": 19.119
+  },
+  {
+   "k": "Görevler",
+   "bas": 19.339,
+   "son": 19.877
+  },
+  {
+   "k": "haftanın",
+   "bas": 19.877,
+   "son": 20.414
+  },
+  {
+   "k": "günlerine",
+   "bas": 20.414,
+   "son": 21.012
+  },
+  {
+   "k": "yerleşir,",
+   "bas": 21.012,
+   "son": 21.55
+  },
+  {
+   "k": "bitirdikçe",
+   "bas": 21.55,
+   "son": 22.207
+  },
+  {
+   "k": "işaretlersin.",
+   "bas": 22.207,
+   "son": 22.984
+  },
+  {
+   "k": "Programındaki",
+   "bas": 23.204,
+   "son": 23.992
+  },
+  {
+   "k": "konular,",
+   "bas": 23.992,
+   "son": 24.442
+  },
+  {
+   "k": "TYT",
+   "bas": 24.442,
+   "son": 24.836
+  },
+  {
+   "k": "ve",
+   "bas": 24.836,
+   "son": 25.005
+  },
+  {
+   "k": "AYT",
+   "bas": 25.005,
+   "son": 25.343
+  },
+  {
+   "k": "konu",
+   "bas": 25.343,
+   "son": 25.624
+  },
+  {
+   "k": "özetleriyle",
+   "bas": 25.624,
+   "son": 26.299
+  },
+  {
+   "k": "otomatik",
+   "bas": 26.299,
+   "son": 26.806
+  },
+  {
+   "k": "eşleşir.",
+   "bas": 26.806,
+   "son": 27.256
+  },
+  {
+   "k": "Tekrarlarını",
+   "bas": 27.476,
+   "son": 28.326
+  },
+  {
+   "k": "haftaya",
+   "bas": 28.326,
+   "son": 28.849
+  },
+  {
+   "k": "yay,",
+   "bas": 28.849,
+   "son": 29.11
+  },
+  {
+   "k": "uykunu",
+   "bas": 29.11,
+   "son": 29.568
+  },
+  {
+   "k": "da",
+   "bas": 29.568,
+   "son": 29.764
+  },
+  {
+   "k": "ihmal",
+   "bas": 29.764,
+   "son": 30.156
+  },
+  {
+   "k": "etme.",
+   "bas": 30.156,
+   "son": 30.483
+  }
+ ]
+}

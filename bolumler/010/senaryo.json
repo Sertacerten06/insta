@@ -1,0 +1,81 @@
+{
+ "bolum": 10,
+ "yayin_no": 9,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Yapay Zekâ da Uyumaya Başladı",
+ "haritam_ozellik": "haftalik_program",
+ "kanca": {
+  "ikon": "uyku",
+  "satirlar": [
+   "YAPAY ZEKÂ DA",
+   "UYUMAYA",
+   "BAŞLADI!"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "uyumaya",
+  "Siri'ye",
+  "Siri'nin",
+  "Türkçe",
+  "Türkçe'yi",
+  "uyku",
+  "unutabiliyor.",
+  "unutma",
+  "rüya",
+  "kalıcı",
+  "Excel",
+  "kendin",
+  "otomatik",
+  "ücretsiz,",
+  "Haritam",
+  "Haritam'da.",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Yapay zekâ da uyumaya başladı! Bir de Siri'ye Türkçe geliyor. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu dokuzuncu bölüm. İlk durağımız her zamanki gibi Türkiye."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_siri",
+   "metin": "Apple, yapay zekâ destekli yeni Siri'nin yıl sonuna kadar Türkçe konuşacağını duyurdu. Yeni Siri eylülde ilk açıldığında sadece İngilizce biliyordu. Son güncellemelerle Fransızca, İspanyolca, Japonca, Korece ve Portekizce eklendi. Bu yeni Siri şimdilik beta, yani deneme aşamasında. Sıradaki dört yeni dilden biri de Türkçe. Kesin tarih ve hangi güncellemeyle geleceği ise henüz açıklanmadı. Yani yakında telefonunla Türkçe sohbet edebileceksin."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_uyku",
+   "metin": "Dünyadan ise öğrenmeyle ilgili ilginç bir araştırma var. Google araştırmacıları, 27 Ekim'de yapay zekâ için bir uyku dönemi önerdi. Sorun şu: Yapay zekâya yeni bir şey öğretince eskiden bildiklerini unutabiliyor. Buna yıkıcı unutma deniyor. Çözüm iki aşamalı. Uyanıkken model yeni bilgileri kısa süreli bir hafızada tutuyor. Uykuda ise yeni bilgi almayı bırakıyor, öğrendiklerini kalıcı hafızaya taşıyor. Bir de kendine alıştırma örnekleri üretip onlarla çalışıyor. Araştırmacılar buna rüya görme diyor ve insan uykusundan ilham aldıklarını söylüyor. Testlerde model yeni şeyler öğrenirken eskileri çok daha az unuttu."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_program",
+   "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: haftanı planla. Yapay zekâ bile öğrendiğini kalıcı yapmak için bir düzene ihtiyaç duyuyor. Senin düzenin de YKS Haritam'da. Kayıt olurken alanını ve hedef puanını seçersin, planın buna göre şekillenir. Koçunun verdiği Excel programını yükleyebilir ya da programını kendin yazabilirsin. Görevler haftanın günlerine yerleşir, bitirdikçe işaretlersin. Programındaki konular, TYT ve AYT konu özetleriyle otomatik eşleşir. Tekrarlarını haftaya yay, uykunu da ihmal etme."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "YKS Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, haftanı bugün planla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: Apple, Webrazzi, CNBC-e",
+  "haber2": "Kaynak: Google Research, GIGAZINE, DonanımHaber"
+ },
+ "kapak": {
+  "ust": "YAPAY ZEKÂ UYUYOR",
+  "alt_satirlar": [
+   "SİRİ'YE TÜRKÇE",
+   "YIL SONUNA KADAR"
+  ],
+  "bolum_etiketi": "BÖLÜM 9",
+  "ikon": "uyku"
+ },
+ "caption": "Yapay zekâ da uyumaya başladı! 🕹️\n\nBu bölümde:\n▸ Apple: yeni Siri yıl sonuna kadar Türkçe konuşacak\n▸ Google araştırmacılarından yapay zekâya \"uyku\" dönemi: yeni şeyi öğrenirken eskisini unutmasın\n▸ Haritam: haftalık program (koçunun Excel'ini yükle ya da kendin yaz)\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Apple, Webrazzi, CNBC-e, Google Research, GIGAZINE, DonanımHaber\n\n#yks #yks2027 #teknoloji #yapayzeka #teknolojihaberleri #arpama #haritam"
+}

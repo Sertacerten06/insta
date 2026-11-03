@@ -1,0 +1,394 @@
+{
+ "metin": "Dünyadan ise oyun sevenlere bir haber var. Google DeepMind, 27 Ekim'de Genie 4 adlı yeni dünya modelini tanıttı. Genie 4'e bir cümle yazıyorsun, o da içinde gezebileceğin bir dünya oluşturuyor. Klavyeyle dolaşabiliyorsun, karakterler seninle konuşabiliyor. Müzik ve ortam sesleri de aynı anda üretiliyor. Üstelik dünya çalışırken yazarak havayı ya da kamerayı değiştirebiliyorsun. Google bu modeli oyunlar, etkileşimli öğrenme ve robot eğitimi için düşünüyor. Şimdilik sadece seçili test kullanıcıları deneyebiliyor. Google, uzun oturumlarda bazı detayların kayabildiğini de söylüyor.",
+ "konusma": "Dünyadan ise oyun sevenlere bir haber var. gugıl dip maynd, 27 Ekim'de cini 4 adlı yeni dünya modelini tanıttı. cini 4'e bir cümle yazıyorsun, o da içinde gezebileceğin bir dünya oluşturuyor. Klavyeyle dolaşabiliyorsun, karakterler seninle konuşabiliyor. Müzik ve ortam sesleri de aynı anda üretiliyor. Üstelik dünya çalışırken yazarak havayı ya da kamerayı değiştirebiliyorsun. gugıl bu modeli oyunlar, etkileşimli öğrenme ve robot eğitimi için düşünüyor. Şimdilik sadece seçili test kullanıcıları deneyebiliyor. gugıl, uzun oturumlarda bazı detayların kayabildiğini de söylüyor.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 34.60403628117914,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.577
+  },
+  {
+   "k": "ise",
+   "bas": 0.577,
+   "son": 0.834
+  },
+  {
+   "k": "oyun",
+   "bas": 0.834,
+   "son": 1.154
+  },
+  {
+   "k": "sevenlere",
+   "bas": 1.154,
+   "son": 1.796
+  },
+  {
+   "k": "bir",
+   "bas": 1.796,
+   "son": 2.052
+  },
+  {
+   "k": "haber",
+   "bas": 2.052,
+   "son": 2.437
+  },
+  {
+   "k": "var.",
+   "bas": 2.437,
+   "son": 2.694
+  },
+  {
+   "k": "Google",
+   "bas": 2.914,
+   "son": 3.316
+  },
+  {
+   "k": "DeepMind,",
+   "bas": 3.316,
+   "son": 3.921
+  },
+  {
+   "k": "27",
+   "bas": 3.921,
+   "son": 4.122
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 4.122,
+   "son": 4.592
+  },
+  {
+   "k": "Genie",
+   "bas": 4.592,
+   "son": 4.928
+  },
+  {
+   "k": "4",
+   "bas": 4.928,
+   "son": 5.063
+  },
+  {
+   "k": "adlı",
+   "bas": 5.063,
+   "son": 5.398
+  },
+  {
+   "k": "yeni",
+   "bas": 5.398,
+   "son": 5.734
+  },
+  {
+   "k": "dünya",
+   "bas": 5.734,
+   "son": 6.137
+  },
+  {
+   "k": "modelini",
+   "bas": 6.137,
+   "son": 6.742
+  },
+  {
+   "k": "tanıttı.",
+   "bas": 6.742,
+   "son": 7.279
+  },
+  {
+   "k": "Genie",
+   "bas": 7.499,
+   "son": 7.797
+  },
+  {
+   "k": "4'e",
+   "bas": 7.797,
+   "son": 7.975
+  },
+  {
+   "k": "bir",
+   "bas": 7.975,
+   "son": 8.214
+  },
+  {
+   "k": "cümle",
+   "bas": 8.214,
+   "son": 8.571
+  },
+  {
+   "k": "yazıyorsun,",
+   "bas": 8.571,
+   "son": 9.226
+  },
+  {
+   "k": "o",
+   "bas": 9.226,
+   "son": 9.345
+  },
+  {
+   "k": "da",
+   "bas": 9.345,
+   "son": 9.524
+  },
+  {
+   "k": "içinde",
+   "bas": 9.524,
+   "son": 9.941
+  },
+  {
+   "k": "gezebileceğin",
+   "bas": 9.941,
+   "son": 10.775
+  },
+  {
+   "k": "bir",
+   "bas": 10.775,
+   "son": 11.013
+  },
+  {
+   "k": "dünya",
+   "bas": 11.013,
+   "son": 11.37
+  },
+  {
+   "k": "oluşturuyor.",
+   "bas": 11.37,
+   "son": 12.085
+  },
+  {
+   "k": "Klavyeyle",
+   "bas": 12.305,
+   "son": 12.853
+  },
+  {
+   "k": "dolaşabiliyorsun,",
+   "bas": 12.853,
+   "son": 13.785
+  },
+  {
+   "k": "karakterler",
+   "bas": 13.785,
+   "son": 14.443
+  },
+  {
+   "k": "seninle",
+   "bas": 14.443,
+   "son": 14.881
+  },
+  {
+   "k": "konuşabiliyor.",
+   "bas": 14.881,
+   "son": 15.648
+  },
+  {
+   "k": "Müzik",
+   "bas": 15.868,
+   "son": 16.245
+  },
+  {
+   "k": "ve",
+   "bas": 16.245,
+   "son": 16.433
+  },
+  {
+   "k": "ortam",
+   "bas": 16.433,
+   "son": 16.81
+  },
+  {
+   "k": "sesleri",
+   "bas": 16.81,
+   "son": 17.312
+  },
+  {
+   "k": "de",
+   "bas": 17.312,
+   "son": 17.5
+  },
+  {
+   "k": "aynı",
+   "bas": 17.5,
+   "son": 17.814
+  },
+  {
+   "k": "anda",
+   "bas": 17.814,
+   "son": 18.127
+  },
+  {
+   "k": "üretiliyor.",
+   "bas": 18.127,
+   "son": 18.817
+  },
+  {
+   "k": "Üstelik",
+   "bas": 19.037,
+   "son": 19.47
+  },
+  {
+   "k": "dünya",
+   "bas": 19.47,
+   "son": 19.794
+  },
+  {
+   "k": "çalışırken",
+   "bas": 19.794,
+   "son": 20.388
+  },
+  {
+   "k": "yazarak",
+   "bas": 20.388,
+   "son": 20.82
+  },
+  {
+   "k": "havayı",
+   "bas": 20.82,
+   "son": 21.198
+  },
+  {
+   "k": "ya",
+   "bas": 21.198,
+   "son": 21.36
+  },
+  {
+   "k": "da",
+   "bas": 21.36,
+   "son": 21.523
+  },
+  {
+   "k": "kamerayı",
+   "bas": 21.523,
+   "son": 22.009
+  },
+  {
+   "k": "değiştirebiliyorsun.",
+   "bas": 22.009,
+   "son": 23.089
+  },
+  {
+   "k": "Google",
+   "bas": 23.309,
+   "son": 23.624
+  },
+  {
+   "k": "bu",
+   "bas": 23.624,
+   "son": 23.781
+  },
+  {
+   "k": "modeli",
+   "bas": 23.781,
+   "son": 24.148
+  },
+  {
+   "k": "oyunlar,",
+   "bas": 24.148,
+   "son": 24.567
+  },
+  {
+   "k": "etkileşimli",
+   "bas": 24.567,
+   "son": 25.196
+  },
+  {
+   "k": "öğrenme",
+   "bas": 25.196,
+   "son": 25.615
+  },
+  {
+   "k": "ve",
+   "bas": 25.615,
+   "son": 25.772
+  },
+  {
+   "k": "robot",
+   "bas": 25.772,
+   "son": 26.086
+  },
+  {
+   "k": "eğitimi",
+   "bas": 26.086,
+   "son": 26.506
+  },
+  {
+   "k": "için",
+   "bas": 26.506,
+   "son": 26.768
+  },
+  {
+   "k": "düşünüyor.",
+   "bas": 26.768,
+   "son": 27.292
+  },
+  {
+   "k": "Şimdilik",
+   "bas": 27.512,
+   "son": 27.987
+  },
+  {
+   "k": "sadece",
+   "bas": 27.987,
+   "son": 28.357
+  },
+  {
+   "k": "seçili",
+   "bas": 28.357,
+   "son": 28.727
+  },
+  {
+   "k": "test",
+   "bas": 28.727,
+   "son": 28.992
+  },
+  {
+   "k": "kullanıcıları",
+   "bas": 28.992,
+   "son": 29.732
+  },
+  {
+   "k": "deneyebiliyor.",
+   "bas": 29.732,
+   "son": 30.472
+  },
+  {
+   "k": "Google,",
+   "bas": 30.692,
+   "son": 31.033
+  },
+  {
+   "k": "uzun",
+   "bas": 31.033,
+   "son": 31.317
+  },
+  {
+   "k": "oturumlarda",
+   "bas": 31.317,
+   "son": 31.998
+  },
+  {
+   "k": "bazı",
+   "bas": 31.998,
+   "son": 32.282
+  },
+  {
+   "k": "detayların",
+   "bas": 32.282,
+   "son": 32.907
+  },
+  {
+   "k": "kayabildiğini",
+   "bas": 32.907,
+   "son": 33.702
+  },
+  {
+   "k": "de",
+   "bas": 33.702,
+   "son": 33.873
+  },
+  {
+   "k": "söylüyor.",
+   "bas": 33.873,
+   "son": 34.384
+  }
+ ]
+}
