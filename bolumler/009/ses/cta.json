@@ -1,0 +1,134 @@
+{
+ "metin": "Cortex geldiğinde hazır olmak için Haritam'a şimdi başla. Tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresine gir, Arpama'yı takip et ve Cortex'in gelişini kaçırma!",
+ "konusma": "korteks geldiğinde hazır olmak için Haritam'a şimdi başla. Tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresine gir, Arpama'yı takip et ve korteks'in gelişini kaçırma!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 12.246757369614512,
+ "kelimeler": [
+  {
+   "k": "Cortex",
+   "bas": 0.0,
+   "son": 0.427
+  },
+  {
+   "k": "geldiğinde",
+   "bas": 0.427,
+   "son": 1.014
+  },
+  {
+   "k": "hazır",
+   "bas": 1.014,
+   "son": 1.334
+  },
+  {
+   "k": "olmak",
+   "bas": 1.334,
+   "son": 1.654
+  },
+  {
+   "k": "için",
+   "bas": 1.654,
+   "son": 1.921
+  },
+  {
+   "k": "Haritam'a",
+   "bas": 1.921,
+   "son": 2.401
+  },
+  {
+   "k": "şimdi",
+   "bas": 2.401,
+   "son": 2.722
+  },
+  {
+   "k": "başla.",
+   "bas": 2.722,
+   "son": 3.042
+  },
+  {
+   "k": "Tamamen",
+   "bas": 3.262,
+   "son": 3.749
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 3.749,
+   "son": 4.296
+  },
+  {
+   "k": "telefonda",
+   "bas": 4.296,
+   "son": 4.905
+  },
+  {
+   "k": "da",
+   "bas": 4.905,
+   "son": 5.087
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 5.087,
+   "son": 5.878
+  },
+  {
+   "k": "da",
+   "bas": 5.878,
+   "son": 6.061
+  },
+  {
+   "k": "çalışır.",
+   "bas": 6.061,
+   "son": 6.547
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 6.767,
+   "son": 8.422
+  },
+  {
+   "k": "adresine",
+   "bas": 8.422,
+   "son": 8.954
+  },
+  {
+   "k": "gir,",
+   "bas": 8.954,
+   "son": 9.19
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 9.19,
+   "son": 9.722
+  },
+  {
+   "k": "takip",
+   "bas": 9.722,
+   "son": 10.077
+  },
+  {
+   "k": "et",
+   "bas": 10.077,
+   "son": 10.254
+  },
+  {
+   "k": "ve",
+   "bas": 10.254,
+   "son": 10.431
+  },
+  {
+   "k": "Cortex'in",
+   "bas": 10.431,
+   "son": 11.022
+  },
+  {
+   "k": "gelişini",
+   "bas": 11.022,
+   "son": 11.554
+  },
+  {
+   "k": "kaçırma!",
+   "bas": 11.554,
+   "son": 12.027
+  }
+ ]
+}

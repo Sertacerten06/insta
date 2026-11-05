@@ -64,7 +64,8 @@ def sahne_nesneleri(sen, sahneler, handle):
     for s in sahneler:
         ctx = {"sure": s["son"] - s["bas"], "kelimeler": s["kelimeler"], "bolum": sen.get("yayin_no", sen["bolum"]),  # yayın sırası (özel bölümler sayılmaz)
                "ses_son": s["ses_son"] - s["bas"], "kaynak": sen.get("kaynak_satirlari", {}).get(s["id"], ""),
-               "handle": handle, "kanca": sen.get("kanca"), "ozel": sen.get("ozel", False)}
+               "handle": handle, "kanca": sen.get("kanca"), "ozel": sen.get("ozel", False),
+               "sponsor": sen.get("sponsor")}
         nesneler.append(SAHNELER[s["sahne"]](ctx))
     return nesneler
 
@@ -262,6 +263,9 @@ class Render:
             ikon(d, I.ROBOT, SW // 2 - 24, 290, 4)
             for j, (dx, dy) in enumerate([(-44, 300), (36, 294), (-38, 330), (40, 326)]):
                 d.rectangle([SW // 2 + dx, dy, SW // 2 + dx + 5, dy + 5], fill=P["altin"], outline=P["altin_koyu"])
+        elif k.get("ikon") == "cortex":
+            from sahneler import cortex_cekirdek
+            cortex_cekirdek(d, SW // 2, 318, 0.3, 1)
         elif k.get("ikon") == "telefon":
             ikon(d, I.TELEFON, SW // 2 - 14, 292, 4)
             d.rectangle([SW // 2 + 10, 286, SW // 2 + 21, 297], fill=P["kirmizi"])

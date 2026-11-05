@@ -1,0 +1,129 @@
+{
+ "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, Cortex geldiğinde ilk deneyenlerden ol. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla, korteks geldiğinde ilk deneyenlerden ol. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 13.094285714285714,
+ "kelimeler": [
+  {
+   "k": "Haritam",
+   "bas": 0.0,
+   "son": 0.482
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.482,
+   "son": 0.965
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 0.965,
+   "son": 1.507
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.507,
+   "son": 2.11
+  },
+  {
+   "k": "da",
+   "bas": 2.11,
+   "son": 2.291
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.291,
+   "son": 3.075
+  },
+  {
+   "k": "da",
+   "bas": 3.075,
+   "son": 3.256
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.256,
+   "son": 3.738
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 3.958,
+   "son": 5.645
+  },
+  {
+   "k": "adresinden",
+   "bas": 5.645,
+   "son": 6.307
+  },
+  {
+   "k": "hemen",
+   "bas": 6.307,
+   "son": 6.668
+  },
+  {
+   "k": "başla,",
+   "bas": 6.668,
+   "son": 7.03
+  },
+  {
+   "k": "Cortex",
+   "bas": 7.03,
+   "son": 7.511
+  },
+  {
+   "k": "geldiğinde",
+   "bas": 7.511,
+   "son": 8.174
+  },
+  {
+   "k": "ilk",
+   "bas": 8.174,
+   "son": 8.415
+  },
+  {
+   "k": "deneyenlerden",
+   "bas": 8.415,
+   "son": 9.258
+  },
+  {
+   "k": "ol.",
+   "bas": 9.258,
+   "son": 9.438
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 9.658,
+   "son": 10.185
+  },
+  {
+   "k": "takip",
+   "bas": 10.185,
+   "son": 10.535
+  },
+  {
+   "k": "etmeyi",
+   "bas": 10.535,
+   "son": 10.945
+  },
+  {
+   "k": "unutma,",
+   "bas": 10.945,
+   "son": 11.354
+  },
+  {
+   "k": "gelecek",
+   "bas": 11.354,
+   "son": 11.822
+  },
+  {
+   "k": "bölümde",
+   "bas": 11.822,
+   "son": 12.29
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 12.29,
+   "son": 12.874
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "metin": "Birinci güç: konu özetleri. Haritam'da önce haftalık programını kurarsın. Koçunun Excel programını yükleyebilir ya da kendin yazabilirsin. Cortex, programındaki her konu için özet hazırlayacak. Yani bugün programında hangi konu varsa, o konunun özeti de önünde olacak. Programın da özetlerin de tek yerde. Kaynak aramaya harcadığın zaman derse kalacak.",
+ "konusma": "Birinci güç: konu özetleri. Haritam'da önce haftalık programını kurarsın. Koçunun eksel programını yükleyebilir ya da kendin yazabilirsin. korteks, programındaki her konu için özet hazırlayacak. Yani bugün programında hangi konu varsa, o konunun özeti de önünde olacak. Programın da özetlerin de tek yerde. Kaynak aramaya harcadığın zaman derse kalacak.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 21.47433106575964,
+ "kelimeler": [
+  {
+   "k": "Birinci",
+   "bas": 0.0,
+   "son": 0.518
+  },
+  {
+   "k": "güç:",
+   "bas": 0.518,
+   "son": 0.777
+  },
+  {
+   "k": "konu",
+   "bas": 0.777,
+   "son": 1.101
+  },
+  {
+   "k": "özetleri.",
+   "bas": 1.101,
+   "son": 1.683
+  },
+  {
+   "k": "Haritam'da",
+   "bas": 1.903,
+   "son": 2.5
+  },
+  {
+   "k": "önce",
+   "bas": 2.5,
+   "son": 2.798
+  },
+  {
+   "k": "haftalık",
+   "bas": 2.798,
+   "son": 3.335
+  },
+  {
+   "k": "programını",
+   "bas": 3.335,
+   "son": 3.991
+  },
+  {
+   "k": "kurarsın.",
+   "bas": 3.991,
+   "son": 4.527
+  },
+  {
+   "k": "Koçunun",
+   "bas": 4.747,
+   "son": 5.168
+  },
+  {
+   "k": "Excel",
+   "bas": 5.168,
+   "son": 5.484
+  },
+  {
+   "k": "programını",
+   "bas": 5.484,
+   "son": 6.062
+  },
+  {
+   "k": "yükleyebilir",
+   "bas": 6.062,
+   "son": 6.746
+  },
+  {
+   "k": "ya",
+   "bas": 6.746,
+   "son": 6.904
+  },
+  {
+   "k": "da",
+   "bas": 6.904,
+   "son": 7.062
+  },
+  {
+   "k": "kendin",
+   "bas": 7.062,
+   "son": 7.43
+  },
+  {
+   "k": "yazabilirsin.",
+   "bas": 7.43,
+   "son": 8.114
+  },
+  {
+   "k": "Cortex,",
+   "bas": 8.334,
+   "son": 8.831
+  },
+  {
+   "k": "programındaki",
+   "bas": 8.831,
+   "son": 9.701
+  },
+  {
+   "k": "her",
+   "bas": 9.701,
+   "son": 9.95
+  },
+  {
+   "k": "konu",
+   "bas": 9.95,
+   "son": 10.26
+  },
+  {
+   "k": "için",
+   "bas": 10.26,
+   "son": 10.571
+  },
+  {
+   "k": "özet",
+   "bas": 10.571,
+   "son": 10.882
+  },
+  {
+   "k": "hazırlayacak.",
+   "bas": 10.882,
+   "son": 11.689
+  },
+  {
+   "k": "Yani",
+   "bas": 11.909,
+   "son": 12.198
+  },
+  {
+   "k": "bugün",
+   "bas": 12.198,
+   "son": 12.545
+  },
+  {
+   "k": "programında",
+   "bas": 12.545,
+   "son": 13.237
+  },
+  {
+   "k": "hangi",
+   "bas": 13.237,
+   "son": 13.584
+  },
+  {
+   "k": "konu",
+   "bas": 13.584,
+   "son": 13.872
+  },
+  {
+   "k": "varsa,",
+   "bas": 13.872,
+   "son": 14.219
+  },
+  {
+   "k": "o",
+   "bas": 14.219,
+   "son": 14.334
+  },
+  {
+   "k": "konunun",
+   "bas": 14.334,
+   "son": 14.796
+  },
+  {
+   "k": "özeti",
+   "bas": 14.796,
+   "son": 15.142
+  },
+  {
+   "k": "de",
+   "bas": 15.142,
+   "son": 15.316
+  },
+  {
+   "k": "önünde",
+   "bas": 15.316,
+   "son": 15.72
+  },
+  {
+   "k": "olacak.",
+   "bas": 15.72,
+   "son": 16.124
+  },
+  {
+   "k": "Programın",
+   "bas": 16.344,
+   "son": 16.924
+  },
+  {
+   "k": "da",
+   "bas": 16.924,
+   "son": 17.099
+  },
+  {
+   "k": "özetlerin",
+   "bas": 17.099,
+   "son": 17.679
+  },
+  {
+   "k": "de",
+   "bas": 17.679,
+   "son": 17.853
+  },
+  {
+   "k": "tek",
+   "bas": 17.853,
+   "son": 18.085
+  },
+  {
+   "k": "yerde.",
+   "bas": 18.085,
+   "son": 18.434
+  },
+  {
+   "k": "Kaynak",
+   "bas": 18.654,
+   "son": 19.049
+  },
+  {
+   "k": "aramaya",
+   "bas": 19.049,
+   "son": 19.502
+  },
+  {
+   "k": "harcadığın",
+   "bas": 19.502,
+   "son": 20.124
+  },
+  {
+   "k": "zaman",
+   "bas": 20.124,
+   "son": 20.463
+  },
+  {
+   "k": "derse",
+   "bas": 20.463,
+   "son": 20.802
+  },
+  {
+   "k": "kalacak.",
+   "bas": 20.802,
+   "son": 21.254
+  }
+ ]
+}

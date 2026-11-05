@@ -1,0 +1,314 @@
+{
+ "metin": "YKS Haritam'ı Arpama Technology ile birlikte geliştiren teknoloji şirketi Vertex, Teknopark İstanbul'a kabul edildi. Teknoparklar, teknoloji şirketlerinin araştırma ve geliştirme yaptığı merkezlerdir. Teknopark İstanbul da Türkiye'nin önemli teknoloji merkezlerinden biri. Vertex, kendi yapay zekâsı Cortex'i artık bu ekosistemin içinde geliştirecek. Bu kabul, Haritam'ın arkasındaki ekip için büyük bir adım. Biz de Arpama olarak bu haberi seninle paylaşmaktan çok mutluyuz. Tebrikler Vertex!",
+ "konusma": "ye ka se Haritam'ı Arpama teknoloci ile birlikte geliştiren teknoloji şirketi verteks, teknopark İstanbul'a kabul edildi. Teknoparklar, teknoloji şirketlerinin araştırma ve geliştirme yaptığı merkezlerdir. teknopark İstanbul da Türkiye'nin önemli teknoloji merkezlerinden biri. verteks, kendi yapay zekâsı korteks'i artık bu ekosistemin içinde geliştirecek. Bu kabul, Haritam'ın arkasındaki ekip için büyük bir adım. Biz de Arpama olarak bu haberi seninle paylaşmaktan çok mutluyuz. Tebrikler verteks!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 28.32421768707483,
+ "kelimeler": [
+  {
+   "k": "YKS",
+   "bas": 0.0,
+   "son": 0.361
+  },
+  {
+   "k": "Haritam'ı",
+   "bas": 0.361,
+   "son": 0.825
+  },
+  {
+   "k": "Arpama",
+   "bas": 0.825,
+   "son": 1.186
+  },
+  {
+   "k": "Technology",
+   "bas": 1.186,
+   "son": 1.701
+  },
+  {
+   "k": "ile",
+   "bas": 1.701,
+   "son": 1.907
+  },
+  {
+   "k": "birlikte",
+   "bas": 1.907,
+   "son": 2.371
+  },
+  {
+   "k": "geliştiren",
+   "bas": 2.371,
+   "son": 2.938
+  },
+  {
+   "k": "teknoloji",
+   "bas": 2.938,
+   "son": 3.453
+  },
+  {
+   "k": "şirketi",
+   "bas": 3.453,
+   "son": 3.866
+  },
+  {
+   "k": "Vertex,",
+   "bas": 3.866,
+   "son": 4.278
+  },
+  {
+   "k": "Teknopark",
+   "bas": 4.278,
+   "son": 4.794
+  },
+  {
+   "k": "İstanbul'a",
+   "bas": 4.794,
+   "son": 5.309
+  },
+  {
+   "k": "kabul",
+   "bas": 5.309,
+   "son": 5.618
+  },
+  {
+   "k": "edildi.",
+   "bas": 5.618,
+   "son": 5.979
+  },
+  {
+   "k": "Teknoparklar,",
+   "bas": 6.199,
+   "son": 6.91
+  },
+  {
+   "k": "teknoloji",
+   "bas": 6.91,
+   "son": 7.456
+  },
+  {
+   "k": "şirketlerinin",
+   "bas": 7.456,
+   "son": 8.221
+  },
+  {
+   "k": "araştırma",
+   "bas": 8.221,
+   "son": 8.768
+  },
+  {
+   "k": "ve",
+   "bas": 8.768,
+   "son": 8.932
+  },
+  {
+   "k": "geliştirme",
+   "bas": 8.932,
+   "son": 9.533
+  },
+  {
+   "k": "yaptığı",
+   "bas": 9.533,
+   "son": 9.97
+  },
+  {
+   "k": "merkezlerdir.",
+   "bas": 9.97,
+   "son": 10.681
+  },
+  {
+   "k": "Teknopark",
+   "bas": 10.901,
+   "son": 11.421
+  },
+  {
+   "k": "İstanbul",
+   "bas": 11.421,
+   "son": 11.89
+  },
+  {
+   "k": "da",
+   "bas": 11.89,
+   "son": 12.046
+  },
+  {
+   "k": "Türkiye'nin",
+   "bas": 12.046,
+   "son": 12.619
+  },
+  {
+   "k": "önemli",
+   "bas": 12.619,
+   "son": 12.984
+  },
+  {
+   "k": "teknoloji",
+   "bas": 12.984,
+   "son": 13.505
+  },
+  {
+   "k": "merkezlerinden",
+   "bas": 13.505,
+   "son": 14.286
+  },
+  {
+   "k": "biri.",
+   "bas": 14.286,
+   "son": 14.546
+  },
+  {
+   "k": "Vertex,",
+   "bas": 14.766,
+   "son": 15.243
+  },
+  {
+   "k": "kendi",
+   "bas": 15.243,
+   "son": 15.6
+  },
+  {
+   "k": "yapay",
+   "bas": 15.6,
+   "son": 15.957
+  },
+  {
+   "k": "zekâsı",
+   "bas": 15.957,
+   "son": 16.374
+  },
+  {
+   "k": "Cortex'i",
+   "bas": 16.374,
+   "son": 16.91
+  },
+  {
+   "k": "artık",
+   "bas": 16.91,
+   "son": 17.268
+  },
+  {
+   "k": "bu",
+   "bas": 17.268,
+   "son": 17.446
+  },
+  {
+   "k": "ekosistemin",
+   "bas": 17.446,
+   "son": 18.161
+  },
+  {
+   "k": "içinde",
+   "bas": 18.161,
+   "son": 18.578
+  },
+  {
+   "k": "geliştirecek.",
+   "bas": 18.578,
+   "son": 19.352
+  },
+  {
+   "k": "Bu",
+   "bas": 19.572,
+   "son": 19.729
+  },
+  {
+   "k": "kabul,",
+   "bas": 19.729,
+   "son": 20.044
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 20.044,
+   "son": 20.569
+  },
+  {
+   "k": "arkasındaki",
+   "bas": 20.569,
+   "son": 21.198
+  },
+  {
+   "k": "ekip",
+   "bas": 21.198,
+   "son": 21.46
+  },
+  {
+   "k": "için",
+   "bas": 21.46,
+   "son": 21.723
+  },
+  {
+   "k": "büyük",
+   "bas": 21.723,
+   "son": 22.037
+  },
+  {
+   "k": "bir",
+   "bas": 22.037,
+   "son": 22.247
+  },
+  {
+   "k": "adım.",
+   "bas": 22.247,
+   "son": 22.509
+  },
+  {
+   "k": "Biz",
+   "bas": 22.729,
+   "son": 22.958
+  },
+  {
+   "k": "de",
+   "bas": 22.958,
+   "son": 23.129
+  },
+  {
+   "k": "Arpama",
+   "bas": 23.129,
+   "son": 23.53
+  },
+  {
+   "k": "olarak",
+   "bas": 23.53,
+   "son": 23.93
+  },
+  {
+   "k": "bu",
+   "bas": 23.93,
+   "son": 24.101
+  },
+  {
+   "k": "haberi",
+   "bas": 24.101,
+   "son": 24.501
+  },
+  {
+   "k": "seninle",
+   "bas": 24.501,
+   "son": 24.959
+  },
+  {
+   "k": "paylaşmaktan",
+   "bas": 24.959,
+   "son": 25.702
+  },
+  {
+   "k": "çok",
+   "bas": 25.702,
+   "son": 25.93
+  },
+  {
+   "k": "mutluyuz.",
+   "bas": 25.93,
+   "son": 26.445
+  },
+  {
+   "k": "Tebrikler",
+   "bas": 26.665,
+   "son": 27.464
+  },
+  {
+   "k": "Vertex!",
+   "bas": 27.464,
+   "son": 28.104
+  }
+ ]
+}

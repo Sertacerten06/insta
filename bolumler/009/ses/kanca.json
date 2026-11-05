@@ -1,0 +1,109 @@
+{
+ "metin": "YKS'ye hazırlanırken yanında bir yapay zekâ olsaydı ne yapardın? Konu özeti, yanlış analizi, sana özel öneri... Tanış: Cortex! Hazırsan başlıyoruz!",
+ "konusma": "ye ka se'ye hazırlanırken yanında bir yapay zekâ olsaydı ne yapardın? Konu özeti, yanlış analizi, sana özel öneri... Tanış: korteks! Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 9.993832199546485,
+ "kelimeler": [
+  {
+   "k": "YKS'ye",
+   "bas": 0.0,
+   "son": 0.469
+  },
+  {
+   "k": "hazırlanırken",
+   "bas": 0.469,
+   "son": 1.198
+  },
+  {
+   "k": "yanında",
+   "bas": 1.198,
+   "son": 1.614
+  },
+  {
+   "k": "bir",
+   "bas": 1.614,
+   "son": 1.822
+  },
+  {
+   "k": "yapay",
+   "bas": 1.822,
+   "son": 2.135
+  },
+  {
+   "k": "zekâ",
+   "bas": 2.135,
+   "son": 2.395
+  },
+  {
+   "k": "olsaydı",
+   "bas": 2.395,
+   "son": 2.812
+  },
+  {
+   "k": "ne",
+   "bas": 2.812,
+   "son": 2.968
+  },
+  {
+   "k": "yapardın?",
+   "bas": 2.968,
+   "son": 3.437
+  },
+  {
+   "k": "Konu",
+   "bas": 3.657,
+   "son": 4.028
+  },
+  {
+   "k": "özeti,",
+   "bas": 4.028,
+   "son": 4.475
+  },
+  {
+   "k": "yanlış",
+   "bas": 4.475,
+   "son": 4.995
+  },
+  {
+   "k": "analizi,",
+   "bas": 4.995,
+   "son": 5.59
+  },
+  {
+   "k": "sana",
+   "bas": 5.59,
+   "son": 5.962
+  },
+  {
+   "k": "özel",
+   "bas": 5.962,
+   "son": 6.333
+  },
+  {
+   "k": "öneri...",
+   "bas": 6.333,
+   "son": 6.78
+  },
+  {
+   "k": "Tanış:",
+   "bas": 7.0,
+   "son": 7.532
+  },
+  {
+   "k": "Cortex!",
+   "bas": 7.532,
+   "son": 8.242
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 8.462,
+   "son": 9.052
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 9.052,
+   "son": 9.774
+  }
+ ]
+}

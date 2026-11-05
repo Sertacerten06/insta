@@ -1,0 +1,199 @@
+{
+ "metin": "İkinci güç: yanlış analizi. Haritam'ın yanlış defterine bugün de yanlış yaptığın sorunun fotoğrafını ekleyip nedenini yazabiliyorsun. Aralıklı tekrarla o soru yine karşına çıkıyor. Cortex ise yanlışlarını analiz edecek. Hangi konuda takıldığını görmek, aynı hatayı tekrar yapmamanın ilk adımı.",
+ "konusma": "İkinci güç: yanlış analizi. Haritam'ın yanlış defterine bugün de yanlış yaptığın sorunun fotoğrafını ekleyip nedenini yazabiliyorsun. Aralıklı tekrarla o soru yine karşına çıkıyor. korteks ise yanlışlarını analiz edecek. Hangi konuda takıldığını görmek, aynı hatayı tekrar yapmamanın ilk adımı.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 16.738639455782312,
+ "kelimeler": [
+  {
+   "k": "İkinci",
+   "bas": 0.0,
+   "son": 0.481
+  },
+  {
+   "k": "güç:",
+   "bas": 0.481,
+   "son": 0.756
+  },
+  {
+   "k": "yanlış",
+   "bas": 0.756,
+   "son": 1.238
+  },
+  {
+   "k": "analizi.",
+   "bas": 1.238,
+   "son": 1.788
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 2.008,
+   "son": 2.509
+  },
+  {
+   "k": "yanlış",
+   "bas": 2.509,
+   "son": 2.86
+  },
+  {
+   "k": "defterine",
+   "bas": 2.86,
+   "son": 3.361
+  },
+  {
+   "k": "bugün",
+   "bas": 3.361,
+   "son": 3.662
+  },
+  {
+   "k": "de",
+   "bas": 3.662,
+   "son": 3.812
+  },
+  {
+   "k": "yanlış",
+   "bas": 3.812,
+   "son": 4.163
+  },
+  {
+   "k": "yaptığın",
+   "bas": 4.163,
+   "son": 4.614
+  },
+  {
+   "k": "sorunun",
+   "bas": 4.614,
+   "son": 5.015
+  },
+  {
+   "k": "fotoğrafını",
+   "bas": 5.015,
+   "son": 5.617
+  },
+  {
+   "k": "ekleyip",
+   "bas": 5.617,
+   "son": 6.018
+  },
+  {
+   "k": "nedenini",
+   "bas": 6.018,
+   "son": 6.469
+  },
+  {
+   "k": "yazabiliyorsun.",
+   "bas": 6.469,
+   "son": 7.221
+  },
+  {
+   "k": "Aralıklı",
+   "bas": 7.441,
+   "son": 7.916
+  },
+  {
+   "k": "tekrarla",
+   "bas": 7.916,
+   "son": 8.39
+  },
+  {
+   "k": "o",
+   "bas": 8.39,
+   "son": 8.496
+  },
+  {
+   "k": "soru",
+   "bas": 8.496,
+   "son": 8.76
+  },
+  {
+   "k": "yine",
+   "bas": 8.76,
+   "son": 9.023
+  },
+  {
+   "k": "karşına",
+   "bas": 9.023,
+   "son": 9.445
+  },
+  {
+   "k": "çıkıyor.",
+   "bas": 9.445,
+   "son": 9.867
+  },
+  {
+   "k": "Cortex",
+   "bas": 10.087,
+   "son": 10.573
+  },
+  {
+   "k": "ise",
+   "bas": 10.573,
+   "son": 10.816
+  },
+  {
+   "k": "yanlışlarını",
+   "bas": 10.816,
+   "son": 11.606
+  },
+  {
+   "k": "analiz",
+   "bas": 11.606,
+   "son": 12.031
+  },
+  {
+   "k": "edecek.",
+   "bas": 12.031,
+   "son": 12.456
+  },
+  {
+   "k": "Hangi",
+   "bas": 12.676,
+   "son": 12.996
+  },
+  {
+   "k": "konuda",
+   "bas": 12.996,
+   "son": 13.37
+  },
+  {
+   "k": "takıldığını",
+   "bas": 13.37,
+   "son": 14.01
+  },
+  {
+   "k": "görmek,",
+   "bas": 14.01,
+   "son": 14.384
+  },
+  {
+   "k": "aynı",
+   "bas": 14.384,
+   "son": 14.651
+  },
+  {
+   "k": "hatayı",
+   "bas": 14.651,
+   "son": 15.024
+  },
+  {
+   "k": "tekrar",
+   "bas": 15.024,
+   "son": 15.398
+  },
+  {
+   "k": "yapmamanın",
+   "bas": 15.398,
+   "son": 15.985
+  },
+  {
+   "k": "ilk",
+   "bas": 15.985,
+   "son": 16.198
+  },
+  {
+   "k": "adımı.",
+   "bas": 16.198,
+   "son": 16.519
+  }
+ ]
+}

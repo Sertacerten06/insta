@@ -1,0 +1,199 @@
+{
+ "metin": "Üçüncü güç: kişisel öneriler. Cortex sana özel çalışma önerileri sunacak. Haritam'da deneme netlerini, odak süreni ve görevlerini zaten takip ediyorsun. Şimdi buna sana özel öneriler de eklenecek. Konu özetleri, yanlış analizi ve kişisel öneriler: üçü de çok yakında!",
+ "konusma": "Üçüncü güç: kişisel öneriler. korteks sana özel çalışma önerileri sunacak. Haritam'da deneme netlerini, odak süreni ve görevlerini zaten takip ediyorsun. Şimdi buna sana özel öneriler de eklenecek. Konu özetleri, yanlış analizi ve kişisel öneriler: üçü de çok yakında!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 16.947619047619046,
+ "kelimeler": [
+  {
+   "k": "Üçüncü",
+   "bas": 0.0,
+   "son": 0.47
+  },
+  {
+   "k": "güç:",
+   "bas": 0.47,
+   "son": 0.739
+  },
+  {
+   "k": "kişisel",
+   "bas": 0.739,
+   "son": 1.276
+  },
+  {
+   "k": "öneriler.",
+   "bas": 1.276,
+   "son": 1.881
+  },
+  {
+   "k": "Cortex",
+   "bas": 2.101,
+   "son": 2.563
+  },
+  {
+   "k": "sana",
+   "bas": 2.563,
+   "son": 2.852
+  },
+  {
+   "k": "özel",
+   "bas": 2.852,
+   "son": 3.141
+  },
+  {
+   "k": "çalışma",
+   "bas": 3.141,
+   "son": 3.603
+  },
+  {
+   "k": "önerileri",
+   "bas": 3.603,
+   "son": 4.181
+  },
+  {
+   "k": "sunacak.",
+   "bas": 4.181,
+   "son": 4.643
+  },
+  {
+   "k": "Haritam'da",
+   "bas": 4.863,
+   "son": 5.473
+  },
+  {
+   "k": "deneme",
+   "bas": 5.473,
+   "son": 5.9
+  },
+  {
+   "k": "netlerini,",
+   "bas": 5.9,
+   "son": 6.509
+  },
+  {
+   "k": "odak",
+   "bas": 6.509,
+   "son": 6.814
+  },
+  {
+   "k": "süreni",
+   "bas": 6.814,
+   "son": 7.241
+  },
+  {
+   "k": "ve",
+   "bas": 7.241,
+   "son": 7.423
+  },
+  {
+   "k": "görevlerini",
+   "bas": 7.423,
+   "son": 8.155
+  },
+  {
+   "k": "zaten",
+   "bas": 8.155,
+   "son": 8.521
+  },
+  {
+   "k": "takip",
+   "bas": 8.521,
+   "son": 8.886
+  },
+  {
+   "k": "ediyorsun.",
+   "bas": 8.886,
+   "son": 9.496
+  },
+  {
+   "k": "Şimdi",
+   "bas": 9.716,
+   "son": 10.103
+  },
+  {
+   "k": "buna",
+   "bas": 10.103,
+   "son": 10.426
+  },
+  {
+   "k": "sana",
+   "bas": 10.426,
+   "son": 10.748
+  },
+  {
+   "k": "özel",
+   "bas": 10.748,
+   "son": 11.071
+  },
+  {
+   "k": "öneriler",
+   "bas": 11.071,
+   "son": 11.652
+  },
+  {
+   "k": "de",
+   "bas": 11.652,
+   "son": 11.845
+  },
+  {
+   "k": "eklenecek.",
+   "bas": 11.845,
+   "son": 12.491
+  },
+  {
+   "k": "Konu",
+   "bas": 12.711,
+   "son": 13.006
+  },
+  {
+   "k": "özetleri,",
+   "bas": 13.006,
+   "son": 13.538
+  },
+  {
+   "k": "yanlış",
+   "bas": 13.538,
+   "son": 13.951
+  },
+  {
+   "k": "analizi",
+   "bas": 13.951,
+   "son": 14.424
+  },
+  {
+   "k": "ve",
+   "bas": 14.424,
+   "son": 14.601
+  },
+  {
+   "k": "kişisel",
+   "bas": 14.601,
+   "son": 15.074
+  },
+  {
+   "k": "öneriler:",
+   "bas": 15.074,
+   "son": 15.605
+  },
+  {
+   "k": "üçü",
+   "bas": 15.605,
+   "son": 15.842
+  },
+  {
+   "k": "de",
+   "bas": 15.842,
+   "son": 16.019
+  },
+  {
+   "k": "çok",
+   "bas": 16.019,
+   "son": 16.255
+  },
+  {
+   "k": "yakında!",
+   "bas": 16.255,
+   "son": 16.728
+  }
+ ]
+}

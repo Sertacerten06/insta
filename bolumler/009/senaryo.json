@@ -1,0 +1,91 @@
+{
+ "bolum": 9,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Tanış: Cortex! YKS Haritam'a Gelen Yapay Zekâ",
+ "ozel": true,
+ "sponsor": "Cortex",
+ "haritam_ozellik": "cortex_cok_yakinda",
+ "kanca": {
+  "ikon": "cortex",
+  "satirlar": [
+   "YKS'DE YANINDA",
+   "CORTEX",
+   "OLSAYDI?"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "Cortex!",
+  "Cortex",
+  "Cortex,",
+  "Cortex'i",
+  "Cortex'in",
+  "Vertex'in",
+  "Vertex,",
+  "Teknopark",
+  "üç",
+  "Birinci",
+  "İkinci",
+  "Üçüncü",
+  "özet",
+  "analiz",
+  "önerileri",
+  "YKS",
+  "Haritam'ı",
+  "Haritam'a",
+  "ücretsiz",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "YKS'ye hazırlanırken yanında bir yapay zekâ olsaydı ne yapardın? Konu özeti, yanlış analizi, sana özel öneri... Tanış: Cortex! Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu özel bölüm. Bugün sponsorumuz Cortex'i yakından tanıyoruz."
+  },
+  {
+   "id": "kim",
+   "sahne": "cortex_kim",
+   "metin": "Cortex, Vertex'in yapay zekâsı. Vertex, YKS Haritam'ı Arpama Technology ile birlikte geliştiren teknoloji şirketi. Yani Haritam, iki teknoloji şirketinin ortak YKS uygulaması. Vertex kısa süre önce Teknopark İstanbul'a da kabul edildi. Bu da Haritam'ın arkasındaki ekip için büyük bir adım. Şimdi sırada büyük adım var: Cortex çok yakında Haritam'a geliyor ve yanında üç yeni güç getiriyor."
+  },
+  {
+   "id": "ozet",
+   "sahne": "cortex_ozet",
+   "metin": "Birinci güç: konu özetleri. Haritam'da önce haftalık programını kurarsın. Koçunun Excel programını yükleyebilir ya da kendin yazabilirsin. Cortex, programındaki her konu için özet hazırlayacak. Yani bugün programında hangi konu varsa, o konunun özeti de önünde olacak. Programın da özetlerin de tek yerde. Kaynak aramaya harcadığın zaman derse kalacak."
+  },
+  {
+   "id": "yanlis",
+   "sahne": "cortex_yanlis",
+   "metin": "İkinci güç: yanlış analizi. Haritam'ın yanlış defterine bugün de yanlış yaptığın sorunun fotoğrafını ekleyip nedenini yazabiliyorsun. Aralıklı tekrarla o soru yine karşına çıkıyor. Cortex ise yanlışlarını analiz edecek. Hangi konuda takıldığını görmek, aynı hatayı tekrar yapmamanın ilk adımı."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_cortex_oneri",
+   "metin": "Üçüncü güç: kişisel öneriler. Cortex sana özel çalışma önerileri sunacak. Haritam'da deneme netlerini, odak süreni ve görevlerini zaten takip ediyorsun. Şimdi buna sana özel öneriler de eklenecek. Konu özetleri, yanlış analizi ve kişisel öneriler: üçü de çok yakında!"
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Cortex geldiğinde hazır olmak için Haritam'a şimdi başla. Tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresine gir, Arpama'yı takip et ve Cortex'in gelişini kaçırma!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "kim": "Kaynak: haritam.arpama.tr, Vertex",
+  "ozet": "Kaynak: haritam.arpama.tr",
+  "yanlis": "Kaynak: haritam.arpama.tr"
+ },
+ "kapak": {
+  "ust": "TANIŞ: CORTEX!",
+  "alt_satirlar": [
+   "YKS HARİTAM'A GELEN",
+   "YAPAY ZEKÂ"
+  ],
+  "bolum_etiketi": "ÖZEL BÖLÜM",
+  "ikon": "cortex"
+ },
+ "caption": "Tanış: Cortex! YKS Haritam'a gelen yapay zekâ 🕹️\n\nÖzel bölümde:\n▸ Cortex kim? Vertex'in yapay zekâsı. Vertex, YKS Haritam'ı Arpama Technology ile birlikte geliştiriyor\n▸ Güç 1: programındaki her konu için özet\n▸ Güç 2: yanlışlarının analizi\n▸ Güç 3: sana özel çalışma önerileri\n⭐ Hepsi çok yakında Haritam'da!\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: haritam.arpama.tr, Vertex\n\n#yks #yks2027 #yapayzeka #cortex #teknoloji #arpama #haritam"
+}
