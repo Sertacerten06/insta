@@ -1,0 +1,74 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu özel bölüm. Bugün sponsorumuz Cortex'i yakından tanıyoruz.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu özel bölüm. Bugün sponsorumuz korteks'i yakından tanıyoruz.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 6.082448979591836,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.397
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.397,
+   "son": 0.964
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.964,
+   "son": 1.531
+  },
+  {
+   "k": "hoş",
+   "bas": 1.531,
+   "son": 1.758
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.758,
+   "son": 2.155
+  },
+  {
+   "k": "bu",
+   "bas": 2.155,
+   "son": 2.325
+  },
+  {
+   "k": "özel",
+   "bas": 2.325,
+   "son": 2.609
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.609,
+   "son": 2.949
+  },
+  {
+   "k": "Bugün",
+   "bas": 3.169,
+   "son": 3.52
+  },
+  {
+   "k": "sponsorumuz",
+   "bas": 3.52,
+   "son": 4.223
+  },
+  {
+   "k": "Cortex'i",
+   "bas": 4.223,
+   "son": 4.75
+  },
+  {
+   "k": "yakından",
+   "bas": 4.75,
+   "son": 5.277
+  },
+  {
+   "k": "tanıyoruz.",
+   "bas": 5.277,
+   "son": 5.862
+  }
+ ]
+}

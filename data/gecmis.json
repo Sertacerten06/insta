@@ -1,5 +1,5 @@
 {
-  "son_bolum": 8,
+  "son_bolum": 9,
   "haritam_ozellik_sirasi": [
     "haftalik_program",
     "konu_ozetleri",
@@ -235,6 +235,24 @@
             "TechInside"
           ]
         }
+      ],
+      "instagram_link": null
+    },
+    {
+      "no": 9,
+      "ozel": true,
+      "baslik": "Tanış: Cortex! YKS Haritam'a Gelen Yapay Zekâ",
+      "uretim_tarihi": "2026-11-05",
+      "yayin_tarihi": null,
+      "planlanan_yayin": null,
+      "durum": "onay_bekliyor",
+      "haritam_ozellik": "cortex_cok_yakinda",
+      "sponsor": "Cortex",
+      "ses": "piper tr_TR-fahrettin-medium",
+      "haberler": [],
+      "kaynaklar": [
+        "haritam.arpama.tr",
+        "Vertex"
       ],
       "instagram_link": null
     }

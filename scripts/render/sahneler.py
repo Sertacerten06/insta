@@ -195,6 +195,8 @@ class Kanca(Sahne):
             self._ay(d, yk, t)
         elif k.get("ikon") == "bina":
             bina_ciz(d, yk, CX, 168, t)
+        elif k.get("ikon") == "cortex":
+            cortex_cekirdek(d, CX, 128, t, 1)
         else:
             self._kagit(d, yk, t)
         ys = [180, 197, 240]
@@ -2328,6 +2330,273 @@ class HaritamCortex(Sahne):
             yk.yaz("LEVEL UP!", RCX, R(y0 + 192), "orta", ad="ingilizce_etiket", boyut=40, bant="altin")
 
 
+# ------------------------------------------------------------------ Bölüm 9 · ÖZEL: CORTEX
+def cortex_cekirdek(d, cx, cy, t, s=1):
+    """Piksel yapay zekâ çekirdeği (Cortex): altın çip + bacaklar + etrafında dönen mavi düğümler. s = ölçek."""
+    a_ = 14 * s
+    d.rectangle([cx - a_, cy - a_, cx + a_ - 1, cy + a_ - 1], fill=P["zemin2"], outline=P["altin"], width=2 * s)
+    for k in range(4):
+        for yon in (-1, 1):
+            o = (-11 + k * 7) * s
+            d.rectangle([cx + o, cy + yon * 16 * s - s, cx + o + 2 * s, cy + yon * 16 * s + s], fill=P["altin_koyu"])
+            d.rectangle([cx + yon * 16 * s - s, cy + o, cx + yon * 16 * s + s, cy + o + 2 * s], fill=P["altin_koyu"])
+    bant_dikdortgen(d, cx - 8 * s, cy - 8 * s, 16 * s, 16 * s, BANT["altin"])
+    a0 = adim(t, 8) * 1.6
+    for k in range(3):
+        a = a0 + k * 2.094
+        daire(d, cx + int(math.cos(a) * 28 * s), cy + int(math.sin(a) * 28 * s), 2 * s,
+              P["mavi_buz"] if k == int(t * 3) % 3 else P["mavi_acik"])
+
+
+def guc_basligi(d, yk, metin, y=84):
+    dugme(d, 8, y, GEN - 14, 22)
+    yk.yaz(metin, RCX, R(y) + 12, "orta", ad="piksel", boyut=55, renk="beyaz")
+
+
+def satir(d, yk, y, metin, renk="gumus", cerceve="cizgi", isaret="tik"):
+    d.rectangle([4, y, GEN - 5, y + 13], fill=P["zemin3"], outline=P[cerceve])
+    if isaret == "tik":
+        ikon(d, I.TIK, 8, y + 4, 1)
+        x = 18
+    else:
+        ikon(d, I.MADDE, 8, y + 4, 1)
+        x = 16
+    yk.yaz(metin, R(x), R(y) + 10, ad="piksel", boyut=39, renk=renk)
+
+
+def yakinda_rozeti(d, yk, t, x, y, w=70):
+    renk = P["altin"] if yanip(t, 0.6, 0.7) else P["altin_koyu"]
+    d.rectangle([x, y, x + w - 1, y + 11], fill=P["zemin"], outline=renk)
+    yk.yaz("ÇOK YAKINDA", R(x + w // 2), R(y) + 6, "orta", ad="piksel_ince", boyut=31, renk="altin")
+
+
+class CortexKim(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(140), "selam"), (z["vertex2"], *M(186), "isaret"), (z["ortak"], *M(210), "sevin"),
+                (z["tekno"], *M(236), "isaret"), (z["simdi"], *M(130), "saskin"), (z["uc"], *M(210), "isaret"),
+                (z["uc"] + 2.5, *DINLEN, None)]
+
+    def z(self):
+        return {"vertex": self.kt("Vertex"), "vertex2": self.kt("Vertex", 1), "ortak": self.kt("ortak"),
+                "tekno": self.kt("Teknopark"), "adim": self.kt("adım"), "simdi": self.kt("Şimdi"),
+                "cok": self.kt("çok", tam=True), "uc": self.kt("üç", tam=True)}
+
+    def olaylar(self):
+        z = self.z()
+        return [(0.1, "blip"), (z["vertex"], "coin"), (z["vertex2"], "blip"), (z["ortak"], "tik"),
+                (z["tekno"], "coin"), (z["simdi"], "glitch"), (z["cok"], "blip"), (z["uc"], "levelup")]
+
+    def ciz(self, t, d, yk):
+        z = self.z()
+        guc_basligi(d, yk, "CORTEX KİMDİR?")
+        if t < z["simdi"]:
+            cortex_cekirdek(d, CX, 140, t)
+            yk.yaz("CORTEX", RCX, R(176), "orta", ad="piksel", boyut=71, bant="altin", kenar=5)
+            if t >= z["vertex"]:
+                yk.yaz("VERTEX'İN YAPAY ZEKÂSI", RCX, R(195), "orta", ad="piksel", boyut=39, renk="beyaz", kenar=3)
+            if t >= z["vertex2"]:
+                for x, ad, renk in ((6, "ARPAMA", "altin"), (GEN - 84, "VERTEX", "mavi_acik")):
+                    d.rectangle([x, 208, x + 77, 224], fill=P["zemin2"], outline=P["cizgi"])
+                    yk.yaz(ad, R(x + 39), R(209) + 4, "orta", ad="piksel", boyut=47, renk=renk)
+                yk.yaz("×", RCX, R(208), "orta", ad="piksel", boyut=55, renk="gumus")
+            if t >= z["ortak"]:
+                d.rectangle([CX, 225, CX, 230], fill=P["cizgi"])
+                dugme(d, CX - 60, 231, 120, 16)
+                yk.yaz("YKS HARİTAM", RCX, R(231) + 10, "orta", ad="piksel", boyut=47, renk="beyaz")
+            if t >= z["tekno"]:
+                satir(d, yk, 252, "VERTEX: TEKNOPARK İSTANBUL'DA", renk="altin", cerceve="altin")
+        else:
+            cortex_cekirdek(d, CX, 140, t, 1)
+            yk.yaz("CORTEX", RCX, R(176), "orta", ad="piksel", boyut=71, bant="altin", kenar=5)
+            if t >= z["cok"]:
+                yakinda_rozeti(d, yk, t, CX - 50, 196, 100)
+                yk.yaz("HARİTAM'A GELİYOR", RCX, R(210), "orta", ad="piksel", boyut=39, renk="beyaz")
+            if t >= z["uc"]:
+                for i, ad in enumerate(["ÖZET", "ANALİZ", "ÖNERİ"]):
+                    if t < z["uc"] + i * 0.3:
+                        continue
+                    x = 6 + i * 64
+                    d.rectangle([x, 228, x + 59, 262], fill=P["zemin3"], outline=P["altin"] if yanip(t + i * 0.2, 0.6) else P["cizgi"])
+                    yk.yaz(f"GÜÇ {i + 1}", R(x + 30), R(231), "orta", ad="piksel_ince", boyut=31, renk="soluk")
+                    yk.yaz(ad, R(x + 30), R(241), "orta", ad="piksel", boyut=47, renk="gumus")
+                    ikon(d, I.KILIT, x + 27, 254, 1)
+        kaynak(yk, self.ctx["kaynak"])
+
+
+class CortexOzet(Sahne):
+    GUNLER = ["PZT", "SAL", "ÇAR", "PER", "CUM", "CMT", "PAZ"]
+
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(95), "isaret"), (z["haftalik"], *M(125), "isaret"), (z["excel"], *M(152), "isaret"),
+                (z["cortex"], *M(200), "sevin"), (z["prog"], *M(232), "isaret"), (z["kaynak"], *M(250), "isaret"),
+                (z["kaynak"] + 2.5, *DINLEN, None)]
+
+    def z(self):
+        return {"haftalik": self.kt("haftalık"), "excel": self.kt("Excel"), "kendin": self.kt("kendin"),
+                "cortex": self.kt("Cortex"), "yani": self.kt("Yani"), "prog": self.kt("Programın"),
+                "kaynak": self.kt("Kaynak")}
+
+    def olaylar(self):
+        z = self.z()
+        return [(0.1, "blip"), (z["haftalik"], "whoosh"), (z["excel"], "tik"), (z["kendin"], "tik"),
+                (z["cortex"], "coin"), (z["yani"], "blip"), (z["prog"], "tik"), (z["kaynak"], "levelup")]
+
+    def ciz(self, t, d, yk):
+        z = self.z()
+        guc_basligi(d, yk, "GÜÇ 1: KONU ÖZETİ")
+        if t >= z["haftalik"]:
+            n = min(7, 1 + int((t - z["haftalik"]) / 0.15))
+            for i in range(n):
+                x = 4 + i * 27
+                bugun = i == 2 and t >= z["cortex"]
+                d.rectangle([x, 112, x + 24, 142], fill=P["zemin2"],
+                            outline=P["altin"] if bugun else P["cizgi"])
+                yk.yaz(self.GUNLER[i], R(x + 12), R(113), "orta", ad="piksel_ince", boyut=27,
+                       renk="altin" if bugun else "soluk")
+                for j in range(2):
+                    d.rectangle([x + 3, 125 + j * 7, x + 21 - (i + j) % 3 * 4, 128 + j * 7],
+                                fill=P["mavi"] if (i + j) % 2 else P["mavi_koyu"])
+        if t >= z["excel"] and t < z["cortex"]:
+            ikon(d, I.DOSYA, 8, 152, 2)
+            yk.yaz("KOÇUNUN EXCEL PROGRAMI", R(28), R(152), ad="piksel", boyut=39, renk="gumus")
+            if t >= z["kendin"]:
+                yk.yaz("YA DA KENDİN YAZ", R(28), R(164), ad="piksel", boyut=39, renk="mavi_acik")
+        if t >= z["cortex"]:
+            x = 4 + 2 * 27 + 12
+            d.rectangle([x, 143, x, 150], fill=P["altin"])
+            panel(d, 4, 151, GEN - 9, 70)
+            yk.yaz("BUGÜNKÜ KONU · ÖZET", R(10), R(156), ad="piksel", boyut=39, renk="altin")
+            n = min(5, 1 + int((t - z["cortex"]) / 0.4))
+            for i in range(n):
+                d.rectangle([10, 172 + i * 9, 10 + 120 - (i * 23) % 50, 174 + i * 9], fill=P["gumus_koyu"])
+            cortex_cekirdek(d, GEN - 30, 190, t, 1)
+            yakinda_rozeti(d, yk, t, GEN - 70, 208, 64)
+        if t >= z["prog"]:
+            satir(d, yk, 228, "PROGRAM + ÖZET: TEK YERDE")
+        if t >= z["kaynak"]:
+            satir(d, yk, 246, "KAYNAK ARAMAK YERİNE DERS", renk="altin", cerceve="altin")
+        kaynak(yk, self.ctx["kaynak"])
+
+
+class CortexYanlis(Sahne):
+    KONULAR = [("TÜREV", 3), ("OLASILIK", 6), ("PARAGRAF", 2)]
+
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(95), "dusun"), (z["foto"], *M(140), "isaret"), (z["neden"], *M(160), "isaret"),
+                (z["aralik"], *M(206), "isaret"), (z["cortex"], *M(140), "saskin"), (z["hangi"], *M(176), "isaret"),
+                (z["hangi"] + 2.0, *M(236), "sevin"), (z["hangi"] + 4.5, *DINLEN, None)]
+
+    def z(self):
+        return {"defter": self.kt("defterine"), "foto": self.kt("fotoğrafını"), "neden": self.kt("nedenini"),
+                "aralik": self.kt("Aralıklı"), "cortex": self.kt("Cortex"), "hangi": self.kt("Hangi"),
+                "ilk": self.kt("ilk", tam=True)}
+
+    def olaylar(self):
+        z = self.z()
+        return [(0.1, "blip"), (z["defter"], "whoosh"), (z["foto"], "tik"), (z["neden"], "tik"),
+                (z["aralik"], "coin"), (z["cortex"], "glitch"), (z["cortex"] + 0.2, "coin"), (z["hangi"], "boss"),
+                (z["ilk"], "levelup")]
+
+    def ciz(self, t, d, yk):
+        z = self.z()
+        guc_basligi(d, yk, "GÜÇ 2: YANLIŞ ANALİZİ")
+        if t < z["cortex"]:
+            panel(d, 4, 112, GEN - 9, 88)
+            yk.yaz("YANLIŞ DEFTERİ · BUGÜN", R(10), R(117), ad="piksel", boyut=39, renk="mavi_acik")
+            if t >= z["foto"]:
+                # soru fotoğrafı
+                d.rectangle([10, 132, 80, 192], fill=P["gumus"], outline=P["gumus_koyu"])
+                for i in range(5):
+                    d.rectangle([15, 138 + i * 9, 70 - (i * 11) % 25, 139 + i * 9], fill=P["soluk"])
+                d.line([56, 168, 74, 186], fill=P["kirmizi"], width=3)
+                d.line([74, 168, 56, 186], fill=P["kirmizi"], width=3)
+            if t >= z["neden"]:
+                yk.yaz("NEDEN?", R(90), R(136), ad="piksel", boyut=47, renk="altin")
+                yk.yaz("İŞLEM HATASI", R(90), R(152), ad="piksel", boyut=39, renk="gumus")
+                yk.yaz("(örnek)", R(90), R(164), ad="piksel_ince", boyut=27, renk="soluk")
+            if t >= z["aralik"]:
+                satir(d, yk, 208, "ARALIKLI TEKRAR: YİNE KARŞINDA", isaret="madde")
+        else:
+            panel(d, 4, 112, GEN - 9, 96)
+            yk.yaz("CORTEX · YANLIŞ ANALİZİ", R(10), R(117), ad="piksel", boyut=39, renk="altin")
+            for i, (ad, n) in enumerate(self.KONULAR):
+                y = 136 + i * 20
+                vurgu = t >= z["hangi"] and n == max(k[1] for k in self.KONULAR)
+                yk.yaz(ad, R(10), R(y), ad="piksel", boyut=39, renk="altin" if vurgu else "gumus")
+                oran = min(1.0, adim(t - z["cortex"], 8) / 1.2) * n / 7
+                xp_bar(d, 80, y + 3, GEN - 100, oran, "altin" if vurgu else "mavi")
+                if vurgu and yanip(t, 0.5):
+                    yk.yaz("!", R(GEN - 14), R(y) - 6, "orta", ad="piksel", boyut=71, renk="kirmizi")
+            yk.yaz("(temsili görünüm)", R(10), R(196), ad="piksel_ince", boyut=27, renk="soluk")
+            yakinda_rozeti(d, yk, t, GEN - 80, 195, 70)
+            if t >= z["hangi"]:
+                satir(d, yk, 216, "TAKILDIĞIN KONUYU GÖR", renk="gumus")
+            if t >= z["ilk"]:
+                satir(d, yk, 234, "AYNI HATAYA SON!", renk="altin", cerceve="altin")
+        kaynak(yk, self.ctx["kaynak"])
+
+
+class HaritamCortexOneri(Sahne):
+    def maskot_yol(self):
+        z = self.z()
+        return [(0.0, *M(95), "isaret"), (z["cortex"], *M(130), "sevin"), (z["deneme"], *M(170), "isaret"),
+                (z["simdi"], *M(214), "isaret"), (z["konu"], *M(240), "isaret"), (self.sure - 1.6, *DINLEN, "levelup!")]
+
+    def z(self):
+        return {"cortex": self.kt("Cortex"), "deneme": self.kt("deneme"), "odak": self.kt("odak"),
+                "gorev": self.kt("görevlerini"), "simdi": self.kt("Şimdi"), "konu": self.kt("Konu"),
+                "yanlis": self.kt("yanlış"), "kisisel": self.kt("kişisel", 1), "ucu": self.kt("üçü", tam=True)}
+
+    def olaylar(self):
+        z = self.z()
+        return [(0.1, "blip"), (z["cortex"], "coin"), (z["deneme"], "tik"), (z["odak"], "tik"), (z["gorev"], "tik"),
+                (z["simdi"], "whoosh"), (z["konu"], "coin"), (z["yanlis"], "coin"), (z["kisisel"], "coin"),
+                (self.sure - 1.6, "levelup")]
+
+    def ciz(self, t, d, yk):
+        z = self.z()
+        guc_basligi(d, yk, "GÜÇ 3: KİŞİSEL ÖNERİ")
+        if t >= z["cortex"]:
+            yk.yaz("SANA ÖZEL", RCX, R(112), "orta", ad="piksel", boyut=55, bant="altin", kenar=4)
+            yk.yaz("ÇALIŞMA ÖNERİLERİ", RCX, R(126), "orta", ad="piksel", boyut=47, renk="beyaz", kenar=3)
+        # bugün Haritam'da olanlar
+        kutular = [("deneme", "DENEME"), ("odak", "ODAK"), ("gorev", "GÖREV")]
+        for i, (k, ad) in enumerate(kutular):
+            if t < z[k]:
+                continue
+            x = 6 + i * 64
+            d.rectangle([x, 144, x + 59, 182], fill=P["zemin2"], outline=P["cizgi"])
+            yk.yaz(ad, R(x + 30), R(146), "orta", ad="piksel_ince", boyut=31, renk="soluk")
+            if k == "deneme":
+                pts = [(x + 6, 176), (x + 18, 170), (x + 30, 172), (x + 42, 164), (x + 53, 160)]
+                d.line(pts, fill=P["mavi_acik"], width=2)
+            elif k == "odak":
+                for j in range(5):
+                    h = 6 + (j * 5) % 14
+                    d.rectangle([x + 8 + j * 9, 178 - h, x + 13 + j * 9, 178], fill=P["mavi"])
+            else:
+                for j in range(3):
+                    ikon(d, I.TIK, x + 10 + j * 15, 164, 1)
+        if t >= z["simdi"]:
+            d.rectangle([4, 188, GEN - 5, 221], fill=P["zemin2"], outline=P["altin"])
+            yk.yaz("+ SANA ÖZEL ÖNERİLER", RCX, R(189), "orta", ad="piksel", boyut=47, bant="altin", kenar=3)
+            yakinda_rozeti(d, yk, t, CX - 35, 207, 70)
+        rozetler = [("konu", "ÖZET"), ("yanlis", "ANALİZ"), ("kisisel", "ÖNERİ")]
+        for i, (k, ad) in enumerate(rozetler):
+            if t < z[k]:
+                continue
+            x = 6 + i * 64
+            dugme(d, x, 226, 59, 18)
+            yk.yaz(ad, R(x + 30), R(226) + 12, "orta", ad="piksel", boyut=47, renk="beyaz")
+        if t >= z["ucu"] and yanip(t, 0.6, 0.75):
+            yk.yaz("ÜÇÜ DE ÇOK YAKINDA!", RCX, R(249), "orta", ad="piksel", boyut=55, bant="altin", kenar=4)
+        if t >= self.sure - 1.6:
+            yk.yaz("LEVEL UP!", RCX, R(270), "orta", ad="ingilizce_etiket", boyut=40, bant="altin")
+
+
 SAHNELER = {"kanca": Kanca, "acilis": Acilis, "haber_meb": HaberMEB, "haber_jaxa": HaberJAXA,
             "haritam": Haritam, "cta": Kapanis,
             "haber_veri": HaberVeri, "haber_slides": HaberSlides, "haritam_ozet": HaritamOzet,
@@ -2336,4 +2605,6 @@ SAHNELER = {"kanca": Kanca, "acilis": Acilis, "haber_meb": HaberMEB, "haber_jaxa
             "haber_prompt": HaberPrompt, "haber_swift": HaberSwift, "haritam_yanlis": HaritamYanlis,
             "haber_navigasyon": HaberNavigasyon, "haber_artemis": HaberArtemis, "haritam_odak": HaritamOdak,
             "haber_ari": HaberAri, "haber_kanit": HaberKanit, "haritam_kurum": HaritamKurum,
-            "haber_vertex": HaberVertex, "haber_suncatcher": HaberSuncatcher, "haritam_cortex": HaritamCortex}
+            "haber_vertex": HaberVertex, "haber_suncatcher": HaberSuncatcher, "haritam_cortex": HaritamCortex,
+            "cortex_kim": CortexKim, "cortex_ozet": CortexOzet, "cortex_yanlis": CortexYanlis,
+            "haritam_cortex_oneri": HaritamCortexOneri}

@@ -1,0 +1,289 @@
+{
+ "metin": "Cortex, Vertex'in yapay zekâsı. Vertex, YKS Haritam'ı Arpama Technology ile birlikte geliştiren teknoloji şirketi. Yani Haritam, iki teknoloji şirketinin ortak YKS uygulaması. Vertex kısa süre önce Teknopark İstanbul'a da kabul edildi. Bu da Haritam'ın arkasındaki ekip için büyük bir adım. Şimdi sırada büyük adım var: Cortex çok yakında Haritam'a geliyor ve yanında üç yeni güç getiriyor.",
+ "konusma": "korteks, verteks'in yapay zekâsı. verteks, ye ka se Haritam'ı Arpama teknoloci ile birlikte geliştiren teknoloji şirketi. Yani Haritam, iki teknoloji şirketinin ortak ye ka se uygulaması. verteks kısa süre önce teknopark İstanbul'a da kabul edildi. Bu da Haritam'ın arkasındaki ekip için büyük bir adım. Şimdi sırada büyük adım var: korteks çok yakında Haritam'a geliyor ve yanında üç yeni güç getiriyor.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 23.738866213151926,
+ "kelimeler": [
+  {
+   "k": "Cortex,",
+   "bas": 0.0,
+   "son": 0.563
+  },
+  {
+   "k": "Vertex'in",
+   "bas": 0.563,
+   "son": 1.267
+  },
+  {
+   "k": "yapay",
+   "bas": 1.267,
+   "son": 1.69
+  },
+  {
+   "k": "zekâsı.",
+   "bas": 1.69,
+   "son": 2.183
+  },
+  {
+   "k": "Vertex,",
+   "bas": 2.403,
+   "son": 2.87
+  },
+  {
+   "k": "YKS",
+   "bas": 2.87,
+   "son": 3.28
+  },
+  {
+   "k": "Haritam'ı",
+   "bas": 3.28,
+   "son": 3.806
+  },
+  {
+   "k": "Arpama",
+   "bas": 3.806,
+   "son": 4.215
+  },
+  {
+   "k": "Technology",
+   "bas": 4.215,
+   "son": 4.8
+  },
+  {
+   "k": "ile",
+   "bas": 4.8,
+   "son": 5.034
+  },
+  {
+   "k": "birlikte",
+   "bas": 5.034,
+   "son": 5.56
+  },
+  {
+   "k": "geliştiren",
+   "bas": 5.56,
+   "son": 6.203
+  },
+  {
+   "k": "teknoloji",
+   "bas": 6.203,
+   "son": 6.788
+  },
+  {
+   "k": "şirketi.",
+   "bas": 6.788,
+   "son": 7.256
+  },
+  {
+   "k": "Yani",
+   "bas": 7.476,
+   "son": 7.79
+  },
+  {
+   "k": "Haritam,",
+   "bas": 7.79,
+   "son": 8.294
+  },
+  {
+   "k": "iki",
+   "bas": 8.294,
+   "son": 8.545
+  },
+  {
+   "k": "teknoloji",
+   "bas": 8.545,
+   "son": 9.174
+  },
+  {
+   "k": "şirketinin",
+   "bas": 9.174,
+   "son": 9.867
+  },
+  {
+   "k": "ortak",
+   "bas": 9.867,
+   "son": 10.244
+  },
+  {
+   "k": "YKS",
+   "bas": 10.244,
+   "son": 10.684
+  },
+  {
+   "k": "uygulaması.",
+   "bas": 10.684,
+   "son": 11.377
+  },
+  {
+   "k": "Vertex",
+   "bas": 11.597,
+   "son": 12.031
+  },
+  {
+   "k": "kısa",
+   "bas": 12.031,
+   "son": 12.303
+  },
+  {
+   "k": "süre",
+   "bas": 12.303,
+   "son": 12.574
+  },
+  {
+   "k": "önce",
+   "bas": 12.574,
+   "son": 12.846
+  },
+  {
+   "k": "Teknopark",
+   "bas": 12.846,
+   "son": 13.389
+  },
+  {
+   "k": "İstanbul'a",
+   "bas": 13.389,
+   "son": 13.932
+  },
+  {
+   "k": "da",
+   "bas": 13.932,
+   "son": 14.095
+  },
+  {
+   "k": "kabul",
+   "bas": 14.095,
+   "son": 14.421
+  },
+  {
+   "k": "edildi.",
+   "bas": 14.421,
+   "son": 14.801
+  },
+  {
+   "k": "Bu",
+   "bas": 15.021,
+   "son": 15.17
+  },
+  {
+   "k": "da",
+   "bas": 15.17,
+   "son": 15.319
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 15.319,
+   "son": 15.817
+  },
+  {
+   "k": "arkasındaki",
+   "bas": 15.817,
+   "son": 16.413
+  },
+  {
+   "k": "ekip",
+   "bas": 16.413,
+   "son": 16.662
+  },
+  {
+   "k": "için",
+   "bas": 16.662,
+   "son": 16.911
+  },
+  {
+   "k": "büyük",
+   "bas": 16.911,
+   "son": 17.209
+  },
+  {
+   "k": "bir",
+   "bas": 17.209,
+   "son": 17.408
+  },
+  {
+   "k": "adım.",
+   "bas": 17.408,
+   "son": 17.656
+  },
+  {
+   "k": "Şimdi",
+   "bas": 17.876,
+   "son": 18.222
+  },
+  {
+   "k": "sırada",
+   "bas": 18.222,
+   "son": 18.625
+  },
+  {
+   "k": "büyük",
+   "bas": 18.625,
+   "son": 18.97
+  },
+  {
+   "k": "adım",
+   "bas": 18.97,
+   "son": 19.258
+  },
+  {
+   "k": "var:",
+   "bas": 19.258,
+   "son": 19.489
+  },
+  {
+   "k": "Cortex",
+   "bas": 19.489,
+   "son": 19.949
+  },
+  {
+   "k": "çok",
+   "bas": 19.949,
+   "son": 20.179
+  },
+  {
+   "k": "yakında",
+   "bas": 20.179,
+   "son": 20.64
+  },
+  {
+   "k": "Haritam'a",
+   "bas": 20.64,
+   "son": 21.158
+  },
+  {
+   "k": "geliyor",
+   "bas": 21.158,
+   "son": 21.619
+  },
+  {
+   "k": "ve",
+   "bas": 21.619,
+   "son": 21.792
+  },
+  {
+   "k": "yanında",
+   "bas": 21.792,
+   "son": 22.252
+  },
+  {
+   "k": "üç",
+   "bas": 22.252,
+   "son": 22.425
+  },
+  {
+   "k": "yeni",
+   "bas": 22.425,
+   "son": 22.713
+  },
+  {
+   "k": "güç",
+   "bas": 22.713,
+   "son": 22.943
+  },
+  {
+   "k": "getiriyor.",
+   "bas": 22.943,
+   "son": 23.519
+  }
+ ]
+}
