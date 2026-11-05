@@ -1,0 +1,104 @@
+{
+ "metin": "Haritam'ı birlikte geliştirdiğimiz Vertex, Teknopark İstanbul'a kabul edildi! Bir de uzaydan şiir gönderen bir yapay zekâ var. Hazırsan başlıyoruz!",
+ "konusma": "Haritam'ı birlikte geliştirdiğimiz verteks, teknopark İstanbul'a kabul edildi! Bir de uzaydan şiir gönderen bir yapay zekâ var. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 8.984353741496598,
+ "kelimeler": [
+  {
+   "k": "Haritam'ı",
+   "bas": 0.0,
+   "son": 0.497
+  },
+  {
+   "k": "birlikte",
+   "bas": 0.497,
+   "son": 0.995
+  },
+  {
+   "k": "geliştirdiğimiz",
+   "bas": 0.995,
+   "son": 1.879
+  },
+  {
+   "k": "Vertex,",
+   "bas": 1.879,
+   "son": 2.321
+  },
+  {
+   "k": "Teknopark",
+   "bas": 2.321,
+   "son": 2.874
+  },
+  {
+   "k": "İstanbul'a",
+   "bas": 2.874,
+   "son": 3.426
+  },
+  {
+   "k": "kabul",
+   "bas": 3.426,
+   "son": 3.758
+  },
+  {
+   "k": "edildi!",
+   "bas": 3.758,
+   "son": 4.145
+  },
+  {
+   "k": "Bir",
+   "bas": 4.365,
+   "son": 4.595
+  },
+  {
+   "k": "de",
+   "bas": 4.595,
+   "son": 4.768
+  },
+  {
+   "k": "uzaydan",
+   "bas": 4.768,
+   "son": 5.228
+  },
+  {
+   "k": "şiir",
+   "bas": 5.228,
+   "son": 5.516
+  },
+  {
+   "k": "gönderen",
+   "bas": 5.516,
+   "son": 6.034
+  },
+  {
+   "k": "bir",
+   "bas": 6.034,
+   "son": 6.264
+  },
+  {
+   "k": "yapay",
+   "bas": 6.264,
+   "son": 6.61
+  },
+  {
+   "k": "zekâ",
+   "bas": 6.61,
+   "son": 6.898
+  },
+  {
+   "k": "var.",
+   "bas": 6.898,
+   "son": 7.128
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 7.348,
+   "son": 7.985
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 7.985,
+   "son": 8.764
+  }
+ ]
+}

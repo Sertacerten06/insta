@@ -1,0 +1,124 @@
+{
+ "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, 19 Haziran'a planlı git. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla, 19 Haziran'a planlı git. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 12.676326530612245,
+ "kelimeler": [
+  {
+   "k": "Haritam",
+   "bas": 0.0,
+   "son": 0.484
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.484,
+   "son": 0.968
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 0.968,
+   "son": 1.512
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.512,
+   "son": 2.117
+  },
+  {
+   "k": "da",
+   "bas": 2.117,
+   "son": 2.298
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.298,
+   "son": 3.085
+  },
+  {
+   "k": "da",
+   "bas": 3.085,
+   "son": 3.266
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.266,
+   "son": 3.75
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 3.97,
+   "son": 5.89
+  },
+  {
+   "k": "adresinden",
+   "bas": 5.89,
+   "son": 6.644
+  },
+  {
+   "k": "hemen",
+   "bas": 6.644,
+   "son": 7.055
+  },
+  {
+   "k": "başla,",
+   "bas": 7.055,
+   "son": 7.467
+  },
+  {
+   "k": "19",
+   "bas": 7.467,
+   "son": 7.672
+  },
+  {
+   "k": "Haziran'a",
+   "bas": 7.672,
+   "son": 8.289
+  },
+  {
+   "k": "planlı",
+   "bas": 8.289,
+   "son": 8.769
+  },
+  {
+   "k": "git.",
+   "bas": 8.769,
+   "son": 9.044
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 9.264,
+   "son": 9.786
+  },
+  {
+   "k": "takip",
+   "bas": 9.786,
+   "son": 10.134
+  },
+  {
+   "k": "etmeyi",
+   "bas": 10.134,
+   "son": 10.541
+  },
+  {
+   "k": "unutma,",
+   "bas": 10.541,
+   "son": 10.947
+  },
+  {
+   "k": "gelecek",
+   "bas": 10.947,
+   "son": 11.411
+  },
+  {
+   "k": "bölümde",
+   "bas": 11.411,
+   "son": 11.876
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 11.876,
+   "son": 12.456
+  }
+ ]
+}

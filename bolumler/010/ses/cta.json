@@ -1,0 +1,124 @@
+{
+ "metin": "YKS Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, haftanı bugün planla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "ye ka se Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla, haftanı bugün planla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 12.38607709750567,
+ "kelimeler": [
+  {
+   "k": "YKS",
+   "bas": 0.0,
+   "son": 0.404
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.404,
+   "son": 0.866
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.866,
+   "son": 1.327
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 1.327,
+   "son": 1.847
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.847,
+   "son": 2.424
+  },
+  {
+   "k": "da",
+   "bas": 2.424,
+   "son": 2.597
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.597,
+   "son": 3.347
+  },
+  {
+   "k": "da",
+   "bas": 3.347,
+   "son": 3.521
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.521,
+   "son": 3.982
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 4.202,
+   "son": 6.004
+  },
+  {
+   "k": "adresinden",
+   "bas": 6.004,
+   "son": 6.711
+  },
+  {
+   "k": "hemen",
+   "bas": 6.711,
+   "son": 7.097
+  },
+  {
+   "k": "başla,",
+   "bas": 7.097,
+   "son": 7.483
+  },
+  {
+   "k": "haftanı",
+   "bas": 7.483,
+   "son": 7.998
+  },
+  {
+   "k": "bugün",
+   "bas": 7.998,
+   "son": 8.384
+  },
+  {
+   "k": "planla.",
+   "bas": 8.384,
+   "son": 8.835
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 9.055,
+   "son": 9.564
+  },
+  {
+   "k": "takip",
+   "bas": 9.564,
+   "son": 9.903
+  },
+  {
+   "k": "etmeyi",
+   "bas": 9.903,
+   "son": 10.299
+  },
+  {
+   "k": "unutma,",
+   "bas": 10.299,
+   "son": 10.695
+  },
+  {
+   "k": "gelecek",
+   "bas": 10.695,
+   "son": 11.148
+  },
+  {
+   "k": "bölümde",
+   "bas": 11.148,
+   "son": 11.6
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 11.6,
+   "son": 12.166
+  }
+ ]
+}

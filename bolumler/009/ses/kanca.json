@@ -1,0 +1,104 @@
+{
+ "metin": "YKS 2027'nin tarihi belli oldu! Bir de yazdığın tek cümleden oyun dünyası kuran bir yapay zekâ var. Hazırsan başlıyoruz!",
+ "konusma": "ye ka se iki bin yirmi yedi'nin tarihi belli oldu! Bir de yazdığın tek cümleden oyun dünyası kuran bir yapay zekâ var. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 8.241315192743764,
+ "kelimeler": [
+  {
+   "k": "YKS",
+   "bas": 0.0,
+   "son": 0.399
+  },
+  {
+   "k": "2027'nin",
+   "bas": 0.399,
+   "son": 1.482
+  },
+  {
+   "k": "tarihi",
+   "bas": 1.482,
+   "son": 1.881
+  },
+  {
+   "k": "belli",
+   "bas": 1.881,
+   "son": 2.223
+  },
+  {
+   "k": "oldu!",
+   "bas": 2.223,
+   "son": 2.508
+  },
+  {
+   "k": "Bir",
+   "bas": 2.728,
+   "son": 2.94
+  },
+  {
+   "k": "de",
+   "bas": 2.94,
+   "son": 3.099
+  },
+  {
+   "k": "yazdığın",
+   "bas": 3.099,
+   "son": 3.576
+  },
+  {
+   "k": "tek",
+   "bas": 3.576,
+   "son": 3.788
+  },
+  {
+   "k": "cümleden",
+   "bas": 3.788,
+   "son": 4.265
+  },
+  {
+   "k": "oyun",
+   "bas": 4.265,
+   "son": 4.531
+  },
+  {
+   "k": "dünyası",
+   "bas": 4.531,
+   "son": 4.955
+  },
+  {
+   "k": "kuran",
+   "bas": 4.955,
+   "son": 5.273
+  },
+  {
+   "k": "bir",
+   "bas": 5.273,
+   "son": 5.485
+  },
+  {
+   "k": "yapay",
+   "bas": 5.485,
+   "son": 5.803
+  },
+  {
+   "k": "zekâ",
+   "bas": 5.803,
+   "son": 6.068
+  },
+  {
+   "k": "var.",
+   "bas": 6.068,
+   "son": 6.28
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 6.5,
+   "son": 7.185
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 7.185,
+   "son": 8.021
+  }
+ ]
+}

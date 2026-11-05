@@ -1,0 +1,434 @@
+{
+ "metin": "Dünyadan ise öğrenmeyle ilgili ilginç bir araştırma var. Google araştırmacıları, 27 Ekim'de yapay zekâ için bir uyku dönemi önerdi. Sorun şu: Yapay zekâya yeni bir şey öğretince eskiden bildiklerini unutabiliyor. Buna yıkıcı unutma deniyor. Çözüm iki aşamalı. Uyanıkken model yeni bilgileri kısa süreli bir hafızada tutuyor. Uykuda ise yeni bilgi almayı bırakıyor, öğrendiklerini kalıcı hafızaya taşıyor. Bir de kendine alıştırma örnekleri üretip onlarla çalışıyor. Araştırmacılar buna rüya görme diyor ve insan uykusundan ilham aldıklarını söylüyor. Testlerde model yeni şeyler öğrenirken eskileri çok daha az unuttu.",
+ "konusma": "Dünyadan ise öğrenmeyle ilgili ilginç bir araştırma var. gugıl araştırmacıları, 27 Ekim'de yapay zekâ için bir uyku dönemi önerdi. Sorun şu: Yapay zekâya yeni bir şey öğretince eskiden bildiklerini unutabiliyor. Buna yıkıcı unutma deniyor. Çözüm iki aşamalı. Uyanıkken model yeni bilgileri kısa süreli bir hafızada tutuyor. Uykuda ise yeni bilgi almayı bırakıyor, öğrendiklerini kalıcı hafızaya taşıyor. Bir de kendine alıştırma örnekleri üretip onlarla çalışıyor. Araştırmacılar buna rüya görme diyor ve insan uykusundan ilham aldıklarını söylüyor. Testlerde model yeni şeyler öğrenirken eskileri çok daha az unuttu.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 35.75283446712018,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.491
+  },
+  {
+   "k": "ise",
+   "bas": 0.491,
+   "son": 0.709
+  },
+  {
+   "k": "öğrenmeyle",
+   "bas": 0.709,
+   "son": 1.309
+  },
+  {
+   "k": "ilgili",
+   "bas": 1.309,
+   "son": 1.69
+  },
+  {
+   "k": "ilginç",
+   "bas": 1.69,
+   "son": 2.072
+  },
+  {
+   "k": "bir",
+   "bas": 2.072,
+   "son": 2.29
+  },
+  {
+   "k": "araştırma",
+   "bas": 2.29,
+   "son": 2.835
+  },
+  {
+   "k": "var.",
+   "bas": 2.835,
+   "son": 3.053
+  },
+  {
+   "k": "Google",
+   "bas": 3.273,
+   "son": 3.636
+  },
+  {
+   "k": "araştırmacıları,",
+   "bas": 3.636,
+   "son": 4.604
+  },
+  {
+   "k": "27",
+   "bas": 4.604,
+   "son": 4.786
+  },
+  {
+   "k": "Ekim'de",
+   "bas": 4.786,
+   "son": 5.21
+  },
+  {
+   "k": "yapay",
+   "bas": 5.21,
+   "son": 5.573
+  },
+  {
+   "k": "zekâ",
+   "bas": 5.573,
+   "son": 5.875
+  },
+  {
+   "k": "için",
+   "bas": 5.875,
+   "son": 6.178
+  },
+  {
+   "k": "bir",
+   "bas": 6.178,
+   "son": 6.42
+  },
+  {
+   "k": "uyku",
+   "bas": 6.42,
+   "son": 6.722
+  },
+  {
+   "k": "dönemi",
+   "bas": 6.722,
+   "son": 7.146
+  },
+  {
+   "k": "önerdi.",
+   "bas": 7.146,
+   "son": 7.569
+  },
+  {
+   "k": "Sorun",
+   "bas": 7.789,
+   "son": 8.117
+  },
+  {
+   "k": "şu:",
+   "bas": 8.117,
+   "son": 8.281
+  },
+  {
+   "k": "Yapay",
+   "bas": 8.281,
+   "son": 8.609
+  },
+  {
+   "k": "zekâya",
+   "bas": 8.609,
+   "son": 8.992
+  },
+  {
+   "k": "yeni",
+   "bas": 8.992,
+   "son": 9.265
+  },
+  {
+   "k": "bir",
+   "bas": 9.265,
+   "son": 9.484
+  },
+  {
+   "k": "şey",
+   "bas": 9.484,
+   "son": 9.703
+  },
+  {
+   "k": "öğretince",
+   "bas": 9.703,
+   "son": 10.249
+  },
+  {
+   "k": "eskiden",
+   "bas": 10.249,
+   "son": 10.687
+  },
+  {
+   "k": "bildiklerini",
+   "bas": 10.687,
+   "son": 11.397
+  },
+  {
+   "k": "unutabiliyor.",
+   "bas": 11.397,
+   "son": 12.108
+  },
+  {
+   "k": "Buna",
+   "bas": 12.328,
+   "son": 12.618
+  },
+  {
+   "k": "yıkıcı",
+   "bas": 12.618,
+   "son": 13.025
+  },
+  {
+   "k": "unutma",
+   "bas": 13.025,
+   "son": 13.431
+  },
+  {
+   "k": "deniyor.",
+   "bas": 13.431,
+   "son": 13.895
+  },
+  {
+   "k": "Çözüm",
+   "bas": 14.115,
+   "son": 14.537
+  },
+  {
+   "k": "iki",
+   "bas": 14.537,
+   "son": 14.818
+  },
+  {
+   "k": "aşamalı.",
+   "bas": 14.818,
+   "son": 15.381
+  },
+  {
+   "k": "Uyanıkken",
+   "bas": 15.601,
+   "son": 16.134
+  },
+  {
+   "k": "model",
+   "bas": 16.134,
+   "son": 16.454
+  },
+  {
+   "k": "yeni",
+   "bas": 16.454,
+   "son": 16.721
+  },
+  {
+   "k": "bilgileri",
+   "bas": 16.721,
+   "son": 17.254
+  },
+  {
+   "k": "kısa",
+   "bas": 17.254,
+   "son": 17.521
+  },
+  {
+   "k": "süreli",
+   "bas": 17.521,
+   "son": 17.894
+  },
+  {
+   "k": "bir",
+   "bas": 17.894,
+   "son": 18.108
+  },
+  {
+   "k": "hafızada",
+   "bas": 18.108,
+   "son": 18.588
+  },
+  {
+   "k": "tutuyor.",
+   "bas": 18.588,
+   "son": 19.014
+  },
+  {
+   "k": "Uykuda",
+   "bas": 19.234,
+   "son": 19.63
+  },
+  {
+   "k": "ise",
+   "bas": 19.63,
+   "son": 19.856
+  },
+  {
+   "k": "yeni",
+   "bas": 19.856,
+   "son": 20.139
+  },
+  {
+   "k": "bilgi",
+   "bas": 20.139,
+   "son": 20.479
+  },
+  {
+   "k": "almayı",
+   "bas": 20.479,
+   "son": 20.874
+  },
+  {
+   "k": "bırakıyor,",
+   "bas": 20.874,
+   "son": 21.44
+  },
+  {
+   "k": "öğrendiklerini",
+   "bas": 21.44,
+   "son": 22.289
+  },
+  {
+   "k": "kalıcı",
+   "bas": 22.289,
+   "son": 22.684
+  },
+  {
+   "k": "hafızaya",
+   "bas": 22.684,
+   "son": 23.193
+  },
+  {
+   "k": "taşıyor.",
+   "bas": 23.193,
+   "son": 23.646
+  },
+  {
+   "k": "Bir",
+   "bas": 23.866,
+   "son": 24.071
+  },
+  {
+   "k": "de",
+   "bas": 24.071,
+   "son": 24.225
+  },
+  {
+   "k": "kendine",
+   "bas": 24.225,
+   "son": 24.635
+  },
+  {
+   "k": "alıştırma",
+   "bas": 24.635,
+   "son": 25.148
+  },
+  {
+   "k": "örnekleri",
+   "bas": 25.148,
+   "son": 25.661
+  },
+  {
+   "k": "üretip",
+   "bas": 25.661,
+   "son": 26.02
+  },
+  {
+   "k": "onlarla",
+   "bas": 26.02,
+   "son": 26.43
+  },
+  {
+   "k": "çalışıyor.",
+   "bas": 26.43,
+   "son": 26.943
+  },
+  {
+   "k": "Araştırmacılar",
+   "bas": 27.163,
+   "son": 28.019
+  },
+  {
+   "k": "buna",
+   "bas": 28.019,
+   "son": 28.304
+  },
+  {
+   "k": "rüya",
+   "bas": 28.304,
+   "son": 28.59
+  },
+  {
+   "k": "görme",
+   "bas": 28.59,
+   "son": 28.932
+  },
+  {
+   "k": "diyor",
+   "bas": 28.932,
+   "son": 29.275
+  },
+  {
+   "k": "ve",
+   "bas": 29.275,
+   "son": 29.446
+  },
+  {
+   "k": "insan",
+   "bas": 29.446,
+   "son": 29.788
+  },
+  {
+   "k": "uykusundan",
+   "bas": 29.788,
+   "son": 30.416
+  },
+  {
+   "k": "ilham",
+   "bas": 30.416,
+   "son": 30.759
+  },
+  {
+   "k": "aldıklarını",
+   "bas": 30.759,
+   "son": 31.444
+  },
+  {
+   "k": "söylüyor.",
+   "bas": 31.444,
+   "son": 31.958
+  },
+  {
+   "k": "Testlerde",
+   "bas": 32.178,
+   "son": 32.678
+  },
+  {
+   "k": "model",
+   "bas": 32.678,
+   "son": 32.979
+  },
+  {
+   "k": "yeni",
+   "bas": 32.979,
+   "son": 33.229
+  },
+  {
+   "k": "şeyler",
+   "bas": 33.229,
+   "son": 33.58
+  },
+  {
+   "k": "öğrenirken",
+   "bas": 33.58,
+   "son": 34.131
+  },
+  {
+   "k": "eskileri",
+   "bas": 34.131,
+   "son": 34.581
+  },
+  {
+   "k": "çok",
+   "bas": 34.581,
+   "son": 34.782
+  },
+  {
+   "k": "daha",
+   "bas": 34.782,
+   "son": 35.032
+  },
+  {
+   "k": "az",
+   "bas": 35.032,
+   "son": 35.182
+  },
+  {
+   "k": "unuttu.",
+   "bas": 35.182,
+   "son": 35.533
+  }
+ ]
+}
