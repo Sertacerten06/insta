@@ -1,0 +1,84 @@
+{
+ "metin": "Uzayı artık yapay zekâ dinliyor! Türkiye'de de robotlar için yeni bir platform kuruldu. Hazırsan başlıyoruz!",
+ "konusma": "Uzayı artık yapay zekâ dinliyor! Türkiye'de de robotlar için yeni bir platform kuruldu. Hazırsan başlıyoruz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 6.441768707482993,
+ "kelimeler": [
+  {
+   "k": "Uzayı",
+   "bas": 0.0,
+   "son": 0.333
+  },
+  {
+   "k": "artık",
+   "bas": 0.333,
+   "son": 0.666
+  },
+  {
+   "k": "yapay",
+   "bas": 0.666,
+   "son": 0.999
+  },
+  {
+   "k": "zekâ",
+   "bas": 0.999,
+   "son": 1.277
+  },
+  {
+   "k": "dinliyor!",
+   "bas": 1.277,
+   "son": 1.776
+  },
+  {
+   "k": "Türkiye'de",
+   "bas": 1.996,
+   "son": 2.476
+  },
+  {
+   "k": "de",
+   "bas": 2.476,
+   "son": 2.62
+  },
+  {
+   "k": "robotlar",
+   "bas": 2.62,
+   "son": 3.052
+  },
+  {
+   "k": "için",
+   "bas": 3.052,
+   "son": 3.292
+  },
+  {
+   "k": "yeni",
+   "bas": 3.292,
+   "son": 3.531
+  },
+  {
+   "k": "bir",
+   "bas": 3.531,
+   "son": 3.723
+  },
+  {
+   "k": "platform",
+   "bas": 3.723,
+   "son": 4.155
+  },
+  {
+   "k": "kuruldu.",
+   "bas": 4.155,
+   "son": 4.539
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 4.759,
+   "son": 5.417
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 5.417,
+   "son": 6.222
+  }
+ ]
+}

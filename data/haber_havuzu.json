@@ -1,229 +1,282 @@
 {
-  "guncelleme": "2026-11-03",
-  "haberler": [
+ "guncelleme": "2026-11-05",
+ "haberler": [
+  {
+   "id": "2026-10-16-meb-ortak-yazili",
+   "bolge": "TR",
+   "tarih": "2026-10-16",
+   "puan": 9,
+   "gerekce": "Türkiye +3, eğitim/sınav/yapay zekâ +2, genç kitle +2, 48 saatten eski",
+   "baslik": "MEB Ortak Yazılı Sınav Sistemi'ni tanıttı",
+   "kaynaklar": [
     {
-      "id": "2026-10-16-meb-ortak-yazili",
-      "bolge": "TR",
-      "tarih": "2026-10-16",
-      "puan": 9,
-      "gerekce": "Türkiye +3, eğitim/sınav/yapay zekâ +2, genç kitle +2, 48 saatten eski",
-      "baslik": "MEB Ortak Yazılı Sınav Sistemi'ni tanıttı",
-      "kaynaklar": [
-        {
-          "ad": "MEB",
-          "url": "https://www.meb.gov.tr"
-        },
-        {
-          "ad": "Onedio",
-          "url": "https://onedio.com"
-        }
-      ],
-      "kullanildi": 1
+     "ad": "MEB",
+     "url": "https://www.meb.gov.tr"
     },
     {
-      "id": "2026-10-20-jaxa-mmx",
-      "bolge": "DUNYA",
-      "tarih": "2026-10-20",
-      "puan": 6,
-      "gerekce": "son 48 saat +2, genç kitle +2, uzay görseli 8-bit'e uygun",
-      "baslik": "JAXA MMX aracını H3 ile Phobos'a fırlattı",
-      "kaynaklar": [
-        {
-          "ad": "JAXA",
-          "url": "https://global.jaxa.jp"
-        },
-        {
-          "ad": "Forbes",
-          "url": "https://www.forbes.com"
-        }
-      ],
-      "kullanildi": 1
-    },
-    {
-      "id": "2026-10-20-ankara-temelli-veri-merkezi",
-      "bolge": "TR",
-      "tarih": "2026-10-20",
-      "puan": 9,
-      "gerekce": "TR +3, 48 saat +2, yapay zekâ altyapısı +2, anlaşılır +2",
-      "baslik": "Ankara Temelli'de 4,1 milyar $'lık veri merkezinin temeli atıldı",
-      "kaynaklar": [
-        {
-          "ad": "LOG",
-          "url": "https://www.log.com.tr/ankarada-450-milyon-dolar-yatirimla-veri-merkezi-kurulacak/"
-        },
-        {
-          "ad": "Hürriyet",
-          "url": "https://www.hurriyet.com.tr/gundem/ankara-temelliye-4-1-milyar-dolarlik-veri-merkezi-bakan-kacir-2012den-bu-yana-42-milyar-liralik-veri-merkezi-yatiriminin-onunu-actik-43347690"
-        }
-      ],
-      "kullanildi": 2
-    },
-    {
-      "id": "2026-10-16-chatgpt-slides",
-      "bolge": "DUNYA",
-      "tarih": "2026-10-20",
-      "puan": 6,
-      "gerekce": "48 saat +2, öğrenci/sunum +2, genç kitle +2",
-      "baslik": "ChatGPT Slides kullanıma sunuldu",
-      "kaynaklar": [
-        {
-          "ad": "Webtekno",
-          "url": "https://www.webtekno.com/chatgpt-slides-kullanima-sunuldu-h227512.html"
-        },
-        {
-          "ad": "Digital Applied",
-          "url": "https://www.digitalapplied.com/blog/chatgpt-slides-plans-export-what-teams-get"
-        }
-      ],
-      "kullanildi": 2
-    },
-    {
-      "id": "2026-10-20-gemini-prompt-arena",
-      "bolge": "TR",
-      "tarih": "2026-10-21",
-      "puan": 4,
-      "gerekce": "TR +3, öğrenci +2, genç +2, tek kaynak/tanıtım −5 → bekletiliyor",
-      "baslik": "Google Gemini Prompt Arena (üniversiteliler, 1 milyon TL ödül)",
-      "kaynaklar": [
-        {
-          "ad": "Webtekno",
-          "url": "https://www.webtekno.com/google-1-milyon-tl-odullu-yapay-zeka-yarismasi-gemini-prompt-arena-h227539.html"
-        }
-      ],
-      "kullanildi": null
-    },
-    {
-      "id": "2026-10-20-artemis-ii-ay-verileri",
-      "bolge": "DUNYA",
-      "tarih": "2026-10-20",
-      "puan": 4,
-      "gerekce": "48 saat +2, genç kitle +2; ikinci kaynak aranacak",
-      "baslik": "Artemis II verileri Ay'ın bilinmeyen özelliklerini ortaya çıkardı",
-      "kaynaklar": [
-        {
-          "ad": "Webtekno",
-          "url": "https://www.webtekno.com/artemis-ii-gelen-veriler-ay-bilinmeyen-ozelliklerini-ortaya-cikardi-h227455.html"
-        }
-      ],
-      "kullanildi": null
-    },
-    {
-      "id": "2026-10-28-osym-2027-takvimi",
-      "bolge": "TR",
-      "tarih": "2026-10-28",
-      "puan": 7,
-      "gerekce": "TR +3, sınav/öğrenci +2, genç kitle +2, 48 saatten eski; Haritam'a doğrudan bağlanıyor",
-      "baslik": "ÖSYM 2027 sınav takvimini açıkladı: TYT 19 Haziran, AYT/YDT 20 Haziran, başvuru 4 Şubat-2 Mart, sonuç 21 Temmuz (planlanan)",
-      "kaynaklar": [
-        {
-          "ad": "Hürriyet",
-          "url": "https://www.hurriyet.com.tr/gundem/2027-takvimi-aciklandi-yks-19-20-haziranda-43358799"
-        },
-        {
-          "ad": "Memurlar.net",
-          "url": "https://www.memurlar.net/haber/1182361/osym-2027-sinav-takvimi-aciklandi-yks-ags-ve-kpss-tarihleri.html"
-        },
-        {
-          "ad": "Fotomaç",
-          "url": "https://www.fotomac.com.tr/haberler/2026/11/01/yks-ne-zaman-2027-yks-sinav-tarihi-belli-oldu-tyt-ayt-ydt-tarihleri"
-        }
-      ],
-      "kullanildi": 9
-    },
-    {
-      "id": "2026-10-27-deepmind-genie-4",
-      "bolge": "DUNYA",
-      "tarih": "2026-10-27",
-      "puan": 4,
-      "gerekce": "yapay zekâ ile öğrenme +2, genç kitle/oyun +2; oyun teması 8-bit'e uygun",
-      "baslik": "Google DeepMind Genie 4: metinden gezilebilir dünya, yerleşik ses, canlı düzenleme (araştırma önizlemesi)",
-      "kaynaklar": [
-        {
-          "ad": "Free Press Journal",
-          "url": "https://www.freepressjournal.in/tech/google-deepmind-unveils-genie-4-for-real-time-ai-worlds-with-built-in-audio"
-        },
-        {
-          "ad": "DataNorth (TechCrunch özetli)",
-          "url": "https://datanorth.ai/news/google-deepmind-genie-4-world-model"
-        }
-      ],
-      "kullanildi": 9
-    },
-    {
-      "id": "2026-10-30-ioniq3-cotY-finalist",
-      "bolge": "TR",
-      "tarih": "2026-10-30",
-      "puan": 5,
-      "gerekce": "TR +3, genç kitle +2; tek kaynak görüldü, doğrulanmadı",
-      "baslik": "Türkiye'de üretilen Hyundai IONIQ 3, 2027 Avrupa'da Yılın Otomobili finalisti",
-      "kaynaklar": [
-        {
-          "ad": "LOG",
-          "url": "https://www.log.com.tr/"
-        }
-      ],
-      "kullanildi": null
-    },
-    {
-      "id": "2026-10-27-siri-turkce",
-      "bolge": "TR",
-      "tarih": "2026-10-27",
-      "puan": 7,
-      "gerekce": "Türkiye +3, genç kitle +2, yapay zekâ +2, 48 saatten eski",
-      "baslik": "Apple: yeni Siri yıl sonuna kadar Türkçe destek kazanacak",
-      "kaynaklar": [
-        {
-          "ad": "Webrazzi",
-          "url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/"
-        },
-        {
-          "ad": "CNBC-e",
-          "url": "https://www.cnbce.com/yapay-zeka/apple-duyurdu-siriye-turkce-dil-destegi-geliyor-h40438"
-        }
-      ],
-      "kullanildi": 10
-    },
-    {
-      "id": "2026-10-27-google-uyku-cercevesi",
-      "bolge": "DUNYA",
-      "tarih": "2026-10-27",
-      "puan": 6,
-      "gerekce": "öğrenme/yapay zekâ +2, genç kitle +2, Haritam'a bağlanıyor (tekrar), 48 saatten eski",
-      "baslik": "Google Research: LLM'ler için uyku çerçevesi (yıkıcı unutmaya karşı)",
-      "kaynaklar": [
-        {
-          "ad": "Google Research",
-          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
-        },
-        {
-          "ad": "GIGAZINE",
-          "url": "https://gigazine.net/gsc_news/en/20261030-ai-sleep-knowledge/"
-        },
-        {
-          "ad": "DonanımHaber",
-          "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-2-kasim-2026--212378"
-        }
-      ],
-      "kullanildi": 10
-    },
-    {
-      "id": "2026-10-28-google-cloud-tubisad-akademi",
-      "bolge": "TR",
-      "tarih": "2026-10-28",
-      "puan": 6,
-      "gerekce": "Türkiye +3, yapay zekâ eğitimi +2, hedef kitle profesyoneller (genç kitleye uzak)",
-      "baslik": "Google Cloud + TÜBİSAD Bulut ve Yapay Zeka Yetkinlik Geliştirme Akademisi (12 ayda 1.000+ sertifika)",
-      "kaynaklar": [
-        {
-          "ad": "DonanımHaber",
-          "url": "https://www.donanimhaber.com/google-turkiye-de-yapay-zeka-akademisini-hayata-geciriyor--212180"
-        },
-        {
-          "ad": "Genç Gazete",
-          "url": "https://www.gencgazete.net/google-turkiyede-yapay-zeka-akademisi-kuruyor-1000den-fazla-kisiye-sertifika-verilecek"
-        }
-      ],
-      "kullanildi": null
+     "ad": "Onedio",
+     "url": "https://onedio.com"
     }
-  ]
+   ],
+   "kullanildi": 1
+  },
+  {
+   "id": "2026-10-20-jaxa-mmx",
+   "bolge": "DUNYA",
+   "tarih": "2026-10-20",
+   "puan": 6,
+   "gerekce": "son 48 saat +2, genç kitle +2, uzay görseli 8-bit'e uygun",
+   "baslik": "JAXA MMX aracını H3 ile Phobos'a fırlattı",
+   "kaynaklar": [
+    {
+     "ad": "JAXA",
+     "url": "https://global.jaxa.jp"
+    },
+    {
+     "ad": "Forbes",
+     "url": "https://www.forbes.com"
+    }
+   ],
+   "kullanildi": 1
+  },
+  {
+   "id": "2026-10-20-ankara-temelli-veri-merkezi",
+   "bolge": "TR",
+   "tarih": "2026-10-20",
+   "puan": 9,
+   "gerekce": "TR +3, 48 saat +2, yapay zekâ altyapısı +2, anlaşılır +2",
+   "baslik": "Ankara Temelli'de 4,1 milyar $'lık veri merkezinin temeli atıldı",
+   "kaynaklar": [
+    {
+     "ad": "LOG",
+     "url": "https://www.log.com.tr/ankarada-450-milyon-dolar-yatirimla-veri-merkezi-kurulacak/"
+    },
+    {
+     "ad": "Hürriyet",
+     "url": "https://www.hurriyet.com.tr/gundem/ankara-temelliye-4-1-milyar-dolarlik-veri-merkezi-bakan-kacir-2012den-bu-yana-42-milyar-liralik-veri-merkezi-yatiriminin-onunu-actik-43347690"
+    }
+   ],
+   "kullanildi": 2
+  },
+  {
+   "id": "2026-10-16-chatgpt-slides",
+   "bolge": "DUNYA",
+   "tarih": "2026-10-20",
+   "puan": 6,
+   "gerekce": "48 saat +2, öğrenci/sunum +2, genç kitle +2",
+   "baslik": "ChatGPT Slides kullanıma sunuldu",
+   "kaynaklar": [
+    {
+     "ad": "Webtekno",
+     "url": "https://www.webtekno.com/chatgpt-slides-kullanima-sunuldu-h227512.html"
+    },
+    {
+     "ad": "Digital Applied",
+     "url": "https://www.digitalapplied.com/blog/chatgpt-slides-plans-export-what-teams-get"
+    }
+   ],
+   "kullanildi": 2
+  },
+  {
+   "id": "2026-10-20-gemini-prompt-arena",
+   "bolge": "TR",
+   "tarih": "2026-10-21",
+   "puan": 4,
+   "gerekce": "TR +3, öğrenci +2, genç +2, tek kaynak/tanıtım −5 → bekletiliyor",
+   "baslik": "Google Gemini Prompt Arena (üniversiteliler, 1 milyon TL ödül)",
+   "kaynaklar": [
+    {
+     "ad": "Webtekno",
+     "url": "https://www.webtekno.com/google-1-milyon-tl-odullu-yapay-zeka-yarismasi-gemini-prompt-arena-h227539.html"
+    }
+   ],
+   "kullanildi": null
+  },
+  {
+   "id": "2026-10-20-artemis-ii-ay-verileri",
+   "bolge": "DUNYA",
+   "tarih": "2026-10-20",
+   "puan": 4,
+   "gerekce": "48 saat +2, genç kitle +2; ikinci kaynak aranacak",
+   "baslik": "Artemis II verileri Ay'ın bilinmeyen özelliklerini ortaya çıkardı",
+   "kaynaklar": [
+    {
+     "ad": "Webtekno",
+     "url": "https://www.webtekno.com/artemis-ii-gelen-veriler-ay-bilinmeyen-ozelliklerini-ortaya-cikardi-h227455.html"
+    }
+   ],
+   "kullanildi": null
+  },
+  {
+   "id": "2026-10-28-osym-2027-takvimi",
+   "bolge": "TR",
+   "tarih": "2026-10-28",
+   "puan": 7,
+   "gerekce": "TR +3, sınav/öğrenci +2, genç kitle +2, 48 saatten eski; Haritam'a doğrudan bağlanıyor",
+   "baslik": "ÖSYM 2027 sınav takvimini açıkladı: TYT 19 Haziran, AYT/YDT 20 Haziran, başvuru 4 Şubat-2 Mart, sonuç 21 Temmuz (planlanan)",
+   "kaynaklar": [
+    {
+     "ad": "Hürriyet",
+     "url": "https://www.hurriyet.com.tr/gundem/2027-takvimi-aciklandi-yks-19-20-haziranda-43358799"
+    },
+    {
+     "ad": "Memurlar.net",
+     "url": "https://www.memurlar.net/haber/1182361/osym-2027-sinav-takvimi-aciklandi-yks-ags-ve-kpss-tarihleri.html"
+    },
+    {
+     "ad": "Fotomaç",
+     "url": "https://www.fotomac.com.tr/haberler/2026/11/01/yks-ne-zaman-2027-yks-sinav-tarihi-belli-oldu-tyt-ayt-ydt-tarihleri"
+    }
+   ],
+   "kullanildi": 9
+  },
+  {
+   "id": "2026-10-27-deepmind-genie-4",
+   "bolge": "DUNYA",
+   "tarih": "2026-10-27",
+   "puan": 4,
+   "gerekce": "yapay zekâ ile öğrenme +2, genç kitle/oyun +2; oyun teması 8-bit'e uygun",
+   "baslik": "Google DeepMind Genie 4: metinden gezilebilir dünya, yerleşik ses, canlı düzenleme (araştırma önizlemesi)",
+   "kaynaklar": [
+    {
+     "ad": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/tech/google-deepmind-unveils-genie-4-for-real-time-ai-worlds-with-built-in-audio"
+    },
+    {
+     "ad": "DataNorth (TechCrunch özetli)",
+     "url": "https://datanorth.ai/news/google-deepmind-genie-4-world-model"
+    }
+   ],
+   "kullanildi": 9
+  },
+  {
+   "id": "2026-10-30-ioniq3-cotY-finalist",
+   "bolge": "TR",
+   "tarih": "2026-10-30",
+   "puan": 5,
+   "gerekce": "TR +3, genç kitle +2; tek kaynak görüldü, doğrulanmadı",
+   "baslik": "Türkiye'de üretilen Hyundai IONIQ 3, 2027 Avrupa'da Yılın Otomobili finalisti",
+   "kaynaklar": [
+    {
+     "ad": "LOG",
+     "url": "https://www.log.com.tr/"
+    }
+   ],
+   "kullanildi": null
+  },
+  {
+   "id": "2026-10-27-siri-turkce",
+   "bolge": "TR",
+   "tarih": "2026-10-27",
+   "puan": 7,
+   "gerekce": "Türkiye +3, genç kitle +2, yapay zekâ +2, 48 saatten eski",
+   "baslik": "Apple: yeni Siri yıl sonuna kadar Türkçe destek kazanacak",
+   "kaynaklar": [
+    {
+     "ad": "Webrazzi",
+     "url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/"
+    },
+    {
+     "ad": "CNBC-e",
+     "url": "https://www.cnbce.com/yapay-zeka/apple-duyurdu-siriye-turkce-dil-destegi-geliyor-h40438"
+    }
+   ],
+   "kullanildi": 10
+  },
+  {
+   "id": "2026-10-27-google-uyku-cercevesi",
+   "bolge": "DUNYA",
+   "tarih": "2026-10-27",
+   "puan": 6,
+   "gerekce": "öğrenme/yapay zekâ +2, genç kitle +2, Haritam'a bağlanıyor (tekrar), 48 saatten eski",
+   "baslik": "Google Research: LLM'ler için uyku çerçevesi (yıkıcı unutmaya karşı)",
+   "kaynaklar": [
+    {
+     "ad": "Google Research",
+     "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+    },
+    {
+     "ad": "GIGAZINE",
+     "url": "https://gigazine.net/gsc_news/en/20261030-ai-sleep-knowledge/"
+    },
+    {
+     "ad": "DonanımHaber",
+     "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-2-kasim-2026--212378"
+    }
+   ],
+   "kullanildi": 10
+  },
+  {
+   "id": "2026-10-28-google-cloud-tubisad-akademi",
+   "bolge": "TR",
+   "tarih": "2026-10-28",
+   "puan": 6,
+   "gerekce": "Türkiye +3, yapay zekâ eğitimi +2, hedef kitle profesyoneller (genç kitleye uzak)",
+   "baslik": "Google Cloud + TÜBİSAD Bulut ve Yapay Zeka Yetkinlik Geliştirme Akademisi (12 ayda 1.000+ sertifika)",
+   "kaynaklar": [
+    {
+     "ad": "DonanımHaber",
+     "url": "https://www.donanimhaber.com/google-turkiye-de-yapay-zeka-akademisini-hayata-geciriyor--212180"
+    },
+    {
+     "ad": "Genç Gazete",
+     "url": "https://www.gencgazete.net/google-turkiyede-yapay-zeka-akademisi-kuruyor-1000den-fazla-kisiye-sertifika-verilecek"
+    }
+   ],
+   "kullanildi": null
+  },
+  {
+   "id": "2026-11-05-robotik-turkiye-platformu",
+   "bolge": "TR",
+   "tarih": "2026-11-05",
+   "puan": 7,
+   "gerekce": "Türkiye +3, son 48 saat +2, genç kitle (robotik/mühendislik) +2",
+   "baslik": "TBV öncülüğünde Robotik Türkiye Platformu kuruldu (kurucular Eczacıbaşı, Milvus Robotics, Togg, THY, Zorlu; 2025'te 3.194 endüstriyel robot)",
+   "kaynaklar": [
+    {
+     "ad": "Webtekno",
+     "url": "https://www.webtekno.com/robotik-turkiye-platformu-kuruldu-h228376.html"
+    },
+    {
+     "ad": "ShiftDelete.Net",
+     "url": "https://shiftdelete.net/robotik-turkiye-platformu-kuruldu"
+    }
+   ],
+   "kullanildi": 11
+  },
+  {
+   "id": "2026-10-30-seti-yapay-zeka-ajanlari",
+   "bolge": "DUNYA",
+   "tarih": "2026-10-30",
+   "puan": 4,
+   "gerekce": "yapay zekâ +2, genç kitle (uzay) +2, 48 saatten eski; uzaylı sinyali bulunmadığı açıkça söylendi",
+   "baslik": "Breakthrough Listen + SETI Enstitüsü Allen Teleskop Dizisi'nde yapay zekâ ajanları kullanıyor; Yengeç Bulutsusu pulsarı gerçek zamanlı yakalandı (2,4 Tbit/sn)",
+   "kaynaklar": [
+    {
+     "ad": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/?p=99597"
+    },
+    {
+     "ad": "XenoSpectrum",
+     "url": "https://xenospectrum.com/en/seti-ai-telescope-observation/"
+    }
+   ],
+   "kullanildi": 11
+  },
+  {
+   "id": "2026-11-04-turkiye-yapay-zeka-eylem-plani",
+   "bolge": "TR",
+   "tarih": "2026-11-04",
+   "puan": 5,
+   "gerekce": "Türkiye +3, yapay zekâ okuryazarlığı +2; ikinci kaynak aranacak, bir kısmı Bölüm 5'te geçti",
+   "baslik": "Türkiye Yapay Zeka Eylem Planı 2026-2030: 16 eylem, Herkes İçin GPU, 5 milyon kişiye okuryazarlık",
+   "kaynaklar": [
+    {
+     "ad": "AA",
+     "url": "https://www.aa.com.tr/tr/bilim-teknoloji/turkiyeden-yapay-zeka-cagina-mukemmel-adim/4030219"
+    }
+   ],
+   "kullanildi": null
+  }
+ ]
 }

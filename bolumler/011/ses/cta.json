@@ -1,0 +1,109 @@
+{
+ "metin": "YKS Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "ye ka se Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 10.865170068027211,
+ "kelimeler": [
+  {
+   "k": "YKS",
+   "bas": 0.0,
+   "son": 0.402
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.402,
+   "son": 0.861
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.861,
+   "son": 1.32
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 1.32,
+   "son": 1.836
+  },
+  {
+   "k": "telefonda",
+   "bas": 1.836,
+   "son": 2.41
+  },
+  {
+   "k": "da",
+   "bas": 2.41,
+   "son": 2.582
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 2.582,
+   "son": 3.328
+  },
+  {
+   "k": "da",
+   "bas": 3.328,
+   "son": 3.5
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.5,
+   "son": 3.959
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 4.179,
+   "son": 5.894
+  },
+  {
+   "k": "adresinden",
+   "bas": 5.894,
+   "son": 6.567
+  },
+  {
+   "k": "hemen",
+   "bas": 6.567,
+   "son": 6.935
+  },
+  {
+   "k": "başla.",
+   "bas": 6.935,
+   "son": 7.302
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 7.522,
+   "son": 8.033
+  },
+  {
+   "k": "takip",
+   "bas": 8.033,
+   "son": 8.374
+  },
+  {
+   "k": "etmeyi",
+   "bas": 8.374,
+   "son": 8.771
+  },
+  {
+   "k": "unutma,",
+   "bas": 8.771,
+   "son": 9.169
+  },
+  {
+   "k": "gelecek",
+   "bas": 9.169,
+   "son": 9.623
+  },
+  {
+   "k": "bölümde",
+   "bas": 9.623,
+   "son": 10.077
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 10.077,
+   "son": 10.645
+  }
+ ]
+}

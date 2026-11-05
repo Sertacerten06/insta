@@ -1,5 +1,5 @@
 {
- "son_bolum": 10,
+ "son_bolum": 11,
  "haritam_ozellik_sirasi": [
   "haftalik_program",
   "konu_ozetleri",
@@ -297,6 +297,37 @@
       "Google Research",
       "GIGAZINE",
       "DonanımHaber"
+     ]
+    }
+   ],
+   "instagram_link": null
+  },
+  {
+   "no": 11,
+   "yayin_no": 10,
+   "baslik": "Uzayı Artık Yapay Zekâ Dinliyor",
+   "uretim_tarihi": "2026-11-05",
+   "yayin_tarihi": null,
+   "planlanan_yayin": "2026-11-10 19:00",
+   "durum": "onay_bekliyor",
+   "haritam_ozellik": "konu_ozetleri",
+   "ses": "piper tr_TR-fahrettin-medium",
+   "sure_sn": 127.5,
+   "haberler": [
+    {
+     "id": "2026-11-05-robotik-turkiye-platformu",
+     "baslik": "Robotik Türkiye Platformu kuruldu",
+     "kaynaklar": [
+      "Webtekno",
+      "ShiftDelete.Net"
+     ]
+    },
+    {
+     "id": "2026-10-30-seti-yapay-zeka-ajanlari",
+     "baslik": "SETI Allen Teleskop Dizisi'nde yapay zekâ ajanları, Yengeç pulsarı gerçek zamanlı",
+     "kaynaklar": [
+      "NVIDIA Blog",
+      "XenoSpectrum"
      ]
     }
    ],

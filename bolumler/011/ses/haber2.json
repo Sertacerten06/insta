@@ -1,0 +1,389 @@
+{
+ "metin": "Dünyadan ise bir uzay haberi var. Kaliforniya'daki Allen Teleskop Dizisi, uzaydan gelen radyo sinyallerini dinliyor. Breakthrough Listen ve SETI Enstitüsü artık bu işte yapay zekâ ajanları kullanıyor. Araştırmacılar normal cümlelerle komut veriyor: antenleri çevir, cihazı ayarla, veriyi analiz et. Sistem, saniyede iki virgül dört terabit veriyi kaydetmeden anında işliyor. İlk büyük sonuç: Yengeç Bulutsusu'ndaki bir pulsar, yapay zekâyla gerçek zamanlı yakalandı. Pulsar, hızla dönen bir yıldız kalıntısı. Yani bu bir uzaylı sinyali değil, en azından şimdilik!",
+ "konusma": "Dünyadan ise bir uzay haberi var. kaliforniya'daki alın Teleskop Dizisi, uzaydan gelen radyo sinyallerini dinliyor. breyktru lisın ve seti Enstitüsü artık bu işte yapay zekâ ajanları kullanıyor. Araştırmacılar normal cümlelerle komut veriyor: antenleri çevir, cihazı ayarla, veriyi analiz et. Sistem, saniyede iki virgül dört terabit veriyi kaydetmeden anında işliyor. İlk büyük sonuç: Yengeç Bulutsusu'ndaki bir pulsar, yapay zekâyla gerçek zamanlı yakalandı. Pulsar, hızla dönen bir yıldız kalıntısı. Yani bu bir uzaylı sinyali değil, en azından şimdilik!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 34.03573696145125,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.589
+  },
+  {
+   "k": "ise",
+   "bas": 0.589,
+   "son": 0.851
+  },
+  {
+   "k": "bir",
+   "bas": 0.851,
+   "son": 1.112
+  },
+  {
+   "k": "uzay",
+   "bas": 1.112,
+   "son": 1.44
+  },
+  {
+   "k": "haberi",
+   "bas": 1.44,
+   "son": 1.898
+  },
+  {
+   "k": "var.",
+   "bas": 1.898,
+   "son": 2.159
+  },
+  {
+   "k": "Kaliforniya'daki",
+   "bas": 2.379,
+   "son": 3.264
+  },
+  {
+   "k": "Allen",
+   "bas": 3.264,
+   "son": 3.54
+  },
+  {
+   "k": "Teleskop",
+   "bas": 3.54,
+   "son": 4.037
+  },
+  {
+   "k": "Dizisi,",
+   "bas": 4.037,
+   "son": 4.424
+  },
+  {
+   "k": "uzaydan",
+   "bas": 4.424,
+   "son": 4.866
+  },
+  {
+   "k": "gelen",
+   "bas": 4.866,
+   "son": 5.198
+  },
+  {
+   "k": "radyo",
+   "bas": 5.198,
+   "son": 5.529
+  },
+  {
+   "k": "sinyallerini",
+   "bas": 5.529,
+   "son": 6.247
+  },
+  {
+   "k": "dinliyor.",
+   "bas": 6.247,
+   "son": 6.745
+  },
+  {
+   "k": "Breakthrough",
+   "bas": 6.965,
+   "son": 7.434
+  },
+  {
+   "k": "Listen",
+   "bas": 7.434,
+   "son": 7.746
+  },
+  {
+   "k": "ve",
+   "bas": 7.746,
+   "son": 7.903
+  },
+  {
+   "k": "SETI",
+   "bas": 7.903,
+   "son": 8.163
+  },
+  {
+   "k": "Enstitüsü",
+   "bas": 8.163,
+   "son": 8.684
+  },
+  {
+   "k": "artık",
+   "bas": 8.684,
+   "son": 8.997
+  },
+  {
+   "k": "bu",
+   "bas": 8.997,
+   "son": 9.153
+  },
+  {
+   "k": "işte",
+   "bas": 9.153,
+   "son": 9.413
+  },
+  {
+   "k": "yapay",
+   "bas": 9.413,
+   "son": 9.726
+  },
+  {
+   "k": "zekâ",
+   "bas": 9.726,
+   "son": 9.986
+  },
+  {
+   "k": "ajanları",
+   "bas": 9.986,
+   "son": 10.455
+  },
+  {
+   "k": "kullanıyor.",
+   "bas": 10.455,
+   "son": 11.028
+  },
+  {
+   "k": "Araştırmacılar",
+   "bas": 11.248,
+   "son": 12.319
+  },
+  {
+   "k": "normal",
+   "bas": 12.319,
+   "son": 12.819
+  },
+  {
+   "k": "cümlelerle",
+   "bas": 12.819,
+   "son": 13.604
+  },
+  {
+   "k": "komut",
+   "bas": 13.604,
+   "son": 14.032
+  },
+  {
+   "k": "veriyor:",
+   "bas": 14.032,
+   "son": 14.604
+  },
+  {
+   "k": "antenleri",
+   "bas": 14.604,
+   "son": 15.317
+  },
+  {
+   "k": "çevir,",
+   "bas": 15.317,
+   "son": 15.746
+  },
+  {
+   "k": "cihazı",
+   "bas": 15.746,
+   "son": 16.246
+  },
+  {
+   "k": "ayarla,",
+   "bas": 16.246,
+   "son": 16.745
+  },
+  {
+   "k": "veriyi",
+   "bas": 16.745,
+   "son": 17.245
+  },
+  {
+   "k": "analiz",
+   "bas": 17.245,
+   "son": 17.745
+  },
+  {
+   "k": "et.",
+   "bas": 17.745,
+   "son": 17.959
+  },
+  {
+   "k": "Sistem,",
+   "bas": 18.179,
+   "son": 18.576
+  },
+  {
+   "k": "saniyede",
+   "bas": 18.576,
+   "son": 19.088
+  },
+  {
+   "k": "iki",
+   "bas": 19.088,
+   "son": 19.315
+  },
+  {
+   "k": "virgül",
+   "bas": 19.315,
+   "son": 19.712
+  },
+  {
+   "k": "dört",
+   "bas": 19.712,
+   "son": 19.996
+  },
+  {
+   "k": "terabit",
+   "bas": 19.996,
+   "son": 20.451
+  },
+  {
+   "k": "veriyi",
+   "bas": 20.451,
+   "son": 20.848
+  },
+  {
+   "k": "kaydetmeden",
+   "bas": 20.848,
+   "son": 21.53
+  },
+  {
+   "k": "anında",
+   "bas": 21.53,
+   "son": 21.927
+  },
+  {
+   "k": "işliyor.",
+   "bas": 21.927,
+   "son": 22.382
+  },
+  {
+   "k": "İlk",
+   "bas": 22.602,
+   "son": 22.837
+  },
+  {
+   "k": "büyük",
+   "bas": 22.837,
+   "son": 23.189
+  },
+  {
+   "k": "sonuç:",
+   "bas": 23.189,
+   "son": 23.541
+  },
+  {
+   "k": "Yengeç",
+   "bas": 23.541,
+   "son": 23.952
+  },
+  {
+   "k": "Bulutsusu'ndaki",
+   "bas": 23.952,
+   "son": 24.833
+  },
+  {
+   "k": "bir",
+   "bas": 24.833,
+   "son": 25.067
+  },
+  {
+   "k": "pulsar,",
+   "bas": 25.067,
+   "son": 25.478
+  },
+  {
+   "k": "yapay",
+   "bas": 25.478,
+   "son": 25.831
+  },
+  {
+   "k": "zekâyla",
+   "bas": 25.831,
+   "son": 26.3
+  },
+  {
+   "k": "gerçek",
+   "bas": 26.3,
+   "son": 26.711
+  },
+  {
+   "k": "zamanlı",
+   "bas": 26.711,
+   "son": 27.181
+  },
+  {
+   "k": "yakalandı.",
+   "bas": 27.181,
+   "son": 27.768
+  },
+  {
+   "k": "Pulsar,",
+   "bas": 27.988,
+   "son": 28.425
+  },
+  {
+   "k": "hızla",
+   "bas": 28.425,
+   "son": 28.799
+  },
+  {
+   "k": "dönen",
+   "bas": 28.799,
+   "son": 29.174
+  },
+  {
+   "k": "bir",
+   "bas": 29.174,
+   "son": 29.423
+  },
+  {
+   "k": "yıldız",
+   "bas": 29.423,
+   "son": 29.86
+  },
+  {
+   "k": "kalıntısı.",
+   "bas": 29.86,
+   "son": 30.484
+  },
+  {
+   "k": "Yani",
+   "bas": 30.704,
+   "son": 30.998
+  },
+  {
+   "k": "bu",
+   "bas": 30.998,
+   "son": 31.174
+  },
+  {
+   "k": "bir",
+   "bas": 31.174,
+   "son": 31.409
+  },
+  {
+   "k": "uzaylı",
+   "bas": 31.409,
+   "son": 31.82
+  },
+  {
+   "k": "sinyali",
+   "bas": 31.82,
+   "son": 32.289
+  },
+  {
+   "k": "değil,",
+   "bas": 32.289,
+   "son": 32.642
+  },
+  {
+   "k": "en",
+   "bas": 32.642,
+   "son": 32.818
+  },
+  {
+   "k": "azından",
+   "bas": 32.818,
+   "son": 33.287
+  },
+  {
+   "k": "şimdilik!",
+   "bas": 33.287,
+   "son": 33.816
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: konuyu kap. Teleskop bile dev veri içinden işine yarayanı hızla ayıklıyor. Senin kısayolun da YKS Haritam'ın konu özetleri. TYT ve AYT konularının kısa ve anlaşılır özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında paragraf varsa, paragrafın özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Önce özeti oku, sonra kartlarla kendini test et.",
+ "konusma": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: konuyu kap. Teleskop bile dev veri içinden işine yarayanı hızla ayıklıyor. Senin kısayolun da ye ka se Haritam'ın konu özetleri. te ye te ve a ye te konularının kısa ve anlaşılır özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında paragraf varsa, paragrafın özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Önce özeti oku, sonra kartlarla kendini test et.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 27.81219954648526,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.377
+  },
+  {
+   "k": "sıra",
+   "bas": 0.377,
+   "son": 0.691
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.691,
+   "son": 1.194
+  },
+  {
+   "k": "bölümünde!",
+   "bas": 1.194,
+   "son": 1.823
+  },
+  {
+   "k": "Bugünkü",
+   "bas": 2.043,
+   "son": 2.516
+  },
+  {
+   "k": "bölümün",
+   "bas": 2.516,
+   "son": 2.99
+  },
+  {
+   "k": "adı:",
+   "bas": 2.99,
+   "son": 3.226
+  },
+  {
+   "k": "konuyu",
+   "bas": 3.226,
+   "son": 3.64
+  },
+  {
+   "k": "kap.",
+   "bas": 3.64,
+   "son": 3.877
+  },
+  {
+   "k": "Teleskop",
+   "bas": 4.097,
+   "son": 4.545
+  },
+  {
+   "k": "bile",
+   "bas": 4.545,
+   "son": 4.794
+  },
+  {
+   "k": "dev",
+   "bas": 4.794,
+   "son": 4.994
+  },
+  {
+   "k": "veri",
+   "bas": 4.994,
+   "son": 5.243
+  },
+  {
+   "k": "içinden",
+   "bas": 5.243,
+   "son": 5.641
+  },
+  {
+   "k": "işine",
+   "bas": 5.641,
+   "son": 5.94
+  },
+  {
+   "k": "yarayanı",
+   "bas": 5.94,
+   "son": 6.388
+  },
+  {
+   "k": "hızla",
+   "bas": 6.388,
+   "son": 6.687
+  },
+  {
+   "k": "ayıklıyor.",
+   "bas": 6.687,
+   "son": 7.185
+  },
+  {
+   "k": "Senin",
+   "bas": 7.405,
+   "son": 7.733
+  },
+  {
+   "k": "kısayolun",
+   "bas": 7.733,
+   "son": 8.278
+  },
+  {
+   "k": "da",
+   "bas": 8.278,
+   "son": 8.442
+  },
+  {
+   "k": "YKS",
+   "bas": 8.442,
+   "son": 8.824
+  },
+  {
+   "k": "Haritam'ın",
+   "bas": 8.824,
+   "son": 9.37
+  },
+  {
+   "k": "konu",
+   "bas": 9.37,
+   "son": 9.643
+  },
+  {
+   "k": "özetleri.",
+   "bas": 9.643,
+   "son": 10.134
+  },
+  {
+   "k": "TYT",
+   "bas": 10.354,
+   "son": 10.748
+  },
+  {
+   "k": "ve",
+   "bas": 10.748,
+   "son": 10.916
+  },
+  {
+   "k": "AYT",
+   "bas": 10.916,
+   "son": 11.254
+  },
+  {
+   "k": "konularının",
+   "bas": 11.254,
+   "son": 11.929
+  },
+  {
+   "k": "kısa",
+   "bas": 11.929,
+   "son": 12.21
+  },
+  {
+   "k": "ve",
+   "bas": 12.21,
+   "son": 12.379
+  },
+  {
+   "k": "anlaşılır",
+   "bas": 12.379,
+   "son": 12.942
+  },
+  {
+   "k": "özetleri",
+   "bas": 12.942,
+   "son": 13.448
+  },
+  {
+   "k": "tek",
+   "bas": 13.448,
+   "son": 13.673
+  },
+  {
+   "k": "yerde.",
+   "bas": 13.673,
+   "son": 14.011
+  },
+  {
+   "k": "Üstelik",
+   "bas": 14.231,
+   "son": 14.635
+  },
+  {
+   "k": "haftalık",
+   "bas": 14.635,
+   "son": 15.089
+  },
+  {
+   "k": "programındaki",
+   "bas": 15.089,
+   "son": 15.796
+  },
+  {
+   "k": "konularla",
+   "bas": 15.796,
+   "son": 16.302
+  },
+  {
+   "k": "otomatik",
+   "bas": 16.302,
+   "son": 16.756
+  },
+  {
+   "k": "eşleşiyor.",
+   "bas": 16.756,
+   "son": 17.261
+  },
+  {
+   "k": "Bugün",
+   "bas": 17.481,
+   "son": 17.84
+  },
+  {
+   "k": "programında",
+   "bas": 17.84,
+   "son": 18.558
+  },
+  {
+   "k": "paragraf",
+   "bas": 18.558,
+   "son": 19.096
+  },
+  {
+   "k": "varsa,",
+   "bas": 19.096,
+   "son": 19.455
+  },
+  {
+   "k": "paragrafın",
+   "bas": 19.455,
+   "son": 20.113
+  },
+  {
+   "k": "özeti",
+   "bas": 20.113,
+   "son": 20.472
+  },
+  {
+   "k": "de",
+   "bas": 20.472,
+   "son": 20.652
+  },
+  {
+   "k": "hazır.",
+   "bas": 20.652,
+   "son": 21.011
+  },
+  {
+   "k": "Ekstra",
+   "bas": 21.231,
+   "son": 21.672
+  },
+  {
+   "k": "kaynak",
+   "bas": 21.672,
+   "son": 22.114
+  },
+  {
+   "k": "aramak",
+   "bas": 22.114,
+   "son": 22.556
+  },
+  {
+   "k": "yok,",
+   "bas": 22.556,
+   "son": 22.809
+  },
+  {
+   "k": "sayfa",
+   "bas": 22.809,
+   "son": 23.188
+  },
+  {
+   "k": "sayfa",
+   "bas": 23.188,
+   "son": 23.566
+  },
+  {
+   "k": "gezmek",
+   "bas": 23.566,
+   "son": 24.008
+  },
+  {
+   "k": "yok.",
+   "bas": 24.008,
+   "son": 24.261
+  },
+  {
+   "k": "Önce",
+   "bas": 24.481,
+   "son": 24.812
+  },
+  {
+   "k": "özeti",
+   "bas": 24.812,
+   "son": 25.209
+  },
+  {
+   "k": "oku,",
+   "bas": 25.209,
+   "son": 25.474
+  },
+  {
+   "k": "sonra",
+   "bas": 25.474,
+   "son": 25.871
+  },
+  {
+   "k": "kartlarla",
+   "bas": 25.871,
+   "son": 26.533
+  },
+  {
+   "k": "kendini",
+   "bas": 26.533,
+   "son": 27.063
+  },
+  {
+   "k": "test",
+   "bas": 27.063,
+   "son": 27.394
+  },
+  {
+   "k": "et.",
+   "bas": 27.394,
+   "son": 27.592
+  }
+ ]
+}

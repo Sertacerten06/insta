@@ -1,6 +1,6 @@
 # Arpama Teknoloji Gündemi: Video Listesi
 
-Son güncelleme: 3 Kasım 2026
+Son güncelleme: 5 Kasım 2026
 
 Format: dikey 1080x1920, 8-bit, yaklaşık 120 sn. Her bölümde 1 Türkiye + 1 dünya haberi ve bir YKS Haritam özelliği var. Kapanış her zaman `haritam.arpama.tr` (ücretsiz).
 
@@ -19,11 +19,12 @@ Numara notu: Ekrandaki "Bölüm N" yayın sırasıdır, PHP özel bölümü say�
 | Bölüm 6 | 007 | Yapay zekâ matematiği çözdü mü? | Kurum Paneli | 125,2 sn | Piper (erkek) | Perşembe 29 Ekim | `yayin/bolum-6/` |
 | Bölüm 8 | 009 | YKS 2027'nin tarihi belli oldu | Ücretsiz, her cihazda | 126,9 sn | Piper (erkek) | Salı 3 Kasım 19:00 | `yayin/bolum-8/` |
 | Bölüm 9 | 010 | Yapay zekâ da uyumaya başladı | Haftalık program | 126,2 sn | Piper (erkek) | Cuma 6 Kasım 19:00 | `yayin/bolum-9/` |
+| Bölüm 10 | 011 | Uzayı artık yapay zekâ dinliyor | Konu özetleri (2. tur) | 127,5 sn | Piper (erkek) | Salı 10 Kasım 19:00 | `yayin/bolum-10/` |
 | 29 Ekim özel | — | Cumhuriyet'e giden yol | (reklam yok) | 125 sn | Sertaç'ın kendi sesi + seslendirmesiz sürüm | Perşembe 29 Ekim | `bolum-29ekim/` |
 
 Not: Instagram'a henüz otomatik yükleme yok (onay modu açık). Yayınlanıp yayınlanmadığını sen işaretle.
 
-Sıradaki bölüm (Bölüm 10): Haritam rotasyonunda sıra **Konu özetleri**.
+Sıradaki bölüm (Bölüm 11): Haritam rotasyonunda sıra **Kendini Test Et**.
 
 ---
 
@@ -106,6 +107,7 @@ Sıradaki bölüm (Bölüm 10): Haritam rotasyonunda sıra **Konu özetleri**.
 | Cortex AI (çok yakında) | 7 |
 | Ücretsiz, her cihazda | 8 |
 | Haftalık program (2. tur) | 9 |
+| Konu özetleri (2. tur) | 10 |
 
 ## Bölüm 8: YKS 2027'nin tarihi belli oldu
 
@@ -124,3 +126,12 @@ Sıradaki bölüm (Bölüm 10): Haritam rotasyonunda sıra **Konu özetleri**.
 - **Kaynaklar:** Apple, Webrazzi, CNBC-e, Google Research, GIGAZINE, DonanımHaber
 - **Seslendirme metni:** `metinler/bolum-9-yayin-seslendirme.txt`
 - **Dosyalar:** `yayin/bolum-9/bolum-9.mp4`, `kapak.png`, `caption.txt`
+
+## Bölüm 10: Uzayı artık yapay zekâ dinliyor
+
+- **Türkiye:** Türkiye Bilişim Vakfı öncülüğünde Robotik Türkiye Platformu kuruldu (kurucular: Eczacıbaşı, Milvus Robotics, Togg, THY, Zorlu). Rapor: Türkiye'de 2025'te 3.194 endüstriyel robot kuruldu. İlk yıl: deneme projeleri, düzenli buluşmalar, kamuyla diyalog
+- **Dünya:** Breakthrough Listen ve SETI Enstitüsü, Allen Teleskop Dizisi'nde yapay zekâ ajanları kullanıyor: düz cümleyle komut, saniyede 2,4 terabit veri anında işleniyor, Yengeç Bulutsusu pulsarı gerçek zamanlı yakalandı (uzaylı sinyali değil)
+- **Haritam:** Konu özetleri: TYT/AYT özetleri tek yerde, programındaki konularla otomatik eşleşir
+- **Kaynaklar:** Webtekno, ShiftDelete.Net, NVIDIA Blog, XenoSpectrum
+- **Seslendirme metni:** `metinler/bolum-10-yayin-seslendirme.txt`
+- **Dosyalar:** `yayin/bolum-10/bolum-10.mp4`, `kapak.png`, `caption.txt`
