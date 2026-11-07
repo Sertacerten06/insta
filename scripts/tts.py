@@ -125,10 +125,13 @@ def elevenlabs_uret(metin, ayar_el, mp3_yolu, onceki="", sonraki=""):
     onceki/sonraki: parçalar arası geçiş doğal olsun diye (request stitching).
     """
     import base64
+    import os
     from dotenv import load_dotenv
-    from elevenlabs import ElevenLabs, VoiceSettings
     load_dotenv(KOK / ".env")
-    istemci = ElevenLabs()
+    from elevenlabs import ElevenLabs, VoiceSettings  # noqa: E402  (anahtar yüklendikten sonra)
+    if not os.environ.get("ELEVENLABS_API_KEY"):
+        raise RuntimeError("ELEVENLABS_API_KEY yok: .env dosyasına ekle")
+    istemci = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
     ek = {}
     if onceki:
         ek["previous_text"] = onceki
