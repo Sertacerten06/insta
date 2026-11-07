@@ -14,11 +14,14 @@ DIZIN = KOK / "brand" / "maskot"
 KADIN_SESLER = {"tr-TR-EmelNeural"}    # bu seslerde Arpi'nin kız hali (brand/maskot/kiz/) kullanılır
 
 
-def ayarla(ses):
-    """Seslendirme sesine göre Arpi varyantını seç (kadın ses -> kız Arpi)."""
+def ayarla(ses, kadin=None):
+    """Seslendirme sesine göre Arpi varyantını seç (kadın ses -> kız Arpi).
+
+    kadin: ses json'undaki işaret (ElevenLabs sesleri için); yoksa KADIN_SESLER'e bakılır.
+    """
     global DIZIN
     kiz = KOK / "brand" / "maskot" / "kiz"
-    DIZIN = kiz if ses in KADIN_SESLER and (kiz / "arpi.json").exists() else KOK / "brand" / "maskot"
+    DIZIN = kiz if (kadin if kadin is not None else ses in KADIN_SESLER) and (kiz / "arpi.json").exists() else KOK / "brand" / "maskot"
     _veri.cache_clear()
     _kare.cache_clear()
 

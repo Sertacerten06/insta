@@ -8,6 +8,9 @@ Ekranda görünen kelimeler `metin`den gelir; TTS'e `config/okunus.json` ile dü
 `konusma` gönderilir. Zaman damgaları ekrandaki kelimelere geri eşlenir.
 
 Servisler (config.yaml -> tts.servis):
+  elevenlabs: ElevenLabs API (bulutta ve bilgisayarda çalışır, en kaliteli). Anahtar .env içinde
+          ELEVENLABS_API_KEY olarak durur, koda yazılmaz. Gerçek kelime zamanları API'nin
+          karakter hizalamasından gelir. Ses ve model config.yaml -> tts.elevenlabs altında.
   piper : çevrimdışı, ücretsiz, bilgisayarda çalışır (varsayılan, tr_TR-fahrettin-medium erkek sesi).
           Cümle cümle sentezlenir; kelime zamanları cümle içinde harf sayısına göre dağıtılır.
           Çıktı <id>.wav. Kurulum: pip install piper-tts ;
@@ -115,6 +118,57 @@ async def edge_uret(metin, ses, hiz, mp3_yolu):
     return sinirlar
 
 
+def elevenlabs_uret(metin, ayar_el, mp3_yolu, onceki="", sonraki=""):
+    """ElevenLabs ile sentez + karakter hizalamasından kelime sınırları.
+
+    Anahtar .env'den (ELEVENLABS_API_KEY) okunur; koda veya loga yazılmaz.
+    onceki/sonraki: parçalar arası geçiş doğal olsun diye (request stitching).
+    """
+    import base64
+    import os
+    from dotenv import load_dotenv
+    load_dotenv(KOK / ".env")
+    from elevenlabs import ElevenLabs, VoiceSettings  # noqa: E402  (anahtar yüklendikten sonra)
+    if not os.environ.get("ELEVENLABS_API_KEY"):
+        raise RuntimeError("ELEVENLABS_API_KEY yok: .env dosyasına ekle")
+    istemci = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
+    ek = {}
+    if onceki:
+        ek["previous_text"] = onceki
+    if sonraki:
+        ek["next_text"] = sonraki
+    ayarlar_ses = ayar_el.get("ayarlar") or {}
+    if ayarlar_ses:
+        ek["voice_settings"] = VoiceSettings(**ayarlar_ses)
+    yanit = istemci.text_to_speech.convert_with_timestamps(
+        ayar_el["ses_id"],
+        text=metin,
+        model_id=ayar_el.get("model", "eleven_v4"),
+        language_code=ayar_el.get("dil", "tr"),
+        output_format="mp3_44100_128",
+        **ek,
+    )
+    with open(mp3_yolu, "wb") as f:
+        f.write(base64.b64decode(yanit.audio_base_64))
+    # karakter hizalaması -> kelime sınırları
+    h = yanit.alignment
+    sinirlar, kelime, bas, son = [], "", None, None
+    if h:
+        for ch, a, b in zip(h.characters, h.character_start_times_seconds, h.character_end_times_seconds):
+            if ch.isspace():
+                if kelime:
+                    sinirlar.append({"k": kelime, "bas": bas, "son": son})
+                kelime, bas = "", None
+                continue
+            if bas is None:
+                bas = a
+            kelime += ch
+            son = b
+        if kelime:
+            sinirlar.append({"k": kelime, "bas": bas, "son": son})
+    return sinirlar
+
+
 def espeak_uret(metin, mp3_yolu):
     """Çevrimdışı TASLAK ses (robotik). Yalnızca test/önizleme içindir, yayınlanmaz."""
     wav = str(mp3_yolu).replace(".mp3", ".wav")
@@ -188,7 +242,7 @@ def sure(yol, sinirlar=()):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--bolum", type=int, required=True)
-    ap.add_argument("--servis", choices=["piper", "edge", "espeak"])
+    ap.add_argument("--servis", choices=["elevenlabs", "piper", "edge", "espeak"])
     ap.add_argument("--yeniden", action="store_true", help="hazır parçaları da baştan üret")
     args = ap.parse_args()
 
@@ -198,14 +252,18 @@ def main():
     hedef = bolum_dizini(args.bolum) / "ses"
     hedef.mkdir(parents=True, exist_ok=True)
 
-    for parca in senaryo(args.bolum)["bolumler"]:
+    ayar_el = ayar.get("elevenlabs") or {}
+    parcalar = senaryo(args.bolum)["bolumler"]
+    konusmalar = [" ".join(kelimeyi_oku(k, sozluk) for k in p["metin"].split()) for p in parcalar]
+    for sira, parca in enumerate(parcalar):
         ekran = parca["metin"].split()
         okunan = [kelimeyi_oku(k, sozluk) for k in ekran]
         konusma = " ".join(okunan)
         mp3 = hedef / f"{parca['id']}.mp3"
         wav = hedef / f"{parca['id']}.wav"
         js = hedef / f"{parca['id']}.json"
-        ses_adi = {"edge": ayar["ses"], "piper": ayar.get("piper_ses", "tr_TR-fahrettin-medium")}.get(servis, "espeak-ng tr")
+        ses_adi = {"edge": ayar["ses"], "piper": ayar.get("piper_ses", "tr_TR-fahrettin-medium"),
+                   "elevenlabs": f"elevenlabs:{ayar_el.get('ses_adi', ayar_el.get('ses_id'))}"}.get(servis, "espeak-ng tr")
         cikti = wav if servis == "piper" else mp3
         # aynı metin ve sesle üretilmiş parça varsa atla
         if not args.yeniden and cikti.exists() and cikti.stat().st_size > 0 and js.exists():
@@ -229,7 +287,11 @@ def main():
         gecici = hedef / f"{parca['id']}.tmp.mp3"
         for deneme in range(3):  # §15: en fazla 2 yeniden deneme
             try:
-                if servis == "edge":
+                if servis == "elevenlabs":
+                    sinirlar = elevenlabs_uret(konusma, ayar_el, gecici,
+                                               konusmalar[sira - 1] if sira > 0 else "",
+                                               konusmalar[sira + 1] if sira + 1 < len(konusmalar) else "")
+                elif servis == "edge":
                     sinirlar = asyncio.run(edge_uret(konusma, ayar["ses"], ayar["hiz"], gecici))
                 else:
                     sinirlar = espeak_uret(konusma, gecici)
@@ -243,11 +305,13 @@ def main():
                     raise
                 time.sleep(3 * (deneme + 1))
         gecici.replace(mp3)
+        wav.unlink(missing_ok=True)  # eski piper sesi birleştirmede öne geçmesin
         toplam = sure(mp3, sinirlar)
         zamanlar = eslestir(ekran, [o.split() for o in okunan], sinirlar, toplam)
         kayit = {
             "metin": parca["metin"], "konusma": konusma, "servis": servis,
             "ses": ses_adi,
+            "kadin": bool(ayar_el.get("kadin")) if servis == "elevenlabs" else None,
             "sure": toplam,
             "kelimeler": [{"k": k, "bas": round(t[0], 3), "son": round(t[1], 3)} for k, t in zip(ekran, zamanlar)],
         }
