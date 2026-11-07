@@ -236,6 +236,12 @@ class Kaydir:
     def line(self, xy, **kw):
         return self._d.line(self._xy(xy), **kw)
 
+    def chord(self, xy, start, end, **kw):
+        return self._d.chord(self._xy(xy), start, end, **kw)
+
+    def arc(self, xy, start, end, **kw):
+        return self._d.arc(self._xy(xy), start, end, **kw)
+
 
 class YaziKatmani:
     """Bir karede çizilecek yazı sprite'larının listesi (gerçek piksel koordinatı)."""

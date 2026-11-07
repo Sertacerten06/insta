@@ -1,0 +1,83 @@
+{
+ "bolum": 9,
+ "yayin_no": 8,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "YKS 2027'nin Tarihi Belli Oldu",
+ "haritam_ozellik": "ucretsiz_her_cihazda",
+ "kanca": {
+  "ikon": "takvim",
+  "satirlar": [
+   "YKS 2027",
+   "19-20 HAZİRAN",
+   "TARİH BELLİ OLDU!"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "YKS",
+  "YKS'nin",
+  "2027'nin",
+  "ÖSYM,",
+  "TYT,",
+  "19",
+  "20",
+  "Haziran",
+  "Haziran'a",
+  "21",
+  "Temmuz'da",
+  "Genie",
+  "dünya",
+  "ücretsiz,",
+  "ücretsiz.",
+  "telefonuna",
+  "uygulama",
+  "Haritam",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "YKS 2027'nin tarihi belli oldu! Bir de yazdığın tek cümleden oyun dünyası kuran bir yapay zekâ var. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu sekizinci bölüm. İlk haber doğrudan seni ilgilendiriyor."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_osym",
+   "metin": "ÖSYM, 2027 sınav takvimini açıkladı. YKS'nin ilk oturumu TYT, 19 Haziran Cumartesi günü yapılacak. AYT ve yabancı dil sınavı YDT ise ertesi gün, 20 Haziran Pazar. Başvurular 4 Şubat'ta başlayıp 2 Mart'ta bitecek. Sonuçların da 21 Temmuz'da açıklanması planlanıyor. Kısacası geri sayım resmen başladı. Büyük güne yaklaşık yedi buçuk ay var. Tarihleri şimdiden takvimine yaz!"
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_genie",
+   "metin": "Dünyadan ise oyun sevenlere bir haber var. Google DeepMind, 27 Ekim'de Genie 4 adlı yeni dünya modelini tanıttı. Genie 4'e bir cümle yazıyorsun, o da içinde gezebileceğin bir dünya oluşturuyor. Klavyeyle dolaşabiliyorsun, karakterler seninle konuşabiliyor. Müzik ve ortam sesleri de aynı anda üretiliyor. Üstelik dünya çalışırken yazarak havayı ya da kamerayı değiştirebiliyorsun. Google bu modeli oyunlar, etkileşimli öğrenme ve robot eğitimi için düşünüyor. Şimdilik sadece seçili test kullanıcıları deneyebiliyor. Google, uzun oturumlarda bazı detayların kayabildiğini de söylüyor."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_cihaz",
+   "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: her yerde Haritam. Çünkü en iyi plan, yanında taşıyabildiğin plandır. YKS Haritam tamamen ücretsiz. haritam.arpama.tr adresini açıp telefonuna uygulama olarak ekleyebilirsin. Okul yolunda telefondan bugünkü görevlerine bakarsın. Evde bilgisayardan deneme netlerini girersin. Akşam odak sayacını yine telefondan başlatırsın. Haftalık programın, konu özetlerin ve yanlış defterin hep yanında. Sınava kalan her gün, cebindeki planla daha verimli geçsin."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, 19 Haziran'a planlı git. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: ÖSYM, Hürriyet, Memurlar.net",
+  "haber2": "Kaynak: Google DeepMind, TechCrunch, Free Press Journal"
+ },
+ "kapak": {
+  "ust": "YKS 2027 TARİHİ",
+  "alt_satirlar": [
+   "TYT 19 HAZİRAN",
+   "AYT-YDT 20 HAZİRAN"
+  ],
+  "bolum_etiketi": "BÖLÜM 8",
+  "ikon": "telefon"
+ },
+ "caption": "YKS 2027'nin tarihi belli oldu: 19-20 Haziran! 🕹️\n\nBu bölümde:\n▸ ÖSYM 2027 takvimi: TYT 19 Haziran, AYT ve YDT 20 Haziran, başvuru 4 Şubat-2 Mart, sonuç 21 Temmuz (planlanan)\n▸ Google DeepMind'ın Genie 4'ü: yazdığın cümleden içinde gezilebilen dünya\n▸ Haritam: ücretsiz, telefonuna uygulama olarak eklenir, telefonda da bilgisayarda da çalışır\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: ÖSYM, Hürriyet, Memurlar.net, Google DeepMind, TechCrunch, Free Press Journal\n\n#yks #yks2027 #ösym #teknoloji #yapayzeka #teknolojihaberleri #arpama #haritam"
+}

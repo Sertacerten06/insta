@@ -1,0 +1,284 @@
+{
+ "metin": "ÖSYM, 2027 sınav takvimini açıkladı. YKS'nin ilk oturumu TYT, 19 Haziran Cumartesi günü yapılacak. AYT ve yabancı dil sınavı YDT ise ertesi gün, 20 Haziran Pazar. Başvurular 4 Şubat'ta başlayıp 2 Mart'ta bitecek. Sonuçların da 21 Temmuz'da açıklanması planlanıyor. Kısacası geri sayım resmen başladı. Büyük güne yaklaşık yedi buçuk ay var. Tarihleri şimdiden takvimine yaz!",
+ "konusma": "ö se ye me, iki bin yirmi yedi sınav takvimini açıkladı. ye ka se'nin ilk oturumu te ye te, 19 Haziran Cumartesi günü yapılacak. a ye te ve yabancı dil sınavı ye de te ise ertesi gün, 20 Haziran Pazar. Başvurular 4 Şubat'ta başlayıp 2 Mart'ta bitecek. Sonuçların da 21 Temmuz'da açıklanması planlanıyor. Kısacası geri sayım resmen başladı. Büyük güne yaklaşık yedi buçuk ay var. Tarihleri şimdiden takvimine yaz!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 25.165714285714287,
+ "kelimeler": [
+  {
+   "k": "ÖSYM,",
+   "bas": 0.0,
+   "son": 0.455
+  },
+  {
+   "k": "2027",
+   "bas": 0.455,
+   "son": 1.365
+  },
+  {
+   "k": "sınav",
+   "bas": 1.365,
+   "son": 1.706
+  },
+  {
+   "k": "takvimini",
+   "bas": 1.706,
+   "son": 2.275
+  },
+  {
+   "k": "açıkladı.",
+   "bas": 2.275,
+   "son": 2.786
+  },
+  {
+   "k": "YKS'nin",
+   "bas": 3.006,
+   "son": 3.687
+  },
+  {
+   "k": "ilk",
+   "bas": 3.687,
+   "son": 3.959
+  },
+  {
+   "k": "oturumu",
+   "bas": 3.959,
+   "son": 4.504
+  },
+  {
+   "k": "TYT,",
+   "bas": 4.504,
+   "son": 4.98
+  },
+  {
+   "k": "19",
+   "bas": 4.98,
+   "son": 5.184
+  },
+  {
+   "k": "Haziran",
+   "bas": 5.184,
+   "son": 5.728
+  },
+  {
+   "k": "Cumartesi",
+   "bas": 5.728,
+   "son": 6.409
+  },
+  {
+   "k": "günü",
+   "bas": 6.409,
+   "son": 6.749
+  },
+  {
+   "k": "yapılacak.",
+   "bas": 6.749,
+   "son": 7.43
+  },
+  {
+   "k": "AYT",
+   "bas": 7.65,
+   "son": 8.018
+  },
+  {
+   "k": "ve",
+   "bas": 8.018,
+   "son": 8.202
+  },
+  {
+   "k": "yabancı",
+   "bas": 8.202,
+   "son": 8.693
+  },
+  {
+   "k": "dil",
+   "bas": 8.693,
+   "son": 8.938
+  },
+  {
+   "k": "sınavı",
+   "bas": 8.938,
+   "son": 9.367
+  },
+  {
+   "k": "YDT",
+   "bas": 9.367,
+   "son": 9.797
+  },
+  {
+   "k": "ise",
+   "bas": 9.797,
+   "son": 10.042
+  },
+  {
+   "k": "ertesi",
+   "bas": 10.042,
+   "son": 10.472
+  },
+  {
+   "k": "gün,",
+   "bas": 10.472,
+   "son": 10.717
+  },
+  {
+   "k": "20",
+   "bas": 10.717,
+   "son": 10.901
+  },
+  {
+   "k": "Haziran",
+   "bas": 10.901,
+   "son": 11.392
+  },
+  {
+   "k": "Pazar.",
+   "bas": 11.392,
+   "son": 11.76
+  },
+  {
+   "k": "Başvurular",
+   "bas": 11.98,
+   "son": 12.648
+  },
+  {
+   "k": "4",
+   "bas": 12.648,
+   "son": 12.77
+  },
+  {
+   "k": "Şubat'ta",
+   "bas": 12.77,
+   "son": 13.256
+  },
+  {
+   "k": "başlayıp",
+   "bas": 13.256,
+   "son": 13.803
+  },
+  {
+   "k": "2",
+   "bas": 13.803,
+   "son": 13.924
+  },
+  {
+   "k": "Mart'ta",
+   "bas": 13.924,
+   "son": 14.35
+  },
+  {
+   "k": "bitecek.",
+   "bas": 14.35,
+   "son": 14.836
+  },
+  {
+   "k": "Sonuçların",
+   "bas": 15.056,
+   "son": 15.71
+  },
+  {
+   "k": "da",
+   "bas": 15.71,
+   "son": 15.888
+  },
+  {
+   "k": "21",
+   "bas": 15.888,
+   "son": 16.066
+  },
+  {
+   "k": "Temmuz'da",
+   "bas": 16.066,
+   "son": 16.601
+  },
+  {
+   "k": "açıklanması",
+   "bas": 16.601,
+   "son": 17.315
+  },
+  {
+   "k": "planlanıyor.",
+   "bas": 17.315,
+   "son": 18.028
+  },
+  {
+   "k": "Kısacası",
+   "bas": 18.248,
+   "son": 18.779
+  },
+  {
+   "k": "geri",
+   "bas": 18.779,
+   "son": 19.075
+  },
+  {
+   "k": "sayım",
+   "bas": 19.075,
+   "son": 19.429
+  },
+  {
+   "k": "resmen",
+   "bas": 19.429,
+   "son": 19.842
+  },
+  {
+   "k": "başladı.",
+   "bas": 19.842,
+   "son": 20.315
+  },
+  {
+   "k": "Büyük",
+   "bas": 20.535,
+   "son": 20.879
+  },
+  {
+   "k": "güne",
+   "bas": 20.879,
+   "son": 21.166
+  },
+  {
+   "k": "yaklaşık",
+   "bas": 21.166,
+   "son": 21.683
+  },
+  {
+   "k": "yedi",
+   "bas": 21.683,
+   "son": 21.97
+  },
+  {
+   "k": "buçuk",
+   "bas": 21.97,
+   "son": 22.315
+  },
+  {
+   "k": "ay",
+   "bas": 22.315,
+   "son": 22.487
+  },
+  {
+   "k": "var.",
+   "bas": 22.487,
+   "son": 22.717
+  },
+  {
+   "k": "Tarihleri",
+   "bas": 22.937,
+   "son": 23.546
+  },
+  {
+   "k": "şimdiden",
+   "bas": 23.546,
+   "son": 24.094
+  },
+  {
+   "k": "takvimine",
+   "bas": 24.094,
+   "son": 24.702
+  },
+  {
+   "k": "yaz!",
+   "bas": 24.702,
+   "son": 24.946
+  }
+ ]
+}

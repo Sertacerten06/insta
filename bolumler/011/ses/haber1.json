@@ -1,0 +1,419 @@
+{
+ "metin": "Türkiye'de robotik için yeni bir adım atıldı. Türkiye Bilişim Vakfı öncülüğünde Robotik Türkiye Platformu kuruldu ve bu hafta İstanbul'da tanıtıldı. Kurucu üyeler arasında Togg, THY, Eczacıbaşı, Zorlu ve yerli robot girişimi Milvus Robotics var. Amaç, robot ve fiziksel yapay zekâ geliştiren girişimleri fabrikalarla buluşturmak. Yaklaşık otuz uzmanın hazırladığı rapora göre, Türkiye'de geçen yıl üç bin yüz doksan dört endüstriyel robot kuruldu. Platformun ilk yıl planı üç adım: deneme projeleri, düzenli buluşmalar ve kamuyla sürekli diyalog. Yani robot mühendisliği çok daha fazla konuşulacak.",
+ "konusma": "Türkiye'de robotik için yeni bir adım atıldı. Türkiye Bilişim Vakfı öncülüğünde Robotik Türkiye Platformu kuruldu ve bu hafta İstanbul'da tanıtıldı. Kurucu üyeler arasında tog, te ha ye, eczacıbaşı, Zorlu ve yerli robot girişimi milvus robotiks var. Amaç, robot ve fiziksel yapay zekâ geliştiren girişimleri fabrikalarla buluşturmak. Yaklaşık otuz uzmanın hazırladığı rapora göre, Türkiye'de geçen yıl üç bin yüz doksan dört endüstriyel robot kuruldu. Platformun ilk yıl planı üç adım: deneme projeleri, düzenli buluşmalar ve kamuyla sürekli diyalog. Yani robot mühendisliği çok daha fazla konuşulacak.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 33.53709750566893,
+ "kelimeler": [
+  {
+   "k": "Türkiye'de",
+   "bas": 0.0,
+   "son": 0.486
+  },
+  {
+   "k": "robotik",
+   "bas": 0.486,
+   "son": 0.874
+  },
+  {
+   "k": "için",
+   "bas": 0.874,
+   "son": 1.117
+  },
+  {
+   "k": "yeni",
+   "bas": 1.117,
+   "son": 1.359
+  },
+  {
+   "k": "bir",
+   "bas": 1.359,
+   "son": 1.554
+  },
+  {
+   "k": "adım",
+   "bas": 1.554,
+   "son": 1.796
+  },
+  {
+   "k": "atıldı.",
+   "bas": 1.796,
+   "son": 2.136
+  },
+  {
+   "k": "Türkiye",
+   "bas": 2.356,
+   "son": 2.747
+  },
+  {
+   "k": "Bilişim",
+   "bas": 2.747,
+   "son": 3.138
+  },
+  {
+   "k": "Vakfı",
+   "bas": 3.138,
+   "son": 3.431
+  },
+  {
+   "k": "öncülüğünde",
+   "bas": 3.431,
+   "son": 4.017
+  },
+  {
+   "k": "Robotik",
+   "bas": 4.017,
+   "son": 4.408
+  },
+  {
+   "k": "Türkiye",
+   "bas": 4.408,
+   "son": 4.799
+  },
+  {
+   "k": "Platformu",
+   "bas": 4.799,
+   "son": 5.287
+  },
+  {
+   "k": "kuruldu",
+   "bas": 5.287,
+   "son": 5.678
+  },
+  {
+   "k": "ve",
+   "bas": 5.678,
+   "son": 5.825
+  },
+  {
+   "k": "bu",
+   "bas": 5.825,
+   "son": 5.971
+  },
+  {
+   "k": "hafta",
+   "bas": 5.971,
+   "son": 6.265
+  },
+  {
+   "k": "İstanbul'da",
+   "bas": 6.265,
+   "son": 6.802
+  },
+  {
+   "k": "tanıtıldı.",
+   "bas": 6.802,
+   "son": 7.29
+  },
+  {
+   "k": "Kurucu",
+   "bas": 7.51,
+   "son": 7.963
+  },
+  {
+   "k": "üyeler",
+   "bas": 7.963,
+   "son": 8.416
+  },
+  {
+   "k": "arasında",
+   "bas": 8.416,
+   "son": 8.997
+  },
+  {
+   "k": "Togg,",
+   "bas": 8.997,
+   "son": 9.256
+  },
+  {
+   "k": "THY,",
+   "bas": 9.256,
+   "son": 9.709
+  },
+  {
+   "k": "Eczacıbaşı,",
+   "bas": 9.709,
+   "son": 10.42
+  },
+  {
+   "k": "Zorlu",
+   "bas": 10.42,
+   "son": 10.808
+  },
+  {
+   "k": "ve",
+   "bas": 10.808,
+   "son": 11.002
+  },
+  {
+   "k": "yerli",
+   "bas": 11.002,
+   "son": 11.389
+  },
+  {
+   "k": "robot",
+   "bas": 11.389,
+   "son": 11.777
+  },
+  {
+   "k": "girişimi",
+   "bas": 11.777,
+   "son": 12.359
+  },
+  {
+   "k": "Milvus",
+   "bas": 12.359,
+   "son": 12.812
+  },
+  {
+   "k": "Robotics",
+   "bas": 12.812,
+   "son": 13.394
+  },
+  {
+   "k": "var.",
+   "bas": 13.394,
+   "son": 13.652
+  },
+  {
+   "k": "Amaç,",
+   "bas": 13.872,
+   "son": 14.141
+  },
+  {
+   "k": "robot",
+   "bas": 14.141,
+   "son": 14.464
+  },
+  {
+   "k": "ve",
+   "bas": 14.464,
+   "son": 14.625
+  },
+  {
+   "k": "fiziksel",
+   "bas": 14.625,
+   "son": 15.11
+  },
+  {
+   "k": "yapay",
+   "bas": 15.11,
+   "son": 15.432
+  },
+  {
+   "k": "zekâ",
+   "bas": 15.432,
+   "son": 15.701
+  },
+  {
+   "k": "geliştiren",
+   "bas": 15.701,
+   "son": 16.293
+  },
+  {
+   "k": "girişimleri",
+   "bas": 16.293,
+   "son": 16.939
+  },
+  {
+   "k": "fabrikalarla",
+   "bas": 16.939,
+   "son": 17.638
+  },
+  {
+   "k": "buluşturmak.",
+   "bas": 17.638,
+   "son": 18.284
+  },
+  {
+   "k": "Yaklaşık",
+   "bas": 18.504,
+   "son": 18.991
+  },
+  {
+   "k": "otuz",
+   "bas": 18.991,
+   "son": 19.262
+  },
+  {
+   "k": "uzmanın",
+   "bas": 19.262,
+   "son": 19.694
+  },
+  {
+   "k": "hazırladığı",
+   "bas": 19.694,
+   "son": 20.344
+  },
+  {
+   "k": "rapora",
+   "bas": 20.344,
+   "son": 20.723
+  },
+  {
+   "k": "göre,",
+   "bas": 20.723,
+   "son": 20.993
+  },
+  {
+   "k": "Türkiye'de",
+   "bas": 20.993,
+   "son": 21.534
+  },
+  {
+   "k": "geçen",
+   "bas": 21.534,
+   "son": 21.859
+  },
+  {
+   "k": "yıl",
+   "bas": 21.859,
+   "son": 22.075
+  },
+  {
+   "k": "üç",
+   "bas": 22.075,
+   "son": 22.238
+  },
+  {
+   "k": "bin",
+   "bas": 22.238,
+   "son": 22.454
+  },
+  {
+   "k": "yüz",
+   "bas": 22.454,
+   "son": 22.671
+  },
+  {
+   "k": "doksan",
+   "bas": 22.671,
+   "son": 23.049
+  },
+  {
+   "k": "dört",
+   "bas": 23.049,
+   "son": 23.32
+  },
+  {
+   "k": "endüstriyel",
+   "bas": 23.32,
+   "son": 23.969
+  },
+  {
+   "k": "robot",
+   "bas": 23.969,
+   "son": 24.294
+  },
+  {
+   "k": "kuruldu.",
+   "bas": 24.294,
+   "son": 24.727
+  },
+  {
+   "k": "Platformun",
+   "bas": 24.947,
+   "son": 25.564
+  },
+  {
+   "k": "ilk",
+   "bas": 25.564,
+   "son": 25.789
+  },
+  {
+   "k": "yıl",
+   "bas": 25.789,
+   "son": 26.013
+  },
+  {
+   "k": "planı",
+   "bas": 26.013,
+   "son": 26.35
+  },
+  {
+   "k": "üç",
+   "bas": 26.35,
+   "son": 26.518
+  },
+  {
+   "k": "adım:",
+   "bas": 26.518,
+   "son": 26.799
+  },
+  {
+   "k": "deneme",
+   "bas": 26.799,
+   "son": 27.191
+  },
+  {
+   "k": "projeleri,",
+   "bas": 27.191,
+   "son": 27.753
+  },
+  {
+   "k": "düzenli",
+   "bas": 27.753,
+   "son": 28.202
+  },
+  {
+   "k": "buluşmalar",
+   "bas": 28.202,
+   "son": 28.819
+  },
+  {
+   "k": "ve",
+   "bas": 28.819,
+   "son": 28.987
+  },
+  {
+   "k": "kamuyla",
+   "bas": 28.987,
+   "son": 29.436
+  },
+  {
+   "k": "sürekli",
+   "bas": 29.436,
+   "son": 29.885
+  },
+  {
+   "k": "diyalog.",
+   "bas": 29.885,
+   "son": 30.334
+  },
+  {
+   "k": "Yani",
+   "bas": 30.554,
+   "son": 30.825
+  },
+  {
+   "k": "robot",
+   "bas": 30.825,
+   "son": 31.15
+  },
+  {
+   "k": "mühendisliği",
+   "bas": 31.15,
+   "son": 31.854
+  },
+  {
+   "k": "çok",
+   "bas": 31.854,
+   "son": 32.071
+  },
+  {
+   "k": "daha",
+   "bas": 32.071,
+   "son": 32.342
+  },
+  {
+   "k": "fazla",
+   "bas": 32.342,
+   "son": 32.667
+  },
+  {
+   "k": "konuşulacak.",
+   "bas": 32.667,
+   "son": 33.317
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "metin": "Şimdi sıra sponsorumuzda: Cortex! Cortex, Vertex'in yapay zekâsı ve çok yakında YKS Haritam'a geliyor. Peki ne yapacak? Programındaki her konu için özet hazırlayacak. Yanlışlarını analiz edecek. Ve sana özel çalışma önerileri sunacak. Yani Haritam'da planının yanında bir de yapay zekâ desteğin olacak. Bu bölüme destek olan Cortex ekibine teşekkürler. Cortex çok yakında, takipte kal!",
+ "konusma": "Şimdi sıra sponsorumuzda: korteks! korteks, verteks'in yapay zekâsı ve çok yakında ye ka se Haritam'a geliyor. Peki ne yapacak? Programındaki her konu için özet hazırlayacak. Yanlışlarını analiz edecek. Ve sana özel çalışma önerileri sunacak. Yani Haritam'da planının yanında bir de yapay zekâ desteğin olacak. Bu bölüme destek olan korteks ekibine teşekkürler. korteks çok yakında, takipte kal!",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 24.56140589569161,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.481
+  },
+  {
+   "k": "sıra",
+   "bas": 0.481,
+   "son": 0.882
+  },
+  {
+   "k": "sponsorumuzda:",
+   "bas": 0.882,
+   "son": 2.005
+  },
+  {
+   "k": "Cortex!",
+   "bas": 2.005,
+   "son": 2.647
+  },
+  {
+   "k": "Cortex,",
+   "bas": 2.867,
+   "son": 3.314
+  },
+  {
+   "k": "Vertex'in",
+   "bas": 3.314,
+   "son": 3.873
+  },
+  {
+   "k": "yapay",
+   "bas": 3.873,
+   "son": 4.209
+  },
+  {
+   "k": "zekâsı",
+   "bas": 4.209,
+   "son": 4.6
+  },
+  {
+   "k": "ve",
+   "bas": 4.6,
+   "son": 4.767
+  },
+  {
+   "k": "çok",
+   "bas": 4.767,
+   "son": 4.991
+  },
+  {
+   "k": "yakında",
+   "bas": 4.991,
+   "son": 5.438
+  },
+  {
+   "k": "YKS",
+   "bas": 5.438,
+   "son": 5.829
+  },
+  {
+   "k": "Haritam'a",
+   "bas": 5.829,
+   "son": 6.332
+  },
+  {
+   "k": "geliyor.",
+   "bas": 6.332,
+   "son": 6.78
+  },
+  {
+   "k": "Peki",
+   "bas": 7.0,
+   "son": 7.319
+  },
+  {
+   "k": "ne",
+   "bas": 7.319,
+   "son": 7.51
+  },
+  {
+   "k": "yapacak?",
+   "bas": 7.51,
+   "son": 8.021
+  },
+  {
+   "k": "Programındaki",
+   "bas": 8.241,
+   "son": 9.054
+  },
+  {
+   "k": "her",
+   "bas": 9.054,
+   "son": 9.286
+  },
+  {
+   "k": "konu",
+   "bas": 9.286,
+   "son": 9.576
+  },
+  {
+   "k": "için",
+   "bas": 9.576,
+   "son": 9.867
+  },
+  {
+   "k": "özet",
+   "bas": 9.867,
+   "son": 10.157
+  },
+  {
+   "k": "hazırlayacak.",
+   "bas": 10.157,
+   "son": 10.912
+  },
+  {
+   "k": "Yanlışlarını",
+   "bas": 11.132,
+   "son": 11.948
+  },
+  {
+   "k": "analiz",
+   "bas": 11.948,
+   "son": 12.387
+  },
+  {
+   "k": "edecek.",
+   "bas": 12.387,
+   "son": 12.827
+  },
+  {
+   "k": "Ve",
+   "bas": 13.047,
+   "son": 13.228
+  },
+  {
+   "k": "sana",
+   "bas": 13.228,
+   "son": 13.53
+  },
+  {
+   "k": "özel",
+   "bas": 13.53,
+   "son": 13.832
+  },
+  {
+   "k": "çalışma",
+   "bas": 13.832,
+   "son": 14.316
+  },
+  {
+   "k": "önerileri",
+   "bas": 14.316,
+   "son": 14.92
+  },
+  {
+   "k": "sunacak.",
+   "bas": 14.92,
+   "son": 15.403
+  },
+  {
+   "k": "Yani",
+   "bas": 15.623,
+   "son": 15.885
+  },
+  {
+   "k": "Haritam'da",
+   "bas": 15.885,
+   "son": 16.407
+  },
+  {
+   "k": "planının",
+   "bas": 16.407,
+   "son": 16.877
+  },
+  {
+   "k": "yanında",
+   "bas": 16.877,
+   "son": 17.295
+  },
+  {
+   "k": "bir",
+   "bas": 17.295,
+   "son": 17.504
+  },
+  {
+   "k": "de",
+   "bas": 17.504,
+   "son": 17.661
+  },
+  {
+   "k": "yapay",
+   "bas": 17.661,
+   "son": 17.975
+  },
+  {
+   "k": "zekâ",
+   "bas": 17.975,
+   "son": 18.236
+  },
+  {
+   "k": "desteğin",
+   "bas": 18.236,
+   "son": 18.706
+  },
+  {
+   "k": "olacak.",
+   "bas": 18.706,
+   "son": 19.072
+  },
+  {
+   "k": "Bu",
+   "bas": 19.292,
+   "son": 19.457
+  },
+  {
+   "k": "bölüme",
+   "bas": 19.457,
+   "son": 19.842
+  },
+  {
+   "k": "destek",
+   "bas": 19.842,
+   "son": 20.227
+  },
+  {
+   "k": "olan",
+   "bas": 20.227,
+   "son": 20.502
+  },
+  {
+   "k": "Cortex",
+   "bas": 20.502,
+   "son": 20.943
+  },
+  {
+   "k": "ekibine",
+   "bas": 20.943,
+   "son": 21.383
+  },
+  {
+   "k": "teşekkürler.",
+   "bas": 21.383,
+   "son": 22.043
+  },
+  {
+   "k": "Cortex",
+   "bas": 22.263,
+   "son": 22.783
+  },
+  {
+   "k": "çok",
+   "bas": 22.783,
+   "son": 23.043
+  },
+  {
+   "k": "yakında,",
+   "bas": 23.043,
+   "son": 23.562
+  },
+  {
+   "k": "takipte",
+   "bas": 23.562,
+   "son": 24.082
+  },
+  {
+   "k": "kal!",
+   "bas": 24.082,
+   "son": 24.341
+  }
+ ]
+}
