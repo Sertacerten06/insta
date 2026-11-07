@@ -29,6 +29,7 @@ tts:
     model: eleven_v4        # en kaliteli çok dilli model
     dil: tr
     ayarlar: {stability: 0.5, similarity_boost: 0.75}
+    tempo: 1.13             # eleven_v4 speed ayarını yok sayıyor; ses ffmpeg atempo ile hızlandırılır (1.0 ile Bölüm 11 ~145 sn çıktı)
   hiz: "+0%"                # Emel yavaş: süre 130 sn üstüne çıkarsa wav atempo ile hızlandırılır (Bölüm 3: 1.16, 4: 1.12)
   hedef_lufs: -16
 

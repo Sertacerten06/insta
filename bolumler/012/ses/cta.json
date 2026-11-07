@@ -1,0 +1,110 @@
+{
+ "metin": "YKS Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "konusma": "ye ka se Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam nokta arpama nokta te re adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!",
+ "servis": "elevenlabs",
+ "ses": "elevenlabs:Jessica",
+ "kadin": true,
+ "sure": 11.441633,
+ "kelimeler": [
+  {
+   "k": "YKS",
+   "bas": 0.0,
+   "son": 0.354
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.425,
+   "son": 0.92
+  },
+  {
+   "k": "tamamen",
+   "bas": 0.991,
+   "son": 1.487
+  },
+  {
+   "k": "ücretsiz,",
+   "bas": 1.522,
+   "son": 2.407
+  },
+  {
+   "k": "telefonda",
+   "bas": 2.478,
+   "son": 2.832
+  },
+  {
+   "k": "da",
+   "bas": 2.938,
+   "son": 3.044
+  },
+  {
+   "k": "bilgisayarda",
+   "bas": 3.115,
+   "son": 3.681
+  },
+  {
+   "k": "da",
+   "bas": 3.717,
+   "son": 3.752
+  },
+  {
+   "k": "çalışır.",
+   "bas": 3.823,
+   "son": 4.649
+  },
+  {
+   "k": "haritam.arpama.tr",
+   "bas": 4.696,
+   "son": 6.372
+  },
+  {
+   "k": "adresinden",
+   "bas": 6.442,
+   "son": 7.08
+  },
+  {
+   "k": "hemen",
+   "bas": 7.115,
+   "son": 7.363
+  },
+  {
+   "k": "başla.",
+   "bas": 7.434,
+   "son": 8.177
+  },
+  {
+   "k": "Arpama'yı",
+   "bas": 8.212,
+   "son": 8.637
+  },
+  {
+   "k": "takip",
+   "bas": 8.673,
+   "son": 8.92
+  },
+  {
+   "k": "etmeyi",
+   "bas": 8.991,
+   "son": 9.239
+  },
+  {
+   "k": "unutma,",
+   "bas": 9.274,
+   "son": 9.947
+  },
+  {
+   "k": "gelecek",
+   "bas": 9.982,
+   "son": 10.336
+  },
+  {
+   "k": "bölümde",
+   "bas": 10.383,
+   "son": 10.619
+  },
+  {
+   "k": "görüşürüz!",
+   "bas": 10.655,
+   "son": 11.469
+  }
+ ]
+}

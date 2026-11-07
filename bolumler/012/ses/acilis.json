@@ -1,0 +1,85 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu on birinci bölüm. İlk durağımız her zamanki gibi Türkiye.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu on birinci bölüm. İlk durağımız her zamanki gibi Türkiye.",
+ "servis": "elevenlabs",
+ "ses": "elevenlabs:Jessica",
+ "kadin": true,
+ "sure": 6.269388,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.354
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.425,
+   "son": 0.85
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.92,
+   "son": 1.274
+  },
+  {
+   "k": "hoş",
+   "bas": 1.345,
+   "son": 1.522
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.558,
+   "son": 2.159
+  },
+  {
+   "k": "bu",
+   "bas": 2.195,
+   "son": 2.407
+  },
+  {
+   "k": "on",
+   "bas": 2.478,
+   "son": 2.619
+  },
+  {
+   "k": "birinci",
+   "bas": 2.69,
+   "son": 2.903
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.973,
+   "son": 3.646
+  },
+  {
+   "k": "İlk",
+   "bas": 3.681,
+   "son": 3.823
+  },
+  {
+   "k": "durağımız",
+   "bas": 3.894,
+   "son": 4.389
+  },
+  {
+   "k": "her",
+   "bas": 4.46,
+   "son": 4.602
+  },
+  {
+   "k": "zamanki",
+   "bas": 4.673,
+   "son": 5.027
+  },
+  {
+   "k": "gibi",
+   "bas": 5.062,
+   "son": 5.381
+  },
+  {
+   "k": "Türkiye.",
+   "bas": 5.451,
+   "son": 6.301
+  }
+ ]
+}

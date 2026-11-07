@@ -1,0 +1,365 @@
+{
+ "metin": "Bugün İstanbul'dan sıcak bir haber geldi. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, TRT World Forum'da Türkçe büyük dil modeli BİLGE'yi anlattı. BİLGE, Türkiye'de ve Türkçe için geliştirilen bir yapay zekâ modeli. İlk sürümü çok yakında geliştiricilere açılacak. Yani girişimler, araştırmacılar ve şirketler kendi uygulamalarını BİLGE'nin üstüne kurabilecek. Bakan ayrıca bugüne kadar seksen iki bin üniversite öğrencisinin yapay zekâ eğitimi aldığını söyledi. Hedef ise beş milyon kişiye yapay zekâ okuryazarlığı kazandırmak.",
+ "konusma": "Bugün İstanbul'dan sıcak bir haber geldi. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, te re te vörld forum'da Türkçe büyük dil modeli bilge'yi anlattı. bilge, Türkiye'de ve Türkçe için geliştirilen bir yapay zekâ modeli. İlk sürümü çok yakında geliştiricilere açılacak. Yani girişimler, araştırmacılar ve şirketler kendi uygulamalarını bilge'nin üstüne kurabilecek. Bakan ayrıca bugüne kadar seksen iki bin üniversite öğrencisinin yapay zekâ eğitimi aldığını söyledi. Hedef ise beş milyon kişiye yapay zekâ okuryazarlığı kazandırmak.",
+ "servis": "elevenlabs",
+ "ses": "elevenlabs:Jessica",
+ "kadin": true,
+ "sure": 30.693878,
+ "kelimeler": [
+  {
+   "k": "Bugün",
+   "bas": 0.0,
+   "son": 0.354
+  },
+  {
+   "k": "İstanbul'dan",
+   "bas": 0.425,
+   "son": 1.062
+  },
+  {
+   "k": "sıcak",
+   "bas": 1.097,
+   "son": 1.345
+  },
+  {
+   "k": "bir",
+   "bas": 1.416,
+   "son": 1.487
+  },
+  {
+   "k": "haber",
+   "bas": 1.558,
+   "son": 1.77
+  },
+  {
+   "k": "geldi.",
+   "bas": 1.841,
+   "son": 2.513
+  },
+  {
+   "k": "Sanayi",
+   "bas": 2.549,
+   "son": 2.867
+  },
+  {
+   "k": "ve",
+   "bas": 2.903,
+   "son": 2.973
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 3.044,
+   "son": 3.469
+  },
+  {
+   "k": "Bakanı",
+   "bas": 3.504,
+   "son": 3.894
+  },
+  {
+   "k": "Mehmet",
+   "bas": 3.965,
+   "son": 4.248
+  },
+  {
+   "k": "Fatih",
+   "bas": 4.319,
+   "son": 4.602
+  },
+  {
+   "k": "Kacır,",
+   "bas": 4.673,
+   "son": 5.204
+  },
+  {
+   "k": "TRT",
+   "bas": 5.239,
+   "son": 5.593
+  },
+  {
+   "k": "World",
+   "bas": 5.628,
+   "son": 5.876
+  },
+  {
+   "k": "Forum'da",
+   "bas": 6.018,
+   "son": 6.442
+  },
+  {
+   "k": "Türkçe",
+   "bas": 6.513,
+   "son": 6.867
+  },
+  {
+   "k": "büyük",
+   "bas": 6.938,
+   "son": 7.15
+  },
+  {
+   "k": "dil",
+   "bas": 7.221,
+   "son": 7.363
+  },
+  {
+   "k": "modeli",
+   "bas": 7.504,
+   "son": 7.681
+  },
+  {
+   "k": "BİLGE'yi",
+   "bas": 7.717,
+   "son": 8.0
+  },
+  {
+   "k": "anlattı.",
+   "bas": 8.071,
+   "son": 8.885
+  },
+  {
+   "k": "BİLGE,",
+   "bas": 8.92,
+   "son": 9.451
+  },
+  {
+   "k": "Türkiye'de",
+   "bas": 9.487,
+   "son": 10.053
+  },
+  {
+   "k": "ve",
+   "bas": 10.159,
+   "son": 10.265
+  },
+  {
+   "k": "Türkçe",
+   "bas": 10.372,
+   "son": 10.549
+  },
+  {
+   "k": "için",
+   "bas": 10.619,
+   "son": 10.832
+  },
+  {
+   "k": "geliştirilen",
+   "bas": 10.867,
+   "son": 11.398
+  },
+  {
+   "k": "bir",
+   "bas": 11.469,
+   "son": 11.54
+  },
+  {
+   "k": "yapay",
+   "bas": 11.575,
+   "son": 11.823
+  },
+  {
+   "k": "zekâ",
+   "bas": 11.894,
+   "son": 12.177
+  },
+  {
+   "k": "modeli.",
+   "bas": 12.319,
+   "son": 12.779
+  },
+  {
+   "k": "İlk",
+   "bas": 12.814,
+   "son": 12.956
+  },
+  {
+   "k": "sürümü",
+   "bas": 13.027,
+   "son": 13.381
+  },
+  {
+   "k": "çok",
+   "bas": 13.451,
+   "son": 13.593
+  },
+  {
+   "k": "yakında",
+   "bas": 13.664,
+   "son": 13.947
+  },
+  {
+   "k": "geliştiricilere",
+   "bas": 14.018,
+   "son": 14.655
+  },
+  {
+   "k": "açılacak.",
+   "bas": 14.726,
+   "son": 15.528
+  },
+  {
+   "k": "Yani",
+   "bas": 15.551,
+   "son": 15.858
+  },
+  {
+   "k": "girişimler,",
+   "bas": 15.953,
+   "son": 16.602
+  },
+  {
+   "k": "araştırmacılar",
+   "bas": 16.637,
+   "son": 17.416
+  },
+  {
+   "k": "ve",
+   "bas": 17.487,
+   "son": 17.558
+  },
+  {
+   "k": "şirketler",
+   "bas": 17.628,
+   "son": 18.336
+  },
+  {
+   "k": "kendi",
+   "bas": 18.407,
+   "son": 18.619
+  },
+  {
+   "k": "uygulamalarını",
+   "bas": 18.69,
+   "son": 19.469
+  },
+  {
+   "k": "BİLGE'nin",
+   "bas": 19.54,
+   "son": 19.823
+  },
+  {
+   "k": "üstüne",
+   "bas": 19.894,
+   "son": 20.177
+  },
+  {
+   "k": "kurabilecek.",
+   "bas": 20.248,
+   "son": 21.062
+  },
+  {
+   "k": "Bakan",
+   "bas": 21.097,
+   "son": 21.381
+  },
+  {
+   "k": "ayrıca",
+   "bas": 21.451,
+   "son": 21.947
+  },
+  {
+   "k": "bugüne",
+   "bas": 22.018,
+   "son": 22.301
+  },
+  {
+   "k": "kadar",
+   "bas": 22.336,
+   "son": 22.655
+  },
+  {
+   "k": "seksen",
+   "bas": 22.726,
+   "son": 23.009
+  },
+  {
+   "k": "iki",
+   "bas": 23.08,
+   "son": 23.221
+  },
+  {
+   "k": "bin",
+   "bas": 23.292,
+   "son": 23.363
+  },
+  {
+   "k": "üniversite",
+   "bas": 23.434,
+   "son": 23.858
+  },
+  {
+   "k": "öğrencisinin",
+   "bas": 23.929,
+   "son": 24.566
+  },
+  {
+   "k": "yapay",
+   "bas": 24.637,
+   "son": 24.92
+  },
+  {
+   "k": "zekâ",
+   "bas": 25.027,
+   "son": 25.204
+  },
+  {
+   "k": "eğitimi",
+   "bas": 25.274,
+   "son": 25.558
+  },
+  {
+   "k": "aldığını",
+   "bas": 25.628,
+   "son": 25.982
+  },
+  {
+   "k": "söyledi.",
+   "bas": 26.018,
+   "son": 26.655
+  },
+  {
+   "k": "Hedef",
+   "bas": 26.69,
+   "son": 26.973
+  },
+  {
+   "k": "ise",
+   "bas": 27.15,
+   "son": 27.327
+  },
+  {
+   "k": "beş",
+   "bas": 27.434,
+   "son": 27.575
+  },
+  {
+   "k": "milyon",
+   "bas": 27.611,
+   "son": 27.894
+  },
+  {
+   "k": "kişiye",
+   "bas": 27.965,
+   "son": 28.319
+  },
+  {
+   "k": "yapay",
+   "bas": 28.389,
+   "son": 28.673
+  },
+  {
+   "k": "zekâ",
+   "bas": 28.779,
+   "son": 28.956
+  },
+  {
+   "k": "okuryazarlığı",
+   "bas": 29.027,
+   "son": 29.664
+  },
+  {
+   "k": "kazandırmak.",
+   "bas": 29.735,
+   "son": 30.726
+  }
+ ]
+}

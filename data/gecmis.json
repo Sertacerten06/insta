@@ -1,5 +1,5 @@
 {
- "son_bolum": 11,
+ "son_bolum": 12,
  "haritam_ozellik_sirasi": [
   "haftalik_program",
   "konu_ozetleri",
@@ -328,6 +328,38 @@
      "kaynaklar": [
       "NVIDIA Blog",
       "XenoSpectrum"
+     ]
+    }
+   ],
+   "instagram_link": null
+  },
+  {
+   "no": 12,
+   "yayin_no": 11,
+   "baslik": "Türkçe Düşünen Yapay Zekâ Geliyor",
+   "uretim_tarihi": "2026-11-07",
+   "yayin_tarihi": null,
+   "planlanan_yayin": null,
+   "durum": "onay_bekliyor",
+   "haritam_ozellik": "kendini_test_et",
+   "ses": "elevenlabs:Jessica (eleven_v4, tempo 1.13)",
+   "sure_sn": 129.1,
+   "haberler": [
+    {
+     "id": "2026-11-07-bilge-turkce-dil-modeli",
+     "baslik": "Türkçe büyük dil modeli BİLGE çok yakında geliştiricilere açılıyor",
+     "kaynaklar": [
+      "Anadolu Ajansı",
+      "Ankara Masası",
+      "BHA"
+     ]
+    },
+    {
+     "id": "2026-11-05-unitree-gpt6-resim-satranc",
+     "baslik": "Unitree robotları GPT-6 ile resim yaptı, Çin satrancı oynadı (şirket gösterimi)",
+     "kaynaklar": [
+      "South China Morning Post",
+      "RobotsBeat"
      ]
     }
    ],

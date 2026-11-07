@@ -1,0 +1,85 @@
+{
+ "metin": "Türkiye'nin kendi yapay zekâsı geliyor! Bir de resim yapıp satranç oynayan robotlar var. Hazırsan başlıyoruz!",
+ "konusma": "Türkiye'nin kendi yapay zekâsı geliyor! Bir de resim yapıp satranç oynayan robotlar var. Hazırsan başlıyoruz!",
+ "servis": "elevenlabs",
+ "ses": "elevenlabs:Jessica",
+ "kadin": true,
+ "sure": 6.687347,
+ "kelimeler": [
+  {
+   "k": "Türkiye'nin",
+   "bas": 0.0,
+   "son": 0.566
+  },
+  {
+   "k": "kendi",
+   "bas": 0.637,
+   "son": 0.92
+  },
+  {
+   "k": "yapay",
+   "bas": 0.956,
+   "son": 1.204
+  },
+  {
+   "k": "zekâsı",
+   "bas": 1.274,
+   "son": 1.699
+  },
+  {
+   "k": "geliyor!",
+   "bas": 1.735,
+   "son": 2.336
+  },
+  {
+   "k": "Bir",
+   "bas": 2.549,
+   "son": 2.619
+  },
+  {
+   "k": "de",
+   "bas": 2.726,
+   "son": 2.832
+  },
+  {
+   "k": "resim",
+   "bas": 2.903,
+   "son": 3.186
+  },
+  {
+   "k": "yapıp",
+   "bas": 3.257,
+   "son": 3.469
+  },
+  {
+   "k": "satranç",
+   "bas": 3.54,
+   "son": 3.894
+  },
+  {
+   "k": "oynayan",
+   "bas": 3.965,
+   "son": 4.248
+  },
+  {
+   "k": "robotlar",
+   "bas": 4.389,
+   "son": 4.673
+  },
+  {
+   "k": "var.",
+   "bas": 4.743,
+   "son": 5.097
+  },
+  {
+   "k": "Hazırsan",
+   "bas": 5.239,
+   "son": 5.735
+  },
+  {
+   "k": "başlıyoruz!",
+   "bas": 5.876,
+   "son": 6.655
+  }
+ ]
+}

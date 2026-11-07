@@ -304,6 +304,14 @@ def main():
                     gecici.unlink(missing_ok=True)
                     raise
                 time.sleep(3 * (deneme + 1))
+        tempo = float(ayar_el.get("tempo", 1.0)) if servis == "elevenlabs" else 1.0
+        if abs(tempo - 1.0) > 1e-3:
+            # eleven_v4 'speed' ayarını dikkate almıyor: sesi atempo ile hızlandır, kelime sınırlarını ölçekle
+            hizli = hedef / f"{parca['id']}.hizli.mp3"
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(gecici), "-filter:a", f"atempo={tempo}",
+                            "-b:a", "128k", str(hizli)], check=True)
+            hizli.replace(gecici)
+            sinirlar = [{**s_, "bas": s_["bas"] / tempo, "son": s_["son"] / tempo} for s_ in sinirlar]
         gecici.replace(mp3)
         wav.unlink(missing_ok=True)  # eski piper sesi birleştirmede öne geçmesin
         toplam = sure(mp3, sinirlar)
