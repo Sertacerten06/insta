@@ -1,0 +1,304 @@
+{
+ "metin": "Apple, yapay zekâ destekli yeni Siri'nin yıl sonuna kadar Türkçe konuşacağını duyurdu. Yeni Siri eylülde ilk açıldığında sadece İngilizce biliyordu. Son güncellemelerle Fransızca, İspanyolca, Japonca, Korece ve Portekizce eklendi. Bu yeni Siri şimdilik beta, yani deneme aşamasında. Sıradaki dört yeni dilden biri de Türkçe. Kesin tarih ve hangi güncellemeyle geleceği ise henüz açıklanmadı. Yani yakında telefonunla Türkçe sohbet edebileceksin.",
+ "konusma": "epıl, yapay zekâ destekli yeni siri'nin yıl sonuna kadar Türkçe konuşacağını duyurdu. Yeni siri eylülde ilk açıldığında sadece İngilizce biliyordu. Son güncellemelerle Fransızca, İspanyolca, Japonca, Korece ve Portekizce eklendi. Bu yeni siri şimdilik beta, yani deneme aşamasında. Sıradaki dört yeni dilden biri de Türkçe. Kesin tarih ve hangi güncellemeyle geleceği ise henüz açıklanmadı. Yani yakında telefonunla Türkçe sohbet edebileceksin.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 26.919410430839,
+ "kelimeler": [
+  {
+   "k": "Apple,",
+   "bas": 0.0,
+   "son": 0.271
+  },
+  {
+   "k": "yapay",
+   "bas": 0.271,
+   "son": 0.597
+  },
+  {
+   "k": "zekâ",
+   "bas": 0.597,
+   "son": 0.868
+  },
+  {
+   "k": "destekli",
+   "bas": 0.868,
+   "son": 1.357
+  },
+  {
+   "k": "yeni",
+   "bas": 1.357,
+   "son": 1.628
+  },
+  {
+   "k": "Siri'nin",
+   "bas": 1.628,
+   "son": 2.062
+  },
+  {
+   "k": "yıl",
+   "bas": 2.062,
+   "son": 2.279
+  },
+  {
+   "k": "sonuna",
+   "bas": 2.279,
+   "son": 2.659
+  },
+  {
+   "k": "kadar",
+   "bas": 2.659,
+   "son": 2.985
+  },
+  {
+   "k": "Türkçe",
+   "bas": 2.985,
+   "son": 3.365
+  },
+  {
+   "k": "konuşacağını",
+   "bas": 3.365,
+   "son": 4.07
+  },
+  {
+   "k": "duyurdu.",
+   "bas": 4.07,
+   "son": 4.505
+  },
+  {
+   "k": "Yeni",
+   "bas": 4.725,
+   "son": 5.017
+  },
+  {
+   "k": "Siri",
+   "bas": 5.017,
+   "son": 5.309
+  },
+  {
+   "k": "eylülde",
+   "bas": 5.309,
+   "son": 5.776
+  },
+  {
+   "k": "ilk",
+   "bas": 5.776,
+   "son": 6.01
+  },
+  {
+   "k": "açıldığında",
+   "bas": 6.01,
+   "son": 6.711
+  },
+  {
+   "k": "sadece",
+   "bas": 6.711,
+   "son": 7.12
+  },
+  {
+   "k": "İngilizce",
+   "bas": 7.12,
+   "son": 7.705
+  },
+  {
+   "k": "biliyordu.",
+   "bas": 7.705,
+   "son": 8.289
+  },
+  {
+   "k": "Son",
+   "bas": 8.509,
+   "son": 8.788
+  },
+  {
+   "k": "güncellemelerle",
+   "bas": 8.788,
+   "son": 9.905
+  },
+  {
+   "k": "Fransızca,",
+   "bas": 9.905,
+   "son": 10.603
+  },
+  {
+   "k": "İspanyolca,",
+   "bas": 10.603,
+   "son": 11.371
+  },
+  {
+   "k": "Japonca,",
+   "bas": 11.371,
+   "son": 11.93
+  },
+  {
+   "k": "Korece",
+   "bas": 11.93,
+   "son": 12.418
+  },
+  {
+   "k": "ve",
+   "bas": 12.418,
+   "son": 12.628
+  },
+  {
+   "k": "Portekizce",
+   "bas": 12.628,
+   "son": 13.396
+  },
+  {
+   "k": "eklendi.",
+   "bas": 13.396,
+   "son": 13.954
+  },
+  {
+   "k": "Bu",
+   "bas": 14.174,
+   "son": 14.35
+  },
+  {
+   "k": "yeni",
+   "bas": 14.35,
+   "son": 14.644
+  },
+  {
+   "k": "Siri",
+   "bas": 14.644,
+   "son": 14.938
+  },
+  {
+   "k": "şimdilik",
+   "bas": 14.938,
+   "son": 15.466
+  },
+  {
+   "k": "beta,",
+   "bas": 15.466,
+   "son": 15.76
+  },
+  {
+   "k": "yani",
+   "bas": 15.76,
+   "son": 16.054
+  },
+  {
+   "k": "deneme",
+   "bas": 16.054,
+   "son": 16.465
+  },
+  {
+   "k": "aşamasında.",
+   "bas": 16.465,
+   "son": 17.111
+  },
+  {
+   "k": "Sıradaki",
+   "bas": 17.331,
+   "son": 17.826
+  },
+  {
+   "k": "dört",
+   "bas": 17.826,
+   "son": 18.1
+  },
+  {
+   "k": "yeni",
+   "bas": 18.1,
+   "son": 18.375
+  },
+  {
+   "k": "dilden",
+   "bas": 18.375,
+   "son": 18.76
+  },
+  {
+   "k": "biri",
+   "bas": 18.76,
+   "son": 19.034
+  },
+  {
+   "k": "de",
+   "bas": 19.034,
+   "son": 19.199
+  },
+  {
+   "k": "Türkçe.",
+   "bas": 19.199,
+   "son": 19.584
+  },
+  {
+   "k": "Kesin",
+   "bas": 19.804,
+   "son": 20.15
+  },
+  {
+   "k": "tarih",
+   "bas": 20.15,
+   "son": 20.496
+  },
+  {
+   "k": "ve",
+   "bas": 20.496,
+   "son": 20.669
+  },
+  {
+   "k": "hangi",
+   "bas": 20.669,
+   "son": 21.015
+  },
+  {
+   "k": "güncellemeyle",
+   "bas": 21.015,
+   "son": 21.823
+  },
+  {
+   "k": "geleceği",
+   "bas": 21.823,
+   "son": 22.342
+  },
+  {
+   "k": "ise",
+   "bas": 22.342,
+   "son": 22.573
+  },
+  {
+   "k": "henüz",
+   "bas": 22.573,
+   "son": 22.919
+  },
+  {
+   "k": "açıklanmadı.",
+   "bas": 22.919,
+   "son": 23.612
+  },
+  {
+   "k": "Yani",
+   "bas": 23.832,
+   "son": 24.102
+  },
+  {
+   "k": "yakında",
+   "bas": 24.102,
+   "son": 24.535
+  },
+  {
+   "k": "telefonunla",
+   "bas": 24.535,
+   "son": 25.184
+  },
+  {
+   "k": "Türkçe",
+   "bas": 25.184,
+   "son": 25.563
+  },
+  {
+   "k": "sohbet",
+   "bas": 25.563,
+   "son": 25.942
+  },
+  {
+   "k": "edebileceksin.",
+   "bas": 25.942,
+   "son": 26.699
+  }
+ ]
+}

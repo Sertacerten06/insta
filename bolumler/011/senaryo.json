@@ -1,0 +1,82 @@
+{
+ "bolum": 11,
+ "yayin_no": 10,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Uzayı Artık Yapay Zekâ Dinliyor",
+ "haritam_ozellik": "konu_ozetleri",
+ "kanca": {
+  "ikon": "robot",
+  "satirlar": [
+   "UZAYI ARTIK",
+   "YAPAY ZEKÂ",
+   "DİNLİYOR!"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "Uzayı",
+  "robotlar",
+  "robotik",
+  "Robotik",
+  "fiziksel",
+  "üç",
+  "pulsar,",
+  "pulsar",
+  "anında",
+  "ajanları",
+  "uzaylı",
+  "özetleri",
+  "otomatik",
+  "hazır.",
+  "ücretsiz,",
+  "Haritam",
+  "Haritam'ın",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Uzayı artık yapay zekâ dinliyor! Türkiye'de de robotlar için yeni bir platform kuruldu. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu onuncu bölüm. İlk durağımız her zamanki gibi Türkiye."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_robotik",
+   "metin": "Türkiye'de robotik için yeni bir adım atıldı. Türkiye Bilişim Vakfı öncülüğünde Robotik Türkiye Platformu kuruldu ve bu hafta İstanbul'da tanıtıldı. Kurucu üyeler arasında Togg, THY, Eczacıbaşı, Zorlu ve yerli robot girişimi Milvus Robotics var. Amaç, robot ve fiziksel yapay zekâ geliştiren girişimleri fabrikalarla buluşturmak. Yaklaşık otuz uzmanın hazırladığı rapora göre, Türkiye'de geçen yıl üç bin yüz doksan dört endüstriyel robot kuruldu. Platformun ilk yıl planı üç adım: deneme projeleri, düzenli buluşmalar ve kamuyla sürekli diyalog. Yani robot mühendisliği çok daha fazla konuşulacak."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_seti",
+   "metin": "Dünyadan ise bir uzay haberi var. Kaliforniya'daki Allen Teleskop Dizisi, uzaydan gelen radyo sinyallerini dinliyor. Breakthrough Listen ve SETI Enstitüsü artık bu işte yapay zekâ ajanları kullanıyor. Araştırmacılar normal cümlelerle komut veriyor: antenleri çevir, cihazı ayarla, veriyi analiz et. Sistem, saniyede iki virgül dört terabit veriyi kaydetmeden anında işliyor. İlk büyük sonuç: Yengeç Bulutsusu'ndaki bir pulsar, yapay zekâyla gerçek zamanlı yakalandı. Pulsar, hızla dönen bir yıldız kalıntısı. Yani bu bir uzaylı sinyali değil, en azından şimdilik!"
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_ozet2",
+   "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: konuyu kap. Teleskop bile dev veri içinden işine yarayanı hızla ayıklıyor. Senin kısayolun da YKS Haritam'ın konu özetleri. TYT ve AYT konularının kısa ve anlaşılır özetleri tek yerde. Üstelik haftalık programındaki konularla otomatik eşleşiyor. Bugün programında paragraf varsa, paragrafın özeti de hazır. Ekstra kaynak aramak yok, sayfa sayfa gezmek yok. Önce özeti oku, sonra kartlarla kendini test et."
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "YKS Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: Webtekno, ShiftDelete.Net",
+  "haber2": "Kaynak: NVIDIA Blog, XenoSpectrum"
+ },
+ "kapak": {
+  "ust": "UZAYI YAPAY ZEKÂ DİNLİYOR",
+  "alt_satirlar": [
+   "ROBOTİK TÜRKİYE",
+   "PLATFORMU KURULDU"
+  ],
+  "bolum_etiketi": "BÖLÜM 10",
+  "ikon": "robot"
+ },
+ "caption": "Uzayı artık yapay zekâ dinliyor! 🕹️\n\nBu bölümde:\n▸ Robotik Türkiye Platformu kuruldu: robot girişimleri ile sanayi buluşuyor\n▸ SETI'nin Allen Teleskop Dizisi'nde yapay zekâ ajanları: Yengeç Bulutsusu pulsarı gerçek zamanlı yakalandı\n▸ Haritam: TYT/AYT konu özetleri, programınla otomatik eşleşir\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Webtekno, ShiftDelete.Net, NVIDIA Blog, XenoSpectrum\n\n#yks #yks2027 #teknoloji #yapayzeka #robotik #teknolojihaberleri #arpama #haritam"
+}

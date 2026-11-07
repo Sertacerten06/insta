@@ -1,0 +1,410 @@
+{
+ "metin": "Dünyadan ise bir robot haberi var. Çinli robot şirketi Unitree'nin kurucusu, insansı robotlarının resim yapıp satranç oynadığını gösterdi. İşin ilginç yanı, robotlar bu işler için ayrıca eğitilmedi. Planı OpenAI'ın GPT-6 modeli yapıyor. Resimde fırça darbelerini planlıyor, robot kolları da boyayı tuvale aktarıyor. Satranç da bildiğimiz satranç değil, Çin satrancı. Bu oyunda kamera tahtayı görüyor, model hamleyi seçiyor, robot taşı alıp yerine koyuyor. Ama dikkat: bunlar şimdilik şirketin kendi gösterimleri, bağımsız testler henüz yok. Yine de robotların öğrenme şekli hızla değişiyor.",
+ "konusma": "Dünyadan ise bir robot haberi var. Çinli robot şirketi yunitri'nin kurucusu, insansı robotlarının resim yapıp satranç oynadığını gösterdi. İşin ilginç yanı, robotlar bu işler için ayrıca eğitilmedi. Planı open ey ay'ın ci pi ti altı modeli yapıyor. Resimde fırça darbelerini planlıyor, robot kolları da boyayı tuvale aktarıyor. Satranç da bildiğimiz satranç değil, Çin satrancı. Bu oyunda kamera tahtayı görüyor, model hamleyi seçiyor, robot taşı alıp yerine koyuyor. Ama dikkat: bunlar şimdilik şirketin kendi gösterimleri, bağımsız testler henüz yok. Yine de robotların öğrenme şekli hızla değişiyor.",
+ "servis": "elevenlabs",
+ "ses": "elevenlabs:Jessica",
+ "kadin": true,
+ "sure": 37.433469,
+ "kelimeler": [
+  {
+   "k": "Dünyadan",
+   "bas": 0.0,
+   "son": 0.496
+  },
+  {
+   "k": "ise",
+   "bas": 0.637,
+   "son": 0.779
+  },
+  {
+   "k": "bir",
+   "bas": 0.85,
+   "son": 0.991
+  },
+  {
+   "k": "robot",
+   "bas": 1.133,
+   "son": 1.274
+  },
+  {
+   "k": "haberi",
+   "bas": 1.345,
+   "son": 1.558
+  },
+  {
+   "k": "var.",
+   "bas": 1.699,
+   "son": 2.265
+  },
+  {
+   "k": "Çinli",
+   "bas": 2.336,
+   "son": 2.549
+  },
+  {
+   "k": "robot",
+   "bas": 2.619,
+   "son": 2.903
+  },
+  {
+   "k": "şirketi",
+   "bas": 2.938,
+   "son": 3.327
+  },
+  {
+   "k": "Unitree'nin",
+   "bas": 3.398,
+   "son": 3.894
+  },
+  {
+   "k": "kurucusu,",
+   "bas": 3.965,
+   "son": 4.743
+  },
+  {
+   "k": "insansı",
+   "bas": 4.814,
+   "son": 5.239
+  },
+  {
+   "k": "robotlarının",
+   "bas": 5.381,
+   "son": 5.876
+  },
+  {
+   "k": "resim",
+   "bas": 5.947,
+   "son": 6.23
+  },
+  {
+   "k": "yapıp",
+   "bas": 6.265,
+   "son": 6.584
+  },
+  {
+   "k": "satranç",
+   "bas": 6.69,
+   "son": 7.009
+  },
+  {
+   "k": "oynadığını",
+   "bas": 7.044,
+   "son": 7.434
+  },
+  {
+   "k": "gösterdi.",
+   "bas": 7.504,
+   "son": 8.425
+  },
+  {
+   "k": "İşin",
+   "bas": 8.496,
+   "son": 8.708
+  },
+  {
+   "k": "ilginç",
+   "bas": 8.779,
+   "son": 9.062
+  },
+  {
+   "k": "yanı,",
+   "bas": 9.168,
+   "son": 9.558
+  },
+  {
+   "k": "robotlar",
+   "bas": 9.628,
+   "son": 10.053
+  },
+  {
+   "k": "bu",
+   "bas": 10.124,
+   "son": 10.195
+  },
+  {
+   "k": "işler",
+   "bas": 10.265,
+   "son": 10.478
+  },
+  {
+   "k": "için",
+   "bas": 10.549,
+   "son": 10.832
+  },
+  {
+   "k": "ayrıca",
+   "bas": 10.903,
+   "son": 11.257
+  },
+  {
+   "k": "eğitilmedi.",
+   "bas": 11.292,
+   "son": 12.283
+  },
+  {
+   "k": "Planı",
+   "bas": 12.319,
+   "son": 12.673
+  },
+  {
+   "k": "OpenAI'ın",
+   "bas": 12.743,
+   "son": 13.593
+  },
+  {
+   "k": "GPT-6",
+   "bas": 13.664,
+   "son": 14.442
+  },
+  {
+   "k": "modeli",
+   "bas": 14.513,
+   "son": 14.82
+  },
+  {
+   "k": "yapıyor.",
+   "bas": 14.843,
+   "son": 15.681
+  },
+  {
+   "k": "Resimde",
+   "bas": 15.717,
+   "son": 16.142
+  },
+  {
+   "k": "fırça",
+   "bas": 16.177,
+   "son": 16.425
+  },
+  {
+   "k": "darbelerini",
+   "bas": 16.531,
+   "son": 16.991
+  },
+  {
+   "k": "planlıyor,",
+   "bas": 17.133,
+   "son": 17.805
+  },
+  {
+   "k": "robot",
+   "bas": 17.841,
+   "son": 18.053
+  },
+  {
+   "k": "kolları",
+   "bas": 18.124,
+   "son": 18.478
+  },
+  {
+   "k": "da",
+   "bas": 18.584,
+   "son": 18.69
+  },
+  {
+   "k": "boyayı",
+   "bas": 18.796,
+   "son": 19.044
+  },
+  {
+   "k": "tuvale",
+   "bas": 19.08,
+   "son": 19.327
+  },
+  {
+   "k": "aktarıyor.",
+   "bas": 19.398,
+   "son": 20.319
+  },
+  {
+   "k": "Satranç",
+   "bas": 20.389,
+   "son": 20.814
+  },
+  {
+   "k": "da",
+   "bas": 20.92,
+   "son": 21.027
+  },
+  {
+   "k": "bildiğimiz",
+   "bas": 21.133,
+   "son": 21.451
+  },
+  {
+   "k": "satranç",
+   "bas": 21.522,
+   "son": 21.947
+  },
+  {
+   "k": "değil,",
+   "bas": 21.982,
+   "son": 22.407
+  },
+  {
+   "k": "Çin",
+   "bas": 22.442,
+   "son": 22.584
+  },
+  {
+   "k": "satrancı.",
+   "bas": 22.655,
+   "son": 23.646
+  },
+  {
+   "k": "Bu",
+   "bas": 23.681,
+   "son": 23.717
+  },
+  {
+   "k": "oyunda",
+   "bas": 23.788,
+   "son": 24.212
+  },
+  {
+   "k": "kamera",
+   "bas": 24.283,
+   "son": 24.566
+  },
+  {
+   "k": "tahtayı",
+   "bas": 24.637,
+   "son": 24.991
+  },
+  {
+   "k": "görüyor,",
+   "bas": 25.027,
+   "son": 25.664
+  },
+  {
+   "k": "model",
+   "bas": 25.699,
+   "son": 25.982
+  },
+  {
+   "k": "hamleyi",
+   "bas": 26.088,
+   "son": 26.372
+  },
+  {
+   "k": "seçiyor,",
+   "bas": 26.407,
+   "son": 27.08
+  },
+  {
+   "k": "robot",
+   "bas": 27.115,
+   "son": 27.398
+  },
+  {
+   "k": "taşı",
+   "bas": 27.469,
+   "son": 27.681
+  },
+  {
+   "k": "alıp",
+   "bas": 27.752,
+   "son": 27.965
+  },
+  {
+   "k": "yerine",
+   "bas": 28.035,
+   "son": 28.248
+  },
+  {
+   "k": "koyuyor.",
+   "bas": 28.319,
+   "son": 29.062
+  },
+  {
+   "k": "Ama",
+   "bas": 29.097,
+   "son": 29.239
+  },
+  {
+   "k": "dikkat:",
+   "bas": 29.274,
+   "son": 29.982
+  },
+  {
+   "k": "bunlar",
+   "bas": 30.018,
+   "son": 30.372
+  },
+  {
+   "k": "şimdilik",
+   "bas": 30.407,
+   "son": 30.796
+  },
+  {
+   "k": "şirketin",
+   "bas": 30.867,
+   "son": 31.292
+  },
+  {
+   "k": "kendi",
+   "bas": 31.327,
+   "son": 31.504
+  },
+  {
+   "k": "gösterimleri,",
+   "bas": 31.575,
+   "son": 32.46
+  },
+  {
+   "k": "bağımsız",
+   "bas": 32.496,
+   "son": 32.92
+  },
+  {
+   "k": "testler",
+   "bas": 33.027,
+   "son": 33.345
+  },
+  {
+   "k": "henüz",
+   "bas": 33.416,
+   "son": 33.628
+  },
+  {
+   "k": "yok.",
+   "bas": 33.699,
+   "son": 34.301
+  },
+  {
+   "k": "Yine",
+   "bas": 34.336,
+   "son": 34.549
+  },
+  {
+   "k": "de",
+   "bas": 34.655,
+   "son": 34.761
+  },
+  {
+   "k": "robotların",
+   "bas": 34.832,
+   "son": 35.327
+  },
+  {
+   "k": "öğrenme",
+   "bas": 35.398,
+   "son": 35.752
+  },
+  {
+   "k": "şekli",
+   "bas": 35.858,
+   "son": 36.177
+  },
+  {
+   "k": "hızla",
+   "bas": 36.212,
+   "son": 36.46
+  },
+  {
+   "k": "değişiyor.",
+   "bas": 36.531,
+   "son": 37.451
+  }
+ ]
+}

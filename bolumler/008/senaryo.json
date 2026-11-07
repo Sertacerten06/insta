@@ -1,0 +1,85 @@
+{
+ "bolum": 8,
+ "yayin_no": 7,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Vertex Teknopark İstanbul'da, Sponsor: Cortex",
+ "haritam_ozellik": "cortex_cok_yakinda",
+ "sponsor": "Cortex",
+ "kanca": {
+  "ikon": "bina",
+  "satirlar": [
+   "VERTEX ARTIK",
+   "TEKNOPARK",
+   "İSTANBUL'DA!"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "Vertex",
+  "Vertex,",
+  "Vertex!",
+  "Teknopark",
+  "kabul",
+  "Cortex",
+  "Cortex,",
+  "Cortex'in",
+  "Suncatcher",
+  "Gemma",
+  "haiku",
+  "Svalbard",
+  "2027'de",
+  "özet",
+  "analiz",
+  "önerileri",
+  "YKS",
+  "Haritam'a",
+  "ücretsiz",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Haritam'ı birlikte geliştirdiğimiz Vertex, Teknopark İstanbul'a kabul edildi! Bir de uzaydan şiir gönderen bir yapay zekâ var. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu yedinci bölüm. Bu bölümün sponsoru Cortex. İlk haber bizim ekipten."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_vertex",
+   "metin": "YKS Haritam'ı Arpama Technology ile birlikte geliştiren teknoloji şirketi Vertex, Teknopark İstanbul'a kabul edildi. Teknoparklar, teknoloji şirketlerinin araştırma ve geliştirme yaptığı merkezlerdir. Teknopark İstanbul da Türkiye'nin önemli teknoloji merkezlerinden biri. Vertex, kendi yapay zekâsı Cortex'i artık bu ekosistemin içinde geliştirecek. Bu kabul, Haritam'ın arkasındaki ekip için büyük bir adım. Biz de Arpama olarak bu haberi seninle paylaşmaktan çok mutluyuz. Tebrikler Vertex!"
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_suncatcher",
+   "metin": "Dünyadan ise uzaydan gelen bir şiir var. Google'ın Suncatcher projesi, yapay zekâ çiplerini uzayda çalıştırmayı deniyor. 1 Ekim'de fırlatılan deneme uydusunda, Google'ın TPU adlı yapay zekâ çipi var. Uyduyu Google, Planet şirketiyle birlikte üretti. Google 30 Ekim'de, uydudaki açık model Gemma 4'ün ilk cevabını aldığını duyurdu. Ekip, uzayda olmak üzerine bir haiku istedi. Uydu, Norveç'teki Svalbard üzerinden geçerken şiiri Dünya'ya gönderdi. Sırada ısı ve radyasyon testleri var. 2027'de ise iki uyduyla yeni denemeler planlanıyor."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_cortex",
+   "metin": "Şimdi sıra sponsorumuzda: Cortex! Cortex, Vertex'in yapay zekâsı ve çok yakında YKS Haritam'a geliyor. Peki ne yapacak? Programındaki her konu için özet hazırlayacak. Yanlışlarını analiz edecek. Ve sana özel çalışma önerileri sunacak. Yani Haritam'da planının yanında bir de yapay zekâ desteğin olacak. Bu bölüme destek olan Cortex ekibine teşekkürler. Cortex çok yakında, takipte kal!"
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla, Cortex geldiğinde ilk deneyenlerden ol. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: Vertex / Arpama Technology",
+  "haber2": "Kaynak: ShiftDelete.Net, Unite.AI"
+ },
+ "kapak": {
+  "ust": "TEBRİKLER VERTEX!",
+  "alt_satirlar": [
+   "TEKNOPARK İSTANBUL'DA",
+   "SPONSOR: CORTEX"
+  ],
+  "bolum_etiketi": "BÖLÜM 7",
+  "ikon": "robot"
+ },
+ "caption": "Ortağımız Vertex artık Teknopark İstanbul'da! 🕹️\n\nBu bölümde:\n▸ YKS Haritam'ı birlikte geliştirdiğimiz Vertex, Teknopark İstanbul'a kabul edildi. Tebrikler Vertex! ⭐\n▸ Google'ın Suncatcher uydusu, yörüngedeki yapay zekâ çipiyle Dünya'ya ilk şiirini gönderdi\n▸ Sponsorumuz Cortex: Vertex'in yapay zekâsı çok yakında Haritam'da (konu özetleri, yanlış analizi, kişisel öneriler)\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Vertex / Arpama Technology, ShiftDelete.Net, Unite.AI\n\n#yks #yks2027 #yapayzeka #teknopark #teknoloji #teknolojihaberleri #arpama #haritam"
+}

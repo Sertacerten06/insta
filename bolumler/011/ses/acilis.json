@@ -1,0 +1,79 @@
+{
+ "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu onuncu bölüm. İlk durağımız her zamanki gibi Türkiye.",
+ "konusma": "Arpama Teknoloji Gündemi'ne hoş geldin, bu onuncu bölüm. İlk durağımız her zamanki gibi Türkiye.",
+ "servis": "piper",
+ "ses": "tr_TR-fahrettin-medium",
+ "sure": 5.536780045351474,
+ "kelimeler": [
+  {
+   "k": "Arpama",
+   "bas": 0.0,
+   "son": 0.37
+  },
+  {
+   "k": "Teknoloji",
+   "bas": 0.37,
+   "son": 0.899
+  },
+  {
+   "k": "Gündemi'ne",
+   "bas": 0.899,
+   "son": 1.428
+  },
+  {
+   "k": "hoş",
+   "bas": 1.428,
+   "son": 1.64
+  },
+  {
+   "k": "geldin,",
+   "bas": 1.64,
+   "son": 2.01
+  },
+  {
+   "k": "bu",
+   "bas": 2.01,
+   "son": 2.168
+  },
+  {
+   "k": "onuncu",
+   "bas": 2.168,
+   "son": 2.539
+  },
+  {
+   "k": "bölüm.",
+   "bas": 2.539,
+   "son": 2.856
+  },
+  {
+   "k": "İlk",
+   "bas": 3.076,
+   "son": 3.306
+  },
+  {
+   "k": "durağımız",
+   "bas": 3.306,
+   "son": 3.88
+  },
+  {
+   "k": "her",
+   "bas": 3.88,
+   "son": 4.11
+  },
+  {
+   "k": "zamanki",
+   "bas": 4.11,
+   "son": 4.57
+  },
+  {
+   "k": "gibi",
+   "bas": 4.57,
+   "son": 4.857
+  },
+  {
+   "k": "Türkiye.",
+   "bas": 4.857,
+   "son": 5.317
+  }
+ ]
+}

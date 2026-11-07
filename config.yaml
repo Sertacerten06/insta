@@ -19,9 +19,17 @@ video:
   guvenli_alan: {ust: 220, alt: 380, sag: 140}
 
 tts:
-  servis: piper             # edge (Emel, kadın; bilgisayarda çalışır) | piper (bulutta, erkek) | espeak
+  servis: elevenlabs        # elevenlabs (bulutta, en kaliteli) | edge (Emel, kadın; bilgisayarda) | piper (bulutta, erkek, yedek) | espeak
   ses: tr-TR-EmelNeural     # marka sesi (kadın), 2026-10-22 kullanıcı isteği
   piper_ses: tr_TR-fahrettin-medium   # marka sesi (erkek). models/piper/ içine indirilir
+  elevenlabs:               # 2026-11-07: kullanıcı isteğiyle seslendirme ElevenLabs'ten. Anahtar .env -> ELEVENLABS_API_KEY
+    ses_id: cgSgspJ2msm6clMCkdW9   # Jessica (genç, enerjik kadın). Başka ses için ElevenLabs'teki voice_id'yi yaz
+    ses_adi: Jessica
+    kadin: true             # true ise maskot kız Arpi olur
+    model: eleven_v4        # en kaliteli çok dilli model
+    dil: tr
+    ayarlar: {stability: 0.5, similarity_boost: 0.75}
+    tempo: 1.13             # eleven_v4 speed ayarını yok sayıyor; ses ffmpeg atempo ile hızlandırılır (1.0 ile Bölüm 11 ~145 sn çıktı)
   hiz: "+0%"                # Emel yavaş: süre 130 sn üstüne çıkarsa wav atempo ile hızlandırılır (Bölüm 3: 1.16, 4: 1.12)
   hedef_lufs: -16
 

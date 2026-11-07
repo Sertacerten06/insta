@@ -1,0 +1,315 @@
+{
+ "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: kartı çevir. Bilgi okumakla değil, denemekle kalıcı olur. İşte bu yüzden YKS Haritam'da Kendini Test Et özelliği var. Kartlarla hızlı tekrar yaparsın. Bildiğin kart geçer, bilemediğin kart ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Günde birkaç dakika bile fark yaratır. Konuyu okudum demek yetmez, kartı çevir ve kendini dene!",
+ "konusma": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: kartı çevir. Bilgi okumakla değil, denemekle kalıcı olur. İşte bu yüzden ye ka se Haritam'da Kendini Test Et özelliği var. Kartlarla hızlı tekrar yaparsın. Bildiğin kart geçer, bilemediğin kart ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Günde birkaç dakika bile fark yaratır. Konuyu okudum demek yetmez, kartı çevir ve kendini dene!",
+ "servis": "elevenlabs",
+ "ses": "elevenlabs:Jessica",
+ "kadin": true,
+ "sure": 27.245714,
+ "kelimeler": [
+  {
+   "k": "Şimdi",
+   "bas": 0.0,
+   "son": 0.354
+  },
+  {
+   "k": "sıra",
+   "bas": 0.425,
+   "son": 0.637
+  },
+  {
+   "k": "Haritam",
+   "bas": 0.708,
+   "son": 1.062
+  },
+  {
+   "k": "bölümünde!",
+   "bas": 1.133,
+   "son": 2.053
+  },
+  {
+   "k": "Bugünkü",
+   "bas": 2.124,
+   "son": 2.478
+  },
+  {
+   "k": "bölümün",
+   "bas": 2.513,
+   "son": 2.761
+  },
+  {
+   "k": "adı:",
+   "bas": 2.832,
+   "son": 3.327
+  },
+  {
+   "k": "kartı",
+   "bas": 3.469,
+   "son": 3.681
+  },
+  {
+   "k": "çevir.",
+   "bas": 3.752,
+   "son": 4.531
+  },
+  {
+   "k": "Bilgi",
+   "bas": 4.602,
+   "son": 4.814
+  },
+  {
+   "k": "okumakla",
+   "bas": 4.885,
+   "son": 5.31
+  },
+  {
+   "k": "değil,",
+   "bas": 5.381,
+   "son": 5.805
+  },
+  {
+   "k": "denemekle",
+   "bas": 5.876,
+   "son": 6.301
+  },
+  {
+   "k": "kalıcı",
+   "bas": 6.372,
+   "son": 6.584
+  },
+  {
+   "k": "olur.",
+   "bas": 6.655,
+   "son": 7.327
+  },
+  {
+   "k": "İşte",
+   "bas": 7.363,
+   "son": 7.575
+  },
+  {
+   "k": "bu",
+   "bas": 7.611,
+   "son": 7.646
+  },
+  {
+   "k": "yüzden",
+   "bas": 7.717,
+   "son": 8.283
+  },
+  {
+   "k": "YKS",
+   "bas": 8.354,
+   "son": 8.92
+  },
+  {
+   "k": "Haritam'da",
+   "bas": 9.027,
+   "son": 9.699
+  },
+  {
+   "k": "Kendini",
+   "bas": 9.735,
+   "son": 10.124
+  },
+  {
+   "k": "Test",
+   "bas": 10.23,
+   "son": 10.336
+  },
+  {
+   "k": "Et",
+   "bas": 10.407,
+   "son": 10.478
+  },
+  {
+   "k": "özelliği",
+   "bas": 10.549,
+   "son": 10.903
+  },
+  {
+   "k": "var.",
+   "bas": 10.973,
+   "son": 11.611
+  },
+  {
+   "k": "Kartlarla",
+   "bas": 11.646,
+   "son": 12.106
+  },
+  {
+   "k": "hızlı",
+   "bas": 12.142,
+   "son": 12.389
+  },
+  {
+   "k": "tekrar",
+   "bas": 12.46,
+   "son": 12.673
+  },
+  {
+   "k": "yaparsın.",
+   "bas": 12.743,
+   "son": 13.558
+  },
+  {
+   "k": "Bildiğin",
+   "bas": 13.593,
+   "son": 13.947
+  },
+  {
+   "k": "kart",
+   "bas": 14.053,
+   "son": 14.159
+  },
+  {
+   "k": "geçer,",
+   "bas": 14.23,
+   "son": 14.832
+  },
+  {
+   "k": "bilemediğin",
+   "bas": 14.867,
+   "son": 15.363
+  },
+  {
+   "k": "kart",
+   "bas": 15.469,
+   "son": 15.575
+  },
+  {
+   "k": "ise",
+   "bas": 15.646,
+   "son": 15.858
+  },
+  {
+   "k": "daha",
+   "bas": 15.894,
+   "son": 16.071
+  },
+  {
+   "k": "sık",
+   "bas": 16.118,
+   "son": 16.212
+  },
+  {
+   "k": "karşına",
+   "bas": 16.319,
+   "son": 16.637
+  },
+  {
+   "k": "çıkar.",
+   "bas": 16.673,
+   "son": 17.345
+  },
+  {
+   "k": "Böylece",
+   "bas": 17.381,
+   "son": 17.841
+  },
+  {
+   "k": "zamanını",
+   "bas": 17.912,
+   "son": 18.407
+  },
+  {
+   "k": "zaten",
+   "bas": 18.442,
+   "son": 18.761
+  },
+  {
+   "k": "bildiklerine",
+   "bas": 18.867,
+   "son": 19.327
+  },
+  {
+   "k": "değil,",
+   "bas": 19.398,
+   "son": 19.788
+  },
+  {
+   "k": "eksiklerine",
+   "bas": 19.823,
+   "son": 20.319
+  },
+  {
+   "k": "harcarsın.",
+   "bas": 20.354,
+   "son": 21.31
+  },
+  {
+   "k": "Günde",
+   "bas": 21.345,
+   "son": 21.522
+  },
+  {
+   "k": "birkaç",
+   "bas": 21.593,
+   "son": 21.9
+  },
+  {
+   "k": "dakika",
+   "bas": 21.923,
+   "son": 22.23
+  },
+  {
+   "k": "bile",
+   "bas": 22.277,
+   "son": 22.372
+  },
+  {
+   "k": "fark",
+   "bas": 22.442,
+   "son": 22.655
+  },
+  {
+   "k": "yaratır.",
+   "bas": 22.75,
+   "son": 23.469
+  },
+  {
+   "k": "Konuyu",
+   "bas": 23.504,
+   "son": 23.788
+  },
+  {
+   "k": "okudum",
+   "bas": 23.858,
+   "son": 24.142
+  },
+  {
+   "k": "demek",
+   "bas": 24.212,
+   "son": 24.425
+  },
+  {
+   "k": "yetmez,",
+   "bas": 24.531,
+   "son": 25.168
+  },
+  {
+   "k": "kartı",
+   "bas": 25.204,
+   "son": 25.487
+  },
+  {
+   "k": "çevir",
+   "bas": 25.558,
+   "son": 25.912
+  },
+  {
+   "k": "ve",
+   "bas": 25.982,
+   "son": 26.124
+  },
+  {
+   "k": "kendini",
+   "bas": 26.159,
+   "son": 26.478
+  },
+  {
+   "k": "dene!",
+   "bas": 26.549,
+   "son": 27.257
+  }
+ ]
+}

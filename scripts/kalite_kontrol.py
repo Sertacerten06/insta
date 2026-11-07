@@ -66,7 +66,9 @@ def main():
     kontrol("hashtag 5–10, #arpama #haritam #yks var", 5 <= len(etiketler) <= 10 and
             {"#arpama", "#haritam", "#yks"} <= set(etiketler), f"{len(etiketler)} etiket")
     tts = ayar["tts"]
-    marka_sesi = tts.get("piper_ses") if tts.get("servis") == "piper" else tts["ses"]
+    el = tts.get("elevenlabs") or {}
+    marka_sesi = {"piper": tts.get("piper_ses"),
+                  "elevenlabs": f"elevenlabs:{el.get('ses_adi', el.get('ses_id'))}"}.get(tts.get("servis"), tts["ses"])
     kontrol("marka sesi config ile aynı", all(
         json.loads((bd / "ses" / f"{b['id']}.json").read_text(encoding="utf-8")).get("ses") == marka_sesi
         for b in sen["bolumler"]), marka_sesi)

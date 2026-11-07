@@ -1,0 +1,84 @@
+{
+ "bolum": 12,
+ "yayin_no": 11,
+ "seri": "Arpama Teknoloji Gündemi",
+ "baslik": "Türkçe Düşünen Yapay Zekâ Geliyor",
+ "haritam_ozellik": "kendini_test_et",
+ "kanca": {
+  "ikon": "robot",
+  "satirlar": [
+   "TÜRKİYE'NİN",
+   "KENDİ YAPAY ZEKÂSI",
+   "GELİYOR!"
+  ],
+  "vurgu": 1
+ },
+ "vurgu_kelimeleri": [
+  "BİLGE",
+  "BİLGE'yi",
+  "BİLGE'nin",
+  "Türkçe",
+  "yakında",
+  "seksen",
+  "beş",
+  "resim",
+  "satranç",
+  "GPT-6",
+  "eğitilmedi.",
+  "bağımsız",
+  "kartlarla",
+  "bilemediğin",
+  "eksiklerine",
+  "denemekle",
+  "ücretsiz,",
+  "Haritam",
+  "Haritam'ın",
+  "haritam.arpama.tr"
+ ],
+ "bolumler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "metin": "Türkiye'nin kendi yapay zekâsı geliyor! Bir de resim yapıp satranç oynayan robotlar var. Hazırsan başlıyoruz!"
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "metin": "Arpama Teknoloji Gündemi'ne hoş geldin, bu on birinci bölüm. İlk durağımız her zamanki gibi Türkiye."
+  },
+  {
+   "id": "haber1",
+   "sahne": "haber_bilge",
+   "metin": "Bugün İstanbul'dan sıcak bir haber geldi. Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, TRT World Forum'da Türkçe büyük dil modeli BİLGE'yi anlattı. BİLGE, Türkiye'de ve Türkçe için geliştirilen bir yapay zekâ modeli. İlk sürümü çok yakında geliştiricilere açılacak. Yani girişimler, araştırmacılar ve şirketler kendi uygulamalarını BİLGE'nin üstüne kurabilecek. Bakan ayrıca bugüne kadar seksen iki bin üniversite öğrencisinin yapay zekâ eğitimi aldığını söyledi. Hedef ise beş milyon kişiye yapay zekâ okuryazarlığı kazandırmak."
+  },
+  {
+   "id": "haber2",
+   "sahne": "haber_unitree",
+   "metin": "Dünyadan ise bir robot haberi var. Çinli robot şirketi Unitree'nin kurucusu, insansı robotlarının resim yapıp satranç oynadığını gösterdi. İşin ilginç yanı, robotlar bu işler için ayrıca eğitilmedi. Planı OpenAI'ın GPT-6 modeli yapıyor. Resimde fırça darbelerini planlıyor, robot kolları da boyayı tuvale aktarıyor. Satranç da bildiğimiz satranç değil, Çin satrancı. Bu oyunda kamera tahtayı görüyor, model hamleyi seçiyor, robot taşı alıp yerine koyuyor. Ama dikkat: bunlar şimdilik şirketin kendi gösterimleri, bağımsız testler henüz yok. Yine de robotların öğrenme şekli hızla değişiyor."
+  },
+  {
+   "id": "haritam",
+   "sahne": "haritam_test2",
+   "metin": "Şimdi sıra Haritam bölümünde! Bugünkü bölümün adı: kartı çevir. Bilgi okumakla değil, denemekle kalıcı olur. İşte bu yüzden YKS Haritam'da Kendini Test Et özelliği var. Kartlarla hızlı tekrar yaparsın. Bildiğin kart geçer, bilemediğin kart ise daha sık karşına çıkar. Böylece zamanını zaten bildiklerine değil, eksiklerine harcarsın. Günde birkaç dakika bile fark yaratır. Konuyu okudum demek yetmez, kartı çevir ve kendini dene!"
+  },
+  {
+   "id": "cta",
+   "sahne": "cta",
+   "metin": "YKS Haritam tamamen ücretsiz, telefonda da bilgisayarda da çalışır. haritam.arpama.tr adresinden hemen başla. Arpama'yı takip etmeyi unutma, gelecek bölümde görüşürüz!"
+  }
+ ],
+ "kaynak_satirlari": {
+  "haber1": "Kaynak: Anadolu Ajansı, Ankara Masası",
+  "haber2": "Kaynak: South China Morning Post, RobotsBeat"
+ },
+ "kapak": {
+  "ust": "YERLİ YAPAY ZEKÂ",
+  "alt_satirlar": [
+   "TÜRKÇE MODEL",
+   "BİLGE GELİYOR"
+  ],
+  "bolum_etiketi": "BÖLÜM 11",
+  "ikon": "robot"
+ },
+ "caption": "Türkiye'nin kendi yapay zekâsı geliyor! 🕹️\n\nBu bölümde:\n▸ Türkçe büyük dil modeli BİLGE çok yakında geliştiricilere açılıyor\n▸ Unitree robotları GPT-6 ile resim yaptı, satranç oynadı (şirket gösterimi)\n▸ Haritam: Kendini Test Et, kartlarla hızlı tekrar\n\nYKS'ye planlı hazırlanmak için ➜ haritam.arpama.tr (ücretsiz)\n\nKaynaklar: Anadolu Ajansı, Ankara Masası, South China Morning Post, RobotsBeat\n\n#yks #yks2027 #teknoloji #yapayzeka #robotik #teknolojihaberleri #arpama #haritam"
+}
