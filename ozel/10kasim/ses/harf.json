@@ -1,0 +1,216 @@
+{
+ "sure": 15.663,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "1928'de",
+   "bas": 0.0,
+   "son": 1.229,
+   "alinti": false
+  },
+  {
+   "k": "yeni",
+   "bas": 1.229,
+   "son": 1.505,
+   "alinti": false
+  },
+  {
+   "k": "Türk",
+   "bas": 1.505,
+   "son": 1.781,
+   "alinti": false
+  },
+  {
+   "k": "harfleri",
+   "bas": 1.781,
+   "son": 2.257,
+   "alinti": false
+  },
+  {
+   "k": "kabul",
+   "bas": 2.257,
+   "son": 2.583,
+   "alinti": false
+  },
+  {
+   "k": "ediliyor.",
+   "bas": 2.583,
+   "son": 3.06,
+   "alinti": false
+  },
+  {
+   "k": "Atatürk",
+   "bas": 3.56,
+   "son": 3.979,
+   "alinti": false
+  },
+  {
+   "k": "eline",
+   "bas": 3.979,
+   "son": 4.3,
+   "alinti": false
+  },
+  {
+   "k": "tebeşiri",
+   "bas": 4.3,
+   "son": 4.769,
+   "alinti": false
+  },
+  {
+   "k": "alıyor,",
+   "bas": 4.769,
+   "son": 5.139,
+   "alinti": false
+  },
+  {
+   "k": "yurdun",
+   "bas": 5.139,
+   "son": 5.509,
+   "alinti": false
+  },
+  {
+   "k": "dört",
+   "bas": 5.509,
+   "son": 5.781,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 5.781,
+   "son": 6.003,
+   "alinti": false
+  },
+  {
+   "k": "yanında",
+   "bas": 6.003,
+   "son": 6.422,
+   "alinti": false
+  },
+  {
+   "k": "kara",
+   "bas": 6.422,
+   "son": 6.694,
+   "alinti": false
+  },
+  {
+   "k": "tahtanın",
+   "bas": 6.694,
+   "son": 7.163,
+   "alinti": false
+  },
+  {
+   "k": "başına",
+   "bas": 7.163,
+   "son": 7.533,
+   "alinti": false
+  },
+  {
+   "k": "geçiyor.",
+   "bas": 7.533,
+   "son": 7.953,
+   "alinti": false
+  },
+  {
+   "k": "Millet",
+   "bas": 8.373,
+   "son": 8.737,
+   "alinti": false
+  },
+  {
+   "k": "Mektepleri",
+   "bas": 8.737,
+   "son": 9.295,
+   "alinti": false
+  },
+  {
+   "k": "açılıyor;",
+   "bas": 9.295,
+   "son": 9.756,
+   "alinti": false
+  },
+  {
+   "k": "çocuklar",
+   "bas": 9.756,
+   "son": 10.218,
+   "alinti": false
+  },
+  {
+   "k": "da,",
+   "bas": 10.218,
+   "son": 10.388,
+   "alinti": false
+  },
+  {
+   "k": "büyükler",
+   "bas": 10.388,
+   "son": 10.849,
+   "alinti": false
+  },
+  {
+   "k": "de",
+   "bas": 10.849,
+   "son": 11.019,
+   "alinti": false
+  },
+  {
+   "k": "yeni",
+   "bas": 11.019,
+   "son": 11.286,
+   "alinti": false
+  },
+  {
+   "k": "harflerle",
+   "bas": 11.286,
+   "son": 11.796,
+   "alinti": false
+  },
+  {
+   "k": "okumayı",
+   "bas": 11.796,
+   "son": 12.208,
+   "alinti": false
+  },
+  {
+   "k": "öğreniyor.",
+   "bas": 12.208,
+   "son": 12.718,
+   "alinti": false
+  },
+  {
+   "k": "O",
+   "bas": 13.218,
+   "son": 13.352,
+   "alinti": false
+  },
+  {
+   "k": "gün",
+   "bas": 13.352,
+   "son": 13.592,
+   "alinti": false
+  },
+  {
+   "k": "bugündür,",
+   "bas": 13.592,
+   "son": 14.1,
+   "alinti": false
+  },
+  {
+   "k": "ona",
+   "bas": 14.1,
+   "son": 14.341,
+   "alinti": false
+  },
+  {
+   "k": "Başöğretmen",
+   "bas": 14.341,
+   "son": 15.009,
+   "alinti": false
+  },
+  {
+   "k": "diyoruz.",
+   "bas": 15.009,
+   "son": 15.463,
+   "alinti": false
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "sure": 9.653,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "10",
+   "bas": 0.0,
+   "son": 0.401,
+   "alinti": false
+  },
+  {
+   "k": "Kasım",
+   "bas": 0.401,
+   "son": 1.144,
+   "alinti": false
+  },
+  {
+   "k": "1938.",
+   "bas": 1.144,
+   "son": 1.774,
+   "alinti": false
+  },
+  {
+   "k": "Sabah,",
+   "bas": 2.474,
+   "son": 2.877,
+   "alinti": false
+  },
+  {
+   "k": "saat",
+   "bas": 2.877,
+   "son": 3.217,
+   "alinti": false
+  },
+  {
+   "k": "dokuzu",
+   "bas": 3.217,
+   "son": 3.682,
+   "alinti": false
+  },
+  {
+   "k": "beş",
+   "bas": 3.682,
+   "son": 3.961,
+   "alinti": false
+  },
+  {
+   "k": "geçe.",
+   "bas": 3.961,
+   "son": 4.302,
+   "alinti": false
+  },
+  {
+   "k": "Dolmabahçe'de",
+   "bas": 4.902,
+   "son": 5.676,
+   "alinti": false
+  },
+  {
+   "k": "saatler",
+   "bas": 5.676,
+   "son": 6.164,
+   "alinti": false
+  },
+  {
+   "k": "duruyor.",
+   "bas": 6.164,
+   "son": 6.651,
+   "alinti": false
+  },
+  {
+   "k": "Ama",
+   "bas": 7.351,
+   "son": 7.6,
+   "alinti": false
+  },
+  {
+   "k": "onun",
+   "bas": 7.6,
+   "son": 7.904,
+   "alinti": false
+  },
+  {
+   "k": "yaktığı",
+   "bas": 7.904,
+   "son": 8.374,
+   "alinti": false
+  },
+  {
+   "k": "ışık,",
+   "bas": 8.374,
+   "son": 8.679,
+   "alinti": false
+  },
+  {
+   "k": "hiç",
+   "bas": 8.679,
+   "son": 8.928,
+   "alinti": false
+  },
+  {
+   "k": "sönmüyor.",
+   "bas": 8.928,
+   "son": 9.453,
+   "alinti": false
+  }
+ ]
+}

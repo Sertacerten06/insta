@@ -1,0 +1,210 @@
+{
+ "sure": 18.107,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "22",
+   "bas": 0.0,
+   "son": 0.88,
+   "alinti": false
+  },
+  {
+   "k": "Eylül",
+   "bas": 0.88,
+   "son": 1.483,
+   "alinti": false
+  },
+  {
+   "k": "1924,",
+   "bas": 1.483,
+   "son": 1.992,
+   "alinti": false
+  },
+  {
+   "k": "Samsun.",
+   "bas": 1.992,
+   "son": 2.687,
+   "alinti": false
+  },
+  {
+   "k": "Atatürk",
+   "bas": 3.187,
+   "son": 3.618,
+   "alinti": false
+  },
+  {
+   "k": "öğretmenlerle",
+   "bas": 3.618,
+   "son": 4.353,
+   "alinti": false
+  },
+  {
+   "k": "konuşurken",
+   "bas": 4.353,
+   "son": 4.936,
+   "alinti": false
+  },
+  {
+   "k": "şunu",
+   "bas": 4.936,
+   "son": 5.215,
+   "alinti": false
+  },
+  {
+   "k": "söylüyor:",
+   "bas": 5.215,
+   "son": 5.697,
+   "alinti": false
+  },
+  {
+   "k": "Dünyada",
+   "bas": 6.197,
+   "son": 6.733,
+   "alinti": true
+  },
+  {
+   "k": "her",
+   "bas": 6.733,
+   "son": 7.017,
+   "alinti": true
+  },
+  {
+   "k": "şey",
+   "bas": 7.017,
+   "son": 7.301,
+   "alinti": true
+  },
+  {
+   "k": "için,",
+   "bas": 7.301,
+   "son": 7.648,
+   "alinti": true
+  },
+  {
+   "k": "medeniyet",
+   "bas": 7.648,
+   "son": 8.311,
+   "alinti": true
+  },
+  {
+   "k": "için,",
+   "bas": 8.311,
+   "son": 8.658,
+   "alinti": true
+  },
+  {
+   "k": "hayat",
+   "bas": 8.658,
+   "son": 9.068,
+   "alinti": true
+  },
+  {
+   "k": "için,",
+   "bas": 9.068,
+   "son": 9.415,
+   "alinti": true
+  },
+  {
+   "k": "muvaffakiyet",
+   "bas": 9.415,
+   "son": 10.267,
+   "alinti": true
+  },
+  {
+   "k": "için,",
+   "bas": 10.267,
+   "son": 10.615,
+   "alinti": true
+  },
+  {
+   "k": "en",
+   "bas": 10.615,
+   "son": 10.835,
+   "alinti": true
+  },
+  {
+   "k": "hakiki",
+   "bas": 10.835,
+   "son": 11.309,
+   "alinti": true
+  },
+  {
+   "k": "mürşit",
+   "bas": 11.309,
+   "son": 11.782,
+   "alinti": true
+  },
+  {
+   "k": "ilimdir,",
+   "bas": 11.782,
+   "son": 12.319,
+   "alinti": true
+  },
+  {
+   "k": "fendir.",
+   "bas": 12.319,
+   "son": 12.792,
+   "alinti": true
+  },
+  {
+   "k": "Mürşit,",
+   "bas": 13.492,
+   "son": 13.931,
+   "alinti": false
+  },
+  {
+   "k": "yol",
+   "bas": 13.931,
+   "son": 14.195,
+   "alinti": false
+  },
+  {
+   "k": "gösteren",
+   "bas": 14.195,
+   "son": 14.751,
+   "alinti": false
+  },
+  {
+   "k": "demek.",
+   "bas": 14.751,
+   "son": 15.132,
+   "alinti": false
+  },
+  {
+   "k": "Yani",
+   "bas": 15.552,
+   "son": 15.846,
+   "alinti": false
+  },
+  {
+   "k": "hayatta",
+   "bas": 15.846,
+   "son": 16.301,
+   "alinti": false
+  },
+  {
+   "k": "yolunu,",
+   "bas": 16.301,
+   "son": 16.702,
+   "alinti": false
+  },
+  {
+   "k": "bilimin",
+   "bas": 16.702,
+   "son": 17.157,
+   "alinti": false
+  },
+  {
+   "k": "ışığında",
+   "bas": 17.157,
+   "son": 17.666,
+   "alinti": false
+  },
+  {
+   "k": "bul.",
+   "bas": 17.666,
+   "son": 17.907,
+   "alinti": false
+  }
+ ]
+}

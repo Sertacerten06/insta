@@ -1,0 +1,300 @@
+{
+ "sure": 22.835,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "Bir",
+   "bas": 0.0,
+   "son": 0.218,
+   "alinti": false
+  },
+  {
+   "k": "gün",
+   "bas": 0.218,
+   "son": 0.435,
+   "alinti": false
+  },
+  {
+   "k": "şöyle",
+   "bas": 0.435,
+   "son": 0.75,
+   "alinti": false
+  },
+  {
+   "k": "diyor:",
+   "bas": 0.75,
+   "son": 1.064,
+   "alinti": false
+  },
+  {
+   "k": "Beni",
+   "bas": 1.564,
+   "son": 1.868,
+   "alinti": true
+  },
+  {
+   "k": "görmek",
+   "bas": 1.868,
+   "son": 2.283,
+   "alinti": true
+  },
+  {
+   "k": "demek,",
+   "bas": 2.283,
+   "son": 2.642,
+   "alinti": true
+  },
+  {
+   "k": "mutlaka",
+   "bas": 2.642,
+   "son": 3.112,
+   "alinti": true
+  },
+  {
+   "k": "yüzümü",
+   "bas": 3.112,
+   "son": 3.526,
+   "alinti": true
+  },
+  {
+   "k": "görmek",
+   "bas": 3.526,
+   "son": 3.941,
+   "alinti": true
+  },
+  {
+   "k": "değildir.",
+   "bas": 3.941,
+   "son": 4.466,
+   "alinti": true
+  },
+  {
+   "k": "Benim",
+   "bas": 4.866,
+   "son": 5.223,
+   "alinti": true
+  },
+  {
+   "k": "fikirlerimi,",
+   "bas": 5.223,
+   "son": 5.91,
+   "alinti": true
+  },
+  {
+   "k": "benim",
+   "bas": 5.91,
+   "son": 6.267,
+   "alinti": true
+  },
+  {
+   "k": "duygularımı",
+   "bas": 6.267,
+   "son": 6.954,
+   "alinti": true
+  },
+  {
+   "k": "anlıyorsanız",
+   "bas": 6.954,
+   "son": 7.696,
+   "alinti": true
+  },
+  {
+   "k": "ve",
+   "bas": 7.696,
+   "son": 7.888,
+   "alinti": true
+  },
+  {
+   "k": "hissediyorsanız,",
+   "bas": 7.888,
+   "son": 8.794,
+   "alinti": true
+  },
+  {
+   "k": "bu",
+   "bas": 8.794,
+   "son": 8.987,
+   "alinti": true
+  },
+  {
+   "k": "kâfidir.",
+   "bas": 8.987,
+   "son": 9.454,
+   "alinti": true
+  },
+  {
+   "k": "Bugün",
+   "bas": 10.254,
+   "son": 10.607,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 10.607,
+   "son": 10.852,
+   "alinti": false
+  },
+  {
+   "k": "problemi",
+   "bas": 10.852,
+   "son": 11.368,
+   "alinti": false
+  },
+  {
+   "k": "çözen,",
+   "bas": 11.368,
+   "son": 11.721,
+   "alinti": false
+  },
+  {
+   "k": "kod",
+   "bas": 11.721,
+   "son": 11.966,
+   "alinti": false
+  },
+  {
+   "k": "yazan,",
+   "bas": 11.966,
+   "son": 12.319,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 12.319,
+   "son": 12.564,
+   "alinti": false
+  },
+  {
+   "k": "deneyi",
+   "bas": 12.564,
+   "son": 12.972,
+   "alinti": false
+  },
+  {
+   "k": "merak",
+   "bas": 12.972,
+   "son": 13.325,
+   "alinti": false
+  },
+  {
+   "k": "eden",
+   "bas": 13.325,
+   "son": 13.624,
+   "alinti": false
+  },
+  {
+   "k": "her",
+   "bas": 13.624,
+   "son": 13.869,
+   "alinti": false
+  },
+  {
+   "k": "gençte,",
+   "bas": 13.869,
+   "son": 14.277,
+   "alinti": false
+  },
+  {
+   "k": "o",
+   "bas": 14.277,
+   "son": 14.412,
+   "alinti": false
+  },
+  {
+   "k": "fikirler",
+   "bas": 14.412,
+   "son": 14.929,
+   "alinti": false
+  },
+  {
+   "k": "yaşıyor.",
+   "bas": 14.929,
+   "son": 15.391,
+   "alinti": false
+  },
+  {
+   "k": "Ulu",
+   "bas": 16.091,
+   "son": 16.369,
+   "alinti": false
+  },
+  {
+   "k": "Önder",
+   "bas": 16.369,
+   "son": 16.77,
+   "alinti": false
+  },
+  {
+   "k": "Mustafa",
+   "bas": 16.77,
+   "son": 17.295,
+   "alinti": false
+  },
+  {
+   "k": "Kemal",
+   "bas": 17.295,
+   "son": 17.696,
+   "alinti": false
+  },
+  {
+   "k": "Atatürk'ü,",
+   "bas": 17.696,
+   "son": 18.283,
+   "alinti": false
+  },
+  {
+   "k": "aramızdan",
+   "bas": 18.283,
+   "son": 18.931,
+   "alinti": false
+  },
+  {
+   "k": "ayrılışının",
+   "bas": 18.931,
+   "son": 19.703,
+   "alinti": false
+  },
+  {
+   "k": "88.",
+   "bas": 19.703,
+   "son": 19.919,
+   "alinti": false
+  },
+  {
+   "k": "yılında,",
+   "bas": 19.919,
+   "son": 20.443,
+   "alinti": false
+  },
+  {
+   "k": "saygı,",
+   "bas": 20.443,
+   "son": 20.845,
+   "alinti": false
+  },
+  {
+   "k": "minnet",
+   "bas": 20.845,
+   "son": 21.308,
+   "alinti": false
+  },
+  {
+   "k": "ve",
+   "bas": 21.308,
+   "son": 21.524,
+   "alinti": false
+  },
+  {
+   "k": "özlemle",
+   "bas": 21.524,
+   "son": 22.048,
+   "alinti": false
+  },
+  {
+   "k": "anıyoruz.",
+   "bas": 22.048,
+   "son": 22.635,
+   "alinti": false
+  }
+ ]
+}

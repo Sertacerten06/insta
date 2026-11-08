@@ -1,0 +1,66 @@
+{
+ "sure": 4.072,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "Gel,",
+   "bas": 0.0,
+   "son": 0.235,
+   "alinti": false
+  },
+  {
+   "k": "Atatürk'ün",
+   "bas": 0.235,
+   "son": 0.785,
+   "alinti": false
+  },
+  {
+   "k": "bize",
+   "bas": 0.785,
+   "son": 1.073,
+   "alinti": false
+  },
+  {
+   "k": "bıraktığı",
+   "bas": 1.073,
+   "son": 1.622,
+   "alinti": false
+  },
+  {
+   "k": "en",
+   "bas": 1.622,
+   "son": 1.805,
+   "alinti": false
+  },
+  {
+   "k": "büyük",
+   "bas": 1.805,
+   "son": 2.145,
+   "alinti": false
+  },
+  {
+   "k": "mirasa",
+   "bas": 2.145,
+   "son": 2.538,
+   "alinti": false
+  },
+  {
+   "k": "birlikte",
+   "bas": 2.538,
+   "son": 3.035,
+   "alinti": false
+  },
+  {
+   "k": "bakalım:",
+   "bas": 3.035,
+   "son": 3.479,
+   "alinti": false
+  },
+  {
+   "k": "bilime.",
+   "bas": 3.479,
+   "son": 3.872,
+   "alinti": false
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "baslik": "10 Kasım özel: Bilimin ışığında",
+ "not": "Haritam reklamı yok (yas günü), Arpama yalnızca açılışta. Kaynaklar: Samsun konuşması 22.09.1924 (Atatürk'ün Söylev ve Demeçleri; Bilkent OBİ, Sözcü), Başöğretmen 24.11.1928 ve Millet Mektepleri 1.1.1929 (Hürriyet, Sözcü, Küre Ansiklopedisi), Geometri kitabı 1936-37 (Çankaya Üni. ders notu, TÜBİTAK Bilim Çocuk, Sözcü), Türk Tayyare Cemiyeti 16.02.1925 ve Sabiha Gökçen (Atatürk Ansiklopedisi, Küre Ansiklopedisi).",
+ "ses": {
+  "hiz": 1.0,
+  "virgul": 0.18,
+  "cumle": 0.42,
+  "elevenlabs": {
+   "ses_id": "BELIRLENECEK",
+   "ses_adi": "kalin erkek (belgesel)",
+   "model": "eleven_v4",
+   "dil": "tr",
+   "ayarlar": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true
+   },
+   "tempo": 1.0
+  }
+ },
+ "sahneler": [
+  {
+   "id": "kanca",
+   "sahne": "kanca",
+   "giris": 0.8,
+   "cumleler": [
+    {
+     "m": "10 Kasım 1938.",
+     "ara": 0.7
+    },
+    {
+     "m": "Sabah, saat dokuzu beş geçe.",
+     "ara": 0.6
+    },
+    {
+     "m": "Dolmabahçe'de saatler duruyor.",
+     "ara": 0.7
+    },
+    {
+     "m": "Ama onun yaktığı ışık, hiç sönmüyor.",
+     "ara": 0.2
+    }
+   ]
+  },
+  {
+   "id": "acilis",
+   "sahne": "acilis",
+   "giris": 1.2,
+   "cumleler": [
+    {
+     "m": "Gel, Atatürk'ün bize bıraktığı en büyük mirasa birlikte bakalım: bilime.",
+     "ara": 0.2
+    }
+   ]
+  },
+  {
+   "id": "ilim",
+   "sahne": "ilim",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "22 Eylül 1924, Samsun.",
+     "ara": 0.5
+    },
+    {
+     "m": "Atatürk öğretmenlerle konuşurken şunu söylüyor:",
+     "ara": 0.5
+    },
+    {
+     "m": "Dünyada her şey için, medeniyet için, hayat için, muvaffakiyet için, en hakiki mürşit ilimdir, fendir.",
+     "alinti": true,
+     "ara": 0.7
+    },
+    {
+     "m": "Mürşit, yol gösteren demek."
+    },
+    {
+     "m": "Yani hayatta yolunu, bilimin ışığında bul.",
+     "ara": 0.2
+    }
+   ]
+  },
+  {
+   "id": "harf",
+   "sahne": "harf",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "1928'de yeni Türk harfleri kabul ediliyor.",
+     "ara": 0.5
+    },
+    {
+     "m": "Atatürk eline tebeşiri alıyor, yurdun dört bir yanında kara tahtanın başına geçiyor."
+    },
+    {
+     "m": "Millet Mektepleri açılıyor; çocuklar da, büyükler de yeni harflerle okumayı öğreniyor.",
+     "ara": 0.5
+    },
+    {
+     "m": "O gün bugündür, ona Başöğretmen diyoruz.",
+     "ara": 0.2
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "sahne": "bilim",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "1933'te üniversite reformu yapılıyor."
+    },
+    {
+     "m": "İstanbul Üniversitesi kuruluyor, Avrupa'dan pek çok bilim insanı Türkiye'de ders vermeye geliyor.",
+     "ara": 0.5
+    },
+    {
+     "m": "Atatürk ise son yıllarında, kendi eliyle bir geometri kitabı yazıyor.",
+     "ara": 0.5
+    },
+    {
+     "m": "Açı, üçgen, kenar, çap, yarıçap.",
+     "ara": 0.5
+    },
+    {
+     "m": "Bugün matematik dersinde kullandığın bu kelimelerin birçoğu, o kitapla hayatımıza giriyor.",
+     "ara": 0.2
+    }
+   ]
+  },
+  {
+   "id": "gok",
+   "sahne": "gok",
+   "giris": 0.5,
+   "cumleler": [
+    {
+     "m": "Gözü hep geleceğe, göklere dönük.",
+     "ara": 0.5
+    },
+    {
+     "m": "1925'te Türk Tayyare Cemiyeti kuruluyor; bugünkü Türk Hava Kurumu."
+    },
+    {
+     "m": "Sabiha Gökçen, ilk Türk kadın askeri pilot oluyor.",
+     "ara": 0.5
+    },
+    {
+     "m": "Çünkü ona göre, bilimi ve teknolojiyi adım adım takip etmek, bir tercih değil, bir zorunluluk.",
+     "ara": 0.2
+    }
+   ]
+  },
+  {
+   "id": "kapanis",
+   "sahne": "kapanis",
+   "giris": 0.7,
+   "kuyruk": 4.5,
+   "cumleler": [
+    {
+     "m": "Bir gün şöyle diyor:",
+     "ara": 0.5
+    },
+    {
+     "m": "Beni görmek demek, mutlaka yüzümü görmek değildir.",
+     "alinti": true,
+     "ara": 0.4
+    },
+    {
+     "m": "Benim fikirlerimi, benim duygularımı anlıyorsanız ve hissediyorsanız, bu kâfidir.",
+     "alinti": true,
+     "ara": 0.8
+    },
+    {
+     "m": "Bugün bir problemi çözen, kod yazan, bir deneyi merak eden her gençte, o fikirler yaşıyor.",
+     "ara": 0.7
+    },
+    {
+     "m": "Ulu Önder Mustafa Kemal Atatürk'ü, aramızdan ayrılışının 88. yılında, saygı, minnet ve özlemle anıyoruz.",
+     "ara": 0.2
+    }
+   ]
+  }
+ ],
+ "okunus": {
+  "10": "on",
+  "1938.": "bin dokuz yüz otuz sekiz.",
+  "22": "yirmi iki",
+  "1924,": "bin dokuz yüz yirmi dört,",
+  "1928'de": "bin dokuz yüz yirmi sekizde",
+  "1933'te": "bin dokuz yüz otuz üçte",
+  "1925'te": "bin dokuz yüz yirmi beşte",
+  "88.": "seksen sekizinci"
+ },
+ "vurgu": [
+  "10",
+  "Kasım",
+  "1938",
+  "dokuzu",
+  "beş",
+  "ışık,",
+  "bilime",
+  "ilimdir,",
+  "fendir",
+  "Mürşit,",
+  "bilimin",
+  "1928'de",
+  "tebeşiri",
+  "Başöğretmen",
+  "1933'te",
+  "geometri",
+  "Açı,",
+  "üçgen,",
+  "kenar,",
+  "çap,",
+  "yarıçap",
+  "1925'te",
+  "Tayyare",
+  "Sabiha",
+  "Gökçen,",
+  "zorunluluk",
+  "fikirlerimi,",
+  "kod",
+  "Atatürk'ü,",
+  "88.",
+  "saygı,",
+  "minnet",
+  "özlemle"
+ ],
+ "caption": "10 Kasım 1938, saat 09.05. Saatler durdu; ama onun yaktığı ışık hiç sönmedi. 🇹🇷\n\n\"Dünyada her şey için, medeniyet için, hayat için, muvaffakiyet için en hakiki mürşit ilimdir, fendir.\" (Samsun, 22 Eylül 1924)\n\n▸ 1925 · Türk Tayyare Cemiyeti (bugünkü THK)\n▸ 1928 · Yeni Türk harfleri, Başöğretmen\n▸ 1929 · Millet Mektepleri\n▸ 1933 · Üniversite reformu\n▸ 1936-37 · Atatürk'ün Geometri kitabı: açı, üçgen, çap, yarıçap...\n\nUlu Önder Mustafa Kemal Atatürk'ü aramızdan ayrılışının 88. yılında saygı, minnet ve özlemle anıyoruz.\n\n#10kasım #atatürk #10kasım1938 #başöğretmen #bilim #arpama"
+}

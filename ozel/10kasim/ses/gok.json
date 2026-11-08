@@ -1,0 +1,228 @@
+{
+ "sure": 15.563,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "Gözü",
+   "bas": 0.0,
+   "son": 0.337,
+   "alinti": false
+  },
+  {
+   "k": "hep",
+   "bas": 0.337,
+   "son": 0.612,
+   "alinti": false
+  },
+  {
+   "k": "geleceğe,",
+   "bas": 0.612,
+   "son": 1.194,
+   "alinti": false
+  },
+  {
+   "k": "göklere",
+   "bas": 1.194,
+   "son": 1.714,
+   "alinti": false
+  },
+  {
+   "k": "dönük.",
+   "bas": 1.714,
+   "son": 2.112,
+   "alinti": false
+  },
+  {
+   "k": "1925'te",
+   "bas": 2.612,
+   "son": 3.74,
+   "alinti": false
+  },
+  {
+   "k": "Türk",
+   "bas": 3.74,
+   "son": 4.016,
+   "alinti": false
+  },
+  {
+   "k": "Tayyare",
+   "bas": 4.016,
+   "son": 4.443,
+   "alinti": false
+  },
+  {
+   "k": "Cemiyeti",
+   "bas": 4.443,
+   "son": 4.919,
+   "alinti": false
+  },
+  {
+   "k": "kuruluyor;",
+   "bas": 4.919,
+   "son": 5.446,
+   "alinti": false
+  },
+  {
+   "k": "bugünkü",
+   "bas": 5.446,
+   "son": 5.872,
+   "alinti": false
+  },
+  {
+   "k": "Türk",
+   "bas": 5.872,
+   "son": 6.148,
+   "alinti": false
+  },
+  {
+   "k": "Hava",
+   "bas": 6.148,
+   "son": 6.424,
+   "alinti": false
+  },
+  {
+   "k": "Kurumu.",
+   "bas": 6.424,
+   "son": 6.8,
+   "alinti": false
+  },
+  {
+   "k": "Sabiha",
+   "bas": 7.22,
+   "son": 7.611,
+   "alinti": false
+  },
+  {
+   "k": "Gökçen,",
+   "bas": 7.611,
+   "son": 8.002,
+   "alinti": false
+  },
+  {
+   "k": "ilk",
+   "bas": 8.002,
+   "son": 8.236,
+   "alinti": false
+  },
+  {
+   "k": "Türk",
+   "bas": 8.236,
+   "son": 8.523,
+   "alinti": false
+  },
+  {
+   "k": "kadın",
+   "bas": 8.523,
+   "son": 8.862,
+   "alinti": false
+  },
+  {
+   "k": "askeri",
+   "bas": 8.862,
+   "son": 9.252,
+   "alinti": false
+  },
+  {
+   "k": "pilot",
+   "bas": 9.252,
+   "son": 9.591,
+   "alinti": false
+  },
+  {
+   "k": "oluyor.",
+   "bas": 9.591,
+   "son": 9.982,
+   "alinti": false
+  },
+  {
+   "k": "Çünkü",
+   "bas": 10.482,
+   "son": 10.804,
+   "alinti": false
+  },
+  {
+   "k": "ona",
+   "bas": 10.804,
+   "son": 11.027,
+   "alinti": false
+  },
+  {
+   "k": "göre,",
+   "bas": 11.027,
+   "son": 11.299,
+   "alinti": false
+  },
+  {
+   "k": "bilimi",
+   "bas": 11.299,
+   "son": 11.671,
+   "alinti": false
+  },
+  {
+   "k": "ve",
+   "bas": 11.671,
+   "son": 11.844,
+   "alinti": false
+  },
+  {
+   "k": "teknolojiyi",
+   "bas": 11.844,
+   "son": 12.464,
+   "alinti": false
+  },
+  {
+   "k": "adım",
+   "bas": 12.464,
+   "son": 12.736,
+   "alinti": false
+  },
+  {
+   "k": "adım",
+   "bas": 12.736,
+   "son": 13.009,
+   "alinti": false
+  },
+  {
+   "k": "takip",
+   "bas": 13.009,
+   "son": 13.331,
+   "alinti": false
+  },
+  {
+   "k": "etmek,",
+   "bas": 13.331,
+   "son": 13.653,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 13.653,
+   "son": 13.876,
+   "alinti": false
+  },
+  {
+   "k": "tercih",
+   "bas": 13.876,
+   "son": 14.248,
+   "alinti": false
+  },
+  {
+   "k": "değil,",
+   "bas": 14.248,
+   "son": 14.57,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 14.57,
+   "son": 14.793,
+   "alinti": false
+  },
+  {
+   "k": "zorunluluk.",
+   "bas": 14.793,
+   "son": 15.363,
+   "alinti": false
+  }
+ ]
+}

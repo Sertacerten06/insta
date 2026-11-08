@@ -1,0 +1,258 @@
+{
+ "sure": 21.079,
+ "servis": "piper",
+ "kelimeler": [
+  {
+   "k": "1933'te",
+   "bas": 0.0,
+   "son": 1.179,
+   "alinti": false
+  },
+  {
+   "k": "üniversite",
+   "bas": 1.179,
+   "son": 1.841,
+   "alinti": false
+  },
+  {
+   "k": "reformu",
+   "bas": 1.841,
+   "son": 2.33,
+   "alinti": false
+  },
+  {
+   "k": "yapılıyor.",
+   "bas": 2.33,
+   "son": 2.934,
+   "alinti": false
+  },
+  {
+   "k": "İstanbul",
+   "bas": 3.354,
+   "son": 3.831,
+   "alinti": false
+  },
+  {
+   "k": "Üniversitesi",
+   "bas": 3.831,
+   "son": 4.51,
+   "alinti": false
+  },
+  {
+   "k": "kuruluyor,",
+   "bas": 4.51,
+   "son": 5.037,
+   "alinti": false
+  },
+  {
+   "k": "Avrupa'dan",
+   "bas": 5.037,
+   "son": 5.565,
+   "alinti": false
+  },
+  {
+   "k": "pek",
+   "bas": 5.565,
+   "son": 5.791,
+   "alinti": false
+  },
+  {
+   "k": "çok",
+   "bas": 5.791,
+   "son": 6.017,
+   "alinti": false
+  },
+  {
+   "k": "bilim",
+   "bas": 6.017,
+   "son": 6.344,
+   "alinti": false
+  },
+  {
+   "k": "insanı",
+   "bas": 6.344,
+   "son": 6.72,
+   "alinti": false
+  },
+  {
+   "k": "Türkiye'de",
+   "bas": 6.72,
+   "son": 7.248,
+   "alinti": false
+  },
+  {
+   "k": "ders",
+   "bas": 7.248,
+   "son": 7.524,
+   "alinti": false
+  },
+  {
+   "k": "vermeye",
+   "bas": 7.524,
+   "son": 7.951,
+   "alinti": false
+  },
+  {
+   "k": "geliyor.",
+   "bas": 7.951,
+   "son": 8.378,
+   "alinti": false
+  },
+  {
+   "k": "Atatürk",
+   "bas": 8.878,
+   "son": 9.331,
+   "alinti": false
+  },
+  {
+   "k": "ise",
+   "bas": 9.331,
+   "son": 9.57,
+   "alinti": false
+  },
+  {
+   "k": "son",
+   "bas": 9.57,
+   "son": 9.809,
+   "alinti": false
+  },
+  {
+   "k": "yıllarında,",
+   "bas": 9.809,
+   "son": 10.421,
+   "alinti": false
+  },
+  {
+   "k": "kendi",
+   "bas": 10.421,
+   "son": 10.767,
+   "alinti": false
+  },
+  {
+   "k": "eliyle",
+   "bas": 10.767,
+   "son": 11.166,
+   "alinti": false
+  },
+  {
+   "k": "bir",
+   "bas": 11.166,
+   "son": 11.406,
+   "alinti": false
+  },
+  {
+   "k": "geometri",
+   "bas": 11.406,
+   "son": 11.911,
+   "alinti": false
+  },
+  {
+   "k": "kitabı",
+   "bas": 11.911,
+   "son": 12.31,
+   "alinti": false
+  },
+  {
+   "k": "yazıyor.",
+   "bas": 12.31,
+   "son": 12.762,
+   "alinti": false
+  },
+  {
+   "k": "Açı,",
+   "bas": 13.262,
+   "son": 13.628,
+   "alinti": false
+  },
+  {
+   "k": "üçgen,",
+   "bas": 13.628,
+   "son": 14.157,
+   "alinti": false
+  },
+  {
+   "k": "kenar,",
+   "bas": 14.157,
+   "son": 14.686,
+   "alinti": false
+  },
+  {
+   "k": "çap,",
+   "bas": 14.686,
+   "son": 15.051,
+   "alinti": false
+  },
+  {
+   "k": "yarıçap.",
+   "bas": 15.051,
+   "son": 15.743,
+   "alinti": false
+  },
+  {
+   "k": "Bugün",
+   "bas": 16.243,
+   "son": 16.562,
+   "alinti": false
+  },
+  {
+   "k": "matematik",
+   "bas": 16.562,
+   "son": 17.077,
+   "alinti": false
+  },
+  {
+   "k": "dersinde",
+   "bas": 17.077,
+   "son": 17.543,
+   "alinti": false
+  },
+  {
+   "k": "kullandığın",
+   "bas": 17.543,
+   "son": 18.156,
+   "alinti": false
+  },
+  {
+   "k": "bu",
+   "bas": 18.156,
+   "son": 18.328,
+   "alinti": false
+  },
+  {
+   "k": "kelimelerin",
+   "bas": 18.328,
+   "son": 18.941,
+   "alinti": false
+  },
+  {
+   "k": "birçoğu,",
+   "bas": 18.941,
+   "son": 19.358,
+   "alinti": false
+  },
+  {
+   "k": "o",
+   "bas": 19.358,
+   "son": 19.481,
+   "alinti": false
+  },
+  {
+   "k": "kitapla",
+   "bas": 19.481,
+   "son": 19.898,
+   "alinti": false
+  },
+  {
+   "k": "hayatımıza",
+   "bas": 19.898,
+   "son": 20.462,
+   "alinti": false
+  },
+  {
+   "k": "giriyor.",
+   "bas": 20.462,
+   "son": 20.879,
+   "alinti": false
+  }
+ ]
+}
