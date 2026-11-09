@@ -92,6 +92,12 @@ def _gecis(h, renkler):
     return rs[i[:, 0]] * (1 - f) + rs[i[:, 0] + 1] * f
 
 
+def _orta(f, ch):
+    """Harfin dikey ortasının yazı başlangıcına uzaklığı (mantıksal)."""
+    bb = f.getbbox(ch)
+    return (bb[1] + bb[3]) / 2 / S
+
+
 def yazi(d, metin, x, y, f, renk, hiza="orta", aralik=0, golge=True):
     """renk: RGB ya da üstten alta geçiş listesi (metalik). hiza: orta | sol | sag. y = üst kenar."""
     im = d._image
@@ -248,7 +254,7 @@ def sayfa1():
     ust = font("cinzel", 26, 600)
     # 1938'in 8'i sonsuzluk işareti
     g = yazi(d, "10 KASIM 193", 70, 70, ust, GUMUS, "sol", aralik=7)
-    yazi(d, "∞", 70 + g + 7, 46, font("playfair", 58, 600), GUMUS_GECIS, "sol")
+    sonsuz(im, 70 + g + 12, 70 + _orta(ust, "3"), 30, 2.4, GUMUS)
     yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     sp = portre_metalik(900)
@@ -281,6 +287,29 @@ def sayfa1():
     return im.convert("RGB")
 
 
+def sonsuz(im, x, cy, gen, kalinlik, renk, hiza="sol"):
+    """Sade sonsuzluk işareti: tek kalınlıkta ince çizgi (Bernoulli lemniskatı), düz renk.
+    x/cy/gen/kalinlik mantıksal ölçüde; hiza sol|sag|orta. Genişliği döndürür."""
+    x0 = x if hiza == "sol" else x - gen if hiza == "sag" else x - gen / 2
+    SS = 4
+    a = (gen - kalinlik) / 2
+    yuk = a * 0.72 + kalinlik
+    mw, mh = int((gen + 4) * S * SS), int((yuk + 4) * S * SS)
+    maske = Image.new("L", (mw, mh), 0)
+    md = ImageDraw.Draw(maske)
+    pts = []
+    for i in range(721):
+        t = 2 * math.pi * i / 720
+        k = 1 + math.sin(t) ** 2
+        pts.append(((2 + gen / 2 + a * math.cos(t) / k) * S * SS, (2 + yuk / 2 + a * math.sin(t) * math.cos(t) / k) * S * SS))
+    md.line(pts, fill=255, width=max(1, int(round(kalinlik * S * SS))), joint="curve")
+    maske = maske.resize((mw // SS, mh // SS), Image.LANCZOS)
+    katman = Image.new("RGBA", maske.size, renk + (0,))
+    katman.putalpha(maske)
+    im.alpha_composite(katman, (int((x0 - 2) * S), int((cy - yuk / 2 - 2) * S)))
+    return gen
+
+
 def sayfa1_klasik():
     """İlk tasarım (kullanıcının tercihi): gri portre, "ATATÜRK / saygıyla anıyoruz."."""
     im = zemin()
@@ -288,7 +317,7 @@ def sayfa1_klasik():
     ust = font("cinzel", 26, 600)
     # 1938'in 8'i sonsuzluk işareti
     g = yazi(d, "10 KASIM 193", 70, 70, ust, GUMUS, "sol", aralik=7)
-    yazi(d, "∞", 70 + g + 7, 46, font("playfair", 58, 600), GUMUS_GECIS, "sol")
+    sonsuz(im, 70 + g + 12, 70 + _orta(ust, "3"), 30, 2.4, GUMUS)
     yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     sp = portre(int(round(880 * S)))
@@ -332,7 +361,7 @@ def sayfa2():
     d = Ciz(im)
     ust = font("cinzel", 26, 600)
     yazi(d, "MUSTAFA KEMAL", 70, 70, ust, GUMUS, "sol", aralik=7)
-    sg = yazi(d, "∞", W - 70, 44, font("playfair", 58, 600), ALTIN_GECIS, "sag")
+    sg = sonsuz(im, W - 70, 70 + _orta(ust, "1"), 30, 2.4, ALTIN, "sag")
     yazi(d, "1881 –", W - 70 - sg - 14, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     yazi(d, "BİR ÖMÜR", W / 2, 140, font("dekor", 108), GUMUS_GECIS, aralik=12)
@@ -351,7 +380,7 @@ def sayfa2():
         x = sag_x if sag else sol_x
         hiza = "sol" if sag else "sag"
         if yil == "∞":  # 1938 yerine sonsuzluk işareti, rakamlarla aynı yükseklikte
-            yazi(d, yil, x, y - 106, font("playfair", 170, 600), ALTIN_GECIS, hiza)
+            sonsuz(im, x, y - 18 + _orta(yil_f, "1"), 96, 5.5, ALTIN, hiza)
         else:
             yazi(d, yil, x, y - 18, yil_f, ALTIN_GECIS, hiza, aralik=1)
         yazi(d, gun, x, y + 64, gun_f, GUMUS, hiza, aralik=4, golge=False)
