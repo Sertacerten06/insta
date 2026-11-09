@@ -248,7 +248,7 @@ def sayfa1():
     ust = font("cinzel", 26, 600)
     # 1938'in 8'i sonsuzluk işareti
     g = yazi(d, "10 KASIM 193", 70, 70, ust, GUMUS, "sol", aralik=7)
-    yazi(d, "∞", 70 + g + 12, 46, font("playfair", 58, 600), GUMUS_GECIS, "sol")
+    yazi(d, "∞", 70 + g + 7, 46, font("playfair", 58, 600), GUMUS_GECIS, "sol")
     yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     sp = portre_metalik(900)
@@ -278,6 +278,40 @@ def sayfa1():
     yazi(d, "ancak Türkiye Cumhuriyeti ilelebet payidar kalacaktır.”", W / 2, 1128, soz, GUMUS, golge=False)
     yazi(d, "MUSTAFA KEMAL ATATÜRK", W / 2, 1180, font("cinzel", 20, 600), ALTIN_GECIS, aralik=6, golge=False)
     logo_koy(im, 1226, 210)
+    return im.convert("RGB")
+
+
+def sayfa1_klasik():
+    """İlk tasarım (kullanıcının tercihi): gri portre, "ATATÜRK / saygıyla anıyoruz."."""
+    im = zemin()
+    d = Ciz(im)
+    ust = font("cinzel", 26, 600)
+    # 1938'in 8'i sonsuzluk işareti
+    g = yazi(d, "10 KASIM 193", 70, 70, ust, GUMUS, "sol", aralik=7)
+    yazi(d, "∞", 70 + g + 7, 46, font("playfair", 58, 600), GUMUS_GECIS, "sol")
+    yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
+
+    sp = portre(int(round(880 * S)))
+    sw, sh = sp.width / S, sp.height / S
+    px, py = W / 2 - sw / 2 + 10, 150
+    hale(im, px + sw * 0.6, py + sh * 0.5, 300, (60, 66, 80), 0.6)
+    golge = Image.new("RGBA", sp.size, (0, 0, 0, 0))
+    golge.putalpha(sp.getchannel("A").point(lambda v: int(v * 0.6)))
+    im.alpha_composite(golge.filter(ImageFilter.GaussianBlur(14 * S)), (int((px + 10) * S), int((py + 16) * S)))
+    im.alpha_composite(sp, (int(px * S), int(py * S)))
+
+    yy = np.arange(CH)[:, None] / S
+    erit = np.clip((yy - 700) / 120, 0, 1)
+    alt = np.array(zemin()).astype(np.float32)
+    ust_k = np.array(im).astype(np.float32)
+    im = Image.fromarray((ust_k * (1 - erit[..., None]) + alt * erit[..., None]).astype(np.uint8), "RGBA")
+    d = Ciz(im)
+
+    yazi(d, "ATATÜRK", W / 2, 815, font("dekor", 136), GUMUS_GECIS, aralik=4)
+    yazi(d, "saygıyla anıyoruz.", W / 2, 968, font("italik", 96, 500), ALTIN_GECIS)
+    ayrac(d, 1125)
+    yazi(d, "10 Kasım Atatürk’ü Anma Günü", W / 2, 1150, font("italik", 38, 400), GUMUS)
+    logo_koy(im, 1218)
     return im.convert("RGB")
 
 
@@ -348,7 +382,7 @@ def sayfa2():
 def main():
     for ek, olcek in (("", 1.0), ("-4k", 3840 / H)):
         olcek_ayarla(olcek)
-        for ad, f in (("carousel-1", sayfa1), ("carousel-2", sayfa2)):
+        for ad, f in (("carousel-1", sayfa1_klasik), ("carousel-2", sayfa2), ("carousel-1-alternatif", sayfa1)):
             im = f()
             im.save(DIZIN / f"{ad}{ek}.png")
             print(ad + ek, im.size)
