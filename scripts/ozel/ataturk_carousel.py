@@ -140,6 +140,68 @@ def logo_koy(im, y, genislik=230):
     im.alpha_composite(lg, (int(W / 2 - lg.width / 2), y))
 
 
+def portre_metalik(genislik):
+    """Portre gümüş metalik (parlak tepe, koyu alt), ay-yıldız metalik altın; kenarlarda altın ışık."""
+    X0, Y0 = 300, 340
+    im = Image.open(REFERANS).convert("L").crop((X0, Y0, 770, 710))
+    h = int(im.height * genislik / im.width)
+    im = im.resize((genislik, h), Image.LANCZOS)
+    a = np.array(im).astype(np.float32)
+    alfa = np.clip((a - 70) / 45, 0, 1)
+    lum = np.clip((a - 95) / (150 - 95), 0, 1) ** 0.8
+    yy = np.linspace(0, 1, h)[:, None]
+    gumus_k, gumus_p = np.array([96, 102, 114], np.float32), np.array([255, 255, 255], np.float32)
+    altin_k, altin_p = np.array([150, 104, 34], np.float32), np.array([255, 232, 160], np.float32)
+    isik = np.clip(lum * (1.05 - 0.35 * yy), 0, 1)[..., None]
+    gumus = gumus_k + (gumus_p - gumus_k) * isik
+    altin = altin_k + (altin_p - altin_k) * np.clip(lum * 1.1 - 0.1 * yy, 0, 1)[..., None]
+    # yüzün sağı (referansta x > 548) yalnızca ay ve yıldız
+    xs = np.arange(genislik) / genislik * 470 + X0
+    ay = np.clip((xs[None, :] - 548) / 6, 0, 1).repeat(h, 0)
+    # yüzden boşlukla ayrılan sağdaki parçalar (hilalin uçları) da altın
+    dolu = alfa > 0.5
+    for y in range(h):
+        ry = Y0 + y * 370 / h
+        if 445 < ry < 575:  # göz/burun hizası: yalnızca dikey sınır
+            continue
+        satir = dolu[y]
+        x = genislik - 1
+        while x > 0:
+            if satir[x]:
+                bas = x
+                while bas > 0 and satir[bas - 1]:
+                    bas -= 1
+                if xs[bas] > 505 and bas > 0:
+                    ay[y, bas:x + 1] = 1
+                x = bas - 1
+            else:
+                x -= 1
+    ay_orani = np.array(Image.fromarray((ay * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1.5)))[..., None] / 255.0
+    rgb = gumus * (1 - ay_orani) + altin * ay_orani
+    sp = Image.fromarray(np.dstack([rgb, alfa * 255]).astype(np.uint8), "RGBA")
+    # kenar ışığı: silüetin dışına taşan ince altın parıltı
+    m = Image.fromarray((alfa * 255).astype(np.uint8))
+    kenar = np.clip(np.array(m.filter(ImageFilter.MaxFilter(5))).astype(np.float32) - alfa * 255, 0, 255)
+    kenar = Image.fromarray(kenar.astype(np.uint8)).filter(ImageFilter.GaussianBlur(3))
+    parilti = Image.new("RGBA", sp.size, (240, 196, 110, 0))
+    parilti.putalpha(kenar.point(lambda v: int(v * 0.55)))
+    parilti.alpha_composite(sp)
+    return parilti
+
+
+def toz(im, cx, cy, r, adet=140, tohum=11):
+    """Altın toz zerreleri (portrenin arkasında)."""
+    rng = np.random.default_rng(tohum)
+    k = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    kd = ImageDraw.Draw(k)
+    for _ in range(adet):
+        aci, uz = rng.uniform(0, 2 * math.pi), r * math.sqrt(rng.uniform(0.05, 1))
+        x, y = cx + uz * math.cos(aci), cy + uz * math.sin(aci) * 0.8
+        b = rng.choice([1, 1, 1, 2, 2, 3])
+        kd.ellipse([x - b, y - b, x + b, y + b], fill=(255, 220, 140, int(rng.uniform(60, 200))))
+    im.alpha_composite(k.filter(ImageFilter.GaussianBlur(0.6)))
+
+
 def sayfa1():
     im = zemin()
     d = ImageDraw.Draw(im)
@@ -147,27 +209,32 @@ def sayfa1():
     yazi(d, "10 KASIM 1938", 70, 70, ust, GUMUS, "sol", aralik=7)
     yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
-    sp = portre(880)
-    px, py = int(W / 2 - sp.width / 2) + 10, 150
-    hale(im, px + sp.width * 0.6, py + sp.height * 0.5, 300, (60, 66, 80), 0.6)
+    sp = portre_metalik(900)
+    px, py = int(W / 2 - sp.width / 2) + 14, 135
+    hale(im, px + sp.width * 0.62, py + sp.height * 0.48, 330, (150, 112, 40), 0.30)
+    hale(im, px + sp.width * 0.40, py + sp.height * 0.40, 260, (70, 78, 96), 0.45)
+    toz(im, px + sp.width * 0.55, py + sp.height * 0.48, 420)
     golge = Image.new("RGBA", sp.size, (0, 0, 0, 0))
-    golge.putalpha(sp.getchannel("A").point(lambda v: int(v * 0.6)))
-    im.alpha_composite(golge.filter(ImageFilter.GaussianBlur(14)), (px + 10, py + 16))
+    golge.putalpha(sp.getchannel("A").point(lambda v: int(v * 0.7)))
+    im.alpha_composite(golge.filter(ImageFilter.GaussianBlur(16)), (px + 12, py + 20))
     im.alpha_composite(sp, (px, py))
 
     # portrenin alt kenarını zemine erit
     yy = np.arange(H)[:, None]
-    erit = np.clip((yy - 700) / 120, 0, 1)
+    erit = np.clip((yy - 640) / 150, 0, 1)
     alt = np.array(zemin()).astype(np.float32)
     ust_k = np.array(im).astype(np.float32)
     im = Image.fromarray((ust_k * (1 - erit[..., None]) + alt * erit[..., None]).astype(np.uint8), "RGBA")
     d = ImageDraw.Draw(im)
 
-    yazi(d, "ATATÜRK", W / 2, 815, font("dekor", 136), GUMUS_GECIS, aralik=4)
-    yazi(d, "saygıyla anıyoruz.", W / 2, 968, font("italik", 96, 500), ALTIN_GECIS)
-    ayrac(d, 1125)
-    yazi(d, "10 Kasım Atatürk’ü Anma Günü", W / 2, 1150, font("italik", 38, 400), GUMUS)
-    logo_koy(im, 1218)
+    yazi(d, "İLELEBET", W / 2, 770, font("dekor", 128), GUMUS_GECIS, aralik=10)
+    yazi(d, "payidar kalacaktır.", W / 2, 915, font("italik", 92, 500), ALTIN_GECIS)
+    ayrac(d, 1062)
+    soz = font("italik", 31, 400)
+    yazi(d, "“Benim naçiz vücudum elbet bir gün toprak olacaktır,", W / 2, 1088, soz, GUMUS, golge=False)
+    yazi(d, "ancak Türkiye Cumhuriyeti ilelebet payidar kalacaktır.”", W / 2, 1128, soz, GUMUS, golge=False)
+    yazi(d, "MUSTAFA KEMAL ATATÜRK", W / 2, 1180, font("cinzel", 20, 600), ALTIN_GECIS, aralik=6, golge=False)
+    logo_koy(im, 1226, 210)
     return im.convert("RGB")
 
 
