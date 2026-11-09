@@ -1,9 +1,9 @@
-"""10 Kasım Atatürk’ü Anma Günü carousel postu (2 sayfa, 1080x1350).
+"""10 Kasım Atatürk’ü Anma Günü carousel postu (2 sayfa, 1080x1350 ve 4K 3072x3840).
 
 Stil: hesabın 29 Ekim postuyla aynı zarif dil. Koyu zemin, ince altın çerçeve, Cinzel Decorative başlık
 (gümüş geçiş), Playfair Display italik metalik altın vurgu ve rakamlar, Cinzel küçük etiketler, kırmızı elmaslı ayraç, altta Arpama logosu.
 
-Sayfa 1: referans görseldeki gümüş portre + ay-yıldız, "ATATÜRK / saygıyla anıyoruz."
+Sayfa 1: referans görseldeki gümüş portre + ay-yıldız, "İLELEBET / payidar kalacaktır."
 Sayfa 2: Cumhuriyet'in önemli tarihleri, tam ortada doğum yılı madalyonu (1881, Selanik).
 
 Portre ve logo kullanıcının verdiği referans görselden (ozel/10kasim/post/referans.jpg) alınır.
@@ -21,7 +21,44 @@ KOK = Path(__file__).resolve().parents[2]
 FONT = KOK / "brand" / "fonts"
 DIZIN = KOK / "ozel" / "10kasim" / "post"
 REFERANS = DIZIN / "referans.jpg"
-W, H = 1080, 1350
+W, H = 1080, 1350  # mantıksal ölçü: tüm koordinatlar bu ızgarada yazılır
+S = 1.0            # çıktı ölçeği (main --4k ile 3840/1350); gerçek tuval = W*S x H*S
+CW, CH = W, H
+
+
+def olcek_ayarla(s):
+    global S, CW, CH
+    S = s
+    CW, CH = int(round(W * S)), int(round(H * S))
+
+
+class Ciz:
+    """ImageDraw sarmalayıcı: mantıksal koordinatları S ile ölçekler."""
+
+    def __init__(self, im):
+        self._image = im
+        self._d = ImageDraw.Draw(im)
+
+    @staticmethod
+    def _xy(xy):
+        return [v * S for v in xy] if not isinstance(xy[0], (tuple, list)) else [(x * S, y * S) for x, y in xy]
+
+    def _kw(self, kw):
+        if "width" in kw:
+            kw["width"] = max(1, int(round(kw["width"] * S)))
+        return kw
+
+    def line(self, xy, **kw):
+        self._d.line(self._xy(xy), **self._kw(kw))
+
+    def ellipse(self, xy, **kw):
+        self._d.ellipse(self._xy(xy), **self._kw(kw))
+
+    def rectangle(self, xy, **kw):
+        self._d.rectangle(self._xy(xy), **self._kw(kw))
+
+    def polygon(self, xy, **kw):
+        self._d.polygon(self._xy(xy), **self._kw(kw))
 
 BEYAZ = (246, 244, 238)
 GUMUS = (201, 206, 214)
@@ -40,7 +77,7 @@ GUMUS_GECIS = [(255, 255, 255), (232, 234, 238), (190, 196, 206)]
 def font(ad, boyut, agirlik=None):
     dosya = {"cinzel": "Cinzel-var.ttf", "dekor": "CinzelDecorative-Bold.ttf",
              "playfair": "PlayfairDisplay-var.ttf", "italik": "PlayfairDisplay-Italic-var.ttf"}[ad]
-    f = ImageFont.truetype(str(FONT / dosya), boyut)
+    f = ImageFont.truetype(str(FONT / dosya), int(round(boyut * S)))
     if agirlik:
         f.set_variation_by_axes([agirlik])
     return f
@@ -58,6 +95,8 @@ def _gecis(h, renkler):
 def yazi(d, metin, x, y, f, renk, hiza="orta", aralik=0, golge=True):
     """renk: RGB ya da üstten alta geçiş listesi (metalik). hiza: orta | sol | sag. y = üst kenar."""
     im = d._image
+    d = ImageDraw.Draw(im)
+    x, y, aralik = x * S, y * S, aralik * S
     harfler = list(metin) if aralik else [metin]
     gen = sum(d.textlength(ch, font=f) for ch in harfler) + aralik * (len(harfler) - 1)
     x0 = x - gen / 2 if hiza == "orta" else x - gen if hiza == "sag" else x
@@ -69,7 +108,7 @@ def yazi(d, metin, x, y, f, renk, hiza="orta", aralik=0, golge=True):
         xx += d.textlength(ch, font=f) + aralik
     kutu = maske.getbbox()
     if not kutu:
-        return gen
+        return gen / S
     if golge:
         g = Image.new("RGBA", im.size, (0, 0, 0, 0))
         g.putalpha(maske.point(lambda v: int(v * 0.75)).filter(ImageFilter.GaussianBlur(max(2, f.size // 22))))
@@ -82,19 +121,19 @@ def yazi(d, metin, x, y, f, renk, hiza="orta", aralik=0, golge=True):
         dolgu[..., :3] = renk
     dolgu[..., 3] = np.array(maske)
     im.alpha_composite(Image.fromarray(dolgu, "RGBA"))
-    return gen
+    return gen / S
 
 
 def zemin():
-    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
-    r = np.sqrt(((xx - W / 2) / W) ** 2 + ((yy - H * 0.42) / H) ** 2)
+    yy, xx = np.mgrid[0:CH, 0:CW].astype(np.float32)
+    r = np.sqrt(((xx - CW / 2) / CW) ** 2 + ((yy - CH * 0.42) / CH) ** 2)
     v = np.clip(1 - r * 1.6, 0, 1) ** 1.5
     ic, dis = np.array([30, 33, 40], np.float32), np.array([8, 9, 12], np.float32)
     arr = dis + (ic - dis) * v[..., None]
-    gurultu = np.random.default_rng(10).normal(0, 2.2, (H, W, 1))
+    gurultu = np.random.default_rng(10).normal(0, 2.2, (CH, CW, 1))
     arr = np.clip(arr + gurultu, 0, 255).astype(np.uint8)
     im = Image.fromarray(arr, "RGB").convert("RGBA")
-    d = ImageDraw.Draw(im)
+    d = Ciz(im)
     d.rectangle([28, 28, W - 29, H - 29], outline=CERCEVE + (170,), width=1)
     return im
 
@@ -131,18 +170,19 @@ def logo(genislik):
 
 def hale(im, cx, cy, r, renk, guc):
     k = Image.new("RGBA", im.size, (0, 0, 0, 0))
-    ImageDraw.Draw(k).ellipse([cx - r, cy - r, cx + r, cy + r], fill=renk + (int(255 * guc),))
-    im.alpha_composite(k.filter(ImageFilter.GaussianBlur(r * 0.45)))
+    Ciz(k).ellipse([cx - r, cy - r, cx + r, cy + r], fill=renk + (int(255 * guc),))
+    im.alpha_composite(k.filter(ImageFilter.GaussianBlur(r * 0.45 * S)))
 
 
 def logo_koy(im, y, genislik=230):
-    lg = logo(genislik)
-    im.alpha_composite(lg, (int(W / 2 - lg.width / 2), y))
+    lg = logo(int(genislik * S))
+    im.alpha_composite(lg, (int(CW / 2 - lg.width / 2), int(y * S)))
 
 
 def portre_metalik(genislik):
     """Portre gümüş metalik (parlak tepe, koyu alt), ay-yıldız metalik altın; kenarlarda altın ışık."""
     X0, Y0 = 300, 340
+    genislik = int(round(genislik * S))
     im = Image.open(REFERANS).convert("L").crop((X0, Y0, 770, 710))
     h = int(im.height * genislik / im.width)
     im = im.resize((genislik, h), Image.LANCZOS)
@@ -176,13 +216,13 @@ def portre_metalik(genislik):
                 x = bas - 1
             else:
                 x -= 1
-    ay_orani = np.array(Image.fromarray((ay * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1.5)))[..., None] / 255.0
+    ay_orani = np.array(Image.fromarray((ay * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1.5 * S)))[..., None] / 255.0
     rgb = gumus * (1 - ay_orani) + altin * ay_orani
     sp = Image.fromarray(np.dstack([rgb, alfa * 255]).astype(np.uint8), "RGBA")
     # kenar ışığı: silüetin dışına taşan ince altın parıltı
     m = Image.fromarray((alfa * 255).astype(np.uint8))
-    kenar = np.clip(np.array(m.filter(ImageFilter.MaxFilter(5))).astype(np.float32) - alfa * 255, 0, 255)
-    kenar = Image.fromarray(kenar.astype(np.uint8)).filter(ImageFilter.GaussianBlur(3))
+    kenar = np.clip(np.array(m.filter(ImageFilter.MaxFilter(int(round(2.5 * S)) * 2 + 1))).astype(np.float32) - alfa * 255, 0, 255)
+    kenar = Image.fromarray(kenar.astype(np.uint8)).filter(ImageFilter.GaussianBlur(3 * S))
     parilti = Image.new("RGBA", sp.size, (240, 196, 110, 0))
     parilti.putalpha(kenar.point(lambda v: int(v * 0.55)))
     parilti.alpha_composite(sp)
@@ -193,39 +233,42 @@ def toz(im, cx, cy, r, adet=140, tohum=11):
     """Altın toz zerreleri (portrenin arkasında)."""
     rng = np.random.default_rng(tohum)
     k = Image.new("RGBA", im.size, (0, 0, 0, 0))
-    kd = ImageDraw.Draw(k)
+    kd = Ciz(k)
     for _ in range(adet):
         aci, uz = rng.uniform(0, 2 * math.pi), r * math.sqrt(rng.uniform(0.05, 1))
         x, y = cx + uz * math.cos(aci), cy + uz * math.sin(aci) * 0.8
         b = rng.choice([1, 1, 1, 2, 2, 3])
         kd.ellipse([x - b, y - b, x + b, y + b], fill=(255, 220, 140, int(rng.uniform(60, 200))))
-    im.alpha_composite(k.filter(ImageFilter.GaussianBlur(0.6)))
+    im.alpha_composite(k.filter(ImageFilter.GaussianBlur(0.6 * S)))
 
 
 def sayfa1():
     im = zemin()
-    d = ImageDraw.Draw(im)
+    d = Ciz(im)
     ust = font("cinzel", 26, 600)
-    yazi(d, "10 KASIM 1938", 70, 70, ust, GUMUS, "sol", aralik=7)
+    # 1938'in 8'i sonsuzluk işareti
+    g = yazi(d, "10 KASIM 193", 70, 70, ust, GUMUS, "sol", aralik=7)
+    yazi(d, "∞", 70 + g + 12, 46, font("playfair", 58, 600), GUMUS_GECIS, "sol")
     yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     sp = portre_metalik(900)
-    px, py = int(W / 2 - sp.width / 2) + 14, 135
-    hale(im, px + sp.width * 0.62, py + sp.height * 0.48, 330, (150, 112, 40), 0.30)
-    hale(im, px + sp.width * 0.40, py + sp.height * 0.40, 260, (70, 78, 96), 0.45)
-    toz(im, px + sp.width * 0.55, py + sp.height * 0.48, 420)
+    sw, sh = sp.width / S, sp.height / S  # mantıksal ölçü
+    px, py = W / 2 - sw / 2 + 14, 135
+    hale(im, px + sw * 0.62, py + sh * 0.48, 330, (150, 112, 40), 0.30)
+    hale(im, px + sw * 0.40, py + sh * 0.40, 260, (70, 78, 96), 0.45)
+    toz(im, px + sw * 0.55, py + sh * 0.48, 420)
     golge = Image.new("RGBA", sp.size, (0, 0, 0, 0))
     golge.putalpha(sp.getchannel("A").point(lambda v: int(v * 0.7)))
-    im.alpha_composite(golge.filter(ImageFilter.GaussianBlur(16)), (px + 12, py + 20))
-    im.alpha_composite(sp, (px, py))
+    im.alpha_composite(golge.filter(ImageFilter.GaussianBlur(16 * S)), (int((px + 12) * S), int((py + 20) * S)))
+    im.alpha_composite(sp, (int(px * S), int(py * S)))
 
     # portrenin alt kenarını zemine erit
-    yy = np.arange(H)[:, None]
+    yy = np.arange(CH)[:, None] / S
     erit = np.clip((yy - 640) / 150, 0, 1)
     alt = np.array(zemin()).astype(np.float32)
     ust_k = np.array(im).astype(np.float32)
     im = Image.fromarray((ust_k * (1 - erit[..., None]) + alt * erit[..., None]).astype(np.uint8), "RGBA")
-    d = ImageDraw.Draw(im)
+    d = Ciz(im)
 
     yazi(d, "İLELEBET", W / 2, 770, font("dekor", 128), GUMUS_GECIS, aralik=10)
     yazi(d, "payidar kalacaktır.", W / 2, 915, font("italik", 92, 500), ALTIN_GECIS)
@@ -252,7 +295,7 @@ TARIHLER = [
 
 def sayfa2():
     im = zemin()
-    d = ImageDraw.Draw(im)
+    d = Ciz(im)
     ust = font("cinzel", 26, 600)
     yazi(d, "MUSTAFA KEMAL", 70, 70, ust, GUMUS, "sol", aralik=7)
     sg = yazi(d, "∞", W - 70, 44, font("playfair", 58, 600), ALTIN_GECIS, "sag")
@@ -263,7 +306,7 @@ def sayfa2():
 
     cx, cy, r = W / 2, 745, 150
     hale(im, cx, cy, 230, (120, 96, 44), 0.35)
-    d = ImageDraw.Draw(im)
+    d = Ciz(im)
 
     yil_f, gun_f, ack_f = font("playfair", 58, 700), font("cinzel", 21, 600), font("italik", 28, 400)
     y0, adim = 445, 155
@@ -303,10 +346,12 @@ def sayfa2():
 
 
 def main():
-    for ad, f in (("carousel-1", sayfa1), ("carousel-2", sayfa2)):
-        im = f()
-        im.save(DIZIN / f"{ad}.png")
-        print(ad, im.size)
+    for ek, olcek in (("", 1.0), ("-4k", 3840 / H)):
+        olcek_ayarla(olcek)
+        for ad, f in (("carousel-1", sayfa1), ("carousel-2", sayfa2)):
+            im = f()
+            im.save(DIZIN / f"{ad}{ek}.png")
+            print(ad + ek, im.size)
 
 
 if __name__ == "__main__":
