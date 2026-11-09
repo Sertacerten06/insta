@@ -179,7 +179,7 @@ TARIHLER = [
     ("1924", "3 MART", "Eğitim birliği"),
     ("1928", "1 KASIM", "Harf Devrimi"),
     ("1934", "5 ARALIK", "Kadınlara seçme hakkı"),
-    ("1938", "10 KASIM", "Sonsuzluğa yürüdü"),
+    ("∞", "10 KASIM 1938", "Sonsuzluğa yürüdü"),
 ]
 
 
@@ -188,7 +188,8 @@ def sayfa2():
     d = ImageDraw.Draw(im)
     ust = font("cinzel", 26, 600)
     yazi(d, "MUSTAFA KEMAL", 70, 70, ust, GUMUS, "sol", aralik=7)
-    yazi(d, "1881 – 1938", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
+    sg = yazi(d, "∞", W - 70, 44, font("playfair", 58, 600), ALTIN_GECIS, "sag")
+    yazi(d, "1881 –", W - 70 - sg - 14, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     yazi(d, "BİR ÖMÜR", W / 2, 140, font("dekor", 108), GUMUS_GECIS, aralik=12)
     yazi(d, "bir Cumhuriyet.", W / 2, 262, font("italik", 84, 500), ALTIN_GECIS)
@@ -205,7 +206,10 @@ def sayfa2():
         y = y0 + (i % 4) * adim
         x = sag_x if sag else sol_x
         hiza = "sol" if sag else "sag"
-        yazi(d, yil, x, y - 18, yil_f, ALTIN_GECIS, hiza, aralik=1)
+        if yil == "∞":  # 1938 yerine sonsuzluk işareti, rakamlarla aynı yükseklikte
+            yazi(d, yil, x, y - 106, font("playfair", 170, 600), ALTIN_GECIS, hiza)
+        else:
+            yazi(d, yil, x, y - 18, yil_f, ALTIN_GECIS, hiza, aralik=1)
         yazi(d, gun, x, y + 64, gun_f, GUMUS, hiza, aralik=4, golge=False)
         yazi(d, ack, x, y + 94, ack_f, BEYAZ, hiza, golge=False)
         # madalyona bağlanan ince çizgi
