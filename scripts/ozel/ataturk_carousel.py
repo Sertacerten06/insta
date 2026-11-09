@@ -1,7 +1,7 @@
 """10 Kasım Atatürk’ü Anma Günü carousel postu (2 sayfa, 1080x1350).
 
-Stil: hesabın 29 Ekim postuyla aynı zarif dil. Koyu zemin, ince altın çerçeve, Cinzel büyük harf
-başlık, Cormorant Garamond italik altın vurgu, kırmızı elmaslı ayraç, altta Arpama logosu.
+Stil: hesabın 29 Ekim postuyla aynı zarif dil. Koyu zemin, ince altın çerçeve, Cinzel Decorative başlık
+(gümüş geçiş), Playfair Display italik metalik altın vurgu ve rakamlar, Cinzel küçük etiketler, kırmızı elmaslı ayraç, altta Arpama logosu.
 
 Sayfa 1: referans görseldeki gümüş portre + ay-yıldız, "ATATÜRK / saygıyla anıyoruz."
 Sayfa 2: Cumhuriyet'in önemli tarihleri, tam ortada doğum yılı madalyonu (1881, Selanik).
@@ -33,28 +33,55 @@ KIRMIZI = (200, 30, 40)
 CERCEVE = (120, 98, 52)
 
 
+ALTIN_GECIS = [(255, 236, 170), (240, 200, 112), (196, 150, 64), (232, 192, 104)]
+GUMUS_GECIS = [(255, 255, 255), (232, 234, 238), (190, 196, 206)]
+
+
 def font(ad, boyut, agirlik=None):
-    dosya = {"cinzel": "Cinzel-var.ttf", "serif": "CormorantGaramond-var.ttf",
-             "italik": "CormorantGaramond-Italic-var.ttf"}[ad]
+    dosya = {"cinzel": "Cinzel-var.ttf", "dekor": "CinzelDecorative-Bold.ttf",
+             "playfair": "PlayfairDisplay-var.ttf", "italik": "PlayfairDisplay-Italic-var.ttf"}[ad]
     f = ImageFont.truetype(str(FONT / dosya), boyut)
     if agirlik:
         f.set_variation_by_axes([agirlik])
     return f
 
 
-def yazi(d, metin, x, y, f, renk, hiza="orta", aralik=0):
-    """aralik: harf aralığı (px). hiza: orta | sol | sag. y = üst kenar."""
-    if aralik:
-        gen = sum(d.textlength(ch, font=f) for ch in metin) + aralik * (len(metin) - 1)
-    else:
-        gen = d.textlength(metin, font=f)
+def _gecis(h, renkler):
+    t = np.linspace(0, 1, h)[:, None]
+    n = len(renkler) - 1
+    i = np.minimum((t * n).astype(int), n - 1)
+    f = t * n - i
+    rs = np.array(renkler, np.float32)
+    return rs[i[:, 0]] * (1 - f) + rs[i[:, 0] + 1] * f
+
+
+def yazi(d, metin, x, y, f, renk, hiza="orta", aralik=0, golge=True):
+    """renk: RGB ya da üstten alta geçiş listesi (metalik). hiza: orta | sol | sag. y = üst kenar."""
+    im = d._image
+    harfler = list(metin) if aralik else [metin]
+    gen = sum(d.textlength(ch, font=f) for ch in harfler) + aralik * (len(harfler) - 1)
     x0 = x - gen / 2 if hiza == "orta" else x - gen if hiza == "sag" else x
-    if not aralik:
-        d.text((x0, y), metin, font=f, fill=renk)
+    maske = Image.new("L", im.size, 0)
+    md = ImageDraw.Draw(maske)
+    xx = x0
+    for ch in harfler:
+        md.text((xx, y), ch, font=f, fill=255)
+        xx += d.textlength(ch, font=f) + aralik
+    kutu = maske.getbbox()
+    if not kutu:
         return gen
-    for ch in metin:
-        d.text((x0, y), ch, font=f, fill=renk)
-        x0 += d.textlength(ch, font=f) + aralik
+    if golge:
+        g = Image.new("RGBA", im.size, (0, 0, 0, 0))
+        g.putalpha(maske.point(lambda v: int(v * 0.75)).filter(ImageFilter.GaussianBlur(max(2, f.size // 22))))
+        im.alpha_composite(g, (0, max(2, f.size // 30)))
+    dolgu = np.zeros((im.size[1], im.size[0], 4), np.uint8)
+    if isinstance(renk, list):
+        x1, y1, x2, y2 = kutu
+        dolgu[y1:y2, :, :3] = _gecis(y2 - y1, renk)[:, None, :].astype(np.uint8)
+    else:
+        dolgu[..., :3] = renk
+    dolgu[..., 3] = np.array(maske)
+    im.alpha_composite(Image.fromarray(dolgu, "RGBA"))
     return gen
 
 
@@ -118,7 +145,7 @@ def sayfa1():
     d = ImageDraw.Draw(im)
     ust = font("cinzel", 26, 600)
     yazi(d, "10 KASIM 1938", 70, 70, ust, GUMUS, "sol", aralik=7)
-    yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN, "sag", aralik=7)
+    yazi(d, "SAAT 09.05", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
     sp = portre(880)
     px, py = int(W / 2 - sp.width / 2) + 10, 150
@@ -136,10 +163,10 @@ def sayfa1():
     im = Image.fromarray((ust_k * (1 - erit[..., None]) + alt * erit[..., None]).astype(np.uint8), "RGBA")
     d = ImageDraw.Draw(im)
 
-    yazi(d, "ATATÜRK", W / 2, 820, font("cinzel", 132, 700), BEYAZ, aralik=6)
-    yazi(d, "saygıyla anıyoruz.", W / 2, 965, font("italik", 112, 600), ALTIN)
+    yazi(d, "ATATÜRK", W / 2, 815, font("dekor", 136), GUMUS_GECIS, aralik=4)
+    yazi(d, "saygıyla anıyoruz.", W / 2, 968, font("italik", 96, 500), ALTIN_GECIS)
     ayrac(d, 1125)
-    yazi(d, "10 Kasım Atatürk’ü Anma Günü", W / 2, 1150, font("italik", 44, 500), GUMUS)
+    yazi(d, "10 Kasım Atatürk’ü Anma Günü", W / 2, 1150, font("italik", 38, 400), GUMUS)
     logo_koy(im, 1218)
     return im.convert("RGB")
 
@@ -161,16 +188,16 @@ def sayfa2():
     d = ImageDraw.Draw(im)
     ust = font("cinzel", 26, 600)
     yazi(d, "MUSTAFA KEMAL", 70, 70, ust, GUMUS, "sol", aralik=7)
-    yazi(d, "1881 – 1938", W - 70, 70, ust, ALTIN, "sag", aralik=7)
+    yazi(d, "1881 – 1938", W - 70, 70, ust, ALTIN_GECIS, "sag", aralik=7)
 
-    yazi(d, "BİR ÖMÜR", W / 2, 150, font("cinzel", 104, 700), BEYAZ, aralik=6)
-    yazi(d, "bir Cumhuriyet.", W / 2, 262, font("italik", 96, 600), ALTIN)
+    yazi(d, "BİR ÖMÜR", W / 2, 140, font("dekor", 108), GUMUS_GECIS, aralik=12)
+    yazi(d, "bir Cumhuriyet.", W / 2, 262, font("italik", 84, 500), ALTIN_GECIS)
 
     cx, cy, r = W / 2, 745, 150
     hale(im, cx, cy, 230, (120, 96, 44), 0.35)
     d = ImageDraw.Draw(im)
 
-    yil_f, gun_f, ack_f = font("cinzel", 50, 700), font("cinzel", 21, 600), font("italik", 31, 500)
+    yil_f, gun_f, ack_f = font("playfair", 58, 700), font("cinzel", 21, 600), font("italik", 28, 400)
     y0, adim = 445, 155
     sol_x, sag_x = 345, W - 345
     for i, (yil, gun, ack) in enumerate(TARIHLER):
@@ -178,9 +205,9 @@ def sayfa2():
         y = y0 + (i % 4) * adim
         x = sag_x if sag else sol_x
         hiza = "sol" if sag else "sag"
-        yazi(d, yil, x, y, yil_f, ALTIN, hiza, aralik=2)
-        yazi(d, gun, x, y + 64, gun_f, GUMUS, hiza, aralik=4)
-        yazi(d, ack, x, y + 92, ack_f, BEYAZ, hiza)
+        yazi(d, yil, x, y - 18, yil_f, ALTIN_GECIS, hiza, aralik=1)
+        yazi(d, gun, x, y + 64, gun_f, GUMUS, hiza, aralik=4, golge=False)
+        yazi(d, ack, x, y + 94, ack_f, BEYAZ, hiza, golge=False)
         # madalyona bağlanan ince çizgi
         ny = y + 40
         bx = x + 18 if not sag else x - 18
@@ -194,12 +221,12 @@ def sayfa2():
     d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(14, 15, 20), outline=ALTIN, width=4)
     d.ellipse([cx - r + 10, cy - r + 10, cx + r - 10, cy + r - 10], outline=CERCEVE, width=1)
     yazi(d, "DOĞUM", cx, cy - 98, font("cinzel", 24, 600), GUMUS, aralik=6)
-    yazi(d, "1881", cx, cy - 66, font("cinzel", 108, 700), ALTIN_ACIK, aralik=2)
-    d.polygon([(cx, cy + 58), (cx + 6, cy + 64), (cx, cy + 70), (cx - 6, cy + 64)], fill=KIRMIZI)
-    yazi(d, "Selanik", cx, cy + 74, font("italik", 40, 600), BEYAZ)
+    yazi(d, "1881", cx, cy - 96, font("playfair", 118, 700), ALTIN_GECIS, aralik=1)
+    d.polygon([(cx, cy + 62), (cx + 6, cy + 68), (cx, cy + 74), (cx - 6, cy + 68)], fill=KIRMIZI)
+    yazi(d, "Selanik", cx, cy + 80, font("italik", 36, 400), BEYAZ)
 
     ayrac(d, 1125)
-    yazi(d, "İzindeyiz.", W / 2, 1150, font("italik", 44, 500), GUMUS)
+    yazi(d, "İzindeyiz.", W / 2, 1150, font("italik", 38, 400), GUMUS)
     logo_koy(im, 1218)
     return im.convert("RGB")
 
